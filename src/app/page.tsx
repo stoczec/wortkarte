@@ -13,7 +13,7 @@ export default function Home() {
 	return (
 		<div>
 			<section>
-				<MaxWidthWrapper className="pb-24 pt-10 flex sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pt-32 lg:pb-52 items-center justify-center">
+				<MaxWidthWrapper className="flex py-5 sm:pb-16 lg:py-20 items-center justify-center">
 					<Carousel
 						opts={{
 							align: 'start',
@@ -28,8 +28,8 @@ export default function Home() {
 								</CarouselItem>
 							))}
 						</CarouselContent>
-						<CarouselPrevious />
-						<CarouselNext />
+						{/* <CarouselPrevious />
+						<CarouselNext /> */}
 					</Carousel>
 				</MaxWidthWrapper>
 			</section>
