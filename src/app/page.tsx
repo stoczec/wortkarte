@@ -11,27 +11,27 @@ import { CardWord, MaxWidthWrapper } from '@/components'
 
 export default function Home() {
 	return (
-		<div className="h-screen">
+		<div>
 			<section>
-				<MaxWidthWrapper className="flex py-5 sm:pb-16 lg:py-20 items-center justify-center">
-					<Carousel
-						opts={{
-							align: 'start',
-						}}
-						orientation="vertical"
-						className="w-full max-w-xs"
-					>
-						<CarouselContent className="-mt-1 h-[304px] items-center ">
-							{data.map(card => (
-								<CarouselItem key={card.id} className="pt-1">
-									<CardWord data={card} />
-								</CarouselItem>
-							))}
-						</CarouselContent>
-						{/* <CarouselPrevious />
+				{/* <MaxWidthWrapper className="h-screen flex py-1 sm:pb-16 lg:py-20 items-center justify-center"> */}
+				<Carousel
+					opts={{
+						align: 'start',
+					}}
+					orientation="vertical"
+					className="w-full p-2"
+				>
+					<CarouselContent className="-mt-1 h-[635px] items-center ">
+						{data.map(card => (
+							<CarouselItem key={card.id} className="pt-1">
+								<CardWord data={card} />
+							</CarouselItem>
+						))}
+					</CarouselContent>
+					{/* <CarouselPrevious />
 						<CarouselNext /> */}
-					</Carousel>
-				</MaxWidthWrapper>
+				</Carousel>
+				{/* </MaxWidthWrapper> */}
 			</section>
 		</div>
 	)

@@ -3,7 +3,7 @@ import { MaxWidthWrapper } from './'
 
 export const Footer = () => {
 	return (
-		<footer className=" h-20 relative border-t border-gray-200">
+		<footer className=" h-14 border-t border-gray-200">
 			<MaxWidthWrapper>
 				<div className="h-full flex flex-col justify-center items-center md:flex-row md:justify-between ">
 					<div className="text-center md:text-left pb-2 md:pb-0">

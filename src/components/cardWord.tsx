@@ -8,6 +8,7 @@ import { cn, getWordClassColor } from '@/lib/utils'
 import { WordClasses } from '@/enums/enums'
 import { motion } from 'framer-motion'
 import { Separator } from '@radix-ui/react-separator'
+import { AspectRatio } from './ui/aspect-ratio'
 
 interface CardWordProperties {
 	data: LanguageCard
@@ -38,17 +39,19 @@ export const CardWord = ({ data }: CardWordProperties) => {
 	}
 	return (
 		<Card
-			className="w-[300px] h-[300px] p-0 relative "
+			className="w-[320px] h-[635px] p-0 relative rounded-xl "
 			onClick={handleFlipCard}
 		>
+			{/* <AspectRatio ratio={9 / 16}> */}
 			<Image
-				src={`/images/${id}.jpg`}
+				src={`/images/${id}.png`}
 				alt={wordDe}
-				width={300}
-				height={400}
-				className="object-cover rounded-xl"
+				width={320}
+				height={635}
+				className=" rounded-xl"
 				priority={true}
 			/>
+			{/* </AspectRatio> */}
 			<CardContent className="p-1 absolute bottom-0 z-10 flex justify-center items-center w-full rounded-b-xl overflow-hidden before:bg-white/10 shadow-small  backdrop-brightness-50">
 				{!isFlipped ? (
 					<motion.p
