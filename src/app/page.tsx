@@ -1,12 +1,3 @@
-import { CardWord } from '@/components/cardWord'
-import {
-	Card,
-	CardContent,
-	CardDescription,
-	CardFooter,
-	CardHeader,
-	CardTitle,
-} from '@/components/ui/card'
 import {
 	Carousel,
 	CarouselContent,
@@ -14,18 +5,15 @@ import {
 	CarouselNext,
 	CarouselPrevious,
 } from '@/components/ui/carousel'
-import Image from 'next/image'
 
 import { data } from '@/data/data'
-import { ModeToggle } from '@/components/modeToggle'
-import { MaxWidthWrapper } from '@/components/MaxWidthWrapper'
+import { CardWord, MaxWidthWrapper } from '@/components'
 
 export default function Home() {
 	return (
 		<div>
 			<section>
-				<MaxWidthWrapper className="pb-24 pt-10 lg:grid lg:grid-cols-3 sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pt-32 lg:pb-52">
-					<ModeToggle />
+				<MaxWidthWrapper className="pb-24 pt-10 flex sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pt-32 lg:pb-52 items-center justify-center">
 					<Carousel
 						opts={{
 							align: 'start',

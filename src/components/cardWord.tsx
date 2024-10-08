@@ -47,6 +47,7 @@ export const CardWord = ({ data }: CardWordProperties) => {
 				width={300}
 				height={400}
 				className="object-cover rounded-xl"
+				priority={true}
 			/>
 			<CardContent className="p-1 absolute bottom-0 z-10 flex justify-center items-center w-full rounded-b-xl overflow-hidden before:bg-white/10 shadow-small  backdrop-brightness-50">
 				{!isFlipped ? (
