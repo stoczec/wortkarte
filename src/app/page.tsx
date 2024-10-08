@@ -11,7 +11,7 @@ import { CardWord, MaxWidthWrapper } from '@/components'
 
 export default function Home() {
 	return (
-		<div>
+		<div className="h-screen">
 			<section>
 				<MaxWidthWrapper className="flex py-5 sm:pb-16 lg:py-20 items-center justify-center">
 					<Carousel
