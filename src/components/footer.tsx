@@ -9,7 +9,7 @@ export const Footer = () => {
 					<div className="text-center md:text-left pb-2 md:pb-0">
 						<p className="text-sm text-muted-foreground">
 							&copy;
-							{new Date().getFullYear()} All rights reserved
+							{new Date().getFullYear()} Alle Rechte vorbehalten
 						</p>
 					</div>
 

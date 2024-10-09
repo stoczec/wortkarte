@@ -12,11 +12,11 @@ export function SearchBar({
 		<div className="flex gap-2 py-3">
 			<Input
 				type="text"
-				placeholder="Search"
+				placeholder="Suche"
 				value={searchQuery}
 				onChange={e => setSearchQuery(e.target.value)}
 			/>
-			<Button onClick={() => setSearchQuery('')}>Clear</Button>
+			<Button onClick={() => setSearchQuery('')}>Löschen</Button>
 		</div>
 	)
 }
