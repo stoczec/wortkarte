@@ -4,7 +4,9 @@ import { LanguageCard } from '@/interfaces/interfaces'
 export const data: LanguageCard[] = [
 	{
 		id: 1,
-		wordDe: 'die Manie, -n',
+		article: 'die',
+		pluralEnding: ', -n',
+		wordDe: 'Manie',
 		wordRu: 'Мания',
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Er hat starke Manie',
@@ -12,7 +14,9 @@ export const data: LanguageCard[] = [
 	},
 	{
 		id: 2,
-		wordDe: 'die Sucht, -e',
+		article: 'die',
+		pluralEnding: ', -e',
+		wordDe: 'Sucht',
 		wordRu: 'Зависимость',
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Er leidet an einer Sucht.',
@@ -20,7 +24,9 @@ export const data: LanguageCard[] = [
 	},
 	{
 		id: 3,
-		wordDe: 'die Albernheit, -en',
+		article: 'die',
+		pluralEnding: ', -en',
+		wordDe: 'Albernheit',
 		wordRu: 'Глупость',
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Ihre Albernheit hat alle zum Lachen gebracht.',
@@ -28,7 +34,9 @@ export const data: LanguageCard[] = [
 	},
 	{
 		id: 4,
-		wordDe: 'die Beschleunigung, -en',
+		article: 'die',
+		pluralEnding: ', -en',
+		wordDe: 'Beschleunigung',
 		wordRu: 'Ускорение',
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Die Beschleunigung des Autos war beeindruckend.',
@@ -36,7 +44,9 @@ export const data: LanguageCard[] = [
 	},
 	{
 		id: 5,
-		wordDe: 'die Glosse, -n',
+		article: 'die',
+		pluralEnding: ', -n',
+		wordDe: 'Glosse',
 		wordRu: 'Ироничный комментарий',
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Die Glosse in der Zeitung war sehr treffend.',
@@ -44,7 +54,9 @@ export const data: LanguageCard[] = [
 	},
 	{
 		id: 6,
-		wordDe: 'der Held, -en',
+		article: 'der',
+		pluralEnding: ', -en',
+		wordDe: 'Held',
 		wordRu: 'Герой',
 		wordClass: WordClasses.MASCULIN,
 		exampleDe: 'Der Held der Geschichte rettete die Stadt.',
@@ -52,7 +64,9 @@ export const data: LanguageCard[] = [
 	},
 	{
 		id: 7,
-		wordDe: 'die Nahrungsaufnahme (Sg.)',
+		article: 'die',
+		pluralEnding: ' (Sg.)',
+		wordDe: 'Nahrungsaufnahme',
 		wordRu: 'Приём пищи',
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Die Nahrungsaufnahme sollte regelmäßig erfolgen.',
@@ -60,7 +74,9 @@ export const data: LanguageCard[] = [
 	},
 	{
 		id: 8,
-		wordDe: 'die Rastlosigkeit, -en',
+		article: 'die',
+		pluralEnding: ', -en',
+		wordDe: 'Rastlosigkeit',
 		wordRu: 'Беспокойство',
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Seine Rastlosigkeit führte zu Schlaflosigkeit.',

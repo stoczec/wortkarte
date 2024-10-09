@@ -21,7 +21,16 @@ const animationTransitionConfig = {
 export const CardWord = ({ data }: CardWordProperties) => {
 	const [isFlipped, setIsFlipped] = useState(false)
 
-	const { id, wordClass, wordDe, exampleDe, exampleRu, wordRu } = data
+	const {
+		id,
+		article,
+		pluralEnding,
+		wordDe,
+		wordRu,
+		wordClass,
+		exampleDe,
+		exampleRu,
+	} = data
 
 	const handleFlipCard = () => {
 		setIsFlipped(prevCount => !prevCount)
@@ -80,7 +89,7 @@ export const CardWord = ({ data }: CardWordProperties) => {
 						animate={{ y: 0 }}
 						transition={animationTransitionConfig}
 					>
-						{wordDe}
+						{`${article} ${wordDe}${pluralEnding}`}
 					</motion.p>
 				) : (
 					<div className="flex flex-col items-center justify-center gap-2">
