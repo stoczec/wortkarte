@@ -13,15 +13,37 @@ import { CardWord, MaxWidthWrapper } from '@/components'
 import { Input } from '@/components/ui/input'
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
+import { LanguageCard } from '@/interfaces/interfaces'
 
 export default function Home() {
 	const [searchQuery, setSearchQuery] = useState('')
 
 	// Фильтрация данных на основе поискового запроса
-	const filteredData = data.filter(
-		card =>
-			card.wordDe.toLowerCase().includes(searchQuery.toLowerCase()) ||
-			card.wordRu.toLowerCase().includes(searchQuery.toLowerCase())
+	const filteredData: LanguageCard[] = data.reduce<LanguageCard[]>(
+		(acc, card) => {
+			// Проверяем, соответствует ли родительский объект поисковому запросу
+			if (
+				card.wordDe.toLowerCase().includes(searchQuery.toLowerCase()) ||
+				card.wordRu.toLowerCase().includes(searchQuery.toLowerCase())
+			) {
+				acc.push(card)
+			}
+
+			// Если у объекта есть свойство multiple, проверяем и добавляем дочерние объекты
+			if (card.multiple) {
+				card.multiple.forEach(subCard => {
+					if (
+						subCard.wordDe.toLowerCase().includes(searchQuery.toLowerCase()) ||
+						subCard.wordRu.toLowerCase().includes(searchQuery.toLowerCase())
+					) {
+						acc.push(subCard)
+					}
+				})
+			}
+
+			return acc
+		},
+		[]
 	)
 	return (
 		<div className="flex flex-col items-center justify-center flex-grow flex-shrink-0 basis-auto">
