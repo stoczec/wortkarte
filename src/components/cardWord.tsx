@@ -42,8 +42,7 @@ export const CardWord = ({ data }: CardWordProperties) => {
 			onClick={handleFlipCard}
 		>
 			<Image
-				// src={`/images/${id}.png`}
-				src={`/images/1.png`}
+				src={`/images/${id}.png`}
 				alt={wordDe}
 				fill
 				className=" rounded-xl"
