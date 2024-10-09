@@ -9,6 +9,7 @@ import { WordClasses } from '@/enums/enums'
 import { motion } from 'framer-motion'
 import { Separator } from '@radix-ui/react-separator'
 import { AspectRatio } from './ui/aspect-ratio'
+import style from 'styled-jsx/style'
 
 interface CardWordProperties {
 	data: LanguageCard
@@ -39,17 +40,18 @@ export const CardWord = ({ data }: CardWordProperties) => {
 	}
 	return (
 		<Card
-			className="w-[320px] h-[635px] p-0 relative rounded-xl "
+			className="p-0 relative rounded-xl aspect-[9/16] w-[320px]"
 			onClick={handleFlipCard}
+			// style={{ width: 'calc(100vw * 0.5625)', height: 'calc(100vh * 0.5625)' }}
 		>
 			{/* <AspectRatio ratio={9 / 16}> */}
-			<Image
-				src={`/images/${id}.png`}
+			<img
+				// src={`/images/${id}.png`}
+				src={`/images/1.png`}
 				alt={wordDe}
-				width={320}
-				height={635}
+				// fill
 				className=" rounded-xl"
-				priority={true}
+				// priority={true}
 			/>
 			{/* </AspectRatio> */}
 			<CardContent className="p-1 absolute bottom-0 z-10 flex justify-center items-center w-full rounded-b-xl overflow-hidden before:bg-white/10 shadow-small  backdrop-brightness-50">

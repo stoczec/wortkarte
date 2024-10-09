@@ -5,9 +5,9 @@ import { MaxWidthWrapper } from './maxWidthWrapper'
 
 export const Navbar = async () => {
 	return (
-		<nav className=" h-14 inset-x-0 top-0 w-full border-b border-gray-200 bg-black/50 backdrop-blur-lg transition-all">
+		<nav className="h-14 inset-x-0 top-0 w-full border-b border-gray-200 bg-black/50 backdrop-blur-lg transition-all">
 			<MaxWidthWrapper>
-				<div className="flex h-14 items-center justify-between ">
+				<div className="flex h-14 items-center justify-between">
 					<Link href="/" className="flex z-40 font-semibold">
 						wort<span className="text-blue-600">karte</span>
 					</Link>

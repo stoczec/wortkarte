@@ -8,6 +8,7 @@ import {
 
 import { data } from '@/data/data'
 import { CardWord, MaxWidthWrapper } from '@/components'
+import style from 'styled-jsx/style'
 
 export default function Home() {
 	return (
@@ -21,7 +22,7 @@ export default function Home() {
 					orientation="vertical"
 					className="w-full p-2"
 				>
-					<CarouselContent className="-mt-1 h-[635px] items-center ">
+					<CarouselContent className="-mt-1 items-center h-[576px]">
 						{data.map(card => (
 							<CarouselItem key={card.id} className="pt-1">
 								<CardWord data={card} />
