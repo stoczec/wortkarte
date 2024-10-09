@@ -30,16 +30,18 @@ export default function RootLayout({
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
 			>
-				<ThemeProvider
-					attribute="class"
-					defaultTheme="system"
-					enableSystem
-					disableTransitionOnChange
-				>
-					<Navbar />
-					{children}
-					<Footer />
-				</ThemeProvider>
+				<div className="flex flex-col h-full">
+					<ThemeProvider
+						attribute="class"
+						defaultTheme="system"
+						enableSystem
+						disableTransitionOnChange
+					>
+						<Navbar />
+						{children}
+						<Footer />
+					</ThemeProvider>
+				</div>
 			</body>
 		</html>
 	)

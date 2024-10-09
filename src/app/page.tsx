@@ -12,27 +12,27 @@ import style from 'styled-jsx/style'
 
 export default function Home() {
 	return (
-		<div>
+		<div className="flex flex-col items-center justify-center flex-grow flex-shrink-0 basis-auto">
 			<section>
-				{/* <MaxWidthWrapper className="h-screen flex py-1 sm:pb-16 lg:py-20 items-center justify-center"> */}
-				<Carousel
-					opts={{
-						align: 'start',
-					}}
-					orientation="vertical"
-					className="w-full p-2"
-				>
-					<CarouselContent className="-mt-1 items-center h-[576px]">
-						{data.map(card => (
-							<CarouselItem key={card.id} className="pt-1">
-								<CardWord data={card} />
-							</CarouselItem>
-						))}
-					</CarouselContent>
-					{/* <CarouselPrevious />
+				<MaxWidthWrapper className="flex py-5 sm:pb-16 lg:py-20">
+					<Carousel
+						opts={{
+							align: 'start',
+						}}
+						orientation="vertical"
+						className="w-full p-2"
+					>
+						<CarouselContent className="-mt-1 items-center h-[576px]">
+							{data.map(card => (
+								<CarouselItem key={card.id} className="pt-1">
+									<CardWord data={card} />
+								</CarouselItem>
+							))}
+						</CarouselContent>
+						{/* <CarouselPrevious />
 						<CarouselNext /> */}
-				</Carousel>
-				{/* </MaxWidthWrapper> */}
+					</Carousel>
+				</MaxWidthWrapper>
 			</section>
 		</div>
 	)
