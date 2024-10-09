@@ -46,8 +46,9 @@ export const CardWord = ({ data }: CardWordProperties) => {
 				src={`/images/${id}.png`}
 				alt={wordDe}
 				fill
+				sizes="320px"
 				className=" rounded-xl"
-				priority={true}
+				priority={id === 1 ? true : false}
 			/>
 			<CardContent
 				className={cn(
