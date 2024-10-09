@@ -1,13 +1,13 @@
 'use client'
 
 import React, { useState } from 'react'
-import { Card, CardContent, CardFooter } from './ui/card'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
+import { Separator } from '@radix-ui/react-separator'
+import { Card, CardContent } from './ui/card'
 import { LanguageCard } from '@/interfaces/interfaces'
 import { cn } from '@/lib/utils'
 import { WordClasses } from '@/enums/enums'
-import { motion } from 'framer-motion'
-import { Separator } from '@radix-ui/react-separator'
 
 interface CardWordProperties {
 	data: LanguageCard
@@ -36,9 +36,10 @@ export const CardWord = ({ data }: CardWordProperties) => {
 			return 'text-2xl'
 		}
 	}
+
 	return (
 		<Card
-			className="p-0 relative rounded-xl aspect-[9/16] w-[320px]"
+			className="relative aspect-[9/16] w-[320px] p-0 rounded-xl"
 			onClick={handleFlipCard}
 		>
 			<Image
@@ -48,7 +49,14 @@ export const CardWord = ({ data }: CardWordProperties) => {
 				className=" rounded-xl"
 				priority={true}
 			/>
-			<CardContent className="p-1 absolute bottom-0 z-10 flex justify-center items-center w-full rounded-b-xl overflow-hidden before:bg-white/10 shadow-small  backdrop-brightness-50">
+			<CardContent
+				className={cn(
+					'w-full p-1',
+					'absolute bottom-0 z-10 ',
+					'flex justify-center items-center',
+					'rounded-b-xl overflow-hidden before:bg-white/10 shadow-small  backdrop-brightness-50'
+				)}
+			>
 				{!isFlipped ? (
 					<motion.p
 						className={cn(
@@ -113,7 +121,7 @@ export const CardWord = ({ data }: CardWordProperties) => {
 						</motion.div>
 						<motion.p
 							className={cn(
-								getFontSizeClass(wordDe),
+								getFontSizeClass(wordRu),
 								'font-bold text-balance text-center',
 								{
 									'text-blue-500': wordClass === WordClasses.MASCULIN,
