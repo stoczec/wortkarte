@@ -1,13 +1,13 @@
 'use client'
 
-import { SearchBar, WordCarousel } from '@/components'
+import { ActionBar, WordCarousel } from '@/components'
 import { useFilteredCards } from '@/hooks'
 
 export default function Home() {
-	const { searchQuery, filteredCards, updateSearchQuery } = useFilteredCards()
+	const { filteredCards } = useFilteredCards()
 	return (
 		<section className="flex flex-col items-center justify-center flex-grow flex-shrink-0 basis-auto">
-			<SearchBar searchQuery={searchQuery} setSearchQuery={updateSearchQuery} />
+			<ActionBar />
 			<WordCarousel data={filteredCards} />
 		</section>
 	)
