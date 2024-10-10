@@ -19,6 +19,7 @@ export interface ICardsStore {
 	cards: ILanguageCard[]
 	loading: boolean
 	setLoading: (isLoading: boolean) => void
+	toggleFavorite: (id: number) => void
 }
 
 export interface IFilteredCardsStore {

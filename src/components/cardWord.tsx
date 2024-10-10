@@ -8,6 +8,8 @@ import { Card, CardContent } from './ui/card'
 import { ILanguageCard } from '@/interfaces/interfaces'
 import { cn } from '@/lib/utils'
 import { WordClasses } from '@/enums/enums'
+import { useCardsStore } from '@/stores'
+import { Heart } from 'lucide-react'
 
 interface CardWordProperties {
 	data: ILanguageCard
@@ -20,6 +22,13 @@ const animationTransitionConfig = {
 
 export const CardWord = ({ data }: CardWordProperties) => {
 	const [isFlipped, setIsFlipped] = useState(false)
+
+	// Подписываемся на изменения конкретной карточки
+	const favorite = useCardsStore(
+		state => state.cards.find(card => card.id === data.id)?.favorite
+	)
+
+	const toggleFavorite = useCardsStore(state => state.toggleFavorite)
 
 	const {
 		id,
@@ -46,25 +55,43 @@ export const CardWord = ({ data }: CardWordProperties) => {
 		}
 	}
 
+	const handleToggleFavorite = () => {
+		toggleFavorite(id)
+	}
+
 	return (
 		<Card
 			className="relative aspect-[9/16] w-[320px] p-0 rounded-xl"
 			onClick={handleFlipCard}
 		>
+			<div
+				onClick={e => {
+					e.stopPropagation()
+					handleToggleFavorite()
+				}}
+				className="cursor-pointer"
+			>
+				<Heart
+					className={cn('absolute top-2 right-2 z-10', {
+						'fill-primary': favorite,
+						'text-primary': !favorite,
+					})}
+				/>
+			</div>
 			<Image
 				src={`/images/${id}.png`}
 				alt={wordDe}
 				fill
 				sizes="320px"
-				className=" rounded-xl"
+				className="rounded-xl"
 				priority={id === 1 ? true : false}
 			/>
 			<CardContent
 				className={cn(
 					'w-full p-1',
-					'absolute bottom-0 z-10 ',
+					'absolute bottom-0 z-10',
 					'flex justify-center items-center',
-					'rounded-b-xl overflow-hidden before:bg-white/10 shadow-small  backdrop-brightness-50'
+					'rounded-b-xl overflow-hidden before:bg-white/10 shadow-small backdrop-brightness-50'
 				)}
 			>
 				{!isFlipped ? (
