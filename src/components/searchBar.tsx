@@ -9,7 +9,7 @@ export function SearchBar({
 	setSearchQuery: (query: string) => void
 }) {
 	return (
-		<div className="w-[280px] relative flex gap-2 py-3">
+		<div className="w-[320px] relative flex gap-2 py-3">
 			<Input
 				type="text"
 				placeholder="Suche"
