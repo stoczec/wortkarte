@@ -20,6 +20,7 @@ export interface ICardsStore {
 	loading: boolean
 	setLoading: (isLoading: boolean) => void
 	toggleFavorite: (id: number) => void
+	clearStorage: () => void // Метод для очистки сохраненного состояния
 }
 
 export interface IFilteredCardsStore {
