@@ -1,4 +1,4 @@
-import { Button } from './ui/button'
+import { X, Search } from 'lucide-react'
 import { Input } from './ui/input'
 
 export function SearchBar({
@@ -9,14 +9,22 @@ export function SearchBar({
 	setSearchQuery: (query: string) => void
 }) {
 	return (
-		<div className="flex gap-2 py-3">
+		<div className="w-[280px] relative flex gap-2 py-3">
 			<Input
 				type="text"
 				placeholder="Suche"
 				value={searchQuery}
 				onChange={e => setSearchQuery(e.target.value)}
+				className="placeholder-black"
 			/>
-			<Button onClick={() => setSearchQuery('')}>Löschen</Button>
+			{searchQuery ? (
+				<X
+					className="h-5 w-5 text-primary absolute right-2 top-1/2 transform -translate-y-1/2 cursor-pointer"
+					onClick={() => setSearchQuery('')}
+				/>
+			) : (
+				<Search className="h-[14px] w-[14px] text-gray-400 absolute left-14 top-1/2 transform -translate-y-1/2" />
+			)}
 		</div>
 	)
 }

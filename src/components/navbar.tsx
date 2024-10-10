@@ -9,7 +9,7 @@ export const Navbar = async () => {
 			<MaxWidthWrapper>
 				<div className="flex h-14 items-center justify-between">
 					<Link href="/" className="flex z-40 font-semibold">
-						wort<span className="text-orange-600">karte</span>
+						wort<span className="text-primary">karte</span>
 					</Link>
 					<ModeToggle />
 				</div>
