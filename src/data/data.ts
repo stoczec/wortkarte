@@ -11,6 +11,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Er hat starke Manie',
 		exampleRu: 'У него сильная мания',
+		favorite: false,
 	},
 	{
 		id: 2,
@@ -21,6 +22,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Er leidet an einer Sucht.',
 		exampleRu: 'Он страдает от зависимости.',
+		favorite: false,
 	},
 	{
 		id: 3,
@@ -31,6 +33,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Ihre Albernheit hat alle zum Lachen gebracht.',
 		exampleRu: 'Её глупость рассмешила всех.',
+		favorite: false,
 	},
 	{
 		id: 4,
@@ -41,6 +44,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Die Beschleunigung des Autos war beeindruckend.',
 		exampleRu: 'Ускорение автомобиля было впечатляющим.',
+		favorite: false,
 	},
 	{
 		id: 5,
@@ -51,6 +55,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Die Glosse in der Zeitung war sehr treffend.',
 		exampleRu: 'Ироничный комментарий в газете был очень метким.',
+		favorite: false,
 	},
 	{
 		id: 6,
@@ -61,6 +66,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.MASCULIN,
 		exampleDe: 'Der Held der Geschichte rettete die Stadt.',
 		exampleRu: 'Герой истории спас город.',
+		favorite: false,
 	},
 	{
 		id: 7,
@@ -71,6 +77,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Die Nahrungsaufnahme sollte regelmäßig erfolgen.',
 		exampleRu: 'Приём пищи должен происходить регулярно.',
+		favorite: false,
 	},
 	{
 		id: 8,
@@ -81,6 +88,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Seine Rastlosigkeit führte zu Schlaflosigkeit.',
 		exampleRu: 'Его беспокойство привело к бессоннице.',
+		favorite: false,
 	},
 	{
 		id: 9,
@@ -91,6 +99,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Die Reduktion der Kosten war notwendig.',
 		exampleRu: 'Сокращение затрат было необходимо.',
+		favorite: false,
 	},
 	{
 		id: 10,
@@ -101,6 +110,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.FEMININ,
 		exampleDe: 'Die Suchmaschine hilft uns, Informationen zu finden.',
 		exampleRu: 'Поисковая система помогает нам находить информацию.',
+		favorite: false,
 	},
 	{
 		id: 11,
@@ -111,6 +121,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.VERB,
 		exampleDe: 'Lärm kann die Konzentration beeinträchtigen.',
 		exampleRu: 'Шум может негативно влиять на концентрацию.',
+		favorite: false,
 	},
 	{
 		id: 12,
@@ -121,6 +132,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.VERB,
 		exampleDe: 'Er kann sehr schnell kraulen.',
 		exampleRu: 'Он может плавать кролем очень быстро.',
+		favorite: false,
 		multiple: [
 			{
 				id: 13,
@@ -131,6 +143,7 @@ export const data: ILanguageCard[] = [
 				wordClass: WordClasses.VERB,
 				exampleDe: 'Die Kinder kraulen den Hund.',
 				exampleRu: 'Дети гладят собаку.',
+				favorite: false,
 			},
 		],
 	},
@@ -143,6 +156,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.VERB,
 		exampleDe: 'Er hat sich dem Druck widergesetzt.',
 		exampleRu: 'Он сопротивлялся давлению.',
+		favorite: false,
 	},
 	{
 		id: 15,
@@ -153,6 +167,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.VERB,
 		exampleDe: 'Ich nehme Ihre Meinung zur Kenntnis.',
 		exampleRu: 'Я принимаю ваше мнение к сведению.',
+		favorite: false,
 	},
 	{
 		id: 16,
@@ -163,6 +178,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.VERB,
 		exampleDe: 'Wir müssen die Segel streichen, weil der Wind zu stark ist.',
 		exampleRu: 'Нам нужно сложить паруса, потому что ветер слишком сильный.',
+		favorite: false,
 		multiple: [
 			{
 				id: 17,
@@ -173,6 +189,7 @@ export const data: ILanguageCard[] = [
 				wordClass: WordClasses.VERB,
 				exampleDe: 'In dieser Situation müssen wir die Segel streichen.',
 				exampleRu: 'В этой ситуации нам нужно сдаться.',
+				favorite: false,
 			},
 		],
 	},
@@ -185,6 +202,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.VERB,
 		exampleDe: 'Er hat sich der Kunst verschrieben.',
 		exampleRu: 'Он посвятил себя искусству.',
+		favorite: false,
 	},
 	{
 		id: 19,
@@ -195,6 +213,7 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.ADJEKTIV,
 		exampleDe: 'Sein Verhalten war sehr hektisch.',
 		exampleRu: 'Его поведение было очень суетливым.',
+		favorite: false,
 	},
 	{
 		id: 20,
@@ -205,5 +224,6 @@ export const data: ILanguageCard[] = [
 		wordClass: WordClasses.ADJEKTIV,
 		exampleDe: 'Der Fortschritt war unaufhaltsam.',
 		exampleRu: 'Прогресс был неудержим.',
+		favorite: false,
 	},
 ]

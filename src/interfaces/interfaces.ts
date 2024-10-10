@@ -12,6 +12,7 @@ export interface ILanguageCard {
 	exampleDe: string
 	exampleRu: string
 	multiple?: ILanguageCard[]
+	favorite: boolean
 }
 
 export interface ICardsStore {
