@@ -1,7 +1,5 @@
 import Link from 'next/link'
-
-import { ModeToggle } from './modeToggle'
-import { MaxWidthWrapper } from './maxWidthWrapper'
+import { ModeToggle, MaxWidthWrapper, NavMenu } from './'
 
 export const Navbar = async () => {
 	return (
@@ -11,6 +9,7 @@ export const Navbar = async () => {
 					<Link href="/" className="flex z-40 font-semibold">
 						wort<span className="text-primary">karte</span>
 					</Link>
+					<NavMenu />
 					<ModeToggle />
 				</div>
 			</MaxWidthWrapper>
