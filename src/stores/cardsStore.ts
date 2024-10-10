@@ -12,17 +12,29 @@ export const useCardsStore = create<ICardsStore>(
 	(persist as MyPersist)(
 		set => ({
 			cards: data.flatMap(card => [card, ...(card.multiple || [])]),
+			favoriteCards: [],
 			loading: false,
 			setLoading: isLoading => set({ loading: isLoading }),
-			toggleFavorite: id =>
-				set((state: ICardsStore) => ({
-					cards: state.cards.map((card: ILanguageCard) =>
+			toggleFavorite: id => {
+				set((state: ICardsStore) => {
+					const updatedCards = state.cards.map((card: ILanguageCard) =>
 						card.id === id ? { ...card, favorite: !card.favorite } : card
-					),
-				})),
+					)
+					const updatedFavoriteCards = updatedCards.filter(
+						(card: ILanguageCard) => card.favorite
+					)
+					return {
+						cards: updatedCards,
+						favoriteCards: updatedFavoriteCards,
+					}
+				})
+			},
 			clearStorage: () => {
 				localStorage.removeItem('cards-storage') // Очистка сохраненного состояния
-				set({ cards: data.flatMap(card => [card, ...(card.multiple || [])]) }) // Сброс состояния
+				set({
+					cards: data.flatMap(card => [card, ...(card.multiple || [])]),
+					favoriteCards: [], // Сброс состояния избранных карточек
+				})
 			},
 		}),
 		{
