@@ -1,12 +1,6 @@
 import { create } from 'zustand'
 import { data } from '@/data/data'
-import { LanguageCard } from '@/interfaces/interfaces'
-
-interface ICardsStore {
-	cards: LanguageCard[]
-	loading: boolean
-	setLoading: (isLoading: boolean) => void
-}
+import { ICardsStore } from '@/interfaces/interfaces'
 
 export const useCardsStore = create<ICardsStore>(set => ({
 	cards: data.flatMap(card => [card, ...(card.multiple || [])]),

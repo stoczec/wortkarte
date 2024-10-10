@@ -1,9 +1,9 @@
-import { LanguageCard } from '@/interfaces/interfaces'
+import { ILanguageCard } from '@/interfaces/interfaces'
 import { CardWord } from './cardWord'
 import { MaxWidthWrapper } from './maxWidthWrapper'
 import { Carousel, CarouselContent, CarouselItem } from './ui/carousel'
 
-export function WordCarousel({ data }: { data: LanguageCard[] }) {
+export function WordCarousel({ data }: { data: ILanguageCard[] }) {
 	return (
 		<MaxWidthWrapper className="flex py-3 sm:py-6 lg:py-6">
 			<Carousel

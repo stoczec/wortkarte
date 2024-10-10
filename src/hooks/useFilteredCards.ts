@@ -1,17 +1,11 @@
 import { useState } from 'react'
 import { useCardsStore } from '@/stores'
-import { LanguageCard } from '@/interfaces/interfaces'
-
-interface IFilteredCardsStore {
-	filteredCards: LanguageCard[]
-	searchQuery: string
-	updateSearchQuery: (query: string) => void
-}
+import { IFilteredCardsStore, ILanguageCard } from '@/interfaces/interfaces'
 
 export function useFilteredCards(): IFilteredCardsStore {
 	const cards = useCardsStore(state => state.cards)
 	const [searchQuery, setSearchQuery] = useState('')
-	const [filteredCards, setFilteredCards] = useState<LanguageCard[]>(cards)
+	const [filteredCards, setFilteredCards] = useState<ILanguageCard[]>(cards)
 
 	const updateSearchQuery = (query: string) => {
 		setSearchQuery(query)

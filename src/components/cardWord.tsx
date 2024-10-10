@@ -5,12 +5,12 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Separator } from '@radix-ui/react-separator'
 import { Card, CardContent } from './ui/card'
-import { LanguageCard } from '@/interfaces/interfaces'
+import { ILanguageCard } from '@/interfaces/interfaces'
 import { cn } from '@/lib/utils'
 import { WordClasses } from '@/enums/enums'
 
 interface CardWordProperties {
-	data: LanguageCard
+	data: ILanguageCard
 }
 
 const animationTransitionConfig = {

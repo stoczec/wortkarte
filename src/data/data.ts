@@ -1,7 +1,7 @@
 import { WordClasses } from '@/enums/enums'
-import { LanguageCard } from '@/interfaces/interfaces'
+import { ILanguageCard } from '@/interfaces/interfaces'
 
-export const data: LanguageCard[] = [
+export const data: ILanguageCard[] = [
 	{
 		id: 1,
 		article: 'die',
