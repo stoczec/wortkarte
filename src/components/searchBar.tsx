@@ -15,7 +15,7 @@ export function SearchBar({
 				placeholder="Suche"
 				value={searchQuery}
 				onChange={e => setSearchQuery(e.target.value)}
-				className="placeholder-black"
+				className="pl-6"
 			/>
 			{searchQuery ? (
 				<X
@@ -23,7 +23,7 @@ export function SearchBar({
 					onClick={() => setSearchQuery('')}
 				/>
 			) : (
-				<Search className="h-[14px] w-[14px] text-gray-400 absolute left-14 top-1/2 transform -translate-y-1/2" />
+				<Search className="h-[14px] w-[14px] text-gray-400 absolute left-2 top-1/2 transform -translate-y-1/2" />
 			)}
 		</div>
 	)
