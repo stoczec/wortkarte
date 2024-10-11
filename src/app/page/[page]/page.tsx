@@ -65,11 +65,13 @@ export default function PaginatedPage() {
 						{currentPage > 2 && (
 							<>
 								<PaginationItem>
-									<PaginationLink href={`/page/1`}>1</PaginationLink>
+									<PaginationLink href={`/page/1`}>
+										<PaginationEllipsis />
+									</PaginationLink>
 								</PaginationItem>
-								<PaginationItem>
+								{/* <PaginationItem>
 									<PaginationEllipsis />
-								</PaginationItem>
+								</PaginationItem> */}
 							</>
 						)}
 
@@ -114,9 +116,9 @@ export default function PaginatedPage() {
 
 						{currentPage < totalPages - 1 && (
 							<>
-								<PaginationItem>
+								{/* <PaginationItem>
 									<PaginationEllipsis />
-								</PaginationItem>
+								</PaginationItem> */}
 								<PaginationItem>
 									<PaginationLink
 										href={`/page/${totalPages}`}
@@ -126,7 +128,7 @@ export default function PaginatedPage() {
 												: ''
 										}
 									>
-										{totalPages}
+										<PaginationEllipsis />
 									</PaginationLink>
 								</PaginationItem>
 							</>
