@@ -6,9 +6,8 @@ import {
 	NavigationMenuLink,
 } from '@radix-ui/react-navigation-menu'
 import { navigationMenuTriggerStyle } from './ui/navigation-menu'
-import { MaxWidthWrapper } from './MaxWidthWrapper'
+import { MaxWidthWrapper, ModeToggle } from '.'
 import Link from 'next/link'
-import { ModeToggle } from './ModeToggle'
 
 export const NavMenu = () => {
 	return (

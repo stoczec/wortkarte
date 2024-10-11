@@ -1,6 +1,5 @@
 import { ILanguageCard } from '@/interfaces/interfaces'
-import { WordCard } from '@/components'
-import { MaxWidthWrapper } from './MaxWidthWrapper'
+import { MaxWidthWrapper, WordCard } from '.'
 import { Carousel, CarouselContent, CarouselItem } from './ui/carousel'
 
 export function WordCarousel({ data }: { data: ILanguageCard[] }) {
