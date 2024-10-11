@@ -1,5 +1,5 @@
 import { ILanguageCard } from '@/interfaces/interfaces'
-import { CardWord } from './cardWord'
+import { WordCard } from '@/components'
 import { MaxWidthWrapper } from './maxWidthWrapper'
 import { Carousel, CarouselContent, CarouselItem } from './ui/carousel'
 
@@ -16,7 +16,7 @@ export function WordCarousel({ data }: { data: ILanguageCard[] }) {
 				<CarouselContent className="-mt-1 items-center h-[576px]">
 					{data.map(card => (
 						<CarouselItem key={card.id} className="pt-1">
-							<CardWord data={card} />
+							<WordCard data={card} />
 						</CarouselItem>
 					))}
 				</CarouselContent>

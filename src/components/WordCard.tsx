@@ -5,22 +5,18 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Separator } from '@radix-ui/react-separator'
 import { Card, CardContent } from './ui/card'
-import { ILanguageCard } from '@/interfaces/interfaces'
+import { IWordCardProperties } from '@/interfaces/interfaces'
 import { cn } from '@/lib/utils'
 import { WordClasses } from '@/enums/enums'
 import { useCardsStore } from '@/stores'
 import { Heart } from 'lucide-react'
-
-interface CardWordProperties {
-	data: ILanguageCard
-}
 
 const animationTransitionConfig = {
 	duration: 1,
 	type: 'tween',
 }
 
-export const CardWord = ({ data }: CardWordProperties) => {
+export const WordCard = ({ data }: IWordCardProperties) => {
 	const [isFlipped, setIsFlipped] = useState(false)
 
 	// Подписываемся на изменения конкретной карточки

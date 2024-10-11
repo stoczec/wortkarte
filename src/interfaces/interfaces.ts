@@ -14,6 +14,9 @@ export interface ILanguageCard {
 	multiple?: ILanguageCard[]
 	favorite: boolean
 }
+export interface IWordCardProperties {
+	data: ILanguageCard
+}
 
 export interface ICardsStore {
 	cards: ILanguageCard[]
