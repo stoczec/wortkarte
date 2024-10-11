@@ -1,9 +1,7 @@
-// src/app/page/[page]/page.tsx
-
 'use client'
 
 import { usePathname } from 'next/navigation'
-import { SearchBar, WordCarousel } from '@/components'
+import { MaxWidthWrapper, SearchBar, WordCarousel } from '@/components'
 import { useFilteredCards } from '@/hooks'
 import {
 	Pagination,
@@ -12,9 +10,11 @@ import {
 	PaginationPrevious,
 	PaginationNext,
 	PaginationLink,
+	PaginationEllipsis,
 } from '@/components/ui/pagination'
+import page from './page'
 
-const ITEMS_PER_PAGE = 10
+const ITEMS_PER_PAGE = 3
 
 export default function PaginatedPage() {
 	const pathname = usePathname()
@@ -48,37 +48,99 @@ export default function PaginatedPage() {
 	}
 
 	return (
-		<section className="flex flex-col items-center justify-center flex-grow flex-shrink-0 basis-auto">
+		<section className="flex flex-col items-center justify-center">
 			<SearchBar searchQuery={searchQuery} setSearchQuery={updateSearchQuery} />
 			<WordCarousel data={currentItems} />
-			<Pagination>
-				<PaginationContent>
-					<PaginationItem>
-						<PaginationPrevious
-							onClick={handlePreviousPage}
-							style={{ display: currentPage === 1 ? 'none' : 'block' }}
-						/>
-					</PaginationItem>
 
-					{[...Array(totalPages)].map((_, index) => (
-						<PaginationItem key={index}>
+			<MaxWidthWrapper>
+				<Pagination>
+					<PaginationContent>
+						<PaginationItem>
+							<PaginationPrevious
+								onClick={handlePreviousPage}
+								className="cursor-pointer"
+							/>
+						</PaginationItem>
+
+						{currentPage > 2 && (
+							<>
+								<PaginationItem>
+									<PaginationLink href={`/page/1`}>1</PaginationLink>
+								</PaginationItem>
+								<PaginationItem>
+									<PaginationEllipsis />
+								</PaginationItem>
+							</>
+						)}
+
+						{currentPage > 1 && (
+							<PaginationItem>
+								<PaginationLink
+									href={`/page/${currentPage - 1}`}
+									className={
+										currentPage === 1
+											? 'text-xl border border-primary rounded-full font-bold'
+											: ''
+									}
+								>
+									{currentPage - 1}
+								</PaginationLink>
+							</PaginationItem>
+						)}
+
+						<PaginationItem>
 							<PaginationLink
-								href={`/page/${index + 1}`}
-								isActive={currentPage === index + 1}
+								href={`/page/${currentPage}`}
+								className="text-xl border border-primary rounded-full font-bold"
 							>
-								{index + 1}
+								{currentPage}
 							</PaginationLink>
 						</PaginationItem>
-					))}
 
-					<PaginationItem>
-						<PaginationNext
-							onClick={handleNextPage}
-							style={{ display: currentPage === totalPages ? 'none' : 'block' }}
-						/>
-					</PaginationItem>
-				</PaginationContent>
-			</Pagination>
+						{currentPage < totalPages && (
+							<PaginationItem>
+								<PaginationLink
+									href={`/page/${currentPage + 1}`}
+									className={
+										currentPage === totalPages
+											? 'text-xl border border-primary rounded-full font-bold'
+											: ''
+									}
+								>
+									{currentPage + 1}
+								</PaginationLink>
+							</PaginationItem>
+						)}
+
+						{currentPage < totalPages - 1 && (
+							<>
+								<PaginationItem>
+									<PaginationEllipsis />
+								</PaginationItem>
+								<PaginationItem>
+									<PaginationLink
+										href={`/page/${totalPages}`}
+										className={
+											currentPage === totalPages
+												? 'text-xl border border-primary rounded-full font-bold'
+												: ''
+										}
+									>
+										{totalPages}
+									</PaginationLink>
+								</PaginationItem>
+							</>
+						)}
+
+						<PaginationItem>
+							<PaginationNext
+								onClick={handleNextPage}
+								className="cursor-pointer"
+							/>
+						</PaginationItem>
+					</PaginationContent>
+				</Pagination>
+			</MaxWidthWrapper>
 		</section>
 	)
 }
