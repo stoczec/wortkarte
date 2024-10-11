@@ -1,13 +1,13 @@
 'use client'
 
-import { GrammarTable } from '@/components'
+import { Footer, GrammarTable } from '@/components'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import Link from 'next/link'
 
 export default function Home() {
 	return (
-		<section className="flex flex-col items-center justify-start gap-4 py-3 flex-grow flex-shrink-0 basis-auto">
+		<section className="flex flex-col items-center justify-between gap-4 py-3 flex-grow flex-shrink-0 basis-auto">
 			<div className="w-[320px] flex flex-col gap-3">
 				<p className="text-balance">
 					<span className="text-3xl font-bold">
@@ -23,10 +23,11 @@ export default function Home() {
 					um ihre Kategorie visuell zu verdeutlichen.
 				</p>
 				<GrammarTable />
+				<Link href="/page/1">
+					<Button size={'lg'}>Los geht's!</Button>
+				</Link>
 			</div>
-			<Link href="/page/1">
-				<Button size={'lg'}>Los geht's!</Button>
-			</Link>
+			<Footer />
 		</section>
 	)
 }
