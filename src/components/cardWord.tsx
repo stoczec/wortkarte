@@ -108,7 +108,7 @@ export const CardWord = ({ data }: CardWordProperties) => {
 								'text-purple-500': wordClass === WordClasses.ADJEKTIV,
 								'text-pink-500': wordClass === WordClasses.ADVERB,
 								'text-gray-500': wordClass === WordClasses.PRÄPOSITION,
-								'text-amber-950': wordClass === WordClasses.KONJUNKTION,
+								'text-amber-800': wordClass === WordClasses.KONJUNKTION,
 								'text-teal-500': wordClass === WordClasses.PARTIKEL,
 							}
 						)}
@@ -169,7 +169,7 @@ export const CardWord = ({ data }: CardWordProperties) => {
 									'text-purple-500': wordClass === WordClasses.ADJEKTIV,
 									'text-pink-500': wordClass === WordClasses.ADVERB,
 									'text-gray-500': wordClass === WordClasses.PRÄPOSITION,
-									'text-amber-950': wordClass === WordClasses.KONJUNKTION,
+									'text-amber-800': wordClass === WordClasses.KONJUNKTION,
 									'text-teal-500': wordClass === WordClasses.PARTIKEL,
 								}
 							)}
