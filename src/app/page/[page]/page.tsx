@@ -12,9 +12,8 @@ import {
 	PaginationLink,
 	PaginationEllipsis,
 } from '@/components/ui/pagination'
-import page from './page'
 
-const ITEMS_PER_PAGE = 3
+const ITEMS_PER_PAGE = 5
 
 export default function PaginatedPage() {
 	const pathname = usePathname()
