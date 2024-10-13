@@ -22,7 +22,9 @@ export const AddToFavoritesCard = () => {
 					size={200}
 					className={cn('absolute top-5 right-3 z-10 ', 'text-primary')}
 				/>
-				Fügen Sie die Wortkarte zu den Favoriten hinzu!
+				<p className="text-lg">
+					Fügen Sie die Wortkarte zu den Favoriten hinzu!
+				</p>
 			</div>
 		</MaxWidthWrapper>
 	)
