@@ -11,28 +11,30 @@ const ImageWithLoading = ({ src, alt }: IImageWithLoadingProperties) => {
 	const { loading, setLoading } = useCardsStore()
 	const [error, setError] = useState(false)
 
-	const handleLoad = () => {
-		setLoading(false)
-	}
+	useEffect(() => {
+		const fetchImage = async () => {
+			setLoading(true)
+			try {
+				const response = await fetch(src)
+				if (!response.ok) throw new Error('Image load failed')
+				setError(false)
+			} catch {
+				setError(true)
+			} finally {
+				setLoading(false)
+			}
+		}
 
-	const handleError = () => {
-		setLoading(false)
-		setError(true)
-	}
+		fetchImage()
+	}, [src, setLoading])
 
 	return (
 		<div className="relative aspect-[9/16]">
-			{loading && <Loader />}
+			{loading && !error && <Loader />}
 			{error && <Ban />}
-			<Image
-				src={src}
-				alt={alt}
-				onLoad={handleLoad}
-				onError={handleError}
-				fill
-				sizes="320px"
-				className={`rounded-xl ${loading ? 'hidden' : ''}`}
-			/>
+			{!loading && !error && (
+				<Image src={src} alt={alt} fill sizes="320px" className="rounded-xl" />
+			)}
 		</div>
 	)
 }
