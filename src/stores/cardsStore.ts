@@ -14,6 +14,7 @@ export const useCardsStore = create<ICardsStore>(
 			cards: data.flatMap(card => [card, ...(card.multiple || [])]),
 			favoriteCards: [],
 			loading: false,
+			itemsPerPage: 5,
 			setLoading: isLoading => set({ loading: isLoading }),
 			toggleFavorite: id => {
 				set((state: ICardsStore) => {

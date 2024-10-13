@@ -22,6 +22,7 @@ export interface ICardsStore {
 	cards: ILanguageCard[]
 	favoriteCards: ILanguageCard[]
 	loading: boolean
+	itemsPerPage: number
 	setLoading: (isLoading: boolean) => void
 	toggleFavorite: (id: number) => void
 	clearStorage: () => void // Метод для очистки сохраненного состояния

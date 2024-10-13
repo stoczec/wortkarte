@@ -17,22 +17,22 @@ import {
 	PaginationLink,
 	PaginationEllipsis,
 } from '@/components/ui/pagination'
-
-export const ITEMS_PER_PAGE = 5
+import { useCardsStore } from '@/stores'
 
 export default function PaginatedPage() {
 	const pathname = usePathname()
 	const pageParam = pathname.split('/').pop()
 	const currentPage = parseInt(pageParam as string) || 1
 
+	const itemsPerPage = useCardsStore(state => state.itemsPerPage)
 	const { filteredCards, searchQuery, updateSearchQuery } = useFilteredCards()
 
 	// const totalPages = Math.ceil(filteredCards.length / ITEMS_PER_PAGE)
 
-	const startIndex = (currentPage - 1) * ITEMS_PER_PAGE
+	const startIndex = (currentPage - 1) * itemsPerPage
 	const currentItems = filteredCards.slice(
 		startIndex,
-		startIndex + ITEMS_PER_PAGE
+		startIndex + itemsPerPage
 	)
 
 	// const handlePageChange = (page: number) => {
