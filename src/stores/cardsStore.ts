@@ -13,7 +13,7 @@ export const useCardsStore = create<ICardsStore>(
 		set => ({
 			cards: data.flatMap(card => [card, ...(card.multiple || [])]),
 			favoriteCards: [],
-			loading: false,
+			loading: true,
 			itemsPerPage: 5,
 			setLoading: isLoading => set({ loading: isLoading }),
 			toggleFavorite: id => {
