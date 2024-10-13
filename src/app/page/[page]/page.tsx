@@ -1,7 +1,12 @@
 'use client'
 
 import { usePathname } from 'next/navigation'
-import { MaxWidthWrapper, SearchBar, WordCarousel } from '@/components'
+import {
+	CustomPagination,
+	MaxWidthWrapper,
+	SearchBar,
+	WordCarousel,
+} from '@/components'
 import { useFilteredCards } from '@/hooks'
 import {
 	Pagination,
@@ -13,7 +18,7 @@ import {
 	PaginationEllipsis,
 } from '@/components/ui/pagination'
 
-const ITEMS_PER_PAGE = 5
+export const ITEMS_PER_PAGE = 5
 
 export default function PaginatedPage() {
 	const pathname = usePathname()
@@ -22,7 +27,7 @@ export default function PaginatedPage() {
 
 	const { filteredCards, searchQuery, updateSearchQuery } = useFilteredCards()
 
-	const totalPages = Math.ceil(filteredCards.length / ITEMS_PER_PAGE)
+	// const totalPages = Math.ceil(filteredCards.length / ITEMS_PER_PAGE)
 
 	const startIndex = (currentPage - 1) * ITEMS_PER_PAGE
 	const currentItems = filteredCards.slice(
@@ -30,28 +35,31 @@ export default function PaginatedPage() {
 		startIndex + ITEMS_PER_PAGE
 	)
 
-	const handlePageChange = (page: number) => {
-		window.location.href = `/page/${page}`
-	}
+	// const handlePageChange = (page: number) => {
+	// 	window.location.href = `/page/${page}`
+	// }
 
-	const handlePreviousPage = () => {
-		if (currentPage > 1) {
-			handlePageChange(currentPage - 1)
-		}
-	}
+	// const handlePreviousPage = () => {
+	// 	if (currentPage > 1) {
+	// 		handlePageChange(currentPage - 1)
+	// 	}
+	// }
 
-	const handleNextPage = () => {
-		if (currentPage < totalPages) {
-			handlePageChange(currentPage + 1)
-		}
-	}
+	// const handleNextPage = () => {
+	// 	if (currentPage < totalPages) {
+	// 		handlePageChange(currentPage + 1)
+	// 	}
+	// }
 
 	return (
 		<section className="flex flex-col items-center justify-center">
 			<SearchBar searchQuery={searchQuery} setSearchQuery={updateSearchQuery} />
 			<WordCarousel data={currentItems} />
-
-			<MaxWidthWrapper>
+			<CustomPagination
+				currentPage={currentPage}
+				filteredCards={filteredCards}
+			/>
+			{/* <MaxWidthWrapper>
 				<Pagination>
 					<PaginationContent>
 						<PaginationItem>
@@ -68,9 +76,6 @@ export default function PaginatedPage() {
 										<PaginationEllipsis />
 									</PaginationLink>
 								</PaginationItem>
-								{/* <PaginationItem>
-									<PaginationEllipsis />
-								</PaginationItem> */}
 							</>
 						)}
 
@@ -115,9 +120,6 @@ export default function PaginatedPage() {
 
 						{currentPage < totalPages - 1 && (
 							<>
-								{/* <PaginationItem>
-									<PaginationEllipsis />
-								</PaginationItem> */}
 								<PaginationItem>
 									<PaginationLink
 										href={`/page/${totalPages}`}
@@ -141,7 +143,7 @@ export default function PaginatedPage() {
 						</PaginationItem>
 					</PaginationContent>
 				</Pagination>
-			</MaxWidthWrapper>
+			</MaxWidthWrapper> */}
 		</section>
 	)
 }
