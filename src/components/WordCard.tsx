@@ -10,6 +10,7 @@ import { cn } from '@/lib/utils'
 import { WordClasses } from '@/enums/enums'
 import { useCardsStore } from '@/stores'
 import { Heart } from 'lucide-react'
+import { URL_IMAGES } from '@/constans/constans'
 
 const animationTransitionConfig = {
 	duration: 1,
@@ -35,6 +36,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 		wordClass,
 		exampleDe,
 		exampleRu,
+		fileKeyUploadthing,
 	} = data
 
 	const handleFlipCard = () => {
@@ -55,9 +57,11 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 		toggleFavorite(id)
 	}
 
+	const URL = `${URL_IMAGES}${fileKeyUploadthing}`
+
 	return (
 		<Card
-			className="relative aspect-[9/16] w-[320px] p-0 rounded-xl"
+			className="relative aspect-[9/16] w-[320px] p-0 rounded-xl shadow-lg shadow-zinc-900 transform transition-transform "
 			onClick={handleFlipCard}
 		>
 			<div
@@ -75,7 +79,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 				/>
 			</div>
 			<Image
-				src={`/images/${id}.png`}
+				src={URL}
 				alt={wordDe}
 				fill
 				sizes="320px"

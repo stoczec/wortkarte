@@ -1,6 +1,4 @@
-import { data } from '@/data/data'
 import { WordClasses } from '@/enums/enums'
-import { create } from 'zustand'
 
 export interface ILanguageCard {
 	id: number
@@ -11,6 +9,7 @@ export interface ILanguageCard {
 	wordClass: WordClasses
 	exampleDe: string
 	exampleRu: string
+	fileKeyUploadthing: string
 	multiple?: ILanguageCard[]
 	favorite: boolean
 }
