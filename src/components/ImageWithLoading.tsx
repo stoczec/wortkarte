@@ -13,7 +13,7 @@ const ImageWithLoading = ({ src, alt }: IImageWithLoadingProperties) => {
 
 	useEffect(() => {
 		const fetchImage = async () => {
-			setLoading(true)
+			// setLoading(true)
 			try {
 				const response = await fetch(src)
 				if (!response.ok) throw new Error('Image load failed')
