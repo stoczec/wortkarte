@@ -11,6 +11,7 @@ import { WordClasses } from '@/enums/enums'
 import { useCardsStore } from '@/stores'
 import { Heart } from 'lucide-react'
 import { URL_IMAGES } from '@/constans/constans'
+import ImageWithLoading from './ImageWithLoading'
 
 const animationTransitionConfig = {
 	duration: 1,
@@ -78,14 +79,15 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 					})}
 				/>
 			</div>
-			<Image
+			<ImageWithLoading src={URL} alt={wordDe} />
+			{/* <Image
 				src={URL}
 				alt={wordDe}
 				fill
 				sizes="320px"
 				className="rounded-xl"
 				priority={id === 1 ? true : false}
-			/>
+			/> */}
 			<CardContent
 				className={cn(
 					'w-full p-1',

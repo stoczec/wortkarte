@@ -16,6 +16,10 @@ export interface ILanguageCard {
 export interface IWordCardProperties {
 	data: ILanguageCard
 }
+export interface IImageWithLoadingProperties {
+	src: string
+	alt: string
+}
 
 export interface IPaginatedProps {
 	cards: ILanguageCard[]
