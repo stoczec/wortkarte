@@ -21,7 +21,7 @@ export default function Favorite() {
 	)
 
 	return (
-		<section className="flex flex-col items-center justify-center flex-grow flex-shrink-0 basis-auto">
+		<section className="flex flex-col items-center justify-center flex-grow flex-shrink-0 basis-auto px-4">
 			<SearchBar searchQuery={searchQuery} setSearchQuery={updateSearchQuery} />
 			<WordCarousel data={currentItems} />
 			<CustomPagination

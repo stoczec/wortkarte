@@ -20,7 +20,7 @@ export default function PaginatedPage() {
 	)
 
 	return (
-		<section className="flex flex-col items-center justify-center">
+		<section className="flex flex-col items-center justify-center px-4">
 			<SearchBar searchQuery={searchQuery} setSearchQuery={updateSearchQuery} />
 			<WordCarousel data={currentItems} />
 			<CustomPagination
