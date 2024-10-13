@@ -58,7 +58,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 		toggleFavorite(id)
 	}
 
-	const URL = `${URL_IMAGES}${fileKeyUploadthing}`
+	// const URL = `${URL_IMAGES}${fileKeyUploadthing}`
 
 	return (
 		<Card
@@ -79,7 +79,10 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 					})}
 				/>
 			</div>
-			<ImageWithLoading src={URL} alt={wordDe} />
+			<ImageWithLoading
+				src={`${URL_IMAGES}${fileKeyUploadthing}`}
+				alt={wordDe}
+			/>
 			{/* <Image
 				src={URL}
 				alt={wordDe}

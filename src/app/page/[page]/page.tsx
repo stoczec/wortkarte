@@ -3,7 +3,6 @@
 import { usePathname } from 'next/navigation'
 import { PaginatedList } from '@/components'
 import { useFilteredCards } from '@/hooks'
-import { useCardsStore } from '@/stores'
 
 export default function PaginatedPage() {
 	const pathname = usePathname()
