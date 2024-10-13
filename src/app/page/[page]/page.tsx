@@ -58,6 +58,7 @@ export default function PaginatedPage() {
 			<CustomPagination
 				currentPage={currentPage}
 				filteredCards={filteredCards}
+				pageName="page"
 			/>
 			{/* <MaxWidthWrapper>
 				<Pagination>

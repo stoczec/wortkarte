@@ -15,16 +15,18 @@ import { useCardsStore } from '@/stores'
 export const CustomPagination = ({
 	currentPage,
 	filteredCards,
+	pageName,
 }: {
 	currentPage: number
 	filteredCards: ILanguageCard[]
+	pageName: string
 }) => {
 	const itemsPerPage = useCardsStore(state => state.itemsPerPage)
 
 	const totalPages = Math.ceil(filteredCards.length / itemsPerPage)
 
 	const handlePageChange = (page: number) => {
-		window.location.href = `/page/${page}`
+		window.location.href = `/${pageName}/${page}`
 	}
 
 	const handlePreviousPage = () => {
@@ -52,7 +54,7 @@ export const CustomPagination = ({
 					{currentPage > 2 && (
 						<>
 							<PaginationItem>
-								<PaginationLink href={`/page/1`}>
+								<PaginationLink href={`/${pageName}/1`}>
 									<PaginationEllipsis />
 								</PaginationLink>
 							</PaginationItem>
@@ -62,7 +64,7 @@ export const CustomPagination = ({
 					{currentPage > 1 && (
 						<PaginationItem>
 							<PaginationLink
-								href={`/page/${currentPage - 1}`}
+								href={`/${pageName}/${currentPage - 1}`}
 								className={
 									currentPage === 1
 										? 'text-xl border border-primary rounded-full font-bold'
@@ -76,7 +78,7 @@ export const CustomPagination = ({
 
 					<PaginationItem>
 						<PaginationLink
-							href={`/page/${currentPage}`}
+							href={`/${pageName}/${currentPage}`}
 							className="text-xl border border-primary rounded-full font-bold"
 						>
 							{currentPage}
@@ -86,7 +88,7 @@ export const CustomPagination = ({
 					{currentPage < totalPages && (
 						<PaginationItem>
 							<PaginationLink
-								href={`/page/${currentPage + 1}`}
+								href={`/${pageName}/${currentPage + 1}`}
 								className={
 									currentPage === totalPages
 										? 'text-xl border border-primary rounded-full font-bold'
@@ -102,7 +104,7 @@ export const CustomPagination = ({
 						<>
 							<PaginationItem>
 								<PaginationLink
-									href={`/page/${totalPages}`}
+									href={`/${pageName}/${totalPages}`}
 									className={
 										currentPage === totalPages
 											? 'text-xl border border-primary rounded-full font-bold'

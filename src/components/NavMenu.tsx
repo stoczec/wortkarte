@@ -28,7 +28,7 @@ export const NavMenu = () => {
 						</NavigationMenuItem>
 						<NavigationMenuItem>
 							<NavigationMenuLink
-								href="/favorite"
+								href="/favorite/1"
 								className={navigationMenuTriggerStyle()}
 							>
 								Favoriten
