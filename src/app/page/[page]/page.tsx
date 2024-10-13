@@ -1,7 +1,7 @@
 'use client'
 
 import { usePathname } from 'next/navigation'
-import { PaginatedList } from '@/components'
+import { Loader, PaginatedList } from '@/components'
 import { useFilteredCards } from '@/hooks'
 import { useCardsStore } from '@/stores'
 import { useEffect } from 'react'
@@ -22,17 +22,7 @@ export default function PaginatedPage() {
 	}, [filteredCards, loading, setLoading])
 
 	if (loading) {
-		return (
-			<div className="flex justify-center items-center h-screen">
-				<DNA
-					visible={true}
-					height="80"
-					width="80"
-					ariaLabel="dna-loading"
-					wrapperClass="dna-wrapper"
-				/>
-			</div>
-		)
+		return <Loader />
 	}
 
 	return (
