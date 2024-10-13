@@ -4,7 +4,7 @@ import { Table, TableBody, TableCell, TableRow } from '@/components/ui/table'
 export const GrammarTable = () => {
 	return (
 		<Table>
-			<TableBody>
+			<TableBody className="text-center">
 				<TableRow>
 					<TableCell className="text-blue-500 text-lg font-bold">
 						Maskulin
