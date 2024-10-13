@@ -18,6 +18,12 @@ export interface IWordCardProperties {
 	data: ILanguageCard
 }
 
+export interface IPaginatedProps {
+	cards: ILanguageCard[]
+	pageName: string
+	currentPage: number
+}
+
 export interface ICardsStore {
 	cards: ILanguageCard[]
 	favoriteCards: ILanguageCard[]
