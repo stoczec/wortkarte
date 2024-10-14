@@ -27,14 +27,20 @@ export interface IPaginatedProps {
 	currentPage: number
 }
 
-export interface ICardsStore {
+export interface IAllCardsStore {
 	cards: ILanguageCard[]
-	favoriteCards: ILanguageCard[]
 	loading: boolean
 	itemsPerPage: number
 	setLoading: (isLoading: boolean) => void
-	toggleFavorite: (id: number) => void
-	clearStorage: () => void // Метод для очистки сохраненного состояния
+}
+
+export interface IFavoriteCardsStore {
+	favoriteCards: ILanguageCard[]
+	loading: boolean
+	setLoading: (isLoading: boolean) => void
+	addFavoriteCard: (card: ILanguageCard) => void
+	removeFavoriteCard: (id: number) => void
+	clearFavorites: () => void
 }
 
 export interface IFilteredCardsStore {

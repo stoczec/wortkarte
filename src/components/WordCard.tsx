@@ -8,7 +8,7 @@ import { Card, CardContent } from './ui/card'
 import { IWordCardProperties } from '@/interfaces/interfaces'
 import { cn } from '@/lib/utils'
 import { WordClasses } from '@/enums/enums'
-import { useCardsStore } from '@/stores'
+import { useFavoriteCardsStore } from '@/stores'
 import { Heart } from 'lucide-react'
 import { URL_IMAGES } from '@/constans/constans'
 import ImageWithLoading from './ImageWithLoading'
@@ -22,11 +22,14 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 	const [isFlipped, setIsFlipped] = useState(false)
 
 	// Подписываемся на изменения конкретной карточки
-	const favorite = useCardsStore(
-		state => state.cards.find(card => card.id === data.id)?.favorite
+	const isFavorite = useFavoriteCardsStore(state =>
+		state.favoriteCards.some(card => card.id === data.id)
 	)
 
-	const toggleFavorite = useCardsStore(state => state.toggleFavorite)
+	const addFavoriteCard = useFavoriteCardsStore(state => state.addFavoriteCard)
+	const removeFavoriteCard = useFavoriteCardsStore(
+		state => state.removeFavoriteCard
+	)
 
 	const {
 		id,
@@ -54,11 +57,13 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 		}
 	}
 
-	const handleToggleFavorite = () => {
-		toggleFavorite(id)
+	const handleFavoriteToggle = () => {
+		if (isFavorite) {
+			removeFavoriteCard(id)
+		} else {
+			addFavoriteCard(data)
+		}
 	}
-
-	// const URL = `${URL_IMAGES}${fileKeyUploadthing}`
 
 	return (
 		<Card
@@ -68,14 +73,14 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 			<div
 				onClick={e => {
 					e.stopPropagation()
-					handleToggleFavorite()
+					handleFavoriteToggle()
 				}}
 				className="cursor-pointer"
 			>
 				<Heart
 					className={cn('absolute top-2 right-2 z-10', {
-						'fill-primary': favorite,
-						'text-primary': !favorite,
+						'fill-primary': isFavorite,
+						'text-primary': !isFavorite,
 					})}
 				/>
 			</div>

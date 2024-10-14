@@ -1,7 +1,7 @@
 'use client'
 
 import { AddToFavoritesCard, PaginatedList } from '@/components'
-import { useCardsStore } from '@/stores'
+import { useFavoriteCardsStore } from '@/stores'
 import { usePathname } from 'next/navigation'
 
 export default function FavoritePaginatedPage() {
@@ -9,7 +9,7 @@ export default function FavoritePaginatedPage() {
 	const pageParam = pathname.split('/').pop()
 	const currentPage = Number(pageParam)
 
-	const { favoriteCards } = useCardsStore()
+	const { favoriteCards } = useFavoriteCardsStore()
 
 	if (favoriteCards.length === 0) {
 		return <AddToFavoritesCard />

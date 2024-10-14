@@ -3,7 +3,7 @@
 import { CustomPagination, SearchBar, WordCarousel } from '@/components'
 import { useFilteredCards } from '@/hooks'
 import { IPaginatedProps } from '@/interfaces/interfaces'
-import { useCardsStore } from '@/stores'
+import { useAllCardsStore } from '@/stores'
 import { useMemo } from 'react'
 
 export function PaginatedList({
@@ -11,7 +11,7 @@ export function PaginatedList({
 	pageName,
 	currentPage,
 }: IPaginatedProps) {
-	const itemsPerPage = useCardsStore(state => state.itemsPerPage)
+	const itemsPerPage = useAllCardsStore(state => state.itemsPerPage)
 	const { searchQuery, updateSearchQuery } = useFilteredCards()
 
 	const startIndex = (currentPage - 1) * itemsPerPage

@@ -10,7 +10,7 @@ import {
 	PaginationNext,
 } from './ui/pagination'
 import { ILanguageCard } from '@/interfaces/interfaces'
-import { useCardsStore } from '@/stores'
+import { useAllCardsStore } from '@/stores'
 
 export const CustomPagination = ({
 	currentPage,
@@ -21,7 +21,7 @@ export const CustomPagination = ({
 	filteredCards: ILanguageCard[]
 	pageName: string
 }) => {
-	const itemsPerPage = useCardsStore(state => state.itemsPerPage)
+	const itemsPerPage = useAllCardsStore(state => state.itemsPerPage)
 
 	const totalPages = Math.ceil(filteredCards.length / itemsPerPage)
 

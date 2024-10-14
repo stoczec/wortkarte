@@ -1,8 +1,8 @@
-import { useCardsStore } from '@/stores'
+import { useAllCardsStore } from '@/stores'
 import { MaxWidthWrapper } from '.'
 
 export const Footer = () => {
-	const cards = useCardsStore(state => state.cards)
+	const cards = useAllCardsStore(state => state.cards)
 	return (
 		<footer className="w-full h-14 border-t border-gray-200 bg-black/5 flex-grow-0 flex-shrink-0 basis-auto">
 			<MaxWidthWrapper>

@@ -3,12 +3,12 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { IImageWithLoadingProperties } from '@/interfaces/interfaces'
-import { useCardsStore } from '@/stores'
+import { useAllCardsStore } from '@/stores'
 import { Loader } from './Loader'
 import { Ban } from 'lucide-react'
 
 const ImageWithLoading = ({ src, alt }: IImageWithLoadingProperties) => {
-	const { loading, setLoading } = useCardsStore()
+	const { loading, setLoading } = useAllCardsStore()
 	const [error, setError] = useState(false)
 
 	useEffect(() => {
