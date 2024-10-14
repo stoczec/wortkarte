@@ -1,6 +1,6 @@
 # Wortkarte: A German Language Learning Web Application
 
-**Wortkarte** is a web application designed for web-mobile to help users learn German using flashcards with associative images and grammar categorization by color for better memorization. This project is developed in preparation for a C1 level German language course and exam.
+**Wortkarte** this is social project a web application designed for web-mobile to help users learn German using flashcards with associative images and grammar categorization by color for better memorization. This project is developed in preparation for a C1 level German language course and exam.
 
 ## Key Features
 - Flashcards with associative images to aid in vocabulary memorization
