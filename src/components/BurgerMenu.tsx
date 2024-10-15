@@ -3,7 +3,9 @@
 import {
 	Sheet,
 	SheetContent,
+	SheetDescription,
 	SheetFooter,
+	SheetTitle,
 	SheetTrigger,
 } from '@/components/ui/sheet'
 import { ModeToggle, NavMenu } from '.'
@@ -21,6 +23,8 @@ export function BurgerMenu() {
 				<Menu className="cursor-pointer" />
 			</SheetTrigger>
 			<SheetContent side="right">
+				<SheetTitle>Menu</SheetTitle>
+				<SheetDescription>Description goes here</SheetDescription>
 				<ul className="grid gap-4 py-10">
 					<NavMenu />
 					<Separator />
