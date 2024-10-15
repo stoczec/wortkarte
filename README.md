@@ -1,24 +1,27 @@
-# Wortkarte: A German Language Learning Web Application
+<h1>Wortkarte: A German Language Learning Web Application</h1>
 
-**Wortkarte** is a web application designed to help users learn German using flashcards with associative images and grammar categorization by color for better memorization.
+<div>
+<img align="right" src="https://github.com/user-attachments/assets/4bb7258e-9ab6-41af-89be-e77f07241503" alt="Herd" style="width: 30%;">
 
-## Key Features
-- Flashcards with associative images to aid in vocabulary memorization
-- Grammar categorization by color for easy recognition and retention
-- Interactive and engaging user interface
+<p align="left">Wortkarte is a social project, a web application designed for web-mobile to help users learn German using flashcards with associative images and grammar categorization by color for better memorization. This project is developed in preparation for a C1 level German language course and exam.</p>
 
-## Technologies Used
-- **Frontend Framework:** Next.js (version 14.2.14) ⚛️
-- **UI Components:** Radix UI (various components) 🧩
-- **Virtualization:** @tanstack/react-virtual (version 3.10.8) 🔄
-- **Carousel:** embla-carousel-react (version 8.3.0) 🎠
-- **Animations:** framer-motion (version 11.11.3) 🎞️
-- **State Management:** Zustand (version 5.0.0-rc.2) 🐻
-- **Styling:** Tailwind CSS (version 3.4.13) 🎨
-- **Type Checking:** TypeScript (version 5.6.2) 📝
+<h3>Key Features</h3>
+<ul>
+<li> Flashcards with associative images to aid in vocabulary memorization</li>
+<li> Grammar categorization by color for easy recognition and retention</li>
+<li> Interactive and engaging user interface</li>
+</ul>
 
-
-## Development
-- To run the application in development mode, use the command:  
-  ```bash
-  npm run dev
+<h3>Technologies Used</h3>
+<ul>
+<li>Frontend Framework: Next.js ⚛️</li>
+<li>Type Checking: TypeScript 📝</li>
+<li>State Management: Zustand 🐻</li>
+<li>Styling: Tailwind CSS 🎨</li>
+<li>UI Components: Shadcn/ui 🧩</li>
+<li>Animations: framer-motion 🎞️</li>
+<li>Icons: lucide ☀️</li>
+</ul>
+<h3>Link to the project</h3>
+<link>https://wortkarte.vercel.app/</link>
+</div>
