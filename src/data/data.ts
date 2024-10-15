@@ -791,4 +791,79 @@ export const data: ILanguageCard[] = [
 			'Наказание может лишить преступника свободы, если он нарушит закон.',
 		fileKeyUploadthing: 'Yosg29JtFzNhGClNQWOUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2',
 	},
+	{
+		id: 71,
+		article: 'die',
+		pluralEnding: 'en',
+		wordDe: 'Andeutung',
+		wordRu: 'намек, подсказывание',
+		wordClass: WordClasses.FEMININ,
+		exampleDe:
+			'Seine Andeutung ließ uns vermuten, dass er etwas Geheimnisvolles plant.',
+		exampleRu:
+			'Его намек заставил нас заподозрить, что он планирует что-то таинственное.',
+		fileKeyUploadthing: 'Yosg29JtFzNh2SLco8YvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
+	},
+	{
+		id: 72,
+		article: 'die',
+		pluralEnding: 'n',
+		wordDe: 'Pointe',
+		wordRu: 'кульминация',
+		wordClass: WordClasses.FEMININ,
+		exampleDe:
+			'Die Pointe der Geschichte überraschte alle Zuhörer und brachte sie zum Lachen.',
+		exampleRu:
+			'Кульминация истории удивила всех слушателей и заставила их смеяться.',
+		fileKeyUploadthing: 'Yosg29JtFzNhzMM7YpFPErID6hOu9WUTsic5yqdxGH0YQ1LR',
+	},
+	{
+		id: 73,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'mithalten',
+		wordRu: 'соперничать, не отставать',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Es ist wichtig, mit den neuesten Entwicklungen in der Technologie mithalten zu können.',
+		exampleRu:
+			'Важно уметь соперничать с последними достижениями в технологии.',
+		fileKeyUploadthing: 'Yosg29JtFzNhIoq6gb1XjGtPnx5WlKFgyNY93L2wqA8bODCe',
+	},
+	{
+		id: 74,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'jemandem auf die Schliche kommen',
+		wordRu: 'раскрыть кого-то, поймать на обмане',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Der Detektiv kam dem Betrüger endlich auf die Schliche und entlarvte seinen Plan.',
+		exampleRu: 'Детектив наконец раскрыл мошенника и разоблачил его план.',
+		fileKeyUploadthing: 'Yosg29JtFzNhElvtWGBe95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
+	},
+	{
+		id: 75,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'langatmig',
+		wordRu: 'затянутый, долгий',
+		wordClass: WordClasses.ADJEKTIV,
+		exampleDe:
+			'Der langatmige Vortrag hielt die Zuhörer in einem ständigen Zustand der Langeweile.',
+		exampleRu:
+			'Затянутая лекция оставила слушателей в постоянном состоянии скуки.',
+		fileKeyUploadthing: 'Yosg29JtFzNhJP3aUafcMyl2V46DGiNWAse9zQUT5pOkEKaB',
+	},
+	{
+		id: 76,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'umwerfend',
+		wordRu: 'поразительный, ошеломляющий',
+		wordClass: WordClasses.ADJEKTIV,
+		exampleDe: 'Die umwerfende Aussicht von der Bergspitze ließ uns sprachlos.',
+		exampleRu: 'Поразительный вид с вершины горы оставил нас без слов.',
+		fileKeyUploadthing: 'Yosg29JtFzNhnn7oe238yHS4RL3AgWpO2GQ1TvcIh9aB6KbE',
+	},
 ]
