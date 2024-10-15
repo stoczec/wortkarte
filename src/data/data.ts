@@ -730,4 +730,65 @@ export const data: ILanguageCard[] = [
 		exampleRu: 'Реальность иногда может разочаровывать мечты.',
 		fileKeyUploadthing: 'Yosg29JtFzNhVvHxDK5QGWr0oIbjYndiBXl2ukOh78NvP3ec',
 	},
+	{
+		id: 66,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'grausam',
+		wordRu: 'жестокий, беспощадный',
+		wordClass: WordClasses.ADJEKTIV,
+		exampleDe:
+			'Der grausame König ließ niemanden am Leben, der ihm widersprach.',
+		exampleRu:
+			'Жестокий король не оставил в живых никого, кто ему противоречил.',
+		fileKeyUploadthing: 'Yosg29JtFzNhxRc1JjmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
+	},
+	{
+		id: 67,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'fehlen',
+		wordRu: 'не хватать, отсутствовать',
+		wordClass: WordClasses.VERB,
+		exampleDe: 'Mir fehlen die Worte, um meine Gefühle auszudrücken.',
+		exampleRu: 'Мне не хватает слов, чтобы выразить свои чувства.',
+		fileKeyUploadthing: 'Yosg29JtFzNhEn00J7Be95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
+	},
+	{
+		id: 68,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'herausfinden',
+		wordRu: 'выяснить, обнаружить',
+		wordClass: WordClasses.VERB,
+		exampleDe: 'Ich muss herausfinden, wo mein verlorenes Buch ist.',
+		exampleRu: 'Мне нужно выяснить, где моя потерянная книга.',
+		fileKeyUploadthing: 'Yosg29JtFzNh3PiotQY4ojvmFX2AO1hJNYV9ixGpuDfd5zUc',
+	},
+	{
+		id: 69,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'einprägen',
+		wordRu: 'запечатлеть, запомнить',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Es ist wichtig, sich die neuen Vokabeln gut einzuprägen, um sie im Alltag zu verwenden.',
+		exampleRu:
+			'Важно хорошо запомнить новые слова, чтобы использовать их в повседневной жизни.',
+		fileKeyUploadthing: 'Yosg29JtFzNhQnzws4cJs09PbMZ3emtdonxCEGKNvwWqBkuS',
+	},
+	{
+		id: 70,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'entziehen',
+		wordRu: 'лишать, отнимать',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Die Strafe kann dem Täter seine Freiheit entziehen, wenn er gegen das Gesetz verstößt.',
+		exampleRu:
+			'Наказание может лишить преступника свободы, если он нарушит закон.',
+		fileKeyUploadthing: 'Yosg29JtFzNhGClNQWOUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2',
+	},
 ]
