@@ -23,8 +23,10 @@ export function BurgerMenu() {
 				<Menu className="cursor-pointer" />
 			</SheetTrigger>
 			<SheetContent side="right">
-				<SheetTitle>Menu</SheetTitle>
-				<SheetDescription>Description goes here</SheetDescription>
+				<SheetTitle>Navigation</SheetTitle>
+				<SheetDescription>
+					Wählen Sie einen Bereich zum Navigieren aus
+				</SheetDescription>
 				<ul className="grid gap-4 py-10">
 					<NavMenu />
 					<Separator />
