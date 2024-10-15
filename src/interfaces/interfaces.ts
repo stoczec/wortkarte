@@ -11,7 +11,6 @@ export interface ILanguageCard {
 	exampleRu: string
 	fileKeyUploadthing: string
 	multiple?: ILanguageCard[]
-	favorite: boolean
 }
 export interface IWordCardProperties {
 	data: ILanguageCard

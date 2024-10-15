@@ -12,7 +12,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er entwickelte eine starke Manie für Ordnung.',
 		exampleRu: 'У него развилась сильная мания на порядок.',
 		fileKeyUploadthing: 'Yosg29JtFzNhrGoJa0n1sqJTVcNudIg3BDMPtGOXY8K72Ziy',
-		favorite: false,
 	},
 	{
 		id: 2,
@@ -24,7 +23,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er leidet an einer Sucht.',
 		exampleRu: 'Он страдает от зависимости.',
 		fileKeyUploadthing: 'Yosg29JtFzNhEDppTyBe95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
-		favorite: false,
 	},
 	{
 		id: 3,
@@ -36,7 +34,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Ihre Albernheit hat alle zum Lachen gebracht.',
 		exampleRu: 'Её глупость рассмешила всех.',
 		fileKeyUploadthing: 'Yosg29JtFzNh9RcPzG0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
-		favorite: false,
 	},
 	{
 		id: 4,
@@ -48,7 +45,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Die Beschleunigung des Autos war beeindruckend.',
 		exampleRu: 'Ускорение автомобиля было впечатляющим.',
 		fileKeyUploadthing: 'Yosg29JtFzNhP4Zinut7MpSIRvq4tz3AcQfTyCugXJ6Ox2L0',
-		favorite: false,
 	},
 	{
 		id: 5,
@@ -60,7 +56,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Die Glosse in der Zeitung war sehr treffend.',
 		exampleRu: 'Ироничный комментарий в газете был очень метким.',
 		fileKeyUploadthing: 'Yosg29JtFzNhWXWBnoC8UvtqgBs1aRVjix4wlZ9nzArQXO27',
-		favorite: false,
 	},
 	{
 		id: 6,
@@ -72,7 +67,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Der Held der Geschichte rettete die Stadt.',
 		exampleRu: 'Герой истории спас город.',
 		fileKeyUploadthing: 'Yosg29JtFzNhBY0SIhVerN29CWdI6V3bchq7YFQ0GPDR54iO',
-		favorite: false,
 	},
 	{
 		id: 7,
@@ -84,7 +78,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Die Nahrungsaufnahme sollte regelmäßig erfolgen.',
 		exampleRu: 'Приём пищи должен происходить регулярно.',
 		fileKeyUploadthing: 'Yosg29JtFzNhpJIIrkJ2shpGY1ctFIeDyvwu24madHBxoLWR',
-		favorite: false,
 	},
 	{
 		id: 8,
@@ -96,7 +89,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Seine Rastlosigkeit führte zu Schlaflosigkeit.',
 		exampleRu: 'Его беспокойство привело к бессоннице.',
 		fileKeyUploadthing: 'Yosg29JtFzNhYEQx1APJtFzNhDLRbEpOK4inVgWujTHf15rx',
-		favorite: false,
 	},
 	{
 		id: 9,
@@ -108,7 +100,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Die Reduktion der Kosten war notwendig.',
 		exampleRu: 'Сокращение затрат было необходимо.',
 		fileKeyUploadthing: 'Yosg29JtFzNhpdCrat2shpGY1ctFIeDyvwu24madHBxoLWRM',
-		favorite: false,
 	},
 	{
 		id: 10,
@@ -120,7 +111,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Die Suchmaschine hilft uns, Informationen zu finden.',
 		exampleRu: 'Поисковая система помогает нам находить информацию.',
 		fileKeyUploadthing: 'Yosg29JtFzNhm0WcBfG1vlWLZ3wVM7eJd6GHQXCqsDpOEYIK',
-		favorite: false,
 	},
 	{
 		id: 11,
@@ -132,7 +122,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Lärm kann die Konzentration beeinträchtigen.',
 		exampleRu: 'Шум может негативно влиять на концентрацию.',
 		fileKeyUploadthing: 'Yosg29JtFzNhkErrk8hXtQ6BK7viORPW5L9sxm4bchzE3J0l',
-		favorite: false,
 	},
 	{
 		id: 12,
@@ -144,7 +133,7 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er kann sehr schnell kraulen.',
 		exampleRu: 'Он может плавать кролем очень быстро.',
 		fileKeyUploadthing: 'Yosg29JtFzNh8xrdPp1pEDTtnbqjYeRBhIVLQSxJWXgs3COU',
-		favorite: false,
+
 		multiple: [
 			{
 				id: 13,
@@ -156,7 +145,6 @@ export const data: ILanguageCard[] = [
 				exampleDe: 'Die Kinder kraulen den Hund.',
 				exampleRu: 'Дети гладят собаку.',
 				fileKeyUploadthing: 'Yosg29JtFzNhcBGzHhvxsIW48BMn5jH2lVp9LzJXDy1TkiKr',
-				favorite: false,
 			},
 		],
 	},
@@ -170,7 +158,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er hat sich dem Druck widergesetzt.',
 		exampleRu: 'Он сопротивлялся давлению.',
 		fileKeyUploadthing: 'Yosg29JtFzNhKCv6Bweokgqc0bL4dRrztvZG8lU9nhDyXPTu',
-		favorite: false,
 	},
 	{
 		id: 15,
@@ -182,7 +169,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Ich nehme Ihre Meinung zur Kenntnis.',
 		exampleRu: 'Я принимаю ваше мнение к сведению.',
 		fileKeyUploadthing: 'Yosg29JtFzNhbfjGc0ArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
-		favorite: false,
 	},
 	{
 		id: 16,
@@ -194,7 +180,7 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Wir müssen die Segel streichen, weil der Wind zu stark ist.',
 		exampleRu: 'Нам нужно сложить паруса, потому что ветер слишком сильный.',
 		fileKeyUploadthing: 'Yosg29JtFzNhOtfK8GSYJbPBwrh97WFmSMdAVkKZlnevTX08',
-		favorite: false,
+
 		multiple: [
 			{
 				id: 17,
@@ -206,7 +192,6 @@ export const data: ILanguageCard[] = [
 				exampleDe: 'In dieser Situation müssen wir die Segel streichen.',
 				exampleRu: 'В этой ситуации нам нужно сдаться.',
 				fileKeyUploadthing: 'Yosg29JtFzNhplNXuX2shpGY1ctFIeDyvwu24madHBxoLWRM',
-				favorite: false,
 			},
 		],
 	},
@@ -220,7 +205,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er hat sich der Kunst verschrieben.',
 		exampleRu: 'Он посвятил себя искусству.',
 		fileKeyUploadthing: 'Yosg29JtFzNhr4OXowSn1sqJTVcNudIg3BDMPtGOXY8K72Zi',
-		favorite: false,
 	},
 	{
 		id: 19,
@@ -232,7 +216,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Sein Verhalten war sehr hektisch.',
 		exampleRu: 'Его поведение было очень суетливым.',
 		fileKeyUploadthing: 'Yosg29JtFzNhNymK4clSLjOv7ZJ8WUplQhuIi6DFykCgY0RT',
-		favorite: false,
 	},
 	{
 		id: 20,
@@ -244,7 +227,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Der Fortschritt war unaufhaltsam.',
 		exampleRu: 'Прогресс был неудержим.',
 		fileKeyUploadthing: 'Yosg29JtFzNhGCWjwOcUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2',
-		favorite: false,
 	},
 	{
 		id: 21,
@@ -256,7 +238,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er hat die Herausforderung würdevoll gemeistert.',
 		exampleRu: 'Он достойно справился с вызовом.',
 		fileKeyUploadthing: 'Yosg29JtFzNhEP8pjWBe95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
-		favorite: false,
 	},
 	{
 		id: 22,
@@ -268,7 +249,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Sein Neid auf den Erfolg anderer war offensichtlich.',
 		exampleRu: 'Его зависть к успеху других была очевидна.',
 		fileKeyUploadthing: 'Yosg29JtFzNhApkXHpRulJ4FsLD6jKCRqv1rBcWZzk02tgme',
-		favorite: false,
 	},
 	{
 		id: 23,
@@ -280,7 +260,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Das Schicksal führte sie zusammen.',
 		exampleRu: 'Судьба свела их вместе.',
 		fileKeyUploadthing: 'Yosg29JtFzNh1IKJwt3kGF4rdxKs5yAfZujcn3gYeqUTDtSR',
-		favorite: false,
 	},
 	{
 		id: 24,
@@ -292,7 +271,7 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Nach harter Arbeit gönnte er sich eine Pause.',
 		exampleRu: 'После тяжёлой работы он позволил себе передышку.',
 		fileKeyUploadthing: 'Yosg29JtFzNhOZt3KOSYJbPBwrh97WFmSMdAVkKZlnevTX08',
-		favorite: false,
+
 		multiple: [
 			{
 				id: 25,
@@ -304,7 +283,6 @@ export const data: ILanguageCard[] = [
 				exampleDe: 'Sie gönnte ihm den Erfolg von Herzen.',
 				exampleRu: 'Она искренне не завидовала его успеху.',
 				fileKeyUploadthing: 'Yosg29JtFzNhfVIGoMZE7ZS8aFTpxy04W6gvboGB5ctDHL2E',
-				favorite: false,
 			},
 		],
 	},
@@ -318,7 +296,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Der Versuch, das Problem zu lösen, missglückte vollständig.',
 		exampleRu: 'Попытка решить проблему полностью потерпела неудачу.',
 		fileKeyUploadthing: 'Yosg29JtFzNhrFi4wsn1sqJTVcNudIg3BDMPtGOXY8K72Ziy',
-		favorite: false,
 	},
 	{
 		id: 27,
@@ -330,7 +307,7 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er missgönnte ihr den Erfolg.',
 		exampleRu: 'Он завидовал её успеху.',
 		fileKeyUploadthing: 'Yosg29JtFzNh3h3I7E4ojvmFX2AO1hJNYV9ixGpuDfd5zUcL',
-		favorite: false,
+
 		multiple: [
 			{
 				id: 28,
@@ -342,7 +319,6 @@ export const data: ILanguageCard[] = [
 				exampleDe: 'Sie missgönnte ihm das Glück.',
 				exampleRu: 'Она не желала ему счастья.',
 				fileKeyUploadthing: 'Yosg29JtFzNhJbrIQFfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
-				favorite: false,
 			},
 		],
 	},
@@ -356,7 +332,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Jede gute Idee wird von ihm sofort zerredet.',
 		exampleRu: 'Он сразу же топит любую хорошую идею в разговорах.',
 		fileKeyUploadthing: 'Yosg29JtFzNhKT6jAIneokgqc0bL4dRrztvZG8lU9nhDyXPT',
-		favorite: false,
 	},
 	{
 		id: 30,
@@ -368,7 +343,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er musste sich seiner Stärken bewusst machen.',
 		exampleRu: 'Ему нужно было осознать свои сильные стороны.',
 		fileKeyUploadthing: 'Yosg29JtFzNh1KBECrkGF4rdxKs5yAfZujcn3gYeqUTDtSRC',
-		favorite: false,
 	},
 	{
 		id: 31,
@@ -380,7 +354,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Sie engagiert sich in bürgerschaftlichen Projekten.',
 		exampleRu: 'Она занимается гражданскими проектами.',
 		fileKeyUploadthing: 'Yosg29JtFzNhMFmUcRLKq64xuGBkrejT9EQmSYta7vXAKLsz',
-		favorite: false,
 	},
 	{
 		id: 32,
@@ -392,7 +365,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Inwiefern hat sich die Situation geändert?',
 		exampleRu: 'В какой мере изменилась ситуация?',
 		fileKeyUploadthing: 'Yosg29JtFzNh2D6TIaYvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
-		favorite: false,
 	},
 	{
 		id: 33,
@@ -404,7 +376,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Nach dem Unfall verlor er das Bewusstsein.',
 		exampleRu: 'После аварии он потерял сознание.',
 		fileKeyUploadthing: 'Yosg29JtFzNhhqsXkARIdR9r06GDKfBbSoICYuEPtT5glMaJ',
-		favorite: false,
 	},
 	{
 		id: 34,
@@ -416,7 +387,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er kam zu der Einsicht, dass er einen Fehler gemacht hatte.',
 		exampleRu: 'Он пришёл к осознанию, что допустил ошибку.',
 		fileKeyUploadthing: 'Yosg29JtFzNhCil9077Oc52LSlA4MjeGxyPtkg0ZQhWdHzJu',
-		favorite: false,
 	},
 	{
 		id: 35,
@@ -428,7 +398,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Der Misserfolg brachte ihn nicht aus der Ruhe.',
 		exampleRu: 'Неудача не выбила его из колеи.',
 		fileKeyUploadthing: 'Yosg29JtFzNhdqw5BIMqi3tZyl6GjPUJxSoKLRrC1ehEkv97',
-		favorite: false,
 	},
 	{
 		id: 36,
@@ -440,7 +409,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Die Experten mussten den geheimen Code entschlüsseln.',
 		exampleRu: 'Экспертам пришлось расшифровать секретный код.',
 		fileKeyUploadthing: 'Yosg29JtFzNhKTx65iDeokgqc0bL4dRrztvZG8lU9nhDyXPT',
-		favorite: false,
 	},
 	{
 		id: 37,
@@ -452,7 +420,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Bitte entsorgen Sie den Müll richtig.',
 		exampleRu: 'Пожалуйста, утилизируйте мусор правильно.',
 		fileKeyUploadthing: 'Yosg29JtFzNhnNjnEf38yHS4RL3AgWpO2GQ1TvcIh9aB6KbE',
-		favorite: false,
 	},
 	{
 		id: 38,
@@ -464,7 +431,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er missachtete die Warnungen und handelte unvorsichtig.',
 		exampleRu: 'Он игнорировал предупреждения и действовал неосторожно.',
 		fileKeyUploadthing: 'Yosg29JtFzNhP45q94t7MpSIRvq4tz3AcQfTyCugXJ6Ox2L0',
-		favorite: false,
 	},
 	{
 		id: 39,
@@ -476,7 +442,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Das Design missfiel vielen Kunden.',
 		exampleRu: 'Дизайн не нравился многим клиентам.',
 		fileKeyUploadthing: 'Yosg29JtFzNh5Lm1fAZ9o7UlyJrOGAjeSa6FfcBquN4z89m2',
-		favorite: false,
 	},
 	{
 		id: 40,
@@ -488,7 +453,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Der Versuch, das Problem zu lösen, ist misslungen.',
 		exampleRu: 'Попытка решить проблему потерпела неудачу.',
 		fileKeyUploadthing: 'Yosg29JtFzNhJCotOyfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
-		favorite: false,
 	},
 	{
 		id: 41,
@@ -500,7 +464,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er hat bei der Antwort missraten.',
 		exampleRu: 'Он ошибся с ответом.',
 		fileKeyUploadthing: 'Yosg29JtFzNhJB8wlvAfcMyl2V46DGiNWAse9zQUT5pOkEKa',
-		favorite: false,
 	},
 	{
 		id: 42,
@@ -512,7 +475,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Alles kann schiefgehen, wenn man nicht gut plant.',
 		exampleRu: 'Все может пойти не так, если не спланировать хорошо.',
 		fileKeyUploadthing: 'Yosg29JtFzNhYg8RfsJtFzNhDLRbEpOK4inVgWujTHf15rx3',
-		favorite: false,
 	},
 	{
 		id: 43,
@@ -524,7 +486,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er begann zu verzweifeln, als er keine Lösung fand.',
 		exampleRu: 'Он начал отчаиваться, когда не нашёл решения.',
 		fileKeyUploadthing: 'Yosg29JtFzNhu8HcKdz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
-		favorite: false,
 	},
 	{
 		id: 44,
@@ -536,7 +497,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er zerdrückte die Dose mit seiner Hand.',
 		exampleRu: 'Он раздавил банку рукой.',
 		fileKeyUploadthing: 'Yosg29JtFzNhNujwd8lSLjOv7ZJ8WUplQhuIi6DFykCgY0RT',
-		favorite: false,
 	},
 	{
 		id: 45,
@@ -548,7 +508,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Das alte Gebäude beginnt zu zerfallen.',
 		exampleRu: 'Старое здание начинает разрушаться.',
 		fileKeyUploadthing: 'Yosg29JtFzNh967mnx0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
-		favorite: false,
 	},
 	{
 		id: 46,
@@ -560,7 +519,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Die Farbe begann unter der Hitze zu zerfließen.',
 		exampleRu: 'Краска начала растекаться под воздействием жары.',
 		fileKeyUploadthing: 'Yosg29JtFzNh6zxDv3PisOKx5VSaw0LRnFcMd9oyfv1g4Qer',
-		favorite: false,
 	},
 	{
 		id: 47,
@@ -572,7 +530,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Das Stück Schokolade zergeht langsam auf der Zunge.',
 		exampleRu: 'Кусочек шоколада медленно рассасывается на языке.',
 		fileKeyUploadthing: 'Yosg29JtFzNhzhvknypFPErID6hOu9WUTsic5yqdxGH0YQ1L',
-		favorite: false,
 	},
 	{
 		id: 48,
@@ -584,7 +541,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er zerhackte das Holz mit der Axt.',
 		exampleRu: 'Он разрубил дерево топором.',
 		fileKeyUploadthing: 'Yosg29JtFzNhUO7twoOWcAx1lePRnpGv52BK4HaVMoFTEJC3',
-		favorite: false,
 	},
 	{
 		id: 49,
@@ -596,7 +552,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er hat die Kartoffeln zu lange gekocht und sie sind zerkocht.',
 		exampleRu: 'Он слишком долго варил картошку, и она разварилась.',
 		fileKeyUploadthing: 'Yosg29JtFzNhbzcvPPRArGwWsaZoXAO0dkh98SbIKMQ2JCfz',
-		favorite: false,
 	},
 	{
 		id: 50,
@@ -609,7 +564,6 @@ export const data: ILanguageCard[] = [
 			'Der Mechaniker musste den Motor zerlegen, um das Problem zu finden.',
 		exampleRu: 'Механик должен был разобрать двигатель, чтобы найти проблему.',
 		fileKeyUploadthing: 'Yosg29JtFzNhXZKB8IWq9khKSUvpJeH506yLiP3w8TAdGr7u',
-		favorite: false,
 	},
 	{
 		id: 51,
@@ -621,7 +575,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Der Luftballon zerplatzte beim Stechen.',
 		exampleRu: 'Воздушный шар лопнул при прокалывании.',
 		fileKeyUploadthing: 'Yosg29JtFzNhJ5m5nXfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
-		favorite: false,
 	},
 	{
 		id: 52,
@@ -633,7 +586,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Der Hund zeriss das Spielzeug in Stücke.',
 		exampleRu: 'Собака разорвала игрушку на куски.',
 		fileKeyUploadthing: 'Yosg29JtFzNh9346Md0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
-		favorite: false,
 	},
 	{
 		id: 53,
@@ -645,7 +597,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er zerschneidet das Brot in gleichmäßige Stücke.',
 		exampleRu: 'Он нарезает хлеб на равные куски.',
 		fileKeyUploadthing: 'Yosg29JtFzNhVVZksKQGWr0oIbjYndiBXl2ukOh78NvP3ecJ',
-		favorite: false,
 	},
 	{
 		id: 54,
@@ -657,7 +608,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Das Glas zersprang beim Sturz auf den Boden.',
 		exampleRu: 'Стакан разбился при падении на пол.',
 		fileKeyUploadthing: 'Yosg29JtFzNhWSSkJlyC8UvtqgBs1aRVjix4wlZ9nzArQXO2',
-		favorite: false,
 	},
 	{
 		id: 55,
@@ -669,7 +619,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Der Wind zerstreute die Blätter im Garten.',
 		exampleRu: 'Ветер разнес листья по саду.',
 		fileKeyUploadthing: 'Yosg29JtFzNhIoa0yWvXjGtPnx5WlKFgyNY93L2wqA8bODCe',
-		favorite: false,
 	},
 	{
 		id: 56,
@@ -681,7 +630,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Seine Anspielung auf das Thema war subtil.',
 		exampleRu: 'Его намёк на эту тему был тонким.',
 		fileKeyUploadthing: 'Yosg29JtFzNhU2cEY6WcAx1lePRnpGv52BK4HaVMoFTEJC3f',
-		favorite: false,
 	},
 	{
 		id: 57,
@@ -693,7 +641,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Der Aufbruch ins Unbekannte war aufregend.',
 		exampleRu: 'Отъезд в неизвестность был захватывающим.',
 		fileKeyUploadthing: 'Yosg29JtFzNhe569VVTF5phCDZfm6yax0YcPV9r7qRQN1kgJ',
-		favorite: false,
 	},
 	{
 		id: 58,
@@ -705,7 +652,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Er kam für drei Jahre in den Knast.',
 		exampleRu: 'Он попал в тюрьму на три года.',
 		fileKeyUploadthing: 'Yosg29JtFzNhb2br4oArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
-		favorite: false,
 	},
 	{
 		id: 59,
@@ -717,7 +663,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Der Schiedsrichter traf eine umstrittene Entscheidung.',
 		exampleRu: 'Судья принял спорное решение.',
 		fileKeyUploadthing: 'Yosg29JtFzNheeksQcF5phCDZfm6yax0YcPV9r7qRQN1kgJb',
-		favorite: false,
 	},
 	{
 		id: 60,
@@ -729,7 +674,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Ich benutze einen Schwamm zum Abwaschen.',
 		exampleRu: 'Я использую губку для мытья посуды.',
 		fileKeyUploadthing: 'Yosg29JtFzNhosF0rUVZkc03OmYsX6Ry4wTgS2luHCNiqbnt',
-		favorite: false,
 	},
 	{
 		id: 61,
@@ -741,7 +685,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Manchmal ist es notwendig, den Körper zu entgiften.',
 		exampleRu: 'Иногда необходимо очистить организм от токсинов.',
 		fileKeyUploadthing: 'Yosg29JtFzNhn6USyGj38yHS4RL3AgWpO2GQ1TvcIh9aB6Kb',
-		favorite: false,
 	},
 	{
 		id: 62,
@@ -753,7 +696,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Bevor man den Apfel isst, sollte man ihn entkernen.',
 		exampleRu: 'Перед тем как есть яблоко, его нужно очистить от сердцевины.',
 		fileKeyUploadthing: 'Yosg29JtFzNhxNAJPNmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
-		favorite: false,
 	},
 	{
 		id: 63,
@@ -765,7 +707,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Sie musste sich für die Untersuchung entkleiden.',
 		exampleRu: 'Ей пришлось раздеться для обследования.',
 		fileKeyUploadthing: 'Yosg29JtFzNheLVe5kF5phCDZfm6yax0YcPV9r7qRQN1kgJb',
-		favorite: false,
 	},
 	{
 		id: 64,
@@ -777,7 +718,6 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Lass dich nicht entmutigen, auch wenn es schwer wird.',
 		exampleRu: 'Не позволяй себе обескураживаться, даже если станет тяжело.',
 		fileKeyUploadthing: 'Yosg29JtFzNhBpmUnjVerN29CWdI6V3bchq7YFQ0GPDR54iO',
-		favorite: false,
 	},
 	{
 		id: 65,
@@ -789,6 +729,5 @@ export const data: ILanguageCard[] = [
 		exampleDe: 'Die Realität kann manchmal die Träume entzaubern.',
 		exampleRu: 'Реальность иногда может разочаровывать мечты.',
 		fileKeyUploadthing: 'Yosg29JtFzNhVvHxDK5QGWr0oIbjYndiBXl2ukOh78NvP3ec',
-		favorite: false,
 	},
 ]
