@@ -866,4 +866,30 @@ export const data: ILanguageCard[] = [
 		exampleRu: 'Поразительный вид с вершины горы оставил нас без слов.',
 		fileKeyUploadthing: 'Yosg29JtFzNhnn7oe238yHS4RL3AgWpO2GQ1TvcIh9aB6KbE',
 	},
+	{
+		id: 77,
+		article: 'die',
+		pluralEnding: '',
+		wordDe: 'eine Sache an sich',
+		wordRu: 'вещь сама по себе',
+		wordClass: WordClasses.FEMININ,
+		exampleDe:
+			'Die Frage nach dem Sinn des Lebens ist eine Sache an sich und erfordert tiefes Nachdenken.',
+		exampleRu:
+			'Вопрос о смысле жизни — это вещь сама по себе и требует глубокого размышления.',
+		fileKeyUploadthing: 'Yosg29JtFzNhf8BbnXE7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
+	},
+	{
+		id: 78,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'jemandem Beachtung schenken',
+		wordRu: 'уделять внимание кому-то',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Es ist wichtig, den Bedürfnissen der Kinder Beachtung zu schenken, um ihre Entwicklung zu fördern.',
+		exampleRu:
+			'Важно уделять внимание нуждам детей, чтобы способствовать их развитию.',
+		fileKeyUploadthing: 'Yosg29JtFzNhkXoGUTIhXtQ6BK7viORPW5L9sxm4bchzE3J0',
+	},
 ]
