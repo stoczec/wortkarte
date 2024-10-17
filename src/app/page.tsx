@@ -29,7 +29,6 @@ export default function Home() {
 					Los geht's!
 				</Button>
 			</Link>
-			<Footer />
 		</section>
 	)
 }

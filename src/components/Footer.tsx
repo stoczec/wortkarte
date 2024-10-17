@@ -1,3 +1,5 @@
+'use client'
+
 import { useAllCardsStore } from '@/stores'
 import { MaxWidthWrapper } from '.'
 
