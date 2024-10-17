@@ -6,10 +6,16 @@ import {
 	NavigationMenuLink,
 } from '@radix-ui/react-navigation-menu'
 import { navigationMenuTriggerStyle } from './ui/navigation-menu'
+import { Badge } from '@/components/ui/badge'
+
 import { cn } from '@/lib/utils'
 import { House, Heart, GalleryHorizontalEnd } from 'lucide-react'
+import { useAllCardsStore, useFavoriteCardsStore } from '@/stores'
 
 export const NavMenu = () => {
+	const cards = useAllCardsStore(state => state.cards)
+	const favoriteCards = useFavoriteCardsStore(state => state.favoriteCards)
+
 	return (
 		<NavigationMenu>
 			<NavigationMenuList className="w-full flex flex-col gap-4">
@@ -35,6 +41,9 @@ export const NavMenu = () => {
 					>
 						<GalleryHorizontalEnd />
 						Alle Karten
+						<Badge variant="default" className="bg-primary">
+							{cards.length} Stück
+						</Badge>
 					</NavigationMenuLink>
 				</NavigationMenuItem>
 				<NavigationMenuItem>
@@ -47,6 +56,9 @@ export const NavMenu = () => {
 					>
 						<Heart />
 						Favoriten
+						<Badge variant="default" className="bg-primary">
+							{favoriteCards.length} Stück
+						</Badge>
 					</NavigationMenuLink>
 				</NavigationMenuItem>
 			</NavigationMenuList>
