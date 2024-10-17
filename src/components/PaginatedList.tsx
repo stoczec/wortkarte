@@ -18,7 +18,7 @@ export function PaginatedList({
 	}, [cards, startIndex, itemsPerPage])
 
 	return (
-		<section className="flex flex-col items-center justify-center flex-grow flex-shrink-0 basis-auto gap-4 px-4">
+		<section className="flex flex-col items-center justify-center flex-grow flex-shrink-0 basis-auto gap-4 p-4">
 			<WordCarousel data={currentItems} />
 			<CustomPagination
 				currentPage={currentPage}

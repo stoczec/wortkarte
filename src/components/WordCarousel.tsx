@@ -4,7 +4,7 @@ import { Carousel, CarouselContent, CarouselItem } from './ui/carousel'
 
 export function WordCarousel({ data }: { data: ILanguageCard[] }) {
 	return (
-		<MaxWidthWrapper className="flex py-3 sm:py-6 lg:py-6">
+		<MaxWidthWrapper className="flex py-3">
 			<Carousel
 				opts={{
 					align: 'start',

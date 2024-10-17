@@ -1,21 +1,22 @@
 'use client'
 
 import { usePathname } from 'next/navigation'
-import { PaginatedList } from '@/components'
+import { PaginatedList, SearchBar } from '@/components'
 import { useFilteredCards } from '@/hooks'
+import { useAllCardsStore } from '@/stores'
 
 export default function PaginatedPage() {
 	const pathname = usePathname()
 	const pageParam = pathname.split('/').pop() || '1'
 	const currentPage = Number(pageParam)
 
-	const { filteredCards } = useFilteredCards()
+	// const { filteredCards, searchQuery, updateSearchQuery } = useFilteredCards()
+	const { cards } = useAllCardsStore()
 
 	return (
-		<PaginatedList
-			cards={filteredCards}
-			pageName="page"
-			currentPage={currentPage}
-		/>
+		<div>
+			<PaginatedList cards={cards} pageName="page" currentPage={currentPage} />
+			{/* <SearchBar searchQuery={searchQuery} setSearchQuery={updateSearchQuery} /> */}
+		</div>
 	)
 }
