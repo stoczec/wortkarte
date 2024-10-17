@@ -22,20 +22,31 @@ export function BurgerMenu() {
 			<SheetTrigger asChild className="flex justify-center items-center">
 				<Menu className="cursor-pointer" />
 			</SheetTrigger>
-			<SheetContent side="right">
-				<SheetTitle>Navigation</SheetTitle>
-				<SheetDescription>
+			<SheetContent side="right" className="flex flex-col justify-start h-full">
+				<SheetTitle className="p-2">Navigation</SheetTitle>
+				<SheetDescription className="px-2">
 					Wählen Sie einen Bereich zum Navigieren aus
 				</SheetDescription>
-				<ul className="grid gap-4 py-10">
-					<NavMenu />
+				<Separator />
+
+				{/* <ul className="grid gap-4 flex-grow"> */}
+				<NavMenu />
+				<Separator />
+				<div className="flex justify-between items-center px-2 text-sm flex-grow-0 flex-shrink-0">
+					<p>Theme</p>
+					<ModeToggle />
+				</div>
+				{/* </ul> */}
+				<Separator />
+
+				<SheetFooter className="flex flex-col justify-center items-center mt-auto sm:justify-center sm:flex-col flex-grow-0 flex-shrink-0 gap-2">
 					<Separator />
-					<div className="flex justify-between items-center px-2 text-sm">
-						<p>Theme</p>
-						<ModeToggle />
-					</div>
-				</ul>
-				<SheetFooter></SheetFooter>
+
+					<p className="text-sm text-center text-muted-foreground">
+						&copy;
+						{new Date().getFullYear()}
+					</p>
+				</SheetFooter>
 			</SheetContent>
 		</Sheet>
 	)
