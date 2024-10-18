@@ -1,8 +1,9 @@
 'use client'
 
-import { AddToFavoritesCard, PaginatedList } from '@/components'
+import { AddToFavoritesCard, Loader, PaginatedList } from '@/components'
 import { useFavoriteCardsStore } from '@/stores'
 import { usePathname } from 'next/navigation'
+import { useEffect, useState } from 'react'
 
 export default function FavoritePaginatedPage() {
 	const pathname = usePathname()
@@ -10,6 +11,21 @@ export default function FavoritePaginatedPage() {
 	const currentPage = Number(pageParam)
 
 	const { favoriteCards } = useFavoriteCardsStore()
+	const [loading, setLoading] = useState(true)
+
+	useEffect(() => {
+		if (favoriteCards) {
+			setLoading(false)
+		}
+	}, [favoriteCards])
+
+	if (loading) {
+		return (
+			<div className="flex justify-center items-center h-full">
+				<Loader />
+			</div>
+		)
+	}
 
 	if (favoriteCards.length === 0) {
 		return <AddToFavoritesCard />

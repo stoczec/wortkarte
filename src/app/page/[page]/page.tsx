@@ -14,7 +14,7 @@ export default function PaginatedPage() {
 	const { cards } = useAllCardsStore()
 
 	return (
-		<div>
+		<div className="h-full">
 			<PaginatedList cards={cards} pageName="page" currentPage={currentPage} />
 			{/* <SearchBar searchQuery={searchQuery} setSearchQuery={updateSearchQuery} /> */}
 		</div>
