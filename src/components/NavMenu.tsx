@@ -9,7 +9,13 @@ import { navigationMenuTriggerStyle } from './ui/navigation-menu'
 import { Badge } from '@/components/ui/badge'
 
 import { cn } from '@/lib/utils'
-import { House, Heart, GalleryHorizontalEnd } from 'lucide-react'
+import {
+	House,
+	Heart,
+	GalleryHorizontalEnd,
+	MessageCircleDashed,
+	Contact,
+} from 'lucide-react'
 import { useAllCardsStore, useFavoriteCardsStore } from '@/stores'
 
 export const NavMenu = () => {
@@ -31,6 +37,7 @@ export const NavMenu = () => {
 						Startseite
 					</NavigationMenuLink>
 				</NavigationMenuItem>
+
 				<NavigationMenuItem className="w-full">
 					<NavigationMenuLink
 						href="/page/1"
@@ -46,6 +53,7 @@ export const NavMenu = () => {
 						</Badge>
 					</NavigationMenuLink>
 				</NavigationMenuItem>
+
 				<NavigationMenuItem>
 					<NavigationMenuLink
 						href="/favorite/1"
@@ -59,6 +67,32 @@ export const NavMenu = () => {
 						<Badge variant="default" className="bg-primary">
 							{favoriteCards.length} Stück
 						</Badge>
+					</NavigationMenuLink>
+				</NavigationMenuItem>
+
+				<NavigationMenuItem className="w-full">
+					<NavigationMenuLink
+						href="/about"
+						className={cn(
+							navigationMenuTriggerStyle(),
+							'w-full flex justify-start gap-2 px-2'
+						)}
+					>
+						<MessageCircleDashed />
+						Über das Projekt
+					</NavigationMenuLink>
+				</NavigationMenuItem>
+
+				<NavigationMenuItem className="w-full">
+					<NavigationMenuLink
+						href="/contacts"
+						className={cn(
+							navigationMenuTriggerStyle(),
+							'w-full flex justify-start gap-2 px-2'
+						)}
+					>
+						<Contact />
+						Kontakte
 					</NavigationMenuLink>
 				</NavigationMenuItem>
 			</NavigationMenuList>
