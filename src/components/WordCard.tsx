@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useState } from 'react'
-import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Separator } from '@radix-ui/react-separator'
 import { Card, CardContent } from './ui/card'
@@ -88,14 +87,6 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 				src={`${URL_IMAGES}${fileKeyUploadthing}`}
 				alt={wordDe}
 			/>
-			{/* <Image
-				src={URL}
-				alt={wordDe}
-				fill
-				sizes="320px"
-				className="rounded-xl"
-				priority={id === 1 ? true : false}
-			/> */}
 			<CardContent
 				className={cn(
 					'w-full p-1',
