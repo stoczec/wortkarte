@@ -952,4 +952,65 @@ export const data: ILanguageCard[] = [
 			'Физическая деятельность важна для поддержания формы и здоровья.',
 		fileKeyUploadthing: 'Yosg29JtFzNhpZcv4g2shpGY1ctFIeDyvwu24madHBxoLWRM',
 	},
+	{
+		id: 84,
+		article: 'der',
+		pluralEnding: 'e',
+		wordDe: 'Einsatz',
+		wordRu: 'применение, использование, усилие',
+		wordClass: WordClasses.MASCULIN,
+		exampleDe:
+			'Sein Einsatz im Team war entscheidend für den Erfolg des Projekts.',
+		exampleRu: 'Его усилия в команде были решающими для успеха проекта.',
+		fileKeyUploadthing: 'Yosg29JtFzNhpQBKL62shpGY1ctFIeDyvwu24madHBxoLWRM',
+	},
+	{
+		id: 85,
+		article: 'die',
+		pluralEnding: 'n',
+		wordDe: 'Facette',
+		wordRu: 'грань, аспект',
+		wordClass: WordClasses.FEMININ,
+		exampleDe:
+			'Jede Facette ihres Charakters zeigt eine andere, faszinierende Seite ihrer Persönlichkeit.',
+		exampleRu:
+			'Каждая грань её характера показывает другую, увлекательную сторону её личности.',
+		fileKeyUploadthing: 'Yosg29JtFzNhAOtrttulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
+	},
+	{
+		id: 86,
+		article: 'das',
+		pluralEnding: '',
+		wordDe: 'Flair',
+		wordRu: 'атмосфера, обаяние',
+		wordClass: WordClasses.NEUTRAL,
+		exampleDe: 'Das Flair der alten Stadt zog die Besucher in seinen Bann.',
+		exampleRu: 'Атмосфера старого города завораживала посетителей.',
+		fileKeyUploadthing: 'Yosg29JtFzNhUTwVNCWcAx1lePRnpGv52BK4HaVMoFTEJC3f',
+	},
+	{
+		id: 87,
+		article: 'die',
+		pluralEnding: 'en',
+		wordDe: 'Kreuzfahrt',
+		wordRu: 'круиз',
+		wordClass: WordClasses.FEMININ,
+		exampleDe:
+			'Die Kreuzfahrt durch das Mittelmeer bot unvergessliche Ausblicke und Erlebnisse.',
+		exampleRu:
+			'Круиз по Средиземному морю подарил незабываемые виды и впечатления.',
+		fileKeyUploadthing: 'Yosg29JtFzNhIyZfRCXjGtPnx5WlKFgyNY93L2wqA8bODCei',
+	},
+	{
+		id: 88,
+		article: 'der',
+		pluralEnding: 'n',
+		wordDe: 'Page',
+		wordRu: 'посыльный, коридорный',
+		wordClass: WordClasses.MASCULIN,
+		exampleDe:
+			'Der Page trug unser Gepäck ins Hotelzimmer und zeigte uns den Weg.',
+		exampleRu: 'Посыльный отнес наш багаж в номер и показал нам путь.',
+		fileKeyUploadthing: 'Yosg29JtFzNhAAm50FulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
+	},
 ]
