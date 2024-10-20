@@ -1213,4 +1213,65 @@ export const data: ILanguageCard[] = [
 		exampleRu: 'На конференции была обсуждена тема изменения климата.',
 		fileKeyUploadthing: 'Yosg29JtFzNhLARzEiyU1vJKEiwc6tXCo24HYTQ8xVrjL9Gu',
 	},
+	{
+		id: 106,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'zur Verfügung stellen',
+		wordRu: 'предоставлять в распоряжение, предоставлять',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Die Firma hat den Mitarbeitern neue Computer zur Verfügung gestellt.',
+		exampleRu: 'Компания предоставила сотрудникам новые компьютеры.',
+		fileKeyUploadthing: 'Yosg29JtFzNhxRjy3WmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
+	},
+	{
+		id: 107,
+		article: 'das',
+		pluralEnding: '',
+		wordDe: 'Verständnis vertiefen',
+		wordRu: 'углублять понимание',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Durch regelmäßige Übung kann man sein Verständnis für die Sprache vertiefen.',
+		exampleRu: 'Регулярная практика помогает углубить понимание языка.',
+		fileKeyUploadthing: 'Yosg29JtFzNh4YWCUt6wOqj81VfMisExF0Xm56z2QrgI43vl',
+	},
+	{
+		id: 108,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'Vorbereitungen treffen',
+		wordRu: 'делать приготовления, готовиться',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Wir müssen noch einige Vorbereitungen treffen, bevor die Gäste kommen.',
+		exampleRu:
+			'Нам нужно сделать еще несколько приготовлений перед приходом гостей.',
+		fileKeyUploadthing: 'Yosg29JtFzNh4tmNIfp6wOqj81VfMisExF0Xm56z2QrgI43v',
+	},
+	{
+		id: 109,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'im Vordergrund stehen',
+		wordRu: 'быть на первом плане, быть важным',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Bei der Diskussion standen die Bedürfnisse der Kunden im Vordergrund.',
+		exampleRu: 'В обсуждении на первом плане стояли потребности клиентов.',
+		fileKeyUploadthing: 'Yosg29JtFzNh6SrlVBPisOKx5VSaw0LRnFcMd9oyfv1g4Qer',
+	},
+	{
+		id: 110,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'es gilt',
+		wordRu: 'это относится, это считается',
+		wordClass: WordClasses.VERB,
+		exampleDe: 'Es gilt, die Regeln zu befolgen, um sicher zu bleiben.',
+		exampleRu:
+			'Это относится к соблюдению правил для обеспечения безопасности.',
+		fileKeyUploadthing: 'Yosg29JtFzNhbwitOsArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
+	},
 ]
