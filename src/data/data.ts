@@ -1331,4 +1331,65 @@ export const data: ILanguageCard[] = [
 		exampleRu: 'Ключевое слово этой конференции — «Устойчивое развитие».',
 		fileKeyUploadthing: 'Yosg29JtFzNhTT2P8x54978sPWymYbGCLVwivJjoSRlhteBc',
 	},
+	{
+		id: 116,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'eine Auswahl treffen',
+		wordRu: 'сделать выбор, выбрать',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Wir müssen eine Auswahl treffen, bevor wir den endgültigen Entschluss fassen.',
+		exampleRu:
+			'Нам нужно сделать выбор, прежде чем мы примем окончательное решение.',
+		fileKeyUploadthing: 'Yosg29JtFzNhosXXxhZkc03OmYsX6Ry4wTgS2luHCNiqbntU',
+	},
+	{
+		id: 117,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'eine Entscheidung treffen',
+		wordRu: 'принять решение',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Es ist an der Zeit, eine Entscheidung zu treffen und voranzuschreiten.',
+		exampleRu: 'Пришло время принять решение и двигаться дальше.',
+		fileKeyUploadthing: 'Yosg29JtFzNh9M7XJi0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
+	},
+	{
+		id: 118,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'in Erfahrung bringen',
+		wordRu: 'узнать, выяснить',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Ich werde versuchen, mehr Informationen in Erfahrung zu bringen.',
+		exampleRu: 'Я постараюсь выяснить больше информации.',
+		fileKeyUploadthing: 'Yosg29JtFzNhttutZXxXU3oa7DEsTyVQ2zGrJZFuYglcj84A',
+	},
+	{
+		id: 119,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'in Erfüllung gehen',
+		wordRu: 'сбываться, исполняться',
+		wordClass: WordClasses.VERB,
+		exampleDe: 'Endlich geht mein Traum, in Erfüllung zu gehen.',
+		exampleRu: 'Наконец, моя мечта сбывается.',
+		fileKeyUploadthing: 'Yosg29JtFzNh2jGDd1YvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
+	},
+	{
+		id: 120,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'eine Initiative ergreifen',
+		wordRu: 'взять инициативу, предпринять действия',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Die Gemeinde beschloss, eine Initiative zu ergreifen, um die Umwelt zu schützen.',
+		exampleRu:
+			'Сообщество решило взять инициативу, чтобы защитить окружающую среду.',
+		fileKeyUploadthing: 'Yosg29JtFzNhVvs7UmnQGWr0oIbjYndiBXl2ukOh78NvP3ec',
+	},
 ]
