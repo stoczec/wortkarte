@@ -1392,4 +1392,15 @@ export const data: ILanguageCard[] = [
 			'Сообщество решило взять инициативу, чтобы защитить окружающую среду.',
 		fileKeyUploadthing: 'Yosg29JtFzNhVvs7UmnQGWr0oIbjYndiBXl2ukOh78NvP3ec',
 	},
+	{
+		id: 121,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'über Kenntnisse verfügen',
+		wordRu: 'обладать знаниями, иметь знания',
+		wordClass: WordClasses.VERB,
+		exampleDe: 'Sie verfügt über umfassende Kenntnisse in der Informatik.',
+		exampleRu: 'Она обладает обширными знаниями в области информатики.',
+		fileKeyUploadthing: 'Yosg29JtFzNhFkW4tjTubBCpndtMKSeV7IPW4zZa0vXUywL5',
+	},
 ]
