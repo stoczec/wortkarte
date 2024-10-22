@@ -1403,4 +1403,15 @@ export const data: ILanguageCard[] = [
 		exampleRu: 'Она обладает обширными знаниями в области информатики.',
 		fileKeyUploadthing: 'Yosg29JtFzNhFkW4tjTubBCpndtMKSeV7IPW4zZa0vXUywL5',
 	},
+	{
+		id: 122,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'Kritik üben an (+ Dat.)',
+		wordRu: 'критиковать кого-либо/что-либо',
+		wordClass: WordClasses.VERB,
+		exampleDe: 'Er hat an der neuen Regelung scharfe Kritik geübt.',
+		exampleRu: 'Он подверг резкой критике новое постановление.',
+		fileKeyUploadthing: 'Yosg29JtFzNhTn2KSK54978sPWymYbGCLVwivJjoSRlhteBc',
+	},
 ]
