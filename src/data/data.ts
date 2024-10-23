@@ -1448,4 +1448,68 @@ export const data: ILanguageCard[] = [
 		exampleRu: 'Ему пришлось взять на себя ответственность за проект.',
 		fileKeyUploadthing: 'Yosg29JtFzNhf7gmU7E7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
 	},
+	{
+		id: 126,
+		article: 'der',
+		pluralEnding: 'Bögen',
+		wordDe: 'der Bogen',
+		wordRu: 'лук (оружие)',
+		wordClass: WordClasses.MASCULIN,
+		exampleDe:
+			'Der Bogenschütze spannte den Bogen und zielte auf die Zielscheibe.',
+		exampleRu: 'Лучник натянул лук и прицелился в мишень.',
+		fileKeyUploadthing: 'Yosg29JtFzNhpJvVCI72shpGY1ctFIeDyvwu24madHBxoLWR',
+		multiple: [
+			{
+				id: 127,
+				article: 'der',
+				pluralEnding: 'Bögen',
+				wordDe: 'der Bogen',
+				wordRu: 'дуга, арка',
+				wordClass: WordClasses.MASCULIN,
+				exampleDe: 'Die Brücke hat einen beeindruckenden Bogen über den Fluss.',
+				exampleRu: 'У моста впечатляющая арка над рекой.',
+				fileKeyUploadthing: 'Yosg29JtFzNhVgxyMOQGWr0oIbjYndiBXl2ukOh78NvP3ecJ',
+			},
+		],
+	},
+	{
+		id: 128,
+		article: 'der',
+		pluralEnding: 'Erzeuger',
+		wordDe: 'der Erzeuger',
+		wordRu: 'производитель',
+		wordClass: WordClasses.MASCULIN,
+		exampleDe:
+			'Der Erzeuger der Bio-Produkte legt großen Wert auf Nachhaltigkeit.',
+		exampleRu:
+			'Производитель био-продуктов придает большое значение устойчивому развитию.',
+		fileKeyUploadthing: 'Yosg29JtFzNhpRjgRL2shpGY1ctFIeDyvwu24madHBxoLWRM',
+		multiple: [
+			{
+				id: 129,
+				article: 'der',
+				pluralEnding: 'Erzeuger',
+				wordDe: 'der Erzeuger',
+				wordRu: 'биологический отец',
+				wordClass: WordClasses.MASCULIN,
+				exampleDe: 'Er hat nie Kontakt zu seinem Erzeuger gehabt.',
+				exampleRu: 'Он никогда не общался со своим биологическим отцом.',
+				fileKeyUploadthing: 'Yosg29JtFzNhbIwlpxArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
+			},
+		],
+	},
+	{
+		id: 130,
+		article: 'der',
+		pluralEnding: '-s',
+		wordDe: 'der Kurpark',
+		wordRu: 'курортный парк',
+		wordClass: WordClasses.MASCULIN,
+		exampleDe:
+			'Im Kurpark spazieren die Gäste zwischen alten Bäumen und duftenden Blumenbeeten.',
+		exampleRu:
+			'В курортном парке гости гуляют между старыми деревьями и ароматными цветочными клумбами.',
+		fileKeyUploadthing: 'Yosg29JtFzNhufvbEqz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
+	},
 ]
