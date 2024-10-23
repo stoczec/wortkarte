@@ -1451,8 +1451,8 @@ export const data: ILanguageCard[] = [
 	{
 		id: 126,
 		article: 'der',
-		pluralEnding: 'Bögen',
-		wordDe: 'der Bogen',
+		pluralEnding: '',
+		wordDe: 'Bogen',
 		wordRu: 'лук (оружие)',
 		wordClass: WordClasses.MASCULIN,
 		exampleDe:
@@ -1463,8 +1463,8 @@ export const data: ILanguageCard[] = [
 			{
 				id: 127,
 				article: 'der',
-				pluralEnding: 'Bögen',
-				wordDe: 'der Bogen',
+				pluralEnding: '',
+				wordDe: 'Bogen',
 				wordRu: 'дуга, арка',
 				wordClass: WordClasses.MASCULIN,
 				exampleDe: 'Die Brücke hat einen beeindruckenden Bogen über den Fluss.',
@@ -1476,8 +1476,8 @@ export const data: ILanguageCard[] = [
 	{
 		id: 128,
 		article: 'der',
-		pluralEnding: 'Erzeuger',
-		wordDe: 'der Erzeuger',
+		pluralEnding: '',
+		wordDe: 'Erzeuger',
 		wordRu: 'производитель',
 		wordClass: WordClasses.MASCULIN,
 		exampleDe:
@@ -1489,8 +1489,8 @@ export const data: ILanguageCard[] = [
 			{
 				id: 129,
 				article: 'der',
-				pluralEnding: 'Erzeuger',
-				wordDe: 'der Erzeuger',
+				pluralEnding: '',
+				wordDe: 'Erzeuger',
 				wordRu: 'биологический отец',
 				wordClass: WordClasses.MASCULIN,
 				exampleDe: 'Er hat nie Kontakt zu seinem Erzeuger gehabt.',
@@ -1503,7 +1503,7 @@ export const data: ILanguageCard[] = [
 		id: 130,
 		article: 'der',
 		pluralEnding: '-s',
-		wordDe: 'der Kurpark',
+		wordDe: 'Kurpark',
 		wordRu: 'курортный парк',
 		wordClass: WordClasses.MASCULIN,
 		exampleDe:
