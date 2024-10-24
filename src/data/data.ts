@@ -667,7 +667,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 60,
 		article: 'der',
-		pluralEnding: 'ä-e',
+		pluralEnding: ', -ä-e',
 		wordDe: 'Schwamm',
 		wordRu: 'губка',
 		wordClass: WordClasses.MASCULIN,
@@ -794,7 +794,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 71,
 		article: 'die',
-		pluralEnding: 'en',
+		pluralEnding: ', -en',
 		wordDe: 'Andeutung',
 		wordRu: 'намек, подсказывание',
 		wordClass: WordClasses.FEMININ,
@@ -807,7 +807,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 72,
 		article: 'die',
-		pluralEnding: 'n',
+		pluralEnding: ', -n',
 		wordDe: 'Pointe',
 		wordRu: 'кульминация',
 		wordClass: WordClasses.FEMININ,
@@ -895,7 +895,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 79,
 		article: 'die',
-		pluralEnding: 'en',
+		pluralEnding: ', -en',
 		wordDe: 'Ausstattung',
 		wordRu: 'оборудование, оснащение',
 		wordClass: WordClasses.FEMININ,
@@ -906,7 +906,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 80,
 		article: 'die',
-		pluralEnding: 'n',
+		pluralEnding: ', -n',
 		wordDe: 'Durchsage',
 		wordRu: 'объявление, сообщение (по громкоговорителю)',
 		wordClass: WordClasses.FEMININ,
@@ -918,7 +918,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 81,
 		article: 'die',
-		pluralEnding: 'en',
+		pluralEnding: ', -en',
 		wordDe: 'Umgangsform',
 		wordRu: 'манера общения, правила поведения',
 		wordClass: WordClasses.FEMININ,
@@ -931,7 +931,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 82,
 		article: 'die',
-		pluralEnding: 'en',
+		pluralEnding: ', -en',
 		wordDe: 'Verzögerung',
 		wordRu: 'задержка, промедление',
 		wordClass: WordClasses.FEMININ,
@@ -942,7 +942,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 83,
 		article: 'die',
-		pluralEnding: 'en',
+		pluralEnding: ', -en',
 		wordDe: 'Betätigung',
 		wordRu: 'деятельность, занятие',
 		wordClass: WordClasses.FEMININ,
@@ -955,7 +955,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 84,
 		article: 'der',
-		pluralEnding: 'e',
+		pluralEnding: ', -e',
 		wordDe: 'Einsatz',
 		wordRu: 'применение, использование, усилие',
 		wordClass: WordClasses.MASCULIN,
@@ -967,7 +967,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 85,
 		article: 'die',
-		pluralEnding: 'n',
+		pluralEnding: ', -n',
 		wordDe: 'Facette',
 		wordRu: 'грань, аспект',
 		wordClass: WordClasses.FEMININ,
@@ -991,7 +991,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 87,
 		article: 'die',
-		pluralEnding: 'en',
+		pluralEnding: ', -en',
 		wordDe: 'Kreuzfahrt',
 		wordRu: 'круиз',
 		wordClass: WordClasses.FEMININ,
@@ -1004,7 +1004,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 88,
 		article: 'der',
-		pluralEnding: 'n',
+		pluralEnding: ', -n',
 		wordDe: 'Page',
 		wordRu: 'посыльный, коридорный',
 		wordClass: WordClasses.MASCULIN,
@@ -1099,7 +1099,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 96,
 		article: 'das',
-		pluralEnding: 'e',
+		pluralEnding: ', -e',
 		wordDe: 'Attest',
 		wordRu: 'справка, удостоверение',
 		wordClass: WordClasses.NEUTRAL,
@@ -1110,7 +1110,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 97,
 		article: 'der',
-		pluralEnding: 'e',
+		pluralEnding: ', -e',
 		wordDe: 'Rücktritt',
 		wordRu: 'отставка, отказ',
 		wordClass: WordClasses.MASCULIN,
@@ -1122,7 +1122,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 98,
 		article: 'die',
-		pluralEnding: 'n',
+		pluralEnding: ', -n',
 		wordDe: 'Suite',
 		wordRu: 'люкс, номер',
 		wordClass: WordClasses.FEMININ,
@@ -1323,7 +1323,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 115,
 		article: 'das',
-		pluralEnding: 'er',
+		pluralEnding: ', -er',
 		wordDe: 'das Schlagwort',
 		wordRu: 'ключевое слово, термин',
 		wordClass: WordClasses.NEUTRAL,
@@ -1502,7 +1502,7 @@ export const data: ILanguageCard[] = [
 	{
 		id: 130,
 		article: 'der',
-		pluralEnding: '-s',
+		pluralEnding: ', -s',
 		wordDe: 'Kurpark',
 		wordRu: 'курортный парк',
 		wordClass: WordClasses.MASCULIN,
@@ -1511,5 +1511,62 @@ export const data: ILanguageCard[] = [
 		exampleRu:
 			'В курортном парке гости гуляют между старыми деревьями и ароматными цветочными клумбами.',
 		fileKeyUploadthing: 'Yosg29JtFzNhufvbEqz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
+	},
+	{
+		id: 131,
+		article: 'das',
+		pluralEnding: '',
+		wordDe: 'das Schuhwerk',
+		wordRu: 'обувь, обувное снаряжение',
+		wordClass: WordClasses.NEUTRAL,
+		exampleDe: 'Für die Wanderung ist robustes Schuhwerk erforderlich.',
+		exampleRu: 'Для похода требуется прочная обувь.',
+		fileKeyUploadthing: 'Yosg29JtFzNhGt87HkUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2j',
+	},
+	{
+		id: 132,
+		article: 'der',
+		pluralEnding: ', -e',
+		wordDe: 'der Überrest',
+		wordRu: 'остаток, пережиток',
+		wordClass: WordClasses.MASCULIN,
+		exampleDe: 'Die Überreste der alten Burg erzählen von vergangenen Zeiten.',
+		exampleRu: 'Остатки старого замка напоминают о прошлых временах.',
+		fileKeyUploadthing: 'Yosg29JtFzNhfQ9IaIE7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
+	},
+	{
+		id: 133,
+		article: 'die',
+		pluralEnding: ', -n',
+		wordDe: 'die Eule',
+		wordRu: 'сова',
+		wordClass: WordClasses.FEMININ,
+		exampleDe: 'Die Eule flog lautlos durch den nächtlichen Wald.',
+		exampleRu: 'Сова бесшумно пролетела через ночной лес.',
+		fileKeyUploadthing: 'Yosg29JtFzNhF9rrrdBTubBCpndtMKSeV7IPW4zZa0vXUywL',
+	},
+	{
+		id: 134,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'ausklingen',
+		wordRu: 'заканчиваться, завершаться',
+		wordClass: WordClasses.VERB,
+		exampleDe: 'Der Abend ließ in ruhiger Atmosphäre ausklingen.',
+		exampleRu: 'Вечер завершился в спокойной атмосфере.',
+		fileKeyUploadthing: 'Yosg29JtFzNhX0CZh8q9khKSUvpJeH506yLiP3w8TAdGr7ua',
+	},
+	{
+		id: 135,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'jemandem etwas nahebringen',
+		wordRu: 'объяснять кому-то что-то, делать понятным',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Der Lehrer konnte den Schülern die komplexe Theorie verständlich nahebringen.',
+		exampleRu:
+			'Учитель сумел объяснить сложную теорию понятным языком для учеников.',
+		fileKeyUploadthing: 'Yosg29JtFzNhAGNnfZulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
 	},
 ]
