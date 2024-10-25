@@ -1569,4 +1569,40 @@ export const data: ILanguageCard[] = [
 			'Учитель сумел объяснить сложную теорию понятным языком для учеников.',
 		fileKeyUploadthing: 'Yosg29JtFzNhAGNnfZulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
 	},
+	{
+		id: 136,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'verwöhnen',
+		wordRu: 'баловать',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Das Hotelpersonal verwöhnte die Gäste mit besonderen Aufmerksamkeiten.',
+		exampleRu: 'Персонал отеля баловал гостей особыми вниманием и заботой.',
+		fileKeyUploadthing: 'Yosg29JtFzNh0oXmDmLSHd98mAhbqVNOczXjJBnyGrFoI6PR',
+	},
+	{
+		id: 137,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'auf die Probe stellen',
+		wordRu: 'испытать, подвергнуть проверке',
+		wordClass: WordClasses.VERB,
+		exampleDe:
+			'Das extreme Wetter stellte die Fähigkeiten der Bergsteiger auf die Probe.',
+		exampleRu:
+			'Экстремальные погодные условия подвергли способности альпинистов испытанию.',
+		fileKeyUploadthing: 'Yosg29JtFzNhF99eWelTubBCpndtMKSeV7IPW4zZa0vXUywL',
+	},
+	{
+		id: 138,
+		article: 'das',
+		pluralEnding: '',
+		wordDe: 'das Andenken',
+		wordRu: 'сувенир, память, воспоминание',
+		wordClass: WordClasses.NEUTRAL,
+		exampleDe: 'Sie kaufte ein kleines Andenken an die Reise.',
+		exampleRu: 'Она купила небольшой сувенир на память о поездке.',
+		fileKeyUploadthing: 'Yosg29JtFzNhhAzyKrIdR9r06GDKfBbSoICYuEPtT5glMaJH',
+	},
 ]
