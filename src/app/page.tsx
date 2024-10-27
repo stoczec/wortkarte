@@ -11,7 +11,7 @@ export default function Home() {
 			<Image src="/favicon.ico" alt="logo" width={320} height={576} />
 			<Link href="/page/1">
 				<Button size={'lg'} className="text-lg">
-					Los geht's!
+					Los geht&lsquo;s!
 				</Button>
 			</Link>
 		</section>
