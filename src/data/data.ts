@@ -1751,4 +1751,17 @@ export const data: ILanguageCard[] = [
 			'Фермер каждый день усердно работает на поле, чтобы производить свежие продукты.',
 		fileKeyUploadthing: 'Yosg29JtFzNhGsOnkhUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2j',
 	},
+	{
+		id: 151,
+		article: 'die',
+		pluralEnding: ', -en',
+		wordDe: 'Eiszeit',
+		wordRu: 'ледниковый период',
+		wordClass: WordClasses.FEMININ,
+		exampleDe:
+			'Die Eiszeit hat die Landschaften der Erde stark geprägt, mit Gletschern und eiszeitlichen Seen.',
+		exampleRu:
+			'Ледниковый период сильно изменил ландшафты Земли, оставив после себя ледники и ледниковые озёра.',
+		fileKeyUploadthing: 'Yosg29JtFzNhqaRnv0goHMb4Fx3SuAL2OkR1JDz8hvClYy5f',
+	},
 ]
