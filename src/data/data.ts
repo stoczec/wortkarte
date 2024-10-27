@@ -1664,4 +1664,28 @@ export const data: ILanguageCard[] = [
 		exampleRu: 'Родители запретили своему ребенку выходить по ночам.',
 		fileKeyUploadthing: 'Yosg29JtFzNhwuVaM5KbKx3oQcHXA85iDdYagnsSZVFPkheU',
 	},
+	{
+		id: 144,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'enorm',
+		wordRu: 'огромный, значительный',
+		wordClass: WordClasses.ADJEKTIV,
+		exampleDe: 'Das ist das enormste Gebäude in der ganzen Stadt.',
+		exampleRu: 'Это самое огромное здание в городе.',
+		fileKeyUploadthing: 'Yosg29JtFzNhhCbii7IdR9r06GDKfBbSoICYuEPtT5glMaJH',
+	},
+	{
+		id: 145,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'geistige Umnachtung',
+		wordRu: 'помрачение рассудка, умопомрачение',
+		wordClass: WordClasses.FEMININ,
+		exampleDe:
+			'In einem Moment geistiger Umnachtung handelte er völlig unüberlegt.',
+		exampleRu:
+			'В момент помрачения рассудка он поступил совершенно необдуманно.',
+		fileKeyUploadthing: 'Yosg29JtFzNhT2cq9254978sPWymYbGCLVwivJjoSRlhteBc',
+	},
 ]
