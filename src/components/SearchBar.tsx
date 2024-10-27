@@ -1,3 +1,4 @@
+import React from 'react'
 import { X, Search } from 'lucide-react'
 import { Input } from './ui/input'
 

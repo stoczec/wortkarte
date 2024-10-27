@@ -1,9 +1,8 @@
 'use client'
 
+import React from 'react'
 import { Separator } from '@/components/ui/separator'
-import { Mail, Linkedin } from 'lucide-react'
 import Link from 'next/link'
-import { Snippet } from '@nextui-org/snippet'
 import Image from 'next/image'
 
 export default function Contacts() {

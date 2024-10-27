@@ -1,8 +1,8 @@
 'use client'
 
+import React from 'react'
 import { usePathname } from 'next/navigation'
-import { PaginatedList, SearchBar } from '@/components'
-import { useFilteredCards } from '@/hooks'
+import { PaginatedList } from '@/components'
 import { useAllCardsStore } from '@/stores'
 
 export default function PaginatedPage() {

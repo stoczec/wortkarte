@@ -1,5 +1,5 @@
 'use client'
-
+import React from 'react'
 import { GrammarTable } from '@/components'
 import { Separator } from '@/components/ui/separator'
 

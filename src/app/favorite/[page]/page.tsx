@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react'
 import { AddToFavoritesCard, Loader, PaginatedList } from '@/components'
 import { useFavoriteCardsStore } from '@/stores'
 import { usePathname } from 'next/navigation'

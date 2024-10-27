@@ -1,3 +1,4 @@
+import React from 'react'
 import { ILanguageCard } from '@/interfaces/interfaces'
 import { MaxWidthWrapper, WordCard } from '.'
 import { Carousel, CarouselContent, CarouselItem } from './ui/carousel'

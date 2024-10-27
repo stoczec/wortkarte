@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react'
 import {
 	Sheet,
 	SheetContent,
@@ -12,9 +13,7 @@ import { ModeToggle, NavMenu } from '.'
 import { Separator } from './ui/separator'
 import { Menu } from 'lucide-react'
 
-const SHEET_SIDES = ['right'] as const
-
-type SheetSide = (typeof SHEET_SIDES)[number]
+// const SHEET_SIDES = ['right'] as const
 
 export function BurgerMenu() {
 	return (

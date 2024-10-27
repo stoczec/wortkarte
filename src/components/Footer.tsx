@@ -1,11 +1,9 @@
 'use client'
 
-import { MaxWidthWrapper, SearchBar } from '.'
-import { useFilteredCards } from '@/hooks'
+import React from 'react'
+import { MaxWidthWrapper } from '.'
 
 export const Footer = () => {
-	const { searchQuery, updateSearchQuery } = useFilteredCards()
-
 	return (
 		<footer className="w-full h-12 border-t border-gray-200 bg-black/5 flex-grow-0 flex-shrink-0 basis-auto">
 			<MaxWidthWrapper className="flex justify-center items-center">

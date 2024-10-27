@@ -1,5 +1,5 @@
 'use client'
-
+import React from 'react'
 import { CustomPagination, WordCarousel } from '@/components'
 import { IPaginatedProps } from '@/interfaces/interfaces'
 import { useAllCardsStore } from '@/stores'

@@ -1,8 +1,7 @@
 'use client'
-
+import React from 'react'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
-import { useAllCardsStore } from '@/stores'
 import Image from 'next/image'
 
 export default function Home() {

@@ -1,6 +1,3 @@
-import { log } from 'console'
-import { url } from 'inspector'
-import image from 'next/image'
 import { createUploadthing, type FileRouter } from 'uploadthing/next'
 import { UploadThingError } from 'uploadthing/server'
 
