@@ -1688,4 +1688,67 @@ export const data: ILanguageCard[] = [
 			'В момент помрачения рассудка он поступил совершенно необдуманно.',
 		fileKeyUploadthing: 'Yosg29JtFzNhT2cq9254978sPWymYbGCLVwivJjoSRlhteBc',
 	},
+	{
+		id: 146,
+		article: 'der',
+		pluralEnding: ', -s',
+		wordDe: 'Segeltörn',
+		wordRu: 'парусный поход',
+		wordClass: WordClasses.MASCULIN,
+		exampleDe:
+			'Der Segeltörn entlang der Küste war ein unvergessliches Erlebnis.',
+		exampleRu: 'Парусный поход вдоль побережья был незабываемым приключением.',
+		fileKeyUploadthing: 'Yosg29JtFzNhhzjOX2IdR9r06GDKfBbSoICYuEPtT5glMaJH',
+	},
+	{
+		id: 147,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'ausbauen',
+		wordRu: 'расширять, развивать',
+		wordClass: WordClasses.VERB,
+		exampleDe: 'Sie wollen das alte Haus zu einem modernen Wohnsitz ausbauen.',
+		exampleRu:
+			'Они хотят расширить и преобразовать старый дом в современное жилище.',
+		fileKeyUploadthing: 'Yosg29JtFzNhTHvR0n54978sPWymYbGCLVwivJjoSRlhteBc',
+	},
+	{
+		id: 148,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'liebenswert',
+		wordRu: 'милый, очаровательный',
+		wordClass: WordClasses.ADJEKTIV,
+		exampleDe:
+			'Das kleine Kätzchen ist so liebenswert, dass jeder es sofort ins Herz schließt.',
+		exampleRu:
+			'Этот маленький котёнок такой милый, что каждый сразу его полюбит.',
+		fileKeyUploadthing: 'Yosg29JtFzNhVk6nN7QGWr0oIbjYndiBXl2ukOh78NvP3ecJ',
+	},
+	{
+		id: 149,
+		article: '',
+		pluralEnding: '',
+		wordDe: 'nachhaltig',
+		wordRu: 'устойчивый, долгосрочный',
+		wordClass: WordClasses.ADJEKTIV,
+		exampleDe:
+			'Das Unternehmen setzt auf nachhaltig produzierte Materialien, um die Umwelt zu schonen.',
+		exampleRu:
+			'Компания использует устойчиво производимые материалы, чтобы беречь окружающую среду.',
+		fileKeyUploadthing: 'Yosg29JtFzNhxUw3LwomdaqpS3zs71DFeJYoM4NUW5OEbPwj',
+	},
+	{
+		id: 150,
+		article: 'der',
+		pluralEnding: ', -n',
+		wordDe: 'Bauer',
+		wordRu: 'фермер, крестьянин',
+		wordClass: WordClasses.MASCULIN,
+		exampleDe:
+			'Der Bauer arbeitet jeden Tag hart auf dem Feld, um frische Lebensmittel zu produzieren.',
+		exampleRu:
+			'Фермер каждый день усердно работает на поле, чтобы производить свежие продукты.',
+		fileKeyUploadthing: 'Yosg29JtFzNhGsOnkhUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2j',
+	},
 ]
