@@ -5,20 +5,20 @@ import { usePathname } from 'next/navigation'
 import { Loader, PaginatedList } from '@/components'
 import { useAllCardsStore } from '@/stores'
 
-export default function PaginatedPage() {
+export default function ShuffledPage() {
 	const pathname = usePathname()
 	const pageParam = pathname.split('/').pop() || '1'
 	const currentPage = Number(pageParam)
 
 	// const { filteredCards, searchQuery, updateSearchQuery } = useFilteredCards()
-	const { cards } = useAllCardsStore()
+	const { shuffledCards } = useAllCardsStore()
 	const [loading, setLoading] = useState(true)
 
 	useEffect(() => {
-		if (cards) {
+		if (shuffledCards) {
 			setLoading(false)
 		}
-	}, [cards])
+	}, [shuffledCards])
 
 	if (loading) {
 		return (
@@ -30,7 +30,11 @@ export default function PaginatedPage() {
 
 	return (
 		<div className="h-full">
-			<PaginatedList cards={cards} pageName="page" currentPage={currentPage} />
+			<PaginatedList
+				cards={shuffledCards}
+				pageName="shuffled"
+				currentPage={currentPage}
+			/>
 			{/* <SearchBar searchQuery={searchQuery} setSearchQuery={updateSearchQuery} /> */}
 		</div>
 	)

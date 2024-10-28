@@ -15,6 +15,7 @@ import {
 	GalleryHorizontalEnd,
 	MessageCircleDashed,
 	Contact,
+	Shuffle,
 } from 'lucide-react'
 import { useAllCardsStore, useFavoriteCardsStore } from '@/stores'
 
@@ -48,6 +49,22 @@ export const NavMenu = () => {
 					>
 						<GalleryHorizontalEnd />
 						Alle Karten
+						<Badge variant="default" className="bg-primary">
+							{cards.length} Stück
+						</Badge>
+					</NavigationMenuLink>
+				</NavigationMenuItem>
+
+				<NavigationMenuItem className="w-full">
+					<NavigationMenuLink
+						href="/shuffled/1"
+						className={cn(
+							navigationMenuTriggerStyle(),
+							'w-full flex justify-start gap-2 px-2'
+						)}
+					>
+						<Shuffle />
+						Gemischten Karten
 						<Badge variant="default" className="bg-primary">
 							{cards.length} Stück
 						</Badge>
