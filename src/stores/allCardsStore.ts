@@ -12,12 +12,12 @@ function shuffleArray(array: ILanguageCard[]) {
 	return shuffled
 }
 
+const shuffled = shuffleArray(data)
+
 export const useAllCardsStore = create<IAllCardsStore>(set => ({
 	cards: data.flatMap(card => [card, ...(card.multiple || [])]),
 	loading: true,
 	itemsPerPage: 5,
 	setLoading: isLoading => set({ loading: isLoading }),
-	shuffledCards: shuffleArray(
-		data.flatMap(card => [card, ...(card.multiple || [])])
-	),
+	shuffledCards: shuffled.flatMap(card => [card, ...(card.multiple || [])]),
 }))
