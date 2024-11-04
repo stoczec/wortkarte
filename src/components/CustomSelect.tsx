@@ -20,7 +20,7 @@ export const CustomSelect = () => {
     return (
         <div className="w-full flex justify-start gap-2 px-2">
             <Select onValueChange={handleSelectChange}>
-                <SelectTrigger className="w-[260px]">
+                <SelectTrigger className="w-[250px]">
                     <SelectValue placeholder="Anzahl der angezeigten Karten" />
                 </SelectTrigger>
                 <SelectContent>
