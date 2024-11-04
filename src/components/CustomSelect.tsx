@@ -13,10 +13,8 @@ import { useAllCardsStore } from '@/stores'
 export const CustomSelect = () => {
     const setItemsPerPage = useAllCardsStore(state => state.setItemsPerPage)
     const itemsPerPage = useAllCardsStore(state => state.itemsPerPage)
-    console.log(itemsPerPage)
 
     const handleSelectChange = (value: string) => {
-        console.log('value: ' + value)
         setItemsPerPage(Number(value))
     }
     return (
