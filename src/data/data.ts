@@ -2077,4 +2077,68 @@ export const data: ILanguageCard[] = [
         exampleRu: 'Он любит горы, а она, напротив, предпочитает море.',
         fileKeyUploadthing: 'Yosg29JtFzNh0MqzWmLSHd98mAhbqVNOczXjJBnyGrFoI6PR',
     },
+    {
+        id: 176,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Lerneinheit',
+        wordRu: 'учебный модуль, занятие',
+        wordClass: WordClasses.FEMININ,
+        exampleDe:
+            'In jeder Lerneinheit werden neue Themen behandelt, die aufeinander aufbauen.',
+        exampleRu:
+            'В каждом учебном модуле изучаются новые темы, которые последовательно дополняют друг друга.',
+        fileKeyUploadthing: 'Yosg29JtFzNh8G4Jvg1pEDTtnbqjYeRBhIVLQSxJWXgs3COU',
+    },
+    {
+        id: 177,
+        article: 'der',
+        pluralEnding: ', -e',
+        wordDe: 'Reiz',
+        wordRu: 'привлекательность, стимул',
+        wordClass: WordClasses.MASCULIN,
+        exampleDe:
+            'Der Reiz der neuen Stadt lag in ihrer Mischung aus Geschichte und Moderne.',
+        exampleRu:
+            'Привлекательность нового города заключалась в его сочетании истории и современности.',
+        fileKeyUploadthing: 'Yosg29JtFzNhzF2STFpFPErID6hOu9WUTsic5yqdxGH0YQ1L',
+    },
+    {
+        id: 178,
+        article: 'der',
+        pluralEnding: '',
+        wordDe: 'Vorsprung',
+        wordRu: 'преимущество, отрыв',
+        wordClass: WordClasses.MASCULIN,
+        exampleDe:
+            'Durch seine Erfahrung hatte er einen deutlichen Vorsprung vor den anderen Bewerbern.',
+        exampleRu:
+            'Благодаря своему опыту он имел явное преимущество перед другими кандидатами.',
+        fileKeyUploadthing: 'Yosg29JtFzNhhnEQBQIdR9r06GDKfBbSoICYuEPtT5glMaJH',
+    },
+    {
+        id: 179,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'jemandem etwas abverlangen',
+        wordRu: 'требовать что-то от кого-то',
+        wordClass: WordClasses.VERB,
+        exampleDe:
+            'Das anspruchsvolle Projekt verlangte ihm all seine Geduld ab.',
+        exampleRu: 'Этот сложный проект потребовал от него всего его терпения.',
+        fileKeyUploadthing: 'Yosg29JtFzNhuu2TOHz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
+    },
+    {
+        id: 180,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'etwas einprägen',
+        wordRu: 'запомнить что-то',
+        wordClass: WordClasses.VERB,
+        exampleDe:
+            'Er versuchte, sich die komplizierte Formel einzuprägen, indem er sie immer wieder aufsagte.',
+        exampleRu:
+            'Он пытался запомнить сложную формулу, повторяя её снова и снова.',
+        fileKeyUploadthing: 'Yosg29JtFzNhFMqDraTubBCpndtMKSeV7IPW4zZa0vXUywL5',
+    },
 ]
