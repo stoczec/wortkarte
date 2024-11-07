@@ -21,9 +21,9 @@ export const WordLevelSelect = () => {
                 </SelectTrigger>
                 <SelectContent>
                     <SelectGroup>
-                        <SelectItem value="5">A2-B2</SelectItem>
-                        <SelectItem value="10">C1 Sicher!</SelectItem>
-                        <SelectItem value="10">C1 Beruf</SelectItem>
+                        <SelectItem value="A2_B2">A2-B2</SelectItem>
+                        <SelectItem value="C1_Sicher">C1 Sicher!</SelectItem>
+                        <SelectItem value="C1_Beruf">C1 Beruf</SelectItem>
                     </SelectGroup>
                 </SelectContent>
             </Select>
