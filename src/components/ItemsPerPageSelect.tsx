@@ -10,7 +10,7 @@ import {
 import { Badge } from '@/components/ui/badge'
 import { useAllCardsStore } from '@/stores'
 
-export const CustomSelect = () => {
+export const ItemsPerPageSelect = () => {
     const setItemsPerPage = useAllCardsStore(state => state.setItemsPerPage)
     const itemsPerPage = useAllCardsStore(state => state.itemsPerPage)
 
@@ -18,10 +18,10 @@ export const CustomSelect = () => {
         setItemsPerPage(Number(value))
     }
     return (
-        <div className="w-full flex justify-start gap-2 px-2">
+        <div className="w-full flex justify-start gap-2 px-1">
             <Select onValueChange={handleSelectChange}>
-                <SelectTrigger className="w-[250px]">
-                    <SelectValue placeholder="Anzahl der angezeigten Karten" />
+                <SelectTrigger className="w-[240px]">
+                    <SelectValue placeholder="Anzahl der Karten per Seite" />
                 </SelectTrigger>
                 <SelectContent>
                     <SelectGroup>
