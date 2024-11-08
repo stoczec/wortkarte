@@ -123,4 +123,15 @@ export const A2_B2_data: ILanguageCard[] = [
         exampleRu: 'Я начинаю работать.',
         fileKeyUploadthing: 'Yosg29JtFzNhwm0DFJbKx3oQcHXA85iDdYagnsSZVFPkheU4',
     },
+    // {
+    //     id: `12-${WordLevels.A2B2}`,
+    //     article: '',
+    //     pluralEnding: '',
+    //     wordDe: 'bieten, bietet, hat geboten',
+    //     wordRu: 'предлагать',
+    //     wordClass: WordClasses.VERB,
+    //     exampleDe: 'Er bietet seine Hilfe an.',
+    //     exampleRu: 'Он предлагает свою помощь.',
+    //     fileKeyUploadthing: "",
+    //   }
 ]

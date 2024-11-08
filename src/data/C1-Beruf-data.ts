@@ -36,4 +36,15 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Гадалка обманывает людей, давая им ложные предсказания.',
         fileKeyUploadthing: '',
     },
+    {
+        id: `4-${WordLevels.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'biegen, biegt, hat gebogen',
+        wordRu: 'сгибать',
+        wordClass: WordClasses.VERB,
+        exampleDe: 'Er biegt den Draht.',
+        exampleRu: 'Он сгибает проволоку.',
+        fileKeyUploadthing: 'Yosg29JtFzNh5d2QjX9o7UlyJrOGAjeSa6FfcBquN4z89m2P',
+    },
 ]
