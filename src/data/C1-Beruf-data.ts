@@ -13,4 +13,28 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Генерал приказывает своим войскам отступить.',
         fileKeyUploadthing: 'Yosg29JtFzNh8x6IDb1pEDTtnbqjYeRBhIVLQSxJWXgs3COU',
     },
+    {
+        id: `2-${WordLevels.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'befürchten, befürchtet, hat befürchtet',
+        wordRu: 'бояться, опасаться',
+        wordClass: WordClasses.VERB,
+        exampleDe:
+            'Ich befürchte, dass es regnen wird, deshalb bereite ich meinen Regenschirm vor.',
+        exampleRu: 'Я боюсь, что будет дождь, и подготавливаю зонтик.',
+        fileKeyUploadthing: 'Yosg29JtFzNh8xswTf1pEDTtnbqjYeRBhIVLQSxJWXgs3COU',
+    },
+    {
+        id: `3-${WordLevels.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'befürchten, befürchtet, hat befürchtet',
+        wordRu: 'бояться, опасаться',
+        wordClass: WordClasses.VERB,
+        exampleDe:
+            'Ich befürchte, dass es regnen wird, deshalb bereite ich meinen Regenschirm vor.',
+        exampleRu: 'Я боюсь, что будет дождь, и подготавливаю зонтик.',
+        fileKeyUploadthing: 'Yosg29JtFzNhU2OPtWcAx1lePRnpGv52BK4HaVMoFTEJC3fq',
+    },
 ]
