@@ -9,7 +9,7 @@ import {
     SheetTitle,
     SheetTrigger,
 } from '@/components/ui/sheet'
-import { CustomSelect, ModeToggle, NavMenu } from '.'
+import { ItemsPerPageSelect, ModeToggle, NavMenu, WordLevelSelect } from '.'
 import { Separator } from './ui/separator'
 import { Menu } from 'lucide-react'
 import { useAllCardsStore } from '@/stores'
@@ -22,10 +22,7 @@ export function BurgerMenu() {
             <SheetTrigger asChild className="flex justify-center items-center">
                 <Menu className="cursor-pointer" />
             </SheetTrigger>
-            <SheetContent
-                side="right"
-                className="flex flex-col justify-start h-full"
-            >
+            <SheetContent side="right" className="flex flex-col justify-start h-full">
                 <SheetTitle className="p-2">Navigation</SheetTitle>
                 <SheetDescription className="px-2">
                     Wählen Sie einen Bereich zum Navigieren aus
@@ -36,7 +33,11 @@ export function BurgerMenu() {
                 <NavMenu />
 
                 <Separator />
-                <CustomSelect />
+                <ItemsPerPageSelect />
+
+                <Separator />
+
+                <WordLevelSelect />
                 <Separator />
 
                 <div className="flex justify-between items-center px-2 text-sm flex-grow-0 flex-shrink-0">
@@ -44,7 +45,6 @@ export function BurgerMenu() {
                     <ModeToggle />
                 </div>
                 {/* </ul> */}
-                <Separator />
 
                 <SheetFooter className="flex flex-col justify-center items-center mt-auto sm:justify-center sm:flex-col flex-grow-0 flex-shrink-0 gap-2">
                     <Separator />

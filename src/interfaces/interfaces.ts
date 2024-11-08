@@ -1,7 +1,7 @@
-import { WordClasses } from '@/enums/enums'
+import { WordClasses, WordLevels } from '@/enums/enums'
 
 export interface ILanguageCard {
-    id: number
+    id: any
     article: string
     pluralEnding: string
     wordDe: string
@@ -33,6 +33,7 @@ export interface IAllCardsStore {
     itemsPerPage: number
     setLoading: (isLoading: boolean) => void
     setItemsPerPage: (items: number) => void
+    setCardsByLevel: (level: WordLevels) => void
 }
 
 export interface IFavoriteCardsStore {
