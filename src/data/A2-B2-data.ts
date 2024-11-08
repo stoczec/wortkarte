@@ -17,7 +17,7 @@ export const A2_B2_data: ILanguageCard[] = [
         id: `2-${WordLevels.A2B2}`,
         article: '',
         pluralEnding: '',
-        wordDe: 'brennen',
+        wordDe: 'brennen, brennt, hat gebrannt',
         wordRu: 'гореть, пылать',
         wordClass: WordClasses.VERB,
         exampleDe: 'Das Feuer brennt hell und wärmt uns in der kalten Nacht.',
