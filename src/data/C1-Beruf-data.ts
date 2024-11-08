@@ -29,12 +29,11 @@ export const C1_Beruf_data: ILanguageCard[] = [
         id: `3-${WordLevels.C1BERUF}`,
         article: '',
         pluralEnding: '',
-        wordDe: 'befürchten, befürchtet, hat befürchtet',
-        wordRu: 'бояться, опасаться',
+        wordDe: 'betrügen, betrügt, hat betrogen',
+        wordRu: 'обманывать',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Ich befürchte, dass es regnen wird, deshalb bereite ich meinen Regenschirm vor.',
-        exampleRu: 'Я боюсь, что будет дождь, и подготавливаю зонтик.',
-        fileKeyUploadthing: 'Yosg29JtFzNhU2OPtWcAx1lePRnpGv52BK4HaVMoFTEJC3fq',
+        exampleDe: 'Die Wahrsagerin betrügt die Leute, indem sie ihnen falsche Vorhersagen gibt.',
+        exampleRu: 'Гадалка обманывает людей, давая им ложные предсказания.',
+        fileKeyUploadthing: '',
     },
 ]

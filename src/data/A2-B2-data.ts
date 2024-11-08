@@ -112,4 +112,15 @@ export const A2_B2_data: ILanguageCard[] = [
         exampleRu: 'Он мерзнет зимой, несмотря на то, что одет в несколько слоев одежды.',
         fileKeyUploadthing: 'Yosg29JtFzNhMFtmZn4Kq64xuGBkrejT9EQmSYta7vXAKLsz',
     },
+    {
+        id: `11-${WordLevels.A2B2}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'beginnen, beginnt, hat begonnen',
+        wordRu: 'начинать',
+        wordClass: WordClasses.VERB,
+        exampleDe: 'Ich beginne heute mit der Arbeit.',
+        exampleRu: 'Я начинаю работать.',
+        fileKeyUploadthing: 'Yosg29JtFzNhwm0DFJbKx3oQcHXA85iDdYagnsSZVFPkheU4',
+    },
 ]
