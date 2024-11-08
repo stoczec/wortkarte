@@ -1,7 +1,7 @@
 import { WordClasses } from '@/enums/enums'
 import { ILanguageCard } from '@/interfaces/interfaces'
 
-export const data: ILanguageCard[] = [
+export const C1_Sicher_data: ILanguageCard[] = [
     {
         id: 1,
         article: 'die',
@@ -144,8 +144,7 @@ export const data: ILanguageCard[] = [
                 wordClass: WordClasses.VERB,
                 exampleDe: 'Die Kinder kraulen den Hund.',
                 exampleRu: 'Дети гладят собаку.',
-                fileKeyUploadthing:
-                    'Yosg29JtFzNhcBGzHhvxsIW48BMn5jH2lVp9LzJXDy1TkiKr',
+                fileKeyUploadthing: 'Yosg29JtFzNhcBGzHhvxsIW48BMn5jH2lVp9LzJXDy1TkiKr',
             },
         ],
     },
@@ -178,10 +177,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'die Segel streichen',
         wordRu: 'сложить паруса',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Wir müssen die Segel streichen, weil der Wind zu stark ist.',
-        exampleRu:
-            'Нам нужно сложить паруса, потому что ветер слишком сильный.',
+        exampleDe: 'Wir müssen die Segel streichen, weil der Wind zu stark ist.',
+        exampleRu: 'Нам нужно сложить паруса, потому что ветер слишком сильный.',
         fileKeyUploadthing: 'Yosg29JtFzNhOtfK8GSYJbPBwrh97WFmSMdAVkKZlnevTX08',
 
         multiple: [
@@ -192,11 +189,9 @@ export const data: ILanguageCard[] = [
                 wordDe: 'die Segel streichen',
                 wordRu: 'сдаться, прекратить борьбу',
                 wordClass: WordClasses.VERB,
-                exampleDe:
-                    'In dieser Situation müssen wir die Segel streichen.',
+                exampleDe: 'In dieser Situation müssen wir die Segel streichen.',
                 exampleRu: 'В этой ситуации нам нужно сдаться.',
-                fileKeyUploadthing:
-                    'Yosg29JtFzNhplNXuX2shpGY1ctFIeDyvwu24madHBxoLWRM',
+                fileKeyUploadthing: 'Yosg29JtFzNhplNXuX2shpGY1ctFIeDyvwu24madHBxoLWRM',
             },
         ],
     },
@@ -287,8 +282,7 @@ export const data: ILanguageCard[] = [
                 wordClass: WordClasses.VERB,
                 exampleDe: 'Sie gönnte ihm den Erfolg von Herzen.',
                 exampleRu: 'Она искренне не завидовала его успеху.',
-                fileKeyUploadthing:
-                    'Yosg29JtFzNhfVIGoMZE7ZS8aFTpxy04W6gvboGB5ctDHL2E',
+                fileKeyUploadthing: 'Yosg29JtFzNhfVIGoMZE7ZS8aFTpxy04W6gvboGB5ctDHL2E',
             },
         ],
     },
@@ -299,8 +293,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'missglücken',
         wordRu: 'потерпеть неудачу, не удаваться',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Der Versuch, das Problem zu lösen, missglückte vollständig.',
+        exampleDe: 'Der Versuch, das Problem zu lösen, missglückte vollständig.',
         exampleRu: 'Попытка решить проблему полностью потерпела неудачу.',
         fileKeyUploadthing: 'Yosg29JtFzNhrFi4wsn1sqJTVcNudIg3BDMPtGOXY8K72Ziy',
     },
@@ -325,8 +318,7 @@ export const data: ILanguageCard[] = [
                 wordClass: WordClasses.VERB,
                 exampleDe: 'Sie missgönnte ihm das Glück.',
                 exampleRu: 'Она не желала ему счастья.',
-                fileKeyUploadthing:
-                    'Yosg29JtFzNhJbrIQFfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
+                fileKeyUploadthing: 'Yosg29JtFzNhJbrIQFfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
             },
         ],
     },
@@ -392,8 +384,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'Einsicht',
         wordRu: 'осознание',
         wordClass: WordClasses.FEMININ,
-        exampleDe:
-            'Er kam zu der Einsicht, dass er einen Fehler gemacht hatte.',
+        exampleDe: 'Er kam zu der Einsicht, dass er einen Fehler gemacht hatte.',
         exampleRu: 'Он пришёл к осознанию, что допустил ошибку.',
         fileKeyUploadthing: 'Yosg29JtFzNhCil9077Oc52LSlA4MjeGxyPtkg0ZQhWdHzJu',
     },
@@ -558,8 +549,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'zerkochen',
         wordRu: 'разварить',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Er hat die Kartoffeln zu lange gekocht und sie sind zerkocht.',
+        exampleDe: 'Er hat die Kartoffeln zu lange gekocht und sie sind zerkocht.',
         exampleRu: 'Он слишком долго варил картошку, и она разварилась.',
         fileKeyUploadthing: 'Yosg29JtFzNhbzcvPPRArGwWsaZoXAO0dkh98SbIKMQ2JCfz',
     },
@@ -570,10 +560,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'zerlegen',
         wordRu: 'разбирать',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Der Mechaniker musste den Motor zerlegen, um das Problem zu finden.',
-        exampleRu:
-            'Механик должен был разобрать двигатель, чтобы найти проблему.',
+        exampleDe: 'Der Mechaniker musste den Motor zerlegen, um das Problem zu finden.',
+        exampleRu: 'Механик должен был разобрать двигатель, чтобы найти проблему.',
         fileKeyUploadthing: 'Yosg29JtFzNhXZKB8IWq9khKSUvpJeH506yLiP3w8TAdGr7u',
     },
     {
@@ -705,8 +693,7 @@ export const data: ILanguageCard[] = [
         wordRu: 'удалить сердцевину',
         wordClass: WordClasses.VERB,
         exampleDe: 'Bevor man den Apfel isst, sollte man ihn entkernen.',
-        exampleRu:
-            'Перед тем как есть яблоко, его нужно очистить от сердцевины.',
+        exampleRu: 'Перед тем как есть яблоко, его нужно очистить от сердцевины.',
         fileKeyUploadthing: 'Yosg29JtFzNhxNAJPNmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
     },
     {
@@ -728,8 +715,7 @@ export const data: ILanguageCard[] = [
         wordRu: 'обескураживать',
         wordClass: WordClasses.VERB,
         exampleDe: 'Lass dich nicht entmutigen, auch wenn es schwer wird.',
-        exampleRu:
-            'Не позволяй себе обескураживаться, даже если станет тяжело.',
+        exampleRu: 'Не позволяй себе обескураживаться, даже если станет тяжело.',
         fileKeyUploadthing: 'Yosg29JtFzNhBpmUnjVerN29CWdI6V3bchq7YFQ0GPDR54iO',
     },
     {
@@ -750,10 +736,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'grausam',
         wordRu: 'жестокий, беспощадный',
         wordClass: WordClasses.ADJEKTIV,
-        exampleDe:
-            'Der grausame König ließ niemanden am Leben, der ihm widersprach.',
-        exampleRu:
-            'Жестокий король не оставил в живых никого, кто ему противоречил.',
+        exampleDe: 'Der grausame König ließ niemanden am Leben, der ihm widersprach.',
+        exampleRu: 'Жестокий король не оставил в живых никого, кто ему противоречил.',
         fileKeyUploadthing: 'Yosg29JtFzNhxRc1JjmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
     },
     {
@@ -800,8 +784,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.VERB,
         exampleDe:
             'Die Strafe kann dem Täter seine Freiheit entziehen, wenn er gegen das Gesetz verstößt.',
-        exampleRu:
-            'Наказание может лишить преступника свободы, если он нарушит закон.',
+        exampleRu: 'Наказание может лишить преступника свободы, если он нарушит закон.',
         fileKeyUploadthing: 'Yosg29JtFzNhGClNQWOUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2',
     },
     {
@@ -811,10 +794,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'Andeutung',
         wordRu: 'намек, подсказывание',
         wordClass: WordClasses.FEMININ,
-        exampleDe:
-            'Seine Andeutung ließ uns vermuten, dass er etwas Geheimnisvolles plant.',
-        exampleRu:
-            'Его намек заставил нас заподозрить, что он планирует что-то таинственное.',
+        exampleDe: 'Seine Andeutung ließ uns vermuten, dass er etwas Geheimnisvolles plant.',
+        exampleRu: 'Его намек заставил нас заподозрить, что он планирует что-то таинственное.',
         fileKeyUploadthing: 'Yosg29JtFzNh2SLco8YvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
     },
     {
@@ -824,10 +805,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'Pointe',
         wordRu: 'кульминация',
         wordClass: WordClasses.FEMININ,
-        exampleDe:
-            'Die Pointe der Geschichte überraschte alle Zuhörer und brachte sie zum Lachen.',
-        exampleRu:
-            'Кульминация истории удивила всех слушателей и заставила их смеяться.',
+        exampleDe: 'Die Pointe der Geschichte überraschte alle Zuhörer und brachte sie zum Lachen.',
+        exampleRu: 'Кульминация истории удивила всех слушателей и заставила их смеяться.',
         fileKeyUploadthing: 'Yosg29JtFzNhzMM7YpFPErID6hOu9WUTsic5yqdxGH0YQ1LR',
     },
     {
@@ -839,8 +818,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.VERB,
         exampleDe:
             'Es ist wichtig, mit den neuesten Entwicklungen in der Technologie mithalten zu können.',
-        exampleRu:
-            'Важно уметь соперничать с последними достижениями в технологии.',
+        exampleRu: 'Важно уметь соперничать с последними достижениями в технологии.',
         fileKeyUploadthing: 'Yosg29JtFzNhIoq6gb1XjGtPnx5WlKFgyNY93L2wqA8bODCe',
     },
     {
@@ -864,8 +842,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.ADJEKTIV,
         exampleDe:
             'Der langatmige Vortrag hielt die Zuhörer in einem ständigen Zustand der Langeweile.',
-        exampleRu:
-            'Затянутая лекция оставила слушателей в постоянном состоянии скуки.',
+        exampleRu: 'Затянутая лекция оставила слушателей в постоянном состоянии скуки.',
         fileKeyUploadthing: 'Yosg29JtFzNhJP3aUafcMyl2V46DGiNWAse9zQUT5pOkEKaB',
     },
     {
@@ -875,8 +852,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'umwerfend',
         wordRu: 'поразительный, ошеломляющий',
         wordClass: WordClasses.ADJEKTIV,
-        exampleDe:
-            'Die umwerfende Aussicht von der Bergspitze ließ uns sprachlos.',
+        exampleDe: 'Die umwerfende Aussicht von der Bergspitze ließ uns sprachlos.',
         exampleRu: 'Поразительный вид с вершины горы оставил нас без слов.',
         fileKeyUploadthing: 'Yosg29JtFzNhnn7oe238yHS4RL3AgWpO2GQ1TvcIh9aB6KbE',
     },
@@ -889,8 +865,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.FEMININ,
         exampleDe:
             'Die Frage nach dem Sinn des Lebens ist eine Sache an sich und erfordert tiefes Nachdenken.',
-        exampleRu:
-            'Вопрос о смысле жизни — это вещь сама по себе и требует глубокого размышления.',
+        exampleRu: 'Вопрос о смысле жизни — это вещь сама по себе и требует глубокого размышления.',
         fileKeyUploadthing: 'Yosg29JtFzNhf8BbnXE7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
     },
     {
@@ -902,8 +877,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.VERB,
         exampleDe:
             'Es ist wichtig, den Bedürfnissen der Kinder Beachtung zu schenken, um ihre Entwicklung zu fördern.',
-        exampleRu:
-            'Важно уделять внимание нуждам детей, чтобы способствовать их развитию.',
+        exampleRu: 'Важно уделять внимание нуждам детей, чтобы способствовать их развитию.',
         fileKeyUploadthing: 'Yosg29JtFzNhkXoGUTIhXtQ6BK7viORPW5L9sxm4bchzE3J0',
     },
     {
@@ -924,10 +898,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'Durchsage',
         wordRu: 'объявление, сообщение (по громкоговорителю)',
         wordClass: WordClasses.FEMININ,
-        exampleDe:
-            'Die Durchsage am Bahnhof informierte uns über die Verspätung des Zuges.',
-        exampleRu:
-            'Объявление на вокзале проинформировало нас о задержке поезда.',
+        exampleDe: 'Die Durchsage am Bahnhof informierte uns über die Verspätung des Zuges.',
+        exampleRu: 'Объявление на вокзале проинформировало нас о задержке поезда.',
         fileKeyUploadthing: 'Yosg29JtFzNhTNdRTo54978sPWymYbGCLVwivJjoSRlhteBc',
     },
     {
@@ -937,10 +909,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'Umgangsform',
         wordRu: 'манера общения, правила поведения',
         wordClass: WordClasses.FEMININ,
-        exampleDe:
-            'Gute Umgangsformen sind wichtig, um einen positiven Eindruck zu hinterlassen.',
-        exampleRu:
-            'Хорошие манеры важны для того, чтобы произвести положительное впечатление.',
+        exampleDe: 'Gute Umgangsformen sind wichtig, um einen positiven Eindruck zu hinterlassen.',
+        exampleRu: 'Хорошие манеры важны для того, чтобы произвести положительное впечатление.',
         fileKeyUploadthing: 'Yosg29JtFzNhIvg2GvXjGtPnx5WlKFgyNY93L2wqA8bODCei',
     },
     {
@@ -950,8 +920,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'Verzögerung',
         wordRu: 'задержка, промедление',
         wordClass: WordClasses.FEMININ,
-        exampleDe:
-            'Die Verzögerung des Projekts führte zu unerwarteten Kosten.',
+        exampleDe: 'Die Verzögerung des Projekts führte zu unerwarteten Kosten.',
         exampleRu: 'Задержка проекта привела к неожиданным расходам.',
         fileKeyUploadthing: 'Yosg29JtFzNhCKEW8uOc52LSlA4MjeGxyPtkg0ZQhWdHzJuF',
     },
@@ -962,10 +931,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'Betätigung',
         wordRu: 'деятельность, занятие',
         wordClass: WordClasses.FEMININ,
-        exampleDe:
-            'Körperliche Betätigung ist wichtig, um fit und gesund zu bleiben.',
-        exampleRu:
-            'Физическая деятельность важна для поддержания формы и здоровья.',
+        exampleDe: 'Körperliche Betätigung ist wichtig, um fit und gesund zu bleiben.',
+        exampleRu: 'Физическая деятельность важна для поддержания формы и здоровья.',
         fileKeyUploadthing: 'Yosg29JtFzNhpZcv4g2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
@@ -975,8 +942,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'Einsatz',
         wordRu: 'применение, использование, усилие',
         wordClass: WordClasses.MASCULIN,
-        exampleDe:
-            'Sein Einsatz im Team war entscheidend für den Erfolg des Projekts.',
+        exampleDe: 'Sein Einsatz im Team war entscheidend für den Erfolg des Projekts.',
         exampleRu: 'Его усилия в команде были решающими для успеха проекта.',
         fileKeyUploadthing: 'Yosg29JtFzNhpQBKL62shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
@@ -1013,8 +979,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.FEMININ,
         exampleDe:
             'Die Kreuzfahrt durch das Mittelmeer bot unvergessliche Ausblicke und Erlebnisse.',
-        exampleRu:
-            'Круиз по Средиземному морю подарил незабываемые виды и впечатления.',
+        exampleRu: 'Круиз по Средиземному морю подарил незабываемые виды и впечатления.',
         fileKeyUploadthing: 'Yosg29JtFzNhIyZfRCXjGtPnx5WlKFgyNY93L2wqA8bODCei',
     },
     {
@@ -1024,8 +989,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'Page',
         wordRu: 'посыльный, коридорный',
         wordClass: WordClasses.MASCULIN,
-        exampleDe:
-            'Der Page trug unser Gepäck ins Hotelzimmer und zeigte uns den Weg.',
+        exampleDe: 'Der Page trug unser Gepäck ins Hotelzimmer und zeigte uns den Weg.',
         exampleRu: 'Посыльный отнес наш багаж в номер и показал нам путь.',
         fileKeyUploadthing: 'Yosg29JtFzNhAAm50FulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
     },
@@ -1049,8 +1013,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.VERB,
         exampleDe:
             'Das alte Café hat einen neuen Anstrich bekommen und sieht jetzt viel einladender aus.',
-        exampleRu:
-            'Старое кафе обновили, и теперь оно выглядит гораздо уютнее.',
+        exampleRu: 'Старое кафе обновили, и теперь оно выглядит гораздо уютнее.',
         fileKeyUploadthing: 'Yosg29JtFzNhzA25AWpFPErID6hOu9WUTsic5yqdxGH0YQ1L',
     },
     {
@@ -1060,10 +1023,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'in der Lage sein',
         wordRu: 'быть в состоянии, быть способным',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Nach jahrelangem Training ist er nun in der Lage, den Marathon zu laufen.',
-        exampleRu:
-            'После многолетних тренировок она теперь способна пробежать марафон.',
+        exampleDe: 'Nach jahrelangem Training ist er nun in der Lage, den Marathon zu laufen.',
+        exampleRu: 'После многолетних тренировок она теперь способна пробежать марафон.',
         fileKeyUploadthing: 'Yosg29JtFzNhvookOi8GDSXB4RHWIPwtqLFUmnjci5ChdEAJ',
     },
     {
@@ -1073,10 +1034,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'von der Pike auf lernen',
         wordRu: 'учиться с нуля, начинать с самого начала',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Er hat das Handwerk von der Pike auf gelernt und ist jetzt ein echter Meister.',
-        exampleRu:
-            'Он изучил это ремесло с нуля и теперь стал настоящим мастером.',
+        exampleDe: 'Er hat das Handwerk von der Pike auf gelernt und ist jetzt ein echter Meister.',
+        exampleRu: 'Он изучил это ремесло с нуля и теперь стал настоящим мастером.',
         fileKeyUploadthing: 'Yosg29JtFzNhwJCDGkbKx3oQcHXA85iDdYagnsSZVFPkheU4',
     },
     {
@@ -1088,8 +1047,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.VERB,
         exampleDe:
             'Nach vielen Überlegungen hat sie beschlossen, einen neuen Weg einzuschlagen und ihren Traum zu verfolgen.',
-        exampleRu:
-            'После долгих раздумий она решила выбрать новый путь и следовать своей мечте.',
+        exampleRu: 'После долгих раздумий она решила выбрать новый путь и следовать своей мечте.',
         fileKeyUploadthing: 'Yosg29JtFzNh2DwmSbYvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
     },
     {
@@ -1121,10 +1079,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'Attest',
         wordRu: 'справка, удостоверение',
         wordClass: WordClasses.NEUTRAL,
-        exampleDe:
-            'Das Attest bestätigte, dass er gesundheitliche Probleme hatte.',
-        exampleRu:
-            'Справка подтвердила, что у него были проблемы со здоровьем.',
+        exampleDe: 'Das Attest bestätigte, dass er gesundheitliche Probleme hatte.',
+        exampleRu: 'Справка подтвердила, что у него были проблемы со здоровьем.',
         fileKeyUploadthing: 'Yosg29JtFzNhfFIyXIE7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
     },
     {
@@ -1134,8 +1090,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'Rücktritt',
         wordRu: 'отставка, отказ',
         wordClass: WordClasses.MASCULIN,
-        exampleDe:
-            'Der Rücktritt des Präsidenten führte zu politischen Turbulenzen im Land.',
+        exampleDe: 'Der Rücktritt des Präsidenten führte zu politischen Turbulenzen im Land.',
         exampleRu: 'Отставка президента привела к политическим бурям в стране.',
         fileKeyUploadthing: 'Yosg29JtFzNhpZodsa2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
@@ -1148,8 +1103,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.FEMININ,
         exampleDe:
             'Die Suite im Hotel war luxuriös und bot einen atemberaubenden Blick auf das Meer.',
-        exampleRu:
-            'Люкс в отеле был роскошным и предлагал захватывающий вид на море.',
+        exampleRu: 'Люкс в отеле был роскошным и предлагал захватывающий вид на море.',
         fileKeyUploadthing: 'Yosg29JtFzNhPog6bHt7MpSIRvq4tz3AcQfTyCugXJ6Ox2L0',
     },
     {
@@ -1182,10 +1136,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'zur Auswahl stehen',
         wordRu: 'быть в наличии, быть на выбор',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Viele verschiedene Farben stehen zur Auswahl, um das Zimmer zu streichen.',
-        exampleRu:
-            'На выбор есть много разных цветов, чтобы покрасить комнату.',
+        exampleDe: 'Viele verschiedene Farben stehen zur Auswahl, um das Zimmer zu streichen.',
+        exampleRu: 'На выбор есть много разных цветов, чтобы покрасить комнату.',
         fileKeyUploadthing: 'Yosg29JtFzNhugL88mz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
     },
     {
@@ -1206,10 +1158,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'in Kauf nehmen',
         wordRu: 'принимать (что-то неприятное), мириться с чем-то',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Um in der Stadt zu wohnen, muss man den Verkehrslärm in Kauf nehmen.',
-        exampleRu:
-            'Чтобы жить в городе, приходится мириться с шумом от трафика.',
+        exampleDe: 'Um in der Stadt zu wohnen, muss man den Verkehrslärm in Kauf nehmen.',
+        exampleRu: 'Чтобы жить в городе, приходится мириться с шумом от трафика.',
         fileKeyUploadthing: 'Yosg29JtFzNhG0Ns3OUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2j',
     },
     {
@@ -1219,8 +1169,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'Schwierigkeiten bereiten',
         wordRu: 'создавать трудности, вызывать проблемы',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Das komplizierte Formular hat vielen Bewerbern Schwierigkeiten bereitet.',
+        exampleDe: 'Das komplizierte Formular hat vielen Bewerbern Schwierigkeiten bereitet.',
         exampleRu: 'Сложная форма доставила много проблем заявителям.',
         fileKeyUploadthing: 'Yosg29JtFzNhEQhQJ97Be95wT1ApKMvZ0U8kdzs6lPNEhOR4',
     },
@@ -1242,8 +1191,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'zur Verfügung stellen',
         wordRu: 'предоставлять в распоряжение, предоставлять',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Die Firma hat den Mitarbeitern neue Computer zur Verfügung gestellt.',
+        exampleDe: 'Die Firma hat den Mitarbeitern neue Computer zur Verfügung gestellt.',
         exampleRu: 'Компания предоставила сотрудникам новые компьютеры.',
         fileKeyUploadthing: 'Yosg29JtFzNhxRjy3WmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
     },
@@ -1254,8 +1202,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'Verständnis vertiefen',
         wordRu: 'углублять понимание',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Durch regelmäßige Übung kann man sein Verständnis für die Sprache vertiefen.',
+        exampleDe: 'Durch regelmäßige Übung kann man sein Verständnis für die Sprache vertiefen.',
         exampleRu: 'Регулярная практика помогает углубить понимание языка.',
         fileKeyUploadthing: 'Yosg29JtFzNh4YWCUt6wOqj81VfMisExF0Xm56z2QrgI43vl',
     },
@@ -1266,10 +1213,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'Vorbereitungen treffen',
         wordRu: 'делать приготовления, готовиться',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Wir müssen noch einige Vorbereitungen treffen, bevor die Gäste kommen.',
-        exampleRu:
-            'Нам нужно сделать еще несколько приготовлений перед приходом гостей.',
+        exampleDe: 'Wir müssen noch einige Vorbereitungen treffen, bevor die Gäste kommen.',
+        exampleRu: 'Нам нужно сделать еще несколько приготовлений перед приходом гостей.',
         fileKeyUploadthing: 'Yosg29JtFzNh4tmNIfp6wOqj81VfMisExF0Xm56z2QrgI43v',
     },
     {
@@ -1279,8 +1224,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'im Vordergrund stehen',
         wordRu: 'быть на первом плане, быть важным',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Bei der Diskussion standen die Bedürfnisse der Kunden im Vordergrund.',
+        exampleDe: 'Bei der Diskussion standen die Bedürfnisse der Kunden im Vordergrund.',
         exampleRu: 'В обсуждении на первом плане стояли потребности клиентов.',
         fileKeyUploadthing: 'Yosg29JtFzNh6SrlVBPisOKx5VSaw0LRnFcMd9oyfv1g4Qer',
     },
@@ -1292,8 +1236,7 @@ export const data: ILanguageCard[] = [
         wordRu: 'это относится, это считается',
         wordClass: WordClasses.VERB,
         exampleDe: 'Es gilt, die Regeln zu befolgen, um sicher zu bleiben.',
-        exampleRu:
-            'Это относится к соблюдению правил для обеспечения безопасности.',
+        exampleRu: 'Это относится к соблюдению правил для обеспечения безопасности.',
         fileKeyUploadthing: 'Yosg29JtFzNhbwitOsArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
     },
     {
@@ -1303,10 +1246,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'abgelegen',
         wordRu: 'отдалённый, уединённый',
         wordClass: WordClasses.ADJEKTIV,
-        exampleDe:
-            'Das Dorf liegt in einem abgelegenen Tal, fernab von der Zivilisation.',
-        exampleRu:
-            'Деревня находится в отдалённой долине, далеко от цивилизации.',
+        exampleDe: 'Das Dorf liegt in einem abgelegenen Tal, fernab von der Zivilisation.',
+        exampleRu: 'Деревня находится в отдалённой долине, далеко от цивилизации.',
         fileKeyUploadthing: 'Yosg29JtFzNhPmwNPBbt7MpSIRvq4tz3AcQfTyCugXJ6Ox2L',
     },
     {
@@ -1327,8 +1268,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'pauschal',
         wordRu: 'общий, без детализации, всеобъемлющий',
         wordClass: WordClasses.ADJEKTIV,
-        exampleDe:
-            'Es ist nicht sinnvoll, pauschale Urteile über Menschen zu fällen.',
+        exampleDe: 'Es ist nicht sinnvoll, pauschale Urteile über Menschen zu fällen.',
         exampleRu: 'Нецелесообразно выносить общие суждения о людях.',
         fileKeyUploadthing: 'Yosg29JtFzNhFipWciTubBCpndtMKSeV7IPW4zZa0vXUywL5',
     },
@@ -1339,8 +1279,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'auf eigene Faust',
         wordRu: 'самостоятельно, на свой страх и риск',
         wordClass: WordClasses.ADVERB,
-        exampleDe:
-            'Er hat die Reise auf eigene Faust geplant und durchgeführt.',
+        exampleDe: 'Er hat die Reise auf eigene Faust geplant und durchgeführt.',
         exampleRu: 'Он спланировал и осуществил поездку самостоятельно.',
         fileKeyUploadthing: 'Yosg29JtFzNhXO2h2Yq9khKSUvpJeH506yLiP3w8TAdGr7ua',
     },
@@ -1362,10 +1301,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'eine Auswahl treffen',
         wordRu: 'сделать выбор, выбрать',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Wir müssen eine Auswahl treffen, bevor wir den endgültigen Entschluss fassen.',
-        exampleRu:
-            'Нам нужно сделать выбор, прежде чем мы примем окончательное решение.',
+        exampleDe: 'Wir müssen eine Auswahl treffen, bevor wir den endgültigen Entschluss fassen.',
+        exampleRu: 'Нам нужно сделать выбор, прежде чем мы примем окончательное решение.',
         fileKeyUploadthing: 'Yosg29JtFzNhosXXxhZkc03OmYsX6Ry4wTgS2luHCNiqbntU',
     },
     {
@@ -1375,8 +1312,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'eine Entscheidung treffen',
         wordRu: 'принять решение',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Es ist an der Zeit, eine Entscheidung zu treffen und voranzuschreiten.',
+        exampleDe: 'Es ist an der Zeit, eine Entscheidung zu treffen und voranzuschreiten.',
         exampleRu: 'Пришло время принять решение и двигаться дальше.',
         fileKeyUploadthing: 'Yosg29JtFzNh9M7XJi0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
     },
@@ -1387,8 +1323,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'in Erfahrung bringen',
         wordRu: 'узнать, выяснить',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Ich werde versuchen, mehr Informationen in Erfahrung zu bringen.',
+        exampleDe: 'Ich werde versuchen, mehr Informationen in Erfahrung zu bringen.',
         exampleRu: 'Я постараюсь выяснить больше информации.',
         fileKeyUploadthing: 'Yosg29JtFzNhttutZXxXU3oa7DEsTyVQ2zGrJZFuYglcj84A',
     },
@@ -1412,8 +1347,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.VERB,
         exampleDe:
             'Die Gemeinde beschloss, eine Initiative zu ergreifen, um die Umwelt zu schützen.',
-        exampleRu:
-            'Сообщество решило взять инициативу, чтобы защитить окружающую среду.',
+        exampleRu: 'Сообщество решило взять инициативу, чтобы защитить окружающую среду.',
         fileKeyUploadthing: 'Yosg29JtFzNhVvs7UmnQGWr0oIbjYndiBXl2ukOh78NvP3ec',
     },
     {
@@ -1456,8 +1390,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'zur Sprache bringen',
         wordRu: 'поднять вопрос, завести речь о чем-либо',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Er hat das Problem bei der letzten Sitzung zur Sprache gebracht.',
+        exampleDe: 'Er hat das Problem bei der letzten Sitzung zur Sprache gebracht.',
         exampleRu: 'Он поднял этот вопрос на последнем заседании.',
         fileKeyUploadthing: 'Yosg29JtFzNhfVo4AYkE7ZS8aFTpxy04W6gvboGB5ctDHL2E',
     },
@@ -1479,8 +1412,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'Bogen',
         wordRu: 'лук (оружие)',
         wordClass: WordClasses.MASCULIN,
-        exampleDe:
-            'Der Bogenschütze spannte den Bogen und zielte auf die Zielscheibe.',
+        exampleDe: 'Der Bogenschütze spannte den Bogen und zielte auf die Zielscheibe.',
         exampleRu: 'Лучник натянул лук и прицелился в мишень.',
         fileKeyUploadthing: 'Yosg29JtFzNhpJvVCI72shpGY1ctFIeDyvwu24madHBxoLWR',
         multiple: [
@@ -1491,11 +1423,9 @@ export const data: ILanguageCard[] = [
                 wordDe: 'Bogen',
                 wordRu: 'дуга, арка',
                 wordClass: WordClasses.MASCULIN,
-                exampleDe:
-                    'Die Brücke hat einen beeindruckenden Bogen über den Fluss.',
+                exampleDe: 'Die Brücke hat einen beeindruckenden Bogen über den Fluss.',
                 exampleRu: 'У моста впечатляющая арка над рекой.',
-                fileKeyUploadthing:
-                    'Yosg29JtFzNhVgxyMOQGWr0oIbjYndiBXl2ukOh78NvP3ecJ',
+                fileKeyUploadthing: 'Yosg29JtFzNhVgxyMOQGWr0oIbjYndiBXl2ukOh78NvP3ecJ',
             },
         ],
     },
@@ -1506,10 +1436,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'Erzeuger',
         wordRu: 'производитель',
         wordClass: WordClasses.MASCULIN,
-        exampleDe:
-            'Der Erzeuger der Bio-Produkte legt großen Wert auf Nachhaltigkeit.',
-        exampleRu:
-            'Производитель био-продуктов придает большое значение устойчивому развитию.',
+        exampleDe: 'Der Erzeuger der Bio-Produkte legt großen Wert auf Nachhaltigkeit.',
+        exampleRu: 'Производитель био-продуктов придает большое значение устойчивому развитию.',
         fileKeyUploadthing: 'Yosg29JtFzNhpRjgRL2shpGY1ctFIeDyvwu24madHBxoLWRM',
         multiple: [
             {
@@ -1520,10 +1448,8 @@ export const data: ILanguageCard[] = [
                 wordRu: 'биологический отец',
                 wordClass: WordClasses.MASCULIN,
                 exampleDe: 'Er hat nie Kontakt zu seinem Erzeuger gehabt.',
-                exampleRu:
-                    'Он никогда не общался со своим биологическим отцом.',
-                fileKeyUploadthing:
-                    'Yosg29JtFzNhbIwlpxArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
+                exampleRu: 'Он никогда не общался со своим биологическим отцом.',
+                fileKeyUploadthing: 'Yosg29JtFzNhbIwlpxArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
             },
         ],
     },
@@ -1558,8 +1484,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'Überrest',
         wordRu: 'остаток, пережиток',
         wordClass: WordClasses.MASCULIN,
-        exampleDe:
-            'Die Überreste der alten Burg erzählen von vergangenen Zeiten.',
+        exampleDe: 'Die Überreste der alten Burg erzählen von vergangenen Zeiten.',
         exampleRu: 'Остатки старого замка напоминают о прошлых временах.',
         fileKeyUploadthing: 'Yosg29JtFzNhfQ9IaIE7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
     },
@@ -1592,10 +1517,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'jemandem etwas nahebringen',
         wordRu: 'объяснять кому-то что-то, делать понятным',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Der Lehrer konnte den Schülern die komplexe Theorie verständlich nahebringen.',
-        exampleRu:
-            'Учитель сумел объяснить сложную теорию понятным языком для учеников.',
+        exampleDe: 'Der Lehrer konnte den Schülern die komplexe Theorie verständlich nahebringen.',
+        exampleRu: 'Учитель сумел объяснить сложную теорию понятным языком для учеников.',
         fileKeyUploadthing: 'Yosg29JtFzNhAGNnfZulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
     },
     {
@@ -1605,8 +1528,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'verwöhnen',
         wordRu: 'баловать',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Das Hotelpersonal verwöhnte die Gäste mit besonderen Aufmerksamkeiten.',
+        exampleDe: 'Das Hotelpersonal verwöhnte die Gäste mit besonderen Aufmerksamkeiten.',
         exampleRu: 'Персонал отеля баловал гостей особыми вниманием и заботой.',
         fileKeyUploadthing: 'Yosg29JtFzNh0oXmDmLSHd98mAhbqVNOczXjJBnyGrFoI6PR',
     },
@@ -1617,10 +1539,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'auf die Probe stellen',
         wordRu: 'испытать, подвергнуть проверке',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Das extreme Wetter stellte die Fähigkeiten der Bergsteiger auf die Probe.',
-        exampleRu:
-            'Экстремальные погодные условия подвергли способности альпинистов испытанию.',
+        exampleDe: 'Das extreme Wetter stellte die Fähigkeiten der Bergsteiger auf die Probe.',
+        exampleRu: 'Экстремальные погодные условия подвергли способности альпинистов испытанию.',
         fileKeyUploadthing: 'Yosg29JtFzNhF99eWelTubBCpndtMKSeV7IPW4zZa0vXUywL',
     },
     {
@@ -1641,10 +1561,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'Kalkül',
         wordRu: 'расчёт, вычисление',
         wordClass: WordClasses.NEUTRAL,
-        exampleDe:
-            'Sein Handeln war reines Kalkül, um den größten Vorteil zu erreichen.',
-        exampleRu:
-            'Его действия были чистым расчетом, чтобы получить наибольшую выгоду.',
+        exampleDe: 'Sein Handeln war reines Kalkül, um den größten Vorteil zu erreichen.',
+        exampleRu: 'Его действия были чистым расчетом, чтобы получить наибольшую выгоду.',
         fileKeyUploadthing: 'Yosg29JtFzNhWSYM9XKC8UvtqgBs1aRVjix4wlZ9nzArQXO2',
     },
     {
@@ -1655,8 +1573,7 @@ export const data: ILanguageCard[] = [
         wordRu: 'привязанность, симпатия',
         wordClass: WordClasses.FEMININ,
         exampleDe: 'Ihre Zuneigung zu ihm wuchs mit jedem gemeinsamen Moment.',
-        exampleRu:
-            'Ее привязанность к нему росла с каждым проведённым вместе моментом.',
+        exampleRu: 'Ее привязанность к нему росла с каждым проведённым вместе моментом.',
         fileKeyUploadthing: 'Yosg29JtFzNh39aWen4ojvmFX2AO1hJNYV9ixGpuDfd5zUcL',
     },
     {
@@ -1677,8 +1594,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'nachvollziehen',
         wordRu: 'понять, постичь, осознать',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Es fiel ihr schwer, die Entscheidung seines Freundes nachzuvollziehen.',
+        exampleDe: 'Es fiel ihr schwer, die Entscheidung seines Freundes nachzuvollziehen.',
         exampleRu: 'Ей было трудно понять решение своего друга.',
         fileKeyUploadthing: 'Yosg29JtFzNhk470jrhXtQ6BK7viORPW5L9sxm4bchzE3J0l',
     },
@@ -1711,10 +1627,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'geistige Umnachtung',
         wordRu: 'помрачение рассудка, умопомрачение',
         wordClass: WordClasses.FEMININ,
-        exampleDe:
-            'In einem Moment geistiger Umnachtung handelte er völlig unüberlegt.',
-        exampleRu:
-            'В момент помрачения рассудка он поступил совершенно необдуманно.',
+        exampleDe: 'In einem Moment geistiger Umnachtung handelte er völlig unüberlegt.',
+        exampleRu: 'В момент помрачения рассудка он поступил совершенно необдуманно.',
         fileKeyUploadthing: 'Yosg29JtFzNhT2cq9254978sPWymYbGCLVwivJjoSRlhteBc',
     },
     {
@@ -1724,10 +1638,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'Segeltörn',
         wordRu: 'парусный поход',
         wordClass: WordClasses.MASCULIN,
-        exampleDe:
-            'Der Segeltörn entlang der Küste war ein unvergessliches Erlebnis.',
-        exampleRu:
-            'Парусный поход вдоль побережья был незабываемым приключением.',
+        exampleDe: 'Der Segeltörn entlang der Küste war ein unvergessliches Erlebnis.',
+        exampleRu: 'Парусный поход вдоль побережья был незабываемым приключением.',
         fileKeyUploadthing: 'Yosg29JtFzNhhzjOX2IdR9r06GDKfBbSoICYuEPtT5glMaJH',
     },
     {
@@ -1737,10 +1649,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'ausbauen',
         wordRu: 'расширять, развивать',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Sie wollen das alte Haus zu einem modernen Wohnsitz ausbauen.',
-        exampleRu:
-            'Они хотят расширить и преобразовать старый дом в современное жилище.',
+        exampleDe: 'Sie wollen das alte Haus zu einem modernen Wohnsitz ausbauen.',
+        exampleRu: 'Они хотят расширить и преобразовать старый дом в современное жилище.',
         fileKeyUploadthing: 'Yosg29JtFzNhTHvR0n54978sPWymYbGCLVwivJjoSRlhteBc',
     },
     {
@@ -1752,8 +1662,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.ADJEKTIV,
         exampleDe:
             'Das kleine Kätzchen ist so liebenswert, dass jeder es sofort ins Herz schließt.',
-        exampleRu:
-            'Этот маленький котёнок такой милый, что каждый сразу его полюбит.',
+        exampleRu: 'Этот маленький котёнок такой милый, что каждый сразу его полюбит.',
         fileKeyUploadthing: 'Yosg29JtFzNhVk6nN7QGWr0oIbjYndiBXl2ukOh78NvP3ecJ',
     },
     {
@@ -1816,8 +1725,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.MASCULIN,
         exampleDe:
             'Der Jäger bewegt sich leise durch den Wald, um seine Beute nicht zu verschrecken.',
-        exampleRu:
-            'Охотник тихо движется по лесу, чтобы не спугнуть свою добычу.',
+        exampleRu: 'Охотник тихо движется по лесу, чтобы не спугнуть свою добычу.',
         fileKeyUploadthing: 'Yosg29JtFzNhW7dkJxC8UvtqgBs1aRVjix4wlZ9nzArQXO27',
     },
     {
@@ -1827,8 +1735,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'Mittelalter',
         wordRu: 'средневековье',
         wordClass: WordClasses.NEUTRAL,
-        exampleDe:
-            'Im Mittelalter wurden Burgen als Schutz vor Feinden gebaut.',
+        exampleDe: 'Im Mittelalter wurden Burgen als Schutz vor Feinden gebaut.',
         exampleRu: 'В Средневековье замки строили для защиты от врагов.',
         fileKeyUploadthing: 'Yosg29JtFzNh5y03eG9o7UlyJrOGAjeSa6FfcBquN4z89m2P',
     },
@@ -1839,10 +1746,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'Ritter',
         wordRu: 'рыцарь',
         wordClass: WordClasses.MASCULIN,
-        exampleDe:
-            'Der Ritter reitet stolz in glänzender Rüstung durch das Tor der Burg.',
-        exampleRu:
-            'Рыцарь гордо въезжает в ворота замка в сверкающих доспехах.',
+        exampleDe: 'Der Ritter reitet stolz in glänzender Rüstung durch das Tor der Burg.',
+        exampleRu: 'Рыцарь гордо въезжает в ворота замка в сверкающих доспехах.',
         fileKeyUploadthing: 'Yosg29JtFzNhh5tS8hIdR9r06GDKfBbSoICYuEPtT5glMaJH',
     },
     {
@@ -1865,8 +1770,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'Siedler',
         wordRu: 'поселенец',
         wordClass: WordClasses.MASCULIN,
-        exampleDe:
-            'Der Siedler errichtet ein neues Haus am Rand des unberührten Waldes.',
+        exampleDe: 'Der Siedler errichtet ein neues Haus am Rand des unberührten Waldes.',
         exampleRu: 'Поселенец строит новый дом на краю девственного леса.',
         fileKeyUploadthing: 'Yosg29JtFzNhwxLN6UbKx3oQcHXA85iDdYagnsSZVFPkheU4',
     },
@@ -1879,8 +1783,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.FEMININ,
         exampleDe:
             'In der Steinzeit lebten die Menschen in Höhlen und nutzten Werkzeuge aus Stein.',
-        exampleRu:
-            'В каменном веке люди жили в пещерах и использовали орудия из камня.',
+        exampleRu: 'В каменном веке люди жили в пещерах и использовали орудия из камня.',
         fileKeyUploadthing: 'Yosg29JtFzNhy1DMLVrDLWcC2lIrhH17xJvjKnQR9ws536ei',
     },
     {
@@ -1923,10 +1826,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'Spezies',
         wordRu: 'вид, биологический вид',
         wordClass: WordClasses.FEMININ,
-        exampleDe:
-            'Der Schutz bedrohter Spezies ist wichtig für die Biodiversität.',
-        exampleRu:
-            'Охрана исчезающих видов важна для сохранения биоразнообразия.',
+        exampleDe: 'Der Schutz bedrohter Spezies ist wichtig für die Biodiversität.',
+        exampleRu: 'Охрана исчезающих видов важна для сохранения биоразнообразия.',
         fileKeyUploadthing: 'Yosg29JtFzNhhmdNkxIdR9r06GDKfBbSoICYuEPtT5glMaJH',
     },
     {
@@ -2002,8 +1903,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'anschaulich',
         wordRu: 'наглядный, выразительный',
         wordClass: WordClasses.ADJEKTIV,
-        exampleDe:
-            'Der Lehrer gab ein anschauliches Beispiel, um das Thema zu erklären.',
+        exampleDe: 'Der Lehrer gab ein anschauliches Beispiel, um das Thema zu erklären.',
         exampleRu: 'Учитель привел наглядный пример, чтобы объяснить тему.',
         fileKeyUploadthing: 'Yosg29JtFzNhegLPsAF5phCDZfm6yax0YcPV9r7qRQN1kgJb',
     },
@@ -2025,10 +1925,8 @@ export const data: ILanguageCard[] = [
         wordDe: 'eigenständig',
         wordRu: 'самостоятельный, независимый',
         wordClass: WordClasses.ADJEKTIV,
-        exampleDe:
-            'Sie ist eine eigenständige Person, die ihre Entscheidungen selbst trifft.',
-        exampleRu:
-            'Она самостоятельный человек, который принимает решения сама.',
+        exampleDe: 'Sie ist eine eigenständige Person, die ihre Entscheidungen selbst trifft.',
+        exampleRu: 'Она самостоятельный человек, который принимает решения сама.',
         fileKeyUploadthing: 'Yosg29JtFzNhcw3KZWvxsIW48BMn5jH2lVp9LzJXDy1TkiKr',
     },
     {
@@ -2038,8 +1936,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'schlau',
         wordRu: 'хитрый',
         wordClass: WordClasses.ADJEKTIV,
-        exampleDe:
-            'Der Fuchs ist ein schlaues Tier, das immer einen Ausweg findet.',
+        exampleDe: 'Der Fuchs ist ein schlaues Tier, das immer einen Ausweg findet.',
         exampleRu: 'Лиса — хитрое животное, которое всегда находит выход.',
         fileKeyUploadthing: 'Yosg29JtFzNhpH0Bf92shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
@@ -2050,8 +1947,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'allmählich',
         wordRu: 'постепенно, понемногу',
         wordClass: WordClasses.ADVERB,
-        exampleDe:
-            'Allmählich wurde es dunkel, und die Sterne begannen am Himmel zu leuchten.',
+        exampleDe: 'Allmählich wurde es dunkel, und die Sterne begannen am Himmel zu leuchten.',
         exampleRu: 'Постепенно стемнело, и звезды начали загораться на небе.',
         fileKeyUploadthing: 'Yosg29JtFzNh6L0F3IPisOKx5VSaw0LRnFcMd9oyfv1g4Qer',
     },
@@ -2084,8 +1980,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'Lerneinheit',
         wordRu: 'учебный модуль, занятие',
         wordClass: WordClasses.FEMININ,
-        exampleDe:
-            'In jeder Lerneinheit werden neue Themen behandelt, die aufeinander aufbauen.',
+        exampleDe: 'In jeder Lerneinheit werden neue Themen behandelt, die aufeinander aufbauen.',
         exampleRu:
             'В каждом учебном модуле изучаются новые темы, которые последовательно дополняют друг друга.',
         fileKeyUploadthing: 'Yosg29JtFzNh8G4Jvg1pEDTtnbqjYeRBhIVLQSxJWXgs3COU',
@@ -2097,8 +1992,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'Reiz',
         wordRu: 'привлекательность, стимул',
         wordClass: WordClasses.MASCULIN,
-        exampleDe:
-            'Der Reiz der neuen Stadt lag in ihrer Mischung aus Geschichte und Moderne.',
+        exampleDe: 'Der Reiz der neuen Stadt lag in ihrer Mischung aus Geschichte und Moderne.',
         exampleRu:
             'Привлекательность нового города заключалась в его сочетании истории и современности.',
         fileKeyUploadthing: 'Yosg29JtFzNhzF2STFpFPErID6hOu9WUTsic5yqdxGH0YQ1L',
@@ -2112,8 +2006,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.MASCULIN,
         exampleDe:
             'Durch seine Erfahrung hatte er einen deutlichen Vorsprung vor den anderen Bewerbern.',
-        exampleRu:
-            'Благодаря своему опыту он имел явное преимущество перед другими кандидатами.',
+        exampleRu: 'Благодаря своему опыту он имел явное преимущество перед другими кандидатами.',
         fileKeyUploadthing: 'Yosg29JtFzNhhnEQBQIdR9r06GDKfBbSoICYuEPtT5glMaJH',
     },
     {
@@ -2123,8 +2016,7 @@ export const data: ILanguageCard[] = [
         wordDe: 'jemandem etwas abverlangen',
         wordRu: 'требовать что-то от кого-то',
         wordClass: WordClasses.VERB,
-        exampleDe:
-            'Das anspruchsvolle Projekt verlangte ihm all seine Geduld ab.',
+        exampleDe: 'Das anspruchsvolle Projekt verlangte ihm all seine Geduld ab.',
         exampleRu: 'Этот сложный проект потребовал от него всего его терпения.',
         fileKeyUploadthing: 'Yosg29JtFzNhuu2TOHz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
     },
@@ -2137,8 +2029,7 @@ export const data: ILanguageCard[] = [
         wordClass: WordClasses.VERB,
         exampleDe:
             'Er versuchte, sich die komplizierte Formel einzuprägen, indem er sie immer wieder aufsagte.',
-        exampleRu:
-            'Он пытался запомнить сложную формулу, повторяя её снова и снова.',
+        exampleRu: 'Он пытался запомнить сложную формулу, повторяя её снова и снова.',
         fileKeyUploadthing: 'Yosg29JtFzNhFMqDraTubBCpndtMKSeV7IPW4zZa0vXUywL5',
     },
 ]

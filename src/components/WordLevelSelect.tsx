@@ -9,9 +9,13 @@ import {
 } from '@/components/ui/select'
 import { Badge } from '@/components/ui/badge'
 import { useAllCardsStore } from '@/stores'
+import { WordLevels } from '@/enums/enums'
 
 export const WordLevelSelect = () => {
-    const handleSelectChange = (value: string) => {}
+    const { setCardsByLevel } = useAllCardsStore()
+    const handleSelectChange = (value: WordLevels) => {
+        setCardsByLevel(value)
+    }
 
     return (
         <div className="w-full flex justify-start gap-2 px-1">
@@ -21,9 +25,9 @@ export const WordLevelSelect = () => {
                 </SelectTrigger>
                 <SelectContent>
                     <SelectGroup>
-                        <SelectItem value="A2_B2">A2-B2</SelectItem>
-                        <SelectItem value="C1_Sicher">C1 Sicher!</SelectItem>
-                        <SelectItem value="C1_Beruf">C1 Beruf</SelectItem>
+                        <SelectItem value={WordLevels.A2B2}>A2-B2</SelectItem>
+                        <SelectItem value={WordLevels.C1SICHER}>C1 Sicher!</SelectItem>
+                        <SelectItem value={WordLevels.C1BERUF}>C1 Beruf</SelectItem>
                     </SelectGroup>
                 </SelectContent>
             </Select>
