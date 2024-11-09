@@ -34,7 +34,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: WordClasses.VERB,
         exampleDe: 'Die Wahrsagerin betrügt die Leute, indem sie ihnen falsche Vorhersagen gibt.',
         exampleRu: 'Гадалка обманывает людей, давая им ложные предсказания.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: 'Yosg29JtFzNhU2OPtWcAx1lePRnpGv52BK4HaVMoFTEJC3fq',
     },
     {
         id: `4-${WordLevels.C1BERUF}`,
