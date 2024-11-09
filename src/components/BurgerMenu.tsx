@@ -29,7 +29,6 @@ export function BurgerMenu() {
                 </SheetDescription>
                 <Separator />
 
-                {/* <ul className="grid gap-4 flex-grow"> */}
                 <NavMenu />
 
                 <Separator />

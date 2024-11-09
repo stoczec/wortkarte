@@ -7,9 +7,8 @@ import {
     SelectTrigger,
     SelectValue,
 } from '@/components/ui/select'
-import { Badge } from '@/components/ui/badge'
-import { useAllCardsStore } from '@/stores'
 import { WordLevels } from '@/enums/enums'
+import { useAllCardsStore } from '@/stores'
 
 export const WordLevelSelect = () => {
     const { setCardsByLevel } = useAllCardsStore()
@@ -31,7 +30,6 @@ export const WordLevelSelect = () => {
                     </SelectGroup>
                 </SelectContent>
             </Select>
-            {/* <Badge variant="default" className="bg-primary"></Badge> */}
         </div>
     )
 }
