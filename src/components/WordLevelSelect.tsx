@@ -1,4 +1,6 @@
-import React from 'react'
+'use client'
+
+import React, { useState } from 'react'
 import {
     Select,
     SelectContent,
@@ -9,11 +11,17 @@ import {
 } from '@/components/ui/select'
 import { WordLevels } from '@/enums/enums'
 import { useAllCardsStore } from '@/stores'
+import { Badge } from './ui/badge'
+import { useRouter } from 'next/navigation'
 
 export const WordLevelSelect = () => {
-    const { setCardsByLevel } = useAllCardsStore()
+    const { selectedLevel, setSelectedLevel } = useAllCardsStore()
+
+    const router = useRouter()
+
     const handleSelectChange = (value: WordLevels) => {
-        setCardsByLevel(value)
+        setSelectedLevel(value)
+        router.push('/page/1')
     }
 
     return (
@@ -30,6 +38,9 @@ export const WordLevelSelect = () => {
                     </SelectGroup>
                 </SelectContent>
             </Select>
+            <Badge variant="default" className="bg-primary">
+                {selectedLevel}
+            </Badge>
         </div>
     )
 }

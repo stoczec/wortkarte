@@ -31,9 +31,10 @@ export interface IAllCardsStore {
     shuffledCards: ILanguageCard[]
     loading: boolean
     itemsPerPage: number
+    selectedLevel: WordLevels
     setLoading: (isLoading: boolean) => void
     setItemsPerPage: (items: number) => void
-    setCardsByLevel: (level: WordLevels) => void
+    setSelectedLevel: (level: WordLevels) => void
 }
 
 export interface IFavoriteCardsStore {

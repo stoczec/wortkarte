@@ -32,19 +32,22 @@ export const useAllCardsStore = create<IAllCardsStore>()(
     persist(
         set => ({
             cards: C1_Sicher_data.flatMap(card => [card, ...(card.multiple || [])]),
-            loading: true,
-            itemsPerPage: 5,
-            setLoading: isLoading => set({ loading: isLoading }),
             shuffledCards: shuffleArray(C1_Sicher_data).flatMap(card => [
                 card,
                 ...(card.multiple || []),
             ]),
+            loading: true,
+            itemsPerPage: 5,
+            selectedLevel: WordLevels.C1SICHER, // Добавляем selectedLevel в хранилище
+
+            setLoading: isLoading => set({ loading: isLoading }),
             setItemsPerPage: items => set({ itemsPerPage: items }),
 
-            // Добавляем метод для установки карт по уровню
-            setCardsByLevel: (level: WordLevels) => {
+            // Метод для установки уровня и обновления карт
+            setSelectedLevel: (level: WordLevels) => {
                 const data = getDataByLevel(level)
                 set({
+                    selectedLevel: level,
                     cards: data.flatMap(card => [card, ...(card.multiple || [])]),
                     shuffledCards: shuffleArray(data).flatMap(card => [
                         card,
@@ -55,7 +58,11 @@ export const useAllCardsStore = create<IAllCardsStore>()(
         }),
         {
             name: 'all-cards-storage',
-            partialize: state => ({ itemsPerPage: state.itemsPerPage, cards: state.cards }),
+            partialize: state => ({
+                itemsPerPage: state.itemsPerPage,
+                cards: state.cards,
+                selectedLevel: state.selectedLevel, // Сохраняем selectedLevel в локальном хранилище
+            }),
         }
     )
 )

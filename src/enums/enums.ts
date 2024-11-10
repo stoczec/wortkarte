@@ -12,7 +12,7 @@ export enum WordClasses {
 }
 
 export enum WordLevels {
-    A2B2 = 'A2_B2',
-    C1SICHER = 'C1_Sicher',
-    C1BERUF = 'C1_Beruf',
+    A2B2 = 'A2-B2',
+    C1SICHER = 'C1 Sicher!',
+    C1BERUF = 'C1 Beruf',
 }
