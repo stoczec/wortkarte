@@ -38,12 +38,11 @@ export const useAllCardsStore = create<IAllCardsStore>()(
             ]),
             loading: true,
             itemsPerPage: 5,
-            selectedLevel: WordLevels.C1SICHER, // Добавляем selectedLevel в хранилище
+            selectedLevel: WordLevels.C1SICHER,
 
             setLoading: isLoading => set({ loading: isLoading }),
             setItemsPerPage: items => set({ itemsPerPage: items }),
 
-            // Метод для установки уровня и обновления карт
             setSelectedLevel: (level: WordLevels) => {
                 const data = getDataByLevel(level)
                 set({
@@ -61,7 +60,8 @@ export const useAllCardsStore = create<IAllCardsStore>()(
             partialize: state => ({
                 itemsPerPage: state.itemsPerPage,
                 cards: state.cards,
-                selectedLevel: state.selectedLevel, // Сохраняем selectedLevel в локальном хранилище
+                selectedLevel: state.selectedLevel,
+                shuffledCards: state.shuffledCards,
             }),
         }
     )
