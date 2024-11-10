@@ -189,4 +189,15 @@ export const A2_B2_data: ILanguageCard[] = [
         exampleRu: 'Она поливает цветы в саду.',
         fileKeyUploadthing: 'Yosg29JtFzNhrppLrGn1sqJTVcNudIg3BDMPtGOXY8K72Ziy',
     },
+    {
+        id: `18-${WordLevels.A2B2}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'geschehen, geschieht, ist geschehen',
+        wordRu: 'происходить, случаться',
+        wordClass: WordClasses.VERB,
+        exampleDe: 'Was geschieht hier?',
+        exampleRu: 'Что здесь происходит?',
+        fileKeyUploadthing: 'Yosg29JtFzNhe1arjpF5phCDZfm6yax0YcPV9r7qRQN1kgJb',
+    },
 ]
