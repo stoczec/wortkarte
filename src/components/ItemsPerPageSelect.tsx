@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import {
     Select,
@@ -9,13 +11,19 @@ import {
 } from '@/components/ui/select'
 import { Badge } from '@/components/ui/badge'
 import { useAllCardsStore } from '@/stores'
+import { useRouter } from 'next/navigation'
 
 export const ItemsPerPageSelect = () => {
     const setItemsPerPage = useAllCardsStore(state => state.setItemsPerPage)
     const itemsPerPage = useAllCardsStore(state => state.itemsPerPage)
+    const router = useRouter()
 
     const handleSelectChange = (value: string) => {
         setItemsPerPage(Number(value))
+        const currentPath = window.location.pathname.split('/')
+        currentPath[currentPath.length - 1] = '1'
+
+        router.replace(currentPath.join('/'))
     }
     return (
         <div className="w-full flex justify-start gap-2 px-1">
