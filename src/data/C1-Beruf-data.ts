@@ -56,7 +56,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: WordClasses.FEMININ,
         exampleDe: 'Eine gute Altersvorsorge ist wichtig, um im Alter abgesichert zu sein.',
         exampleRu: 'Хорошее пенсионное обеспечение важно для финансовой стабильности в старости.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: 'Yosg29JtFzNhqaRETt8oHMb4Fx3SuAL2OkR1JDz8hvClYy5f',
     },
     {
         id: `6-${WordLevels.C1BERUF}`,
@@ -69,7 +69,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Die Schichtzulage hilft, die zusätzlichen Belastungen der Nachtschichten zu kompensieren.',
         exampleRu:
             'Надбавка за сменную работу помогает компенсировать дополнительную нагрузку ночных смен.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: 'Yosg29JtFzNhqzCKFfoHMb4Fx3SuAL2OkR1JDz8hvClYy5fd',
     },
     {
         id: `7-${WordLevels.C1BERUF}`,
@@ -80,7 +80,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: WordClasses.VERB,
         exampleDe: 'Im Wettkampf kann er gegen seinen erfahrenen Gegner nicht ankommen.',
         exampleRu: 'На соревнованиях он не может тягаться со своим опытным соперником.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: 'Yosg29JtFzNhN9gXJAlSLjOv7ZJ8WUplQhuIi6DFykCgY0RT',
     },
     {
         id: `8-${WordLevels.C1BERUF}`,
@@ -89,9 +89,9 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordDe: 'Bruch',
         wordRu: 'перелом, разрыв',
         wordClass: WordClasses.MASCULIN,
-        exampleDe: 'Der Bruch in ihrer Freundschaft war unvermeidlich nach all den Konflikten.',
-        exampleRu: 'Разрыв в их дружбе был неизбежен после всех конфликтов.',
-        fileKeyUploadthing: '',
+        exampleDe: 'Nach dem Unfall musste der Bruch im Arm sofort behandelt werden.',
+        exampleRu: 'После аварии перелом руки пришлось немедленно лечить.',
+        fileKeyUploadthing: 'Yosg29JtFzNhN3iZYUlSLjOv7ZJ8WUplQhuIi6DFykCgY0RT',
     },
     {
         id: `9-${WordLevels.C1BERUF}`,
@@ -100,9 +100,9 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordDe: 'Bruchstelle',
         wordRu: 'место разлома, точка перелома',
         wordClass: WordClasses.FEMININ,
-        exampleDe: 'Die Bruchstelle des Astes war deutlich sichtbar.',
-        exampleRu: 'Место разлома ветки было отчетливо видно.',
-        fileKeyUploadthing: '',
+        exampleDe: 'Die Bruchstelle der Brücke war deutlich sichtbar.',
+        exampleRu: 'Место разлома моста было отчетливо видно.',
+        fileKeyUploadthing: 'Yosg29JtFzNhIDGBeeXjGtPnx5WlKFgyNY93L2wqA8bODCei',
     },
     {
         id: `10-${WordLevels.C1BERUF}`,
@@ -111,9 +111,9 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordDe: 'brüchig',
         wordRu: 'хрупкий, ломкий',
         wordClass: WordClasses.ADJEKTIV,
-        exampleDe: 'Das alte Papier war so brüchig, dass es bei jeder Berührung zerfiel.',
-        exampleRu: 'Старая бумага была такой хрупкой, что рассыпалась при каждом прикосновении.',
-        fileKeyUploadthing: '',
+        exampleDe: 'Das Glas ist sehr brüchig und kann leicht zerbrechen.',
+        exampleRu: 'Стекло очень хрупкое и может легко разбиться.',
+        fileKeyUploadthing: 'Yosg29JtFzNhzTjUdIpFPErID6hOu9WUTsic5yqdxGH0YQ1L',
     },
     {
         id: `11-${WordLevels.C1BERUF}`,
