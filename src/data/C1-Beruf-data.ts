@@ -124,42 +124,42 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: WordClasses.VERB,
         exampleDe: 'Der Anwalt konnte alle Anschuldigungen erfolgreich entkräften.',
         exampleRu: 'Адвокату удалось успешно опровергнуть все обвинения.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: 'Yosg29JtFzNhuHaRWDz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
     },
     {
         id: `12-${WordLevels.C1BERUF}`,
         article: 'der',
         pluralEnding: '',
-        wordDe: 'der rote Faden',
+        wordDe: 'rote Faden',
         wordRu: 'красная нить',
         wordClass: WordClasses.MASCULIN,
         exampleDe: 'Der rote Faden in seiner Geschichte war die Suche nach der Wahrheit.',
         exampleRu: 'Красной нитью в его истории была поиски правды.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: 'Yosg29JtFzNhtqY1PyxXU3oa7DEsTyVQ2zGrJZFuYglcj84A',
     },
     {
         id: `13-${WordLevels.C1BERUF}`,
         article: 'die',
         pluralEnding: ', -en',
-        wordDe: 'die Formalität, -en',
+        wordDe: 'Formalität',
         wordRu: 'формальность',
         wordClass: WordClasses.FEMININ,
         exampleDe:
             'Es war nur eine Formalität, den Vertrag zu unterschreiben, da alle Bedingungen bereits geklärt waren.',
         exampleRu:
             'Подписание контракта было всего лишь формальностью, так как все условия уже были согласованы.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: 'Yosg29JtFzNhYFYwk9JtFzNhDLRbEpOK4inVgWujTHf15rx3',
     },
     {
         id: `14-${WordLevels.C1BERUF}`,
         article: 'das',
         pluralEnding: ', -e',
-        wordDe: 'das Kunstwerk, -e',
+        wordDe: 'Kunstwerk',
         wordRu: 'произведение искусства',
         wordClass: WordClasses.NEUTRAL,
         exampleDe: 'Das Kunstwerk im Museum zog die Aufmerksamkeit aller Besucher auf sich.',
         exampleRu: 'Произведение искусства в музее привлекло внимание всех посетителей.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: 'Yosg29JtFzNhe5GfpTKF5phCDZfm6yax0YcPV9r7qRQN1kgJ',
     },
     {
         id: `15-${WordLevels.C1BERUF}`,
@@ -168,10 +168,9 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordDe: 'nachtelig',
         wordRu: 'ночной',
         wordClass: WordClasses.ADJEKTIV,
-        exampleDe:
-            'Die nachtelige Stille war von gelegentlichen Geräuschen aus der Dunkelheit unterbrochen.',
-        exampleRu: 'Ночная тишина была прервана случайными звуками из темноты.',
-        fileKeyUploadthing: '',
+        exampleDe: 'Der nächtliche Wachdienst sorgte für die Sicherheit der Stadt.',
+        exampleRu: 'Ночной дозор обеспечивал безопасность города.',
+        fileKeyUploadthing: 'Yosg29JtFzNhULnNC5WcAx1lePRnpGv52BK4HaVMoFTEJC3f',
     },
     {
         id: `16-${WordLevels.C1BERUF}`,
@@ -181,9 +180,10 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordRu: 'оправдывать',
         wordClass: WordClasses.VERB,
         exampleDe:
-            'Er versuchte, sein Verhalten vor den Kollegen zu rechtfertigen, indem er seine Gründe erklärte.',
-        exampleRu: 'Он попытался оправдать своё поведение перед коллегами, объяснив свои причины.',
-        fileKeyUploadthing: '',
+            'Der Richter hat den gefährlichen Verbrecher, der nur Tattoos und Narben trägt, gerechtfertigt. Der Verbrecher freut sich darüber.',
+        exampleRu:
+            'Судья оправдал опасного преступника, всего в татуировках и шрамах, преступник радуется этому.',
+        fileKeyUploadthing: 'Yosg29JtFzNhQxrpNncJs09PbMZ3emtdonxCEGKNvwWqBkuS',
     },
     {
         id: `17-${WordLevels.C1BERUF}`,
@@ -194,7 +194,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: WordClasses.ADJEKTIV,
         exampleDe: 'Das Wetter ist heute unbeständig, mal scheint die Sonne, mal regnet es.',
         exampleRu: 'Сегодня погода непостоянная: то светит солнце, то идет дождь.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: 'Yosg29JtFzNhf8hPJVE7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
     },
     {
         id: `18-${WordLevels.C1BERUF}`,
@@ -206,6 +206,6 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Er versuchte, die unangenehmen Gedanken zu verdrängen, indem er sich auf die Arbeit konzentrierte.',
         exampleRu: 'Он пытался подавить неприятные мысли, сосредоточив внимание на работе.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: 'Yosg29JtFzNhAJwNKBulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
     },
 ]
