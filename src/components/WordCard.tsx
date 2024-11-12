@@ -6,7 +6,7 @@ import { Separator } from '@radix-ui/react-separator'
 import { Card, CardContent } from './ui/card'
 import { IWordCardProperties } from '@/interfaces/interfaces'
 import { cn } from '@/lib/utils'
-import { WordClasses } from '@/enums/enums'
+import { EnumWORDClASSES } from '@/enums/enums'
 import { useFavoriteCardsStore } from '@/stores'
 import { Heart } from 'lucide-react'
 import ImageWithLoading from './ImageWithLoading'
@@ -117,16 +117,16 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                             getFontSizeClass(wordDe),
                             'font-bold text-balance text-center',
                             {
-                                'text-blue-500': wordClass === WordClasses.MASCULIN,
-                                'text-red-500': wordClass === WordClasses.FEMININ,
-                                'text-green-500': wordClass === WordClasses.NEUTRAL,
-                                'text-yellow-500': wordClass === WordClasses.PLURAL,
-                                'text-orange-500': wordClass === WordClasses.VERB,
-                                'text-purple-500': wordClass === WordClasses.ADJEKTIV,
-                                'text-pink-500': wordClass === WordClasses.ADVERB,
-                                'text-gray-500': wordClass === WordClasses.PRÄPOSITION,
-                                'text-amber-800': wordClass === WordClasses.KONJUNKTION,
-                                'text-teal-500': wordClass === WordClasses.PARTIKEL,
+                                'text-blue-500': wordClass === EnumWORDClASSES.MASCULIN,
+                                'text-red-500': wordClass === EnumWORDClASSES.FEMININ,
+                                'text-green-500': wordClass === EnumWORDClASSES.NEUTRAL,
+                                'text-yellow-500': wordClass === EnumWORDClASSES.PLURAL,
+                                'text-orange-500': wordClass === EnumWORDClASSES.VERB,
+                                'text-purple-500': wordClass === EnumWORDClASSES.ADJEKTIV,
+                                'text-pink-500': wordClass === EnumWORDClASSES.ADVERB,
+                                'text-gray-500': wordClass === EnumWORDClASSES.PRÄPOSITION,
+                                'text-amber-800': wordClass === EnumWORDClASSES.KONJUNKTION,
+                                'text-teal-500': wordClass === EnumWORDClASSES.PARTIKEL,
                             }
                         )}
                         initial={{ y: -100 }}
@@ -174,16 +174,16 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                                 getFontSizeClass(wordRu),
                                 'font-bold text-balance text-center',
                                 {
-                                    'text-blue-500': wordClass === WordClasses.MASCULIN,
-                                    'text-red-500': wordClass === WordClasses.FEMININ,
-                                    'text-green-500': wordClass === WordClasses.NEUTRAL,
-                                    'text-yellow-500': wordClass === WordClasses.PLURAL,
-                                    'text-orange-500': wordClass === WordClasses.VERB,
-                                    'text-purple-500': wordClass === WordClasses.ADJEKTIV,
-                                    'text-pink-500': wordClass === WordClasses.ADVERB,
-                                    'text-gray-500': wordClass === WordClasses.PRÄPOSITION,
-                                    'text-amber-800': wordClass === WordClasses.KONJUNKTION,
-                                    'text-teal-500': wordClass === WordClasses.PARTIKEL,
+                                    'text-blue-500': wordClass === EnumWORDClASSES.MASCULIN,
+                                    'text-red-500': wordClass === EnumWORDClASSES.FEMININ,
+                                    'text-green-500': wordClass === EnumWORDClASSES.NEUTRAL,
+                                    'text-yellow-500': wordClass === EnumWORDClASSES.PLURAL,
+                                    'text-orange-500': wordClass === EnumWORDClASSES.VERB,
+                                    'text-purple-500': wordClass === EnumWORDClASSES.ADJEKTIV,
+                                    'text-pink-500': wordClass === EnumWORDClASSES.ADVERB,
+                                    'text-gray-500': wordClass === EnumWORDClASSES.PRÄPOSITION,
+                                    'text-amber-800': wordClass === EnumWORDClASSES.KONJUNKTION,
+                                    'text-teal-500': wordClass === EnumWORDClASSES.PARTIKEL,
                                 }
                             )}
                             initial={{ y: 100 }}

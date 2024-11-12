@@ -2,7 +2,7 @@ import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { IAllCardsStore, ILanguageCard } from '@/interfaces/interfaces'
 import { C1_Sicher_data, C1_Beruf_data, A2_B2_data } from '@/data'
-import { WordLevels } from '@/enums/enums'
+import { EnumWORDLEVELS } from '@/enums/enums'
 
 // Функция для перемешивания массива
 function shuffleArray(array: ILanguageCard[]) {
@@ -15,13 +15,13 @@ function shuffleArray(array: ILanguageCard[]) {
 }
 
 // Функция для выбора данных по уровню
-function getDataByLevel(level: WordLevels): ILanguageCard[] {
+function getDataByLevel(level: EnumWORDLEVELS): ILanguageCard[] {
     switch (level) {
-        case WordLevels.C1SICHER:
+        case EnumWORDLEVELS.C1SICHER:
             return C1_Sicher_data
-        case WordLevels.C1BERUF:
+        case EnumWORDLEVELS.C1BERUF:
             return C1_Beruf_data
-        case WordLevels.A2B2:
+        case EnumWORDLEVELS.A2B2:
             return A2_B2_data
         default:
             return []
@@ -38,12 +38,12 @@ export const useAllCardsStore = create<IAllCardsStore>()(
             ]),
             loading: true,
             itemsPerPage: 5,
-            selectedLevel: WordLevels.C1SICHER,
+            selectedLevel: EnumWORDLEVELS.C1SICHER,
 
             setLoading: isLoading => set({ loading: isLoading }),
             setItemsPerPage: items => set({ itemsPerPage: items }),
 
-            setSelectedLevel: (level: WordLevels) => {
+            setSelectedLevel: (level: EnumWORDLEVELS) => {
                 const data = getDataByLevel(level)
                 set({
                     selectedLevel: level,

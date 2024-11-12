@@ -9,7 +9,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from '@/components/ui/select'
-import { WordLevels } from '@/enums/enums'
+import { EnumWORDLEVELS } from '@/enums/enums'
 import { useAllCardsStore } from '@/stores'
 import { Badge } from './ui/badge'
 import { useRouter } from 'next/navigation'
@@ -19,7 +19,7 @@ export const WordLevelSelect = () => {
 
     const router = useRouter()
 
-    const handleSelectChange = (value: WordLevels) => {
+    const handleSelectChange = (value: EnumWORDLEVELS) => {
         setSelectedLevel(value)
         router.push('/page/1')
     }
@@ -32,9 +32,9 @@ export const WordLevelSelect = () => {
                 </SelectTrigger>
                 <SelectContent>
                     <SelectGroup>
-                        <SelectItem value={WordLevels.A2B2}>A2-B2</SelectItem>
-                        <SelectItem value={WordLevels.C1SICHER}>C1 Sicher!</SelectItem>
-                        <SelectItem value={WordLevels.C1BERUF}>C1 Beruf</SelectItem>
+                        <SelectItem value={EnumWORDLEVELS.A2B2}>A2-B2</SelectItem>
+                        <SelectItem value={EnumWORDLEVELS.C1SICHER}>C1 Sicher!</SelectItem>
+                        <SelectItem value={EnumWORDLEVELS.C1BERUF}>C1 Beruf</SelectItem>
                     </SelectGroup>
                 </SelectContent>
             </Select>
