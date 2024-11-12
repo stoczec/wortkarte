@@ -6,7 +6,7 @@ export interface ILanguageCard {
     pluralEnding: string
     wordDe: string
     wordRu: string
-    wordClass: EnumWORDClASSES
+    wordClass: (typeof EnumWORDClASSES)[keyof typeof EnumWORDClASSES]
     exampleDe: string
     exampleRu: string
     fileKeyUploadthing: string
@@ -31,10 +31,10 @@ export interface IAllCardsStore {
     shuffledCards: ILanguageCard[]
     loading: boolean
     itemsPerPage: number
-    selectedLevel: EnumWORDLEVELS
+    selectedLevel: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]
     setLoading: (isLoading: boolean) => void
     setItemsPerPage: (items: number) => void
-    setSelectedLevel: (level: EnumWORDLEVELS) => void
+    setSelectedLevel: (level: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]) => void
 }
 
 export interface IFavoriteCardsStore {
