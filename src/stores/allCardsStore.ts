@@ -15,7 +15,9 @@ function shuffleArray(array: ILanguageCard[]) {
 }
 
 // Функция для выбора данных по уровню
-function getDataByLevel(level: EnumWORDLEVELS): ILanguageCard[] {
+function getDataByLevel(
+    level: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]
+): ILanguageCard[] {
     switch (level) {
         case EnumWORDLEVELS.C1SICHER:
             return C1_Sicher_data
@@ -43,7 +45,7 @@ export const useAllCardsStore = create<IAllCardsStore>()(
             setLoading: isLoading => set({ loading: isLoading }),
             setItemsPerPage: items => set({ itemsPerPage: items }),
 
-            setSelectedLevel: (level: EnumWORDLEVELS) => {
+            setSelectedLevel: (level: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]) => {
                 const data = getDataByLevel(level)
                 set({
                     selectedLevel: level,

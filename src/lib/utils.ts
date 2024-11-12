@@ -5,7 +5,9 @@ import { twMerge } from 'tailwind-merge'
 export function cn(...inputs: ClassValue[]) {
     return twMerge(clsx(inputs))
 }
-export const getWordClassColor = (wordClass: EnumWORDClASSES) => {
+export const getWordClassColor = (
+    wordClass: (typeof EnumWORDClASSES)[keyof typeof EnumWORDClASSES]
+) => {
     switch (wordClass) {
         case EnumWORDClASSES.MASCULIN:
             return 'text-blue-500'
