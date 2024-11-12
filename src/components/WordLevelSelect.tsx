@@ -19,7 +19,7 @@ export const WordLevelSelect = () => {
 
     const router = useRouter()
 
-    const handleSelectChange = (value: EnumWORDLEVELS) => {
+    const handleSelectChange = (value: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]) => {
         setSelectedLevel(value)
         router.push('/page/1')
     }
