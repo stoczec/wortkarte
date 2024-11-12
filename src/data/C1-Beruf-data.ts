@@ -387,4 +387,16 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Служебные отношения между коллегами развивались неожиданно.',
         fileKeyUploadthing: 'Yosg29JtFzNhTYXXgT54978sPWymYbGCLVwivJjoSRlhteBc',
     },
+    {
+        id: `35-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'die Verpflegung',
+        wordRu: 'питание, еда',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Die Verpflegung für die Teilnehmer wurde von einem Catering-Service übernommen.',
+        exampleRu: 'Питание для участников было организовано сервисом кейтеринга.',
+        fileKeyUploadthing: 'Yosg29JtFzNh33TYBY4ojvmFX2AO1hJNYV9ixGpuDfd5zUcL',
+    },
 ]
