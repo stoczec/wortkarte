@@ -1,4 +1,4 @@
-import { EnumWORDClASSES } from '@/enums/enums'
+import { EnumWORDCLASSES } from '@/enums/enums'
 import { clsx, type ClassValue } from 'clsx'
 import { twMerge } from 'tailwind-merge'
 
@@ -6,28 +6,28 @@ export function cn(...inputs: ClassValue[]) {
     return twMerge(clsx(inputs))
 }
 export const getWordClassColor = (
-    wordClass: (typeof EnumWORDClASSES)[keyof typeof EnumWORDClASSES]
+    wordClass: (typeof EnumWORDCLASSES)[keyof typeof EnumWORDCLASSES]
 ) => {
     switch (wordClass) {
-        case EnumWORDClASSES.MASCULIN:
+        case EnumWORDCLASSES.MASCULIN:
             return 'text-blue-500'
-        case EnumWORDClASSES.FEMININ:
+        case EnumWORDCLASSES.FEMININ:
             return 'text-red-500'
-        case EnumWORDClASSES.NEUTRAL:
+        case EnumWORDCLASSES.NEUTRAL:
             return 'text-green-500'
-        case EnumWORDClASSES.PLURAL:
+        case EnumWORDCLASSES.PLURAL:
             return 'text-yellow-500'
-        case EnumWORDClASSES.VERB:
+        case EnumWORDCLASSES.VERB:
             return 'text-orange-500'
-        case EnumWORDClASSES.ADJEKTIV:
+        case EnumWORDCLASSES.ADJEKTIV:
             return 'text-purple-500'
-        case EnumWORDClASSES.ADVERB:
+        case EnumWORDCLASSES.ADVERB:
             return 'text-pink-500'
-        case EnumWORDClASSES.PRÄPOSITION:
+        case EnumWORDCLASSES.PRÄPOSITION:
             return 'text-gray-500'
-        case EnumWORDClASSES.KONJUNKTION:
+        case EnumWORDCLASSES.KONJUNKTION:
             return 'text-amber-950'
-        case EnumWORDClASSES.PARTIKEL:
+        case EnumWORDCLASSES.PARTIKEL:
             return 'text-teal-500'
         default:
             return ''

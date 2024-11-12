@@ -1,4 +1,4 @@
-import { EnumWORDClASSES, EnumWORDLEVELS } from '@/enums/enums'
+import { EnumWORDCLASSES, EnumWORDLEVELS } from '@/enums/enums'
 
 export interface ILanguageCard {
     id: any
@@ -6,7 +6,7 @@ export interface ILanguageCard {
     pluralEnding: string
     wordDe: string
     wordRu: string
-    wordClass: (typeof EnumWORDClASSES)[keyof typeof EnumWORDClASSES]
+    wordClass: (typeof EnumWORDCLASSES)[keyof typeof EnumWORDCLASSES]
     exampleDe: string
     exampleRu: string
     fileKeyUploadthing: string

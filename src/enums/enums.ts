@@ -10,7 +10,7 @@ type EnumWordClassesType =
     | 'konjunktion'
     | 'partikel'
 
-export const EnumWORDClASSES = {
+export const EnumWORDCLASSES = {
     MASCULIN: 'maskulin' as EnumWordClassesType,
     FEMININ: 'feminin' as EnumWordClassesType,
     NEUTRAL: 'neutral' as EnumWordClassesType,
