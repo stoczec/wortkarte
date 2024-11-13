@@ -365,4 +365,15 @@ export const A2_B2_data: ILanguageCard[] = [
         exampleRu: 'График поднимается вверх.',
         fileKeyUploadthing: 'Yosg29JtFzNhMCb83NKq64xuGBkrejT9EQmSYta7vXAKLszV',
     },
+    {
+        id: `34-${EnumWORDLEVELS.A2B2}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'üblich',
+        wordRu: 'обычный, привычный',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe: 'Es ist hier üblich, sich zur Begrüßung die Hand zu geben.',
+        exampleRu: 'Здесь обычно принято здороваться за руку.',
+        fileKeyUploadthing: 'Yosg29JtFzNhtGwm9byxXU3oa7DEsTyVQ2zGrJZFuYglcj84',
+    },
 ]

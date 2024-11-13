@@ -399,4 +399,15 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Питание для участников было организовано сервисом кейтеринга.',
         fileKeyUploadthing: 'Yosg29JtFzNh33TYBY4ojvmFX2AO1hJNYV9ixGpuDfd5zUcL',
     },
+    {
+        id: `36-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'Ziel festlegen',
+        wordRu: 'устанавливать цель',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe: 'Bevor du schießt, musst du dein Ziel festlegen.',
+        exampleRu: 'Прежде чем стрелять, нужно установить цель.',
+        fileKeyUploadthing: 'Yosg29JtFzNh1IqL6nFkGF4rdxKs5yAfZujcn3gYeqUTDtSR',
+    },
 ]
