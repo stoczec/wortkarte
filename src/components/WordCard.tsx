@@ -7,10 +7,11 @@ import { Card, CardContent } from './ui/card'
 import { IWordCardProperties } from '@/interfaces/interfaces'
 import { cn } from '@/lib/utils'
 import { EnumWORDCLASSES } from '@/enums/enums'
-import { useFavoriteCardsStore } from '@/stores'
+import { useAllCardsStore, useFavoriteCardsStore } from '@/stores'
 import { Heart } from 'lucide-react'
 import ImageWithLoading from './ImageWithLoading'
 import { URL_IMAGES } from '@/constans/constans'
+import { Badge } from './ui/badge'
 
 const animationTransitionConfig = {
     duration: 1,
@@ -27,6 +28,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 
     const addFavoriteCard = useFavoriteCardsStore(state => state.addFavoriteCard)
     const removeFavoriteCard = useFavoriteCardsStore(state => state.removeFavoriteCard)
+    const { selectedLevel } = useAllCardsStore()
 
     const {
         id,
@@ -88,6 +90,11 @@ export const WordCard = ({ data }: IWordCardProperties) => {
             className="relative aspect-[9/16] w-[320px] p-0 rounded-xl shadow-lg shadow-zinc-900 transform transition-transform "
             onClick={handleFlipCard}
         >
+            <div className="absolute top-2 left-2 z-10">
+                <Badge>
+                    <span>{selectedLevel}</span>
+                </Badge>
+            </div>
             <div
                 onClick={e => {
                     e.stopPropagation()

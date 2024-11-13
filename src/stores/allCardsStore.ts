@@ -33,8 +33,8 @@ function getDataByLevel(
 export const useAllCardsStore = create<IAllCardsStore>()(
     persist(
         set => ({
-            cards: C1_Sicher_data.flatMap(card => [card, ...(card.multiple || [])]),
-            shuffledCards: shuffleArray(C1_Sicher_data).flatMap(card => [
+            cards: C1_Beruf_data.flatMap(card => [card, ...(card.multiple || [])]),
+            shuffledCards: shuffleArray(C1_Beruf_data).flatMap(card => [
                 card,
                 ...(card.multiple || []),
             ]),
