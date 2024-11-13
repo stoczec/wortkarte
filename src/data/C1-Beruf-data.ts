@@ -85,7 +85,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     {
         id: `8-${EnumWORDLEVELS.C1BERUF}`,
         article: 'der',
-        pluralEnding: ', -e',
+        pluralEnding: ', -ü-e',
         wordDe: 'Bruch',
         wordRu: 'перелом, разрыв',
         wordClass: EnumWORDCLASSES.MASCULIN,
@@ -170,7 +170,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Die Entscheidung hatte nachteilige Folgen für das Unternehmen.',
         exampleRu: 'Решение имело неблагоприятные последствия для компании.',
-        fileKeyUploadthing: 'Yosg29JtFzNhfAImCYE7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
+        fileKeyUploadthing: 'Yosg29JtFzNhrXbFXvn1sqJTVcNudIg3BDMPtGOXY8K72Ziy',
     },
 
     {
@@ -358,7 +358,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         id: `32-${EnumWORDLEVELS.C1BERUF}`,
         article: 'die',
         pluralEnding: ', -en',
-        wordDe: 'die Ausfertigung',
+        wordDe: 'Ausfertigung',
         wordRu: 'копия, экземпляр',
         wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe: 'Die Ausfertigung des Dokuments wurde an alle Beteiligten verschickt.',
@@ -391,7 +391,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         id: `35-${EnumWORDLEVELS.C1BERUF}`,
         article: 'die',
         pluralEnding: ', -en',
-        wordDe: 'die Verpflegung',
+        wordDe: 'Verpflegung',
         wordRu: 'питание, еда',
         wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe:
