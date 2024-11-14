@@ -27,6 +27,7 @@ export interface IPaginatedProps {
 }
 
 export interface IAllCardsStore {
+    allWords: ILanguageCard[]
     cards: ILanguageCard[]
     shuffledCards: ILanguageCard[]
     loading: boolean

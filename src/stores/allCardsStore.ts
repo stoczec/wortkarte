@@ -33,6 +33,11 @@ function getDataByLevel(
 export const useAllCardsStore = create<IAllCardsStore>()(
     persist(
         set => ({
+            allWords: [
+                ...C1_Sicher_data.flatMap(card => [card, ...(card.multiple || [])]),
+                ...C1_Beruf_data.flatMap(card => [card, ...(card.multiple || [])]),
+                ...A2_B2_data.flatMap(card => [card, ...(card.multiple || [])]),
+            ],
             cards: C1_Beruf_data.flatMap(card => [card, ...(card.multiple || [])]),
             shuffledCards: shuffleArray(C1_Beruf_data).flatMap(card => [
                 card,
@@ -40,7 +45,7 @@ export const useAllCardsStore = create<IAllCardsStore>()(
             ]),
             loading: true,
             itemsPerPage: 5,
-            selectedLevel: EnumWORDLEVELS.C1SICHER,
+            selectedLevel: EnumWORDLEVELS.C1BERUF,
 
             setLoading: isLoading => set({ loading: isLoading }),
             setItemsPerPage: items => set({ itemsPerPage: items }),

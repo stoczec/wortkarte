@@ -3,23 +3,23 @@ import { useAllCardsStore } from '@/stores'
 import { IFilteredCardsStore, ILanguageCard } from '@/interfaces/interfaces'
 
 export function useFilteredCards(): IFilteredCardsStore {
-	const cards = useAllCardsStore(state => state.cards)
-	const [searchQuery, setSearchQuery] = useState('')
-	const [filteredCards, setFilteredCards] = useState<ILanguageCard[]>(cards)
+    const allWords = useAllCardsStore(state => state.allWords)
+    const [searchQuery, setSearchQuery] = useState('')
+    const [filteredCards, setFilteredCards] = useState<ILanguageCard[]>(allWords)
 
-	const updateSearchQuery = (query: string) => {
-		setSearchQuery(query)
-		const filtered = cards.filter(
-			card =>
-				card.wordDe.toLowerCase().includes(query.toLowerCase()) ||
-				card.wordRu.toLowerCase().includes(query.toLowerCase())
-		)
-		setFilteredCards(filtered)
-	}
+    const updateSearchQuery = (query: string) => {
+        setSearchQuery(query)
+        const filtered = allWords.filter(
+            card =>
+                card.wordDe.toLowerCase().includes(query.toLowerCase()) ||
+                card.wordRu.toLowerCase().includes(query.toLowerCase())
+        )
+        setFilteredCards(filtered)
+    }
 
-	return {
-		filteredCards,
-		searchQuery,
-		updateSearchQuery,
-	}
+    return {
+        filteredCards,
+        searchQuery,
+        updateSearchQuery,
+    }
 }
