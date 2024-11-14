@@ -533,4 +533,41 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Этот автомобиль не предназначен для военных целей.',
         fileKeyUploadthing: 'Yosg29JtFzNhE6dkQfBe95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
     },
+    {
+        id: `48-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: ', -n',
+        wordDe: 'die personenbezogenen Daten',
+        wordRu: 'персональные данные',
+        wordClass: EnumWORDCLASSES.PLURAL,
+        exampleDe:
+            'Die Verarbeitung personenbezogener Daten muss gemäß den Datenschutzgesetzen erfolgen.',
+        exampleRu:
+            'Обработка персональных данных должна проводиться в соответствии с законами о защите данных.',
+        fileKeyUploadthing: 'Yosg29JtFzNhQQiobvcJs09PbMZ3emtdonxCEGKNvwWqBkuS',
+    },
+    {
+        id: `49-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'einem besonderen Schutz unterliegen',
+        wordRu: 'подлежать особой защите',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe:
+            'Personenbezogene Daten unterliegen einem besonderen Schutz gemäß der Datenschutzverordnung.',
+        exampleRu:
+            'Персональные данные подлежат особой защите в соответствии с законом о защите данных.',
+        fileKeyUploadthing: 'Yosg29JtFzNh98PZm50LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
+    },
+    {
+        id: `50-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'Daten erheben',
+        wordRu: 'собирать данные',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe: 'Unternehmen erheben Daten, um ihre Dienstleistungen zu verbessern.',
+        exampleRu: 'Компании собирают данные, чтобы улучшить свои услуги.',
+        fileKeyUploadthing: 'Yosg29JtFzNhnsc7uL38yHS4RL3AgWpO2GQ1TvcIh9aB6KbE',
+    },
 ]
