@@ -17,6 +17,7 @@ const ImageWithLoading = ({ src, alt }: IImageWithLoadingProperties) => {
                 const response = await fetch(src)
                 if (!response.ok) throw new Error('Image load failed')
                 setError(false)
+                setLoading(true)
             } catch {
                 setError(true)
             } finally {
@@ -27,13 +28,17 @@ const ImageWithLoading = ({ src, alt }: IImageWithLoadingProperties) => {
         fetchImage()
     }, [src, setLoading])
 
+    if (loading && !error) {
+        return <Loader />
+    }
+
+    if (error) {
+        return <Ban />
+    }
+
     return (
         <div className="relative aspect-[9/16]">
-            {loading && !error && <Loader />}
-            {error && <Ban />}
-            {!loading && !error && (
-                <Image src={src} alt={alt} fill sizes="320px" className="rounded-xl" />
-            )}
+            <Image src={src} alt={alt} fill sizes="320px" className="rounded-xl" />
         </div>
     )
 }

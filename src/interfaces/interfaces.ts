@@ -35,6 +35,8 @@ export interface ICardsStore {
     itemsPerPage: number
     selectedLevel: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]
     selectedCardCategory: (typeof EnumCARDSCATEGORY)[keyof typeof EnumCARDSCATEGORY]
+    searchQuery: string
+    filteredCards: ILanguageCard[]
     setLoading: (isLoading: boolean) => void
     setItemsPerPage: (items: number) => void
     setSelectedLevel: (level: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]) => void
@@ -45,6 +47,7 @@ export interface ICardsStore {
     removeFavoriteCard: (id: number) => void
     clearFavorites: () => void
     clearStorage: () => void
+    updateSearchQuery: (query: string) => void
 }
 
 export interface IFavoriteCardsStore {

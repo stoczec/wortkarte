@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from 'react'
 import { useCardsStore } from '@/stores'
 import { IFilteredCardsStore, ILanguageCard } from '@/interfaces/interfaces'

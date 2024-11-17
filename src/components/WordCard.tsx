@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { Separator } from '@radix-ui/react-separator'
 import { Card, CardContent } from './ui/card'
@@ -21,10 +21,13 @@ const animationTransitionConfig = {
 export const WordCard = ({ data }: IWordCardProperties) => {
     const [isFlipped, setIsFlipped] = useState(false)
     const [imageUrl, setImageUrl] = useState<string | null>(null)
+    const [isVisible, setIsVisible] = useState(false)
+
+    const cardRef = useRef<HTMLDivElement>(null)
 
     const isFavorite = useCardsStore(state => state.favoriteCards.some(card => card.id === data.id))
 
-    const { selectedLevel, addFavoriteCard, removeFavoriteCard } = useCardsStore()
+    const { addFavoriteCard, removeFavoriteCard } = useCardsStore()
 
     const {
         id,
@@ -62,33 +65,54 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 
     // Функция для получения изображения
     useEffect(() => {
-        const fetchImage = async () => {
-            try {
-                const response = await fetch(`${URL_IMAGES}${fileKeyUploadthing}`)
-                if (response.ok) {
-                    const blob = await response.blob()
-                    setImageUrl(URL.createObjectURL(blob))
-                } else {
-                    console.error('Failed to fetch image')
-                }
-            } catch (error) {
-                console.error('Error fetching image:', error)
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                setIsVisible(entry.isIntersecting)
+            },
+            { rootMargin: '1200px' } // Загружать изображения за 100px до попадания в видимость
+        )
+
+        if (cardRef.current) {
+            observer.observe(cardRef.current)
+        }
+
+        return () => {
+            if (cardRef.current) {
+                observer.unobserve(cardRef.current)
             }
         }
+    }, [])
 
-        if (fileKeyUploadthing) {
+    useEffect(() => {
+        if (isVisible && fileKeyUploadthing) {
+            const fetchImage = async () => {
+                try {
+                    const response = await fetch(`${URL_IMAGES}${fileKeyUploadthing}`)
+                    if (response.ok) {
+                        const blob = await response.blob()
+                        setImageUrl(URL.createObjectURL(blob))
+                    } else {
+                        console.error('Failed to fetch image')
+                    }
+                } catch (error) {
+                    console.error('Error fetching image:', error)
+                }
+            }
+
             fetchImage()
         }
-    }, [fileKeyUploadthing])
-
+    }, [isVisible, fileKeyUploadthing])
+    const regex = /^\d{1,}-/
+    const result = id.replace(regex, '')
     return (
         <Card
+            ref={cardRef}
             className="relative aspect-[9/16] w-[320px] p-0 rounded-xl shadow-lg shadow-zinc-900 transform transition-transform "
             onClick={handleFlipCard}
         >
             <div className="absolute top-2 left-2 z-10">
                 <Badge>
-                    <span>{selectedLevel}</span>
+                    <span>{result}</span>
                 </Badge>
             </div>
             <div
