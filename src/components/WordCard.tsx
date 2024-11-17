@@ -69,7 +69,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
             ([entry]) => {
                 setIsVisible(entry.isIntersecting)
             },
-            { rootMargin: '1200px' } // Загружать изображения за 100px до попадания в видимость
+            { rootMargin: '0px' } // Загружать изображения за 100px до попадания в видимость
         )
 
         if (cardRef.current) {
