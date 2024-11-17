@@ -89,7 +89,12 @@ export const useCardsStore = create<ICardsStore>()(
                 clearStorage: () => {
                     localStorage.clear()
                     set({
+                        displayedCards: shuffledAllWords,
+                        shuffledCards: shuffledAllWords,
                         favoriteCards: [],
+                        itemsPerPage: 5,
+                        selectedLevel: EnumWORDLEVELS.ALLLEVELS,
+                        selectedCardCategory: EnumCARDSCATEGORY.ALLE,
                     })
                 },
                 updateSearchQuery: (query: string) =>

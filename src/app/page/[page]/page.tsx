@@ -6,7 +6,6 @@ import { Loader, PaginatedList, SearchBar, WordCarousel } from '@/components'
 import { useCardsStore } from '@/stores'
 import { EnumCARDSCATEGORY } from '@/enums/enums'
 import { ILanguageCard } from '@/interfaces/interfaces'
-import { Badge } from '@/components/ui/badge'
 
 export default function PaginatedPage() {
     const pathname = usePathname()
@@ -52,7 +51,6 @@ export default function PaginatedPage() {
             </div>
         )
     }
-    console.log(getDataByCategory(selectedCardCategory))
     return (
         <div className="h-full flex flex-col justify-between items-center">
             {searchQuery ? (
@@ -64,26 +62,6 @@ export default function PaginatedPage() {
                     currentPage={currentPage}
                 />
             )}
-
-            {/* <div className="w-[320px] flex justify-between items-center gap-4">
-                <SearchBar />
-                <Badge
-                    variant={
-                        searchQuery && filteredCards.length > 0
-                            ? 'default'
-                            : !searchQuery
-                            ? 'outline'
-                            : 'destructive'
-                    }
-                    className="text-center"
-                >
-                    {searchQuery && filteredCards.length > 1
-                        ? `${filteredCards.length} Wörter gefunden`
-                        : searchQuery && filteredCards.length === 1
-                        ? `${filteredCards.length} Wort gefunden`
-                        : 'Nichts gefunden!'}{' '}
-                </Badge>
-            </div> */}
         </div>
     )
 }
