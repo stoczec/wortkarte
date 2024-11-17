@@ -84,8 +84,15 @@ export const useCardsStore = create<ICardsStore>()(
                         favoriteCards: state.favoriteCards.filter(card => card.id !== id),
                     })),
                 clearFavorites: () => set({ favoriteCards: [] }),
+                clearStorage: () => {
+                    localStorage.clear()
+                    set({
+                        favoriteCards: [],
+                    })
+                },
             }
         },
+
         {
             name: 'unified-cards-storage',
             partialize: state => ({

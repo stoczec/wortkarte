@@ -20,10 +20,7 @@ export const ItemsPerPageSelect = () => {
 
     const handleSelectChange = (value: string) => {
         setItemsPerPage(Number(value))
-        const currentPath = window.location.pathname.split('/')
-        currentPath[currentPath.length - 1] = '1'
-
-        router.replace(currentPath.join('/'))
+        router.replace('/page/1')
     }
     return (
         <div className="w-full flex justify-start gap-2 px-1">

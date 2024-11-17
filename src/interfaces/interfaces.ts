@@ -44,6 +44,7 @@ export interface ICardsStore {
     addFavoriteCard: (card: ILanguageCard) => void
     removeFavoriteCard: (id: number) => void
     clearFavorites: () => void
+    clearStorage: () => void
 }
 
 export interface IFavoriteCardsStore {

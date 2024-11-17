@@ -9,12 +9,16 @@ import {
     SheetTitle,
     SheetTrigger,
 } from '@/components/ui/sheet'
-import { CardCategorySelect, ItemsPerPageSelect, ModeToggle, NavMenu, WordLevelSelect } from '.'
+import {
+    CardCategorySelect,
+    ItemsPerPageSelect,
+    ModeToggle,
+    NavMenu,
+    WordLevelSelect,
+    AlertDialogCustom,
+} from '.'
 import { Separator } from './ui/separator'
 import { Menu } from 'lucide-react'
-import { useCardsStore } from '@/stores'
-
-// const SHEET_SIDES = ['right'] as const
 
 export function BurgerMenu() {
     return (
@@ -52,6 +56,15 @@ export function BurgerMenu() {
                 </div>
                 {/* </ul> */}
 
+                <Separator />
+                <div className="flex flex-col justify-start gap-4">
+                    <SheetDescription className="px-2 text-red-500">
+                        Achtung, Gefahrenzone!
+                    </SheetDescription>
+                    <div className="px-2">
+                        <AlertDialogCustom />
+                    </div>
+                </div>
                 <SheetFooter className="flex flex-col justify-center items-center mt-auto sm:justify-center sm:flex-col flex-grow-0 flex-shrink-0 gap-2">
                     <Separator />
 
