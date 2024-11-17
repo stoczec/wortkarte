@@ -14,7 +14,7 @@ export function PaginatedList({ displayedCards, pageName, currentPage }: IPagina
     }, [displayedCards, startIndex, itemsPerPage])
 
     return (
-        <section className="flex flex-col items-center justify-center flex-grow flex-shrink-0 basis-auto gap-4 p-4">
+        <section className="flex flex-col items-center justify-center gap-2 px-4 py-2">
             <WordCarousel data={currentItems} />
             <CustomPagination
                 currentPage={currentPage}
