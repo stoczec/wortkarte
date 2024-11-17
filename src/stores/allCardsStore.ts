@@ -89,7 +89,12 @@ export const useCardsStore = create<ICardsStore>()(
                 clearStorage: () => {
                     localStorage.clear()
                     set({
+                        displayedCards: shuffledAllWords,
+                        shuffledCards: shuffledAllWords,
                         favoriteCards: [],
+                        itemsPerPage: 5,
+                        selectedLevel: EnumWORDLEVELS.ALLLEVELS,
+                        selectedCardCategory: EnumCARDSCATEGORY.ALLE,
                     })
                 },
                 updateSearchQuery: (query: string) =>
@@ -111,11 +116,13 @@ export const useCardsStore = create<ICardsStore>()(
             name: 'unified-cards-storage',
             partialize: state => ({
                 itemsPerPage: state.itemsPerPage,
-                cards: state.displayedCards,
+                displayedCards: state.displayedCards,
                 selectedLevel: state.selectedLevel,
                 selectedCardCategory: state.selectedCardCategory,
                 shuffledCards: state.shuffledCards,
                 favoriteCards: state.favoriteCards,
+                searchQuery: state.searchQuery,
+                filteredCards: state.filteredCards,
             }),
         }
     )

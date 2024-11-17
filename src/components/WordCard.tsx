@@ -21,9 +21,6 @@ const animationTransitionConfig = {
 export const WordCard = ({ data }: IWordCardProperties) => {
     const [isFlipped, setIsFlipped] = useState(false)
     const [imageUrl, setImageUrl] = useState<string | null>(null)
-    const [isVisible, setIsVisible] = useState(false)
-
-    const cardRef = useRef<HTMLDivElement>(null)
 
     const isFavorite = useCardsStore(state => state.favoriteCards.some(card => card.id === data.id))
 
@@ -64,49 +61,28 @@ export const WordCard = ({ data }: IWordCardProperties) => {
     }
 
     // Функция для получения изображения
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                setIsVisible(entry.isIntersecting)
-            },
-            { rootMargin: '1200px' } // Загружать изображения за 100px до попадания в видимость
-        )
-
-        if (cardRef.current) {
-            observer.observe(cardRef.current)
-        }
-
-        return () => {
-            if (cardRef.current) {
-                observer.unobserve(cardRef.current)
-            }
-        }
-    }, [])
 
     useEffect(() => {
-        if (isVisible && fileKeyUploadthing) {
-            const fetchImage = async () => {
-                try {
-                    const response = await fetch(`${URL_IMAGES}${fileKeyUploadthing}`)
-                    if (response.ok) {
-                        const blob = await response.blob()
-                        setImageUrl(URL.createObjectURL(blob))
-                    } else {
-                        console.error('Failed to fetch image')
-                    }
-                } catch (error) {
-                    console.error('Error fetching image:', error)
+        const fetchImage = async () => {
+            try {
+                const response = await fetch(`${URL_IMAGES}${fileKeyUploadthing}`)
+                if (response.ok) {
+                    const blob = await response.blob()
+                    setImageUrl(URL.createObjectURL(blob))
+                } else {
+                    console.error('Failed to fetch image')
                 }
+            } catch (error) {
+                console.error('Error fetching image:', error)
             }
-
-            fetchImage()
         }
-    }, [isVisible, fileKeyUploadthing])
+
+        fetchImage()
+    }, [fileKeyUploadthing])
     const regex = /^\d{1,}-/
     const result = id.replace(regex, '')
     return (
         <Card
-            ref={cardRef}
             className="relative aspect-[9/16] w-[320px] p-0 rounded-xl shadow-lg shadow-zinc-900 transform transition-transform "
             onClick={handleFlipCard}
         >
