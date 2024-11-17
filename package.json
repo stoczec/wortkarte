@@ -9,6 +9,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@ai-sdk/openai": "^0.0.72",
 		"@nextui-org/react": "^2.4.8",
 		"@nextui-org/snippet": "^2.0.43",
 		"@plaiceholder/next": "^3.0.0",
