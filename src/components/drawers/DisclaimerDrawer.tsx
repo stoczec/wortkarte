@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import { Button } from './ui/button'
+import { Button } from '../ui/button'
 import {
     Drawer,
     DrawerTrigger,
@@ -11,7 +11,7 @@ import {
     DrawerDescription,
     DrawerFooter,
     DrawerClose,
-} from './ui/drawer'
+} from '../ui/drawer'
 import { disclaimer } from '@/data'
 
 export const DisclaimerDrawer = () => {
@@ -20,9 +20,9 @@ export const DisclaimerDrawer = () => {
         setLanguage(language === 'DE' ? 'RU' : 'DE')
     }
     return (
-        <div className="w-[320px] flex justify-center">
+        <div className="w-full flex justify-center">
             <Drawer>
-                <DrawerTrigger className="font-bold bg-red-600 px-4 py-2 border rounded-lg">
+                <DrawerTrigger className="w-full font-bold bg-red-600 px-4 py-2 border rounded-lg">
                     Wichtig!
                 </DrawerTrigger>
                 <DrawerContent>
