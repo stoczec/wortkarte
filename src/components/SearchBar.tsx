@@ -15,7 +15,7 @@ export function SearchBar() {
         router.replace('/page/1')
     }
     return (
-        <div className="w-[250px] relative flex gap-2 py-3">
+        <div className="w-[210px] relative flex gap-2 py-1">
             <Input
                 type="text"
                 placeholder="Wort suchen"
@@ -25,7 +25,7 @@ export function SearchBar() {
             />
             {searchQuery ? (
                 <X
-                    className="h-5 w-5 text-primary absolute right-2 top-1/2 transform -translate-y-1/2 cursor-pointer"
+                    className="h-5 w-5 text-destructive font-bold absolute right-2 top-1/2 transform -translate-y-1/2 cursor-pointer"
                     onClick={resetSearchAndNavigate}
                 />
             ) : (

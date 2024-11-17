@@ -52,7 +52,7 @@ export default function PaginatedPage() {
         )
     }
     return (
-        <div className="h-full flex flex-col justify-between items-center">
+        <div className="h-full flex flex-col justify-between items-center flex-grow">
             <PaginatedList
                 displayedCards={
                     searchQuery ? filteredCards : getDataByCategory(selectedCardCategory)
