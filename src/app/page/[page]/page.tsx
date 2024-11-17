@@ -53,15 +53,13 @@ export default function PaginatedPage() {
     }
     return (
         <div className="h-full flex flex-col justify-between items-center">
-            {searchQuery ? (
-                <WordCarousel data={filteredCards} />
-            ) : (
-                <PaginatedList
-                    displayedCards={getDataByCategory(selectedCardCategory)}
-                    pageName="page"
-                    currentPage={currentPage}
-                />
-            )}
+            <PaginatedList
+                displayedCards={
+                    searchQuery ? filteredCards : getDataByCategory(selectedCardCategory)
+                }
+                pageName="page"
+                currentPage={currentPage}
+            />
         </div>
     )
 }

@@ -121,6 +121,8 @@ export const useCardsStore = create<ICardsStore>()(
                 selectedCardCategory: state.selectedCardCategory,
                 shuffledCards: state.shuffledCards,
                 favoriteCards: state.favoriteCards,
+                searchQuery: state.searchQuery,
+                filteredCards: state.filteredCards,
             }),
         }
     )
