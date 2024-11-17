@@ -3,7 +3,7 @@ import { useCardsStore } from '@/stores'
 import { IFilteredCardsStore, ILanguageCard } from '@/interfaces/interfaces'
 
 export function useFilteredCards(): IFilteredCardsStore {
-    const allWords = useCardsStore(state => state.allWords)
+    const allWords = useCardsStore(state => state.allCards)
     const [searchQuery, setSearchQuery] = useState('')
     const [filteredCards, setFilteredCards] = useState<ILanguageCard[]>(allWords)
 

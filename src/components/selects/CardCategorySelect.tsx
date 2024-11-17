@@ -19,9 +19,9 @@ export const CardCategorySelect = () => {
     const favoriteCards = useCardsStore(state => state.favoriteCards)
     const { selectedCardCategory, setSelectedCardCategory } = useCardsStore()
 
-    const router = useRouter()
     const [selectedValue, setSelectedValue] =
         useState<(typeof EnumCARDSCATEGORY)[keyof typeof EnumCARDSCATEGORY]>(selectedCardCategory)
+    const router = useRouter()
 
     const handleSelectChange = (
         value: (typeof EnumCARDSCATEGORY)[keyof typeof EnumCARDSCATEGORY]

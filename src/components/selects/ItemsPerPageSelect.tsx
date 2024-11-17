@@ -9,7 +9,6 @@ import {
     SelectTrigger,
     SelectValue,
 } from '@/components/ui/select'
-import { Badge } from '@/components/ui/badge'
 import { useCardsStore } from '@/stores'
 import { useRouter } from 'next/navigation'
 
