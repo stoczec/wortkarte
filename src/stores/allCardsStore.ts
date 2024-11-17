@@ -53,6 +53,8 @@ export const useCardsStore = create<ICardsStore>()(
                 itemsPerPage: 5,
                 selectedLevel: EnumWORDLEVELS.ALLLEVELS,
                 selectedCardCategory: EnumCARDSCATEGORY.ALLE,
+                searchQuery: '',
+                filteredCards: shuffledAllWords,
 
                 setLoading: isLoading => set({ loading: isLoading }),
                 setItemsPerPage: items => set({ itemsPerPage: items }),
@@ -90,6 +92,18 @@ export const useCardsStore = create<ICardsStore>()(
                         favoriteCards: [],
                     })
                 },
+                updateSearchQuery: (query: string) =>
+                    set(state => {
+                        const filtered = state.allCards.filter(
+                            card =>
+                                card.wordDe.toLowerCase().includes(query.toLowerCase()) ||
+                                card.wordRu.toLowerCase().includes(query.toLowerCase())
+                        )
+                        return {
+                            searchQuery: query,
+                            filteredCards: filtered,
+                        }
+                    }),
             }
         },
 

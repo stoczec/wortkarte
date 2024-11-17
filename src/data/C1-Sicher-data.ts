@@ -1,9 +1,9 @@
-import { EnumWORDCLASSES } from '@/enums/enums'
+import { EnumWORDCLASSES, EnumWORDLEVELS } from '@/enums/enums'
 import { ILanguageCard } from '@/interfaces/interfaces'
 
 export const C1_Sicher_data: ILanguageCard[] = [
     {
-        id: 1,
+        id: `1-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Manie',
@@ -14,7 +14,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhrGoJa0n1sqJTVcNudIg3BDMPtGOXY8K72Ziy',
     },
     {
-        id: 2,
+        id: `2-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -e',
         wordDe: 'Sucht',
@@ -25,7 +25,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhEDppTyBe95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
     },
     {
-        id: 3,
+        id: `3-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Albernheit',
@@ -36,7 +36,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh9RcPzG0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
     },
     {
-        id: 4,
+        id: `4-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Beschleunigung',
@@ -47,7 +47,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhP4Zinut7MpSIRvq4tz3AcQfTyCugXJ6Ox2L0',
     },
     {
-        id: 5,
+        id: `5-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Glosse',
@@ -58,7 +58,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhWXWBnoC8UvtqgBs1aRVjix4wlZ9nzArQXO27',
     },
     {
-        id: 6,
+        id: `6-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -en',
         wordDe: 'Held',
@@ -69,7 +69,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhBY0SIhVerN29CWdI6V3bchq7YFQ0GPDR54iO',
     },
     {
-        id: 7,
+        id: `7-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ' (Sg.)',
         wordDe: 'Nahrungsaufnahme',
@@ -80,7 +80,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhpJIIrkJ2shpGY1ctFIeDyvwu24madHBxoLWR',
     },
     {
-        id: 8,
+        id: `8-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Rastlosigkeit',
@@ -91,7 +91,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhYEQx1APJtFzNhDLRbEpOK4inVgWujTHf15rx',
     },
     {
-        id: 9,
+        id: `9-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Reduktion',
@@ -102,7 +102,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhpdCrat2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
-        id: 10,
+        id: `10-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Suchmaschine',
@@ -113,7 +113,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhm0WcBfG1vlWLZ3wVM7eJd6GHQXCqsDpOEYIK',
     },
     {
-        id: 11,
+        id: `11-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'beeinträchtigen',
@@ -124,7 +124,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhkErrk8hXtQ6BK7viORPW5L9sxm4bchzE3J0l',
     },
     {
-        id: 12,
+        id: `12-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'kraulen',
@@ -136,7 +136,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
 
         multiple: [
             {
-                id: 13,
+                id: `13-${EnumWORDLEVELS.C1SICHER}`,
                 article: '',
                 pluralEnding: '',
                 wordDe: 'kraulen',
@@ -149,7 +149,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         ],
     },
     {
-        id: 14,
+        id: `14-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich widersetzen',
@@ -160,7 +160,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhKCv6Bweokgqc0bL4dRrztvZG8lU9nhDyXPTu',
     },
     {
-        id: 15,
+        id: `15-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zur Kenntnis nehmen',
@@ -171,7 +171,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhbfjGc0ArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
     },
     {
-        id: 16,
+        id: `16-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'die Segel streichen',
@@ -183,7 +183,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
 
         multiple: [
             {
-                id: 17,
+                id: `17-${EnumWORDLEVELS.C1SICHER}`,
                 article: '',
                 pluralEnding: '',
                 wordDe: 'die Segel streichen',
@@ -196,7 +196,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         ],
     },
     {
-        id: 18,
+        id: `18-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich einer Sache verschreiben',
@@ -207,7 +207,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhr4OXowSn1sqJTVcNudIg3BDMPtGOXY8K72Zi',
     },
     {
-        id: 19,
+        id: `19-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'hektisch',
@@ -218,7 +218,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhNymK4clSLjOv7ZJ8WUplQhuIi6DFykCgY0RT',
     },
     {
-        id: 20,
+        id: `20-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unaufhaltsam',
@@ -229,7 +229,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhGCWjwOcUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2',
     },
     {
-        id: 21,
+        id: `21-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'würdevoll',
@@ -240,7 +240,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhEP8pjWBe95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
     },
     {
-        id: 22,
+        id: `22-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Neid',
@@ -251,7 +251,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhApkXHpRulJ4FsLD6jKCRqv1rBcWZzk02tgme',
     },
     {
-        id: 23,
+        id: `23-${EnumWORDLEVELS.C1SICHER}`,
         article: 'das',
         pluralEnding: ', -e',
         wordDe: 'Schicksal',
@@ -262,7 +262,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh1IKJwt3kGF4rdxKs5yAfZujcn3gYeqUTDtSR',
     },
     {
-        id: 24,
+        id: `24-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gönnen',
@@ -274,7 +274,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
 
         multiple: [
             {
-                id: 25,
+                id: `25-${EnumWORDLEVELS.C1SICHER}`,
                 article: '',
                 pluralEnding: '',
                 wordDe: 'gönnen',
@@ -287,7 +287,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         ],
     },
     {
-        id: 26,
+        id: `26-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'missglücken',
@@ -298,7 +298,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhrFi4wsn1sqJTVcNudIg3BDMPtGOXY8K72Ziy',
     },
     {
-        id: 27,
+        id: `27-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'missgönnen',
@@ -310,7 +310,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
 
         multiple: [
             {
-                id: 28,
+                id: `28-${EnumWORDLEVELS.C1SICHER}`,
                 article: '',
                 pluralEnding: '',
                 wordDe: 'missgönnen',
@@ -323,7 +323,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         ],
     },
     {
-        id: 29,
+        id: `29-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zerreden',
@@ -334,7 +334,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhKT6jAIneokgqc0bL4dRrztvZG8lU9nhDyXPT',
     },
     {
-        id: 30,
+        id: `30-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich (Dat.) eine Sache bewusst machen',
@@ -345,7 +345,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh1KBECrkGF4rdxKs5yAfZujcn3gYeqUTDtSRC',
     },
     {
-        id: 31,
+        id: `31-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'bürgerschaftlich',
@@ -356,7 +356,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhMFmUcRLKq64xuGBkrejT9EQmSYta7vXAKLsz',
     },
     {
-        id: 32,
+        id: `32-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'inwiefern',
@@ -367,7 +367,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh2D6TIaYvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
     },
     {
-        id: 33,
+        id: `33-${EnumWORDLEVELS.C1SICHER}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Bewusstsein',
@@ -378,7 +378,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhhqsXkARIdR9r06GDKfBbSoICYuEPtT5glMaJ',
     },
     {
-        id: 34,
+        id: `34-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Einsicht',
@@ -389,7 +389,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhCil9077Oc52LSlA4MjeGxyPtkg0ZQhWdHzJu',
     },
     {
-        id: 35,
+        id: `35-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Misserfolg',
@@ -400,7 +400,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhdqw5BIMqi3tZyl6GjPUJxSoKLRrC1ehEkv97',
     },
     {
-        id: 36,
+        id: `36-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'entschlüsseln',
@@ -411,7 +411,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhKTx65iDeokgqc0bL4dRrztvZG8lU9nhDyXPT',
     },
     {
-        id: 37,
+        id: `37-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'entsorgen',
@@ -422,7 +422,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhnNjnEf38yHS4RL3AgWpO2GQ1TvcIh9aB6KbE',
     },
     {
-        id: 38,
+        id: `38-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'missachten',
@@ -433,7 +433,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhP45q94t7MpSIRvq4tz3AcQfTyCugXJ6Ox2L0',
     },
     {
-        id: 39,
+        id: `39-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'missfallen',
@@ -444,7 +444,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh5Lm1fAZ9o7UlyJrOGAjeSa6FfcBquN4z89m2',
     },
     {
-        id: 40,
+        id: `40-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'misslingen',
@@ -455,7 +455,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhJCotOyfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
     },
     {
-        id: 41,
+        id: `41-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'missraten',
@@ -466,7 +466,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhJB8wlvAfcMyl2V46DGiNWAse9zQUT5pOkEKa',
     },
     {
-        id: 42,
+        id: `42-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schiefgehen',
@@ -477,7 +477,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhYg8RfsJtFzNhDLRbEpOK4inVgWujTHf15rx3',
     },
     {
-        id: 43,
+        id: `43-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verzweifeln',
@@ -488,7 +488,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhu8HcKdz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
     },
     {
-        id: 44,
+        id: `44-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zerdrücken',
@@ -499,7 +499,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhNujwd8lSLjOv7ZJ8WUplQhuIi6DFykCgY0RT',
     },
     {
-        id: 45,
+        id: `45-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zerfallen',
@@ -510,7 +510,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh967mnx0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
     },
     {
-        id: 46,
+        id: `46-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zerfließen',
@@ -521,7 +521,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh6zxDv3PisOKx5VSaw0LRnFcMd9oyfv1g4Qer',
     },
     {
-        id: 47,
+        id: `47-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zergehen',
@@ -532,7 +532,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhzhvknypFPErID6hOu9WUTsic5yqdxGH0YQ1L',
     },
     {
-        id: 48,
+        id: `48-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zerhacken',
@@ -543,7 +543,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhUO7twoOWcAx1lePRnpGv52BK4HaVMoFTEJC3',
     },
     {
-        id: 49,
+        id: `49-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zerkochen',
@@ -554,7 +554,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhbzcvPPRArGwWsaZoXAO0dkh98SbIKMQ2JCfz',
     },
     {
-        id: 50,
+        id: `50-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zerlegen',
@@ -565,7 +565,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhXZKB8IWq9khKSUvpJeH506yLiP3w8TAdGr7u',
     },
     {
-        id: 51,
+        id: `51-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zerplatzen',
@@ -576,7 +576,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhJ5m5nXfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
     },
     {
-        id: 52,
+        id: `52-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zerreißen',
@@ -587,7 +587,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh9346Md0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
     },
     {
-        id: 53,
+        id: `53-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zerschneiden',
@@ -598,7 +598,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhVVZksKQGWr0oIbjYndiBXl2ukOh78NvP3ecJ',
     },
     {
-        id: 54,
+        id: `54-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zerspringen',
@@ -609,7 +609,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhWSSkJlyC8UvtqgBs1aRVjix4wlZ9nzArQXO2',
     },
     {
-        id: 55,
+        id: `55-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zerstreuen',
@@ -620,7 +620,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhIoa0yWvXjGtPnx5WlKFgyNY93L2wqA8bODCe',
     },
     {
-        id: 56,
+        id: `56-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Anspielung',
@@ -631,7 +631,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhU2cEY6WcAx1lePRnpGv52BK4HaVMoFTEJC3f',
     },
     {
-        id: 57,
+        id: `57-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: '(Sg.)',
         wordDe: 'Aufbruch',
@@ -642,7 +642,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhe569VVTF5phCDZfm6yax0YcPV9r7qRQN1kgJ',
     },
     {
-        id: 58,
+        id: `58-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: '(Sg.)',
         wordDe: 'Knast',
@@ -653,7 +653,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhb2br4oArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
     },
     {
-        id: 59,
+        id: `59-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Schiedsrichter',
@@ -664,7 +664,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNheeksQcF5phCDZfm6yax0YcPV9r7qRQN1kgJb',
     },
     {
-        id: 60,
+        id: `60-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -ä-e',
         wordDe: 'Schwamm',
@@ -675,7 +675,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhosF0rUVZkc03OmYsX6Ry4wTgS2luHCNiqbnt',
     },
     {
-        id: 61,
+        id: `61-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'entgiften',
@@ -686,7 +686,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhn6USyGj38yHS4RL3AgWpO2GQ1TvcIh9aB6Kb',
     },
     {
-        id: 62,
+        id: `62-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'entkernen',
@@ -697,7 +697,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhxNAJPNmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
     },
     {
-        id: 63,
+        id: `63-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'entkleiden',
@@ -708,7 +708,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNheLVe5kF5phCDZfm6yax0YcPV9r7qRQN1kgJb',
     },
     {
-        id: 64,
+        id: `64-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'entmutigen',
@@ -719,7 +719,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhBpmUnjVerN29CWdI6V3bchq7YFQ0GPDR54iO',
     },
     {
-        id: 65,
+        id: `65-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'entzaubern',
@@ -730,7 +730,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhVvHxDK5QGWr0oIbjYndiBXl2ukOh78NvP3ec',
     },
     {
-        id: 66,
+        id: `66-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'grausam',
@@ -741,7 +741,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhxRc1JjmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
     },
     {
-        id: 67,
+        id: `67-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'fehlen',
@@ -752,7 +752,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhEn00J7Be95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
     },
     {
-        id: 68,
+        id: `68-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'herausfinden',
@@ -763,7 +763,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh3PiotQY4ojvmFX2AO1hJNYV9ixGpuDfd5zUc',
     },
     {
-        id: 69,
+        id: `69-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einprägen',
@@ -776,7 +776,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhQnzws4cJs09PbMZ3emtdonxCEGKNvwWqBkuS',
     },
     {
-        id: 70,
+        id: `70-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'entziehen',
@@ -788,7 +788,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhGClNQWOUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2',
     },
     {
-        id: 71,
+        id: `71-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Andeutung',
@@ -799,7 +799,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh2SLco8YvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
     },
     {
-        id: 72,
+        id: `72-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Pointe',
@@ -810,7 +810,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhzMM7YpFPErID6hOu9WUTsic5yqdxGH0YQ1LR',
     },
     {
-        id: 73,
+        id: `73-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'mithalten',
@@ -822,7 +822,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhIoq6gb1XjGtPnx5WlKFgyNY93L2wqA8bODCe',
     },
     {
-        id: 74,
+        id: `74-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'jemandem auf die Schliche kommen',
@@ -834,7 +834,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhElvtWGBe95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
     },
     {
-        id: 75,
+        id: `75-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'langatmig',
@@ -846,7 +846,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhJP3aUafcMyl2V46DGiNWAse9zQUT5pOkEKaB',
     },
     {
-        id: 76,
+        id: `76-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'umwerfend',
@@ -857,7 +857,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhnn7oe238yHS4RL3AgWpO2GQ1TvcIh9aB6KbE',
     },
     {
-        id: 77,
+        id: `77-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'eine Sache an sich',
@@ -869,7 +869,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhf8BbnXE7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
     },
     {
-        id: 78,
+        id: `78-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'jemandem Beachtung schenken',
@@ -881,7 +881,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhkXoGUTIhXtQ6BK7viORPW5L9sxm4bchzE3J0',
     },
     {
-        id: 79,
+        id: `79-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Ausstattung',
@@ -892,7 +892,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhfVcy7anE7ZS8aFTpxy04W6gvboGB5ctDHL2E',
     },
     {
-        id: 80,
+        id: `80-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Durchsage',
@@ -903,7 +903,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhTNdRTo54978sPWymYbGCLVwivJjoSRlhteBc',
     },
     {
-        id: 81,
+        id: `81-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Umgangsform',
@@ -914,7 +914,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhIvg2GvXjGtPnx5WlKFgyNY93L2wqA8bODCei',
     },
     {
-        id: 82,
+        id: `82-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Verzögerung',
@@ -925,7 +925,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhCKEW8uOc52LSlA4MjeGxyPtkg0ZQhWdHzJuF',
     },
     {
-        id: 83,
+        id: `83-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Betätigung',
@@ -936,7 +936,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhpZcv4g2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
-        id: 84,
+        id: `84-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Einsatz',
@@ -947,7 +947,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhpQBKL62shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
-        id: 85,
+        id: `85-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Facette',
@@ -960,7 +960,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhAOtrttulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
     },
     {
-        id: 86,
+        id: `86-${EnumWORDLEVELS.C1SICHER}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Flair',
@@ -971,7 +971,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhUTwVNCWcAx1lePRnpGv52BK4HaVMoFTEJC3f',
     },
     {
-        id: 87,
+        id: `87-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Kreuzfahrt',
@@ -983,7 +983,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhIyZfRCXjGtPnx5WlKFgyNY93L2wqA8bODCei',
     },
     {
-        id: 88,
+        id: `88-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -n',
         wordDe: 'Page',
@@ -994,7 +994,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhAAm50FulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
     },
     {
-        id: 89,
+        id: `89-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schwanken',
@@ -1005,7 +1005,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhYr2qY9JtFzNhDLRbEpOK4inVgWujTHf15rx3',
     },
     {
-        id: 90,
+        id: `90-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'etwas einen modernen/ neuen Anstrich geben',
@@ -1017,7 +1017,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhzA25AWpFPErID6hOu9WUTsic5yqdxGH0YQ1L',
     },
     {
-        id: 91,
+        id: `91-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'in der Lage sein',
@@ -1028,7 +1028,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhvookOi8GDSXB4RHWIPwtqLFUmnjci5ChdEAJ',
     },
     {
-        id: 92,
+        id: `92-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'von der Pike auf lernen',
@@ -1039,7 +1039,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhwJCDGkbKx3oQcHXA85iDdYagnsSZVFPkheU4',
     },
     {
-        id: 93,
+        id: `93-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einen neuen Weg einschlagen',
@@ -1051,7 +1051,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh2DwmSbYvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
     },
     {
-        id: 94,
+        id: `94-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'angehend',
@@ -1062,7 +1062,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhEQkuplQBe95wT1ApKMvZ0U8kdzs6lPNEhOR4',
     },
     {
-        id: 95,
+        id: `95-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'reizvoll',
@@ -1073,7 +1073,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhJlsLKqfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
     },
     {
-        id: 96,
+        id: `96-${EnumWORDLEVELS.C1SICHER}`,
         article: 'das',
         pluralEnding: ', -e',
         wordDe: 'Attest',
@@ -1084,7 +1084,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhfFIyXIE7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
     },
     {
-        id: 97,
+        id: `97-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Rücktritt',
@@ -1095,7 +1095,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhpZodsa2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
-        id: 98,
+        id: `98-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Suite',
@@ -1107,7 +1107,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhPog6bHt7MpSIRvq4tz3AcQfTyCugXJ6Ox2L0',
     },
     {
-        id: 99,
+        id: `99-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'beinhalten',
@@ -1119,7 +1119,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhSyyKZ4idZ5fPhj2MLRcv89up034XUErWgAix',
     },
     {
-        id: 100,
+        id: `100-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'stilvoll',
@@ -1130,7 +1130,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhpOjqWV2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
-        id: 101,
+        id: `101-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zur Auswahl stehen',
@@ -1141,7 +1141,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhugL88mz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
     },
     {
-        id: 102,
+        id: `102-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Freude bereiten',
@@ -1152,7 +1152,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhApzzinFulJ4FsLD6jKCRqv1rBcWZzk02tgme',
     },
     {
-        id: 103,
+        id: `103-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'in Kauf nehmen',
@@ -1163,7 +1163,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhG0Ns3OUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2j',
     },
     {
-        id: 104,
+        id: `104-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Schwierigkeiten bereiten',
@@ -1174,7 +1174,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhEQhQJ97Be95wT1ApKMvZ0U8kdzs6lPNEhOR4',
     },
     {
-        id: 105,
+        id: `105-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zur Sprache kommen',
@@ -1185,7 +1185,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhLARzEiyU1vJKEiwc6tXCo24HYTQ8xVrjL9Gu',
     },
     {
-        id: 106,
+        id: `106-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zur Verfügung stellen',
@@ -1196,7 +1196,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhxRjy3WmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
     },
     {
-        id: 107,
+        id: `107-${EnumWORDLEVELS.C1SICHER}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Verständnis vertiefen',
@@ -1207,7 +1207,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh4YWCUt6wOqj81VfMisExF0Xm56z2QrgI43vl',
     },
     {
-        id: 108,
+        id: `108-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Vorbereitungen treffen',
@@ -1218,7 +1218,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh4tmNIfp6wOqj81VfMisExF0Xm56z2QrgI43v',
     },
     {
-        id: 109,
+        id: `109-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'im Vordergrund stehen',
@@ -1229,7 +1229,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh6SrlVBPisOKx5VSaw0LRnFcMd9oyfv1g4Qer',
     },
     {
-        id: 110,
+        id: `110-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'es gilt',
@@ -1240,7 +1240,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhbwitOsArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
     },
     {
-        id: 111,
+        id: `111-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'abgelegen',
@@ -1251,7 +1251,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhPmwNPBbt7MpSIRvq4tz3AcQfTyCugXJ6Ox2L',
     },
     {
-        id: 112,
+        id: `112-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'fachkundig',
@@ -1262,7 +1262,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhCtLp8AOc52LSlA4MjeGxyPtkg0ZQhWdHzJuF',
     },
     {
-        id: 113,
+        id: `113-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'pauschal',
@@ -1273,7 +1273,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhFipWciTubBCpndtMKSeV7IPW4zZa0vXUywL5',
     },
     {
-        id: 114,
+        id: `114-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'auf eigene Faust',
@@ -1284,7 +1284,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhXO2h2Yq9khKSUvpJeH506yLiP3w8TAdGr7ua',
     },
     {
-        id: 115,
+        id: `115-${EnumWORDLEVELS.C1SICHER}`,
         article: 'das',
         pluralEnding: ', -er',
         wordDe: 'das Schlagwort',
@@ -1295,7 +1295,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhTT2P8x54978sPWymYbGCLVwivJjoSRlhteBc',
     },
     {
-        id: 116,
+        id: `116-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'eine Auswahl treffen',
@@ -1306,7 +1306,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhosXXxhZkc03OmYsX6Ry4wTgS2luHCNiqbntU',
     },
     {
-        id: 117,
+        id: `117-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'eine Entscheidung treffen',
@@ -1317,7 +1317,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh9M7XJi0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
     },
     {
-        id: 118,
+        id: `118-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'in Erfahrung bringen',
@@ -1328,7 +1328,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhttutZXxXU3oa7DEsTyVQ2zGrJZFuYglcj84A',
     },
     {
-        id: 119,
+        id: `119-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'in Erfüllung gehen',
@@ -1339,7 +1339,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh2jGDd1YvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
     },
     {
-        id: 120,
+        id: `120-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'eine Initiative ergreifen',
@@ -1351,7 +1351,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhVvs7UmnQGWr0oIbjYndiBXl2ukOh78NvP3ec',
     },
     {
-        id: 121,
+        id: `121-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'über Kenntnisse verfügen',
@@ -1362,7 +1362,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhFkW4tjTubBCpndtMKSeV7IPW4zZa0vXUywL5',
     },
     {
-        id: 122,
+        id: `122-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Kritik üben an (+ Dat.)',
@@ -1373,7 +1373,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhTn2KSK54978sPWymYbGCLVwivJjoSRlhteBc',
     },
     {
-        id: 123,
+        id: `123-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'auf Kritik stoßen',
@@ -1384,7 +1384,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhqasV4ARoHMb4Fx3SuAL2OkR1JDz8hvClYy5f',
     },
     {
-        id: 124,
+        id: `124-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zur Sprache bringen',
@@ -1395,7 +1395,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhfVo4AYkE7ZS8aFTpxy04W6gvboGB5ctDHL2E',
     },
     {
-        id: 125,
+        id: `125-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Verantwortung übernehmen',
@@ -1406,7 +1406,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhf7gmU7E7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
     },
     {
-        id: 126,
+        id: `126-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Bogen',
@@ -1417,7 +1417,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhpJvVCI72shpGY1ctFIeDyvwu24madHBxoLWR',
         multiple: [
             {
-                id: 127,
+                id: `127-${EnumWORDLEVELS.C1SICHER}`,
                 article: 'der',
                 pluralEnding: '',
                 wordDe: 'Bogen',
@@ -1430,7 +1430,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         ],
     },
     {
-        id: 128,
+        id: `128-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Erzeuger',
@@ -1441,7 +1441,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhpRjgRL2shpGY1ctFIeDyvwu24madHBxoLWRM',
         multiple: [
             {
-                id: 129,
+                id: `129-${EnumWORDLEVELS.C1SICHER}`,
                 article: 'der',
                 pluralEnding: '',
                 wordDe: 'Erzeuger',
@@ -1454,7 +1454,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         ],
     },
     {
-        id: 130,
+        id: `130-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -s',
         wordDe: 'Kurpark',
@@ -1467,7 +1467,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhufvbEqz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
     },
     {
-        id: 131,
+        id: `131-${EnumWORDLEVELS.C1SICHER}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Schuhwerk',
@@ -1478,7 +1478,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhGt87HkUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2j',
     },
     {
-        id: 132,
+        id: `132-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Überrest',
@@ -1489,7 +1489,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhfQ9IaIE7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
     },
     {
-        id: 133,
+        id: `133-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Eule',
@@ -1500,7 +1500,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhF9rrrdBTubBCpndtMKSeV7IPW4zZa0vXUywL',
     },
     {
-        id: 134,
+        id: `134-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausklingen',
@@ -1511,7 +1511,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhX0CZh8q9khKSUvpJeH506yLiP3w8TAdGr7ua',
     },
     {
-        id: 135,
+        id: `135-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'jemandem etwas nahebringen',
@@ -1522,7 +1522,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhAGNnfZulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
     },
     {
-        id: 136,
+        id: `136-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verwöhnen',
@@ -1533,7 +1533,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh0oXmDmLSHd98mAhbqVNOczXjJBnyGrFoI6PR',
     },
     {
-        id: 137,
+        id: `137-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'auf die Probe stellen',
@@ -1544,7 +1544,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhF99eWelTubBCpndtMKSeV7IPW4zZa0vXUywL',
     },
     {
-        id: 138,
+        id: `138-${EnumWORDLEVELS.C1SICHER}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Andenken',
@@ -1555,7 +1555,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhhAzyKrIdR9r06GDKfBbSoICYuEPtT5glMaJH',
     },
     {
-        id: 139,
+        id: `139-${EnumWORDLEVELS.C1SICHER}`,
         article: 'das',
         pluralEnding: ', -e',
         wordDe: 'Kalkül',
@@ -1566,7 +1566,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhWSYM9XKC8UvtqgBs1aRVjix4wlZ9nzArQXO2',
     },
     {
-        id: 140,
+        id: `140-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Zuneigung',
@@ -1577,7 +1577,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh39aWen4ojvmFX2AO1hJNYV9ixGpuDfd5zUcL',
     },
     {
-        id: 141,
+        id: `141-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erstehen',
@@ -1588,7 +1588,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhuOTRq6z7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
     },
     {
-        id: 142,
+        id: `142-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'nachvollziehen',
@@ -1599,7 +1599,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhk470jrhXtQ6BK7viORPW5L9sxm4bchzE3J0l',
     },
     {
-        id: 143,
+        id: `143-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'jemandem etwas untersagen',
@@ -1610,7 +1610,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhwuVaM5KbKx3oQcHXA85iDdYagnsSZVFPkheU',
     },
     {
-        id: 144,
+        id: `144-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'enorm',
@@ -1621,7 +1621,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhhCbii7IdR9r06GDKfBbSoICYuEPtT5glMaJH',
     },
     {
-        id: 145,
+        id: `145-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'geistige Umnachtung',
@@ -1632,7 +1632,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhT2cq9254978sPWymYbGCLVwivJjoSRlhteBc',
     },
     {
-        id: 146,
+        id: `146-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -s',
         wordDe: 'Segeltörn',
@@ -1643,7 +1643,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhhzjOX2IdR9r06GDKfBbSoICYuEPtT5glMaJH',
     },
     {
-        id: 147,
+        id: `147-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausbauen',
@@ -1654,7 +1654,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhTHvR0n54978sPWymYbGCLVwivJjoSRlhteBc',
     },
     {
-        id: 148,
+        id: `148-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'liebenswert',
@@ -1666,7 +1666,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhVk6nN7QGWr0oIbjYndiBXl2ukOh78NvP3ecJ',
     },
     {
-        id: 149,
+        id: `149-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'nachhaltig',
@@ -1679,7 +1679,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhxUw3LwomdaqpS3zs71DFeJYoM4NUW5OEbPwj',
     },
     {
-        id: 150,
+        id: `150-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -n',
         wordDe: 'Bauer',
@@ -1692,7 +1692,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhGsOnkhUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2j',
     },
     {
-        id: 151,
+        id: `151-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Eiszeit',
@@ -1705,7 +1705,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhqaRnv0goHMb4Fx3SuAL2OkR1JDz8hvClYy5f',
     },
     {
-        id: 152,
+        id: `152-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Geschicklichkeit',
@@ -1717,7 +1717,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhpqZIK42shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
-        id: 153,
+        id: `153-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -',
         wordDe: 'Jäger',
@@ -1729,7 +1729,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhW7dkJxC8UvtqgBs1aRVjix4wlZ9nzArQXO27',
     },
     {
-        id: 154,
+        id: `154-${EnumWORDLEVELS.C1SICHER}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Mittelalter',
@@ -1740,7 +1740,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh5y03eG9o7UlyJrOGAjeSa6FfcBquN4z89m2P',
     },
     {
-        id: 155,
+        id: `155-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -',
         wordDe: 'Ritter',
@@ -1751,7 +1751,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhh5tS8hIdR9r06GDKfBbSoICYuEPtT5glMaJH',
     },
     {
-        id: 156,
+        id: `156-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -',
         wordDe: 'Sammler',
@@ -1764,7 +1764,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhn5ojo738yHS4RL3AgWpO2GQ1TvcIh9aB6KbE',
     },
     {
-        id: 157,
+        id: `157-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -',
         wordDe: 'Siedler',
@@ -1775,7 +1775,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhwxLN6UbKx3oQcHXA85iDdYagnsSZVFPkheU4',
     },
     {
-        id: 158,
+        id: `158-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Steinzeit',
@@ -1787,7 +1787,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhy1DMLVrDLWcC2lIrhH17xJvjKnQR9ws536ei',
     },
     {
-        id: 159,
+        id: `159-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'existenziell',
@@ -1798,7 +1798,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhQVDiJZcJs09PbMZ3emtdonxCEGKNvwWqBkuS',
     },
     {
-        id: 160,
+        id: `160-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Kapazität',
@@ -1809,7 +1809,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhFh2BI1TubBCpndtMKSeV7IPW4zZa0vXUywL5',
     },
     {
-        id: 161,
+        id: `161-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Merkfähigkeit',
@@ -1820,7 +1820,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhqa0OxPToHMb4Fx3SuAL2OkR1JDz8hvClYy5f',
     },
     {
-        id: 162,
+        id: `162-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Spezies',
@@ -1831,7 +1831,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhhmdNkxIdR9r06GDKfBbSoICYuEPtT5glMaJH',
     },
     {
-        id: 163,
+        id: `163-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -n',
         wordDe: 'Vorfahre',
@@ -1842,7 +1842,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhEm8qb9Be95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
     },
     {
-        id: 164,
+        id: `164-${EnumWORDLEVELS.C1SICHER}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Wesen',
@@ -1853,7 +1853,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh2maCpQYvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
     },
     {
-        id: 165,
+        id: `165-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'beeindrucken',
@@ -1864,7 +1864,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhk8qOdWhXtQ6BK7viORPW5L9sxm4bchzE3J0l',
     },
     {
-        id: 166,
+        id: `166-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schwinden',
@@ -1875,7 +1875,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhNPhVFGlSLjOv7ZJ8WUplQhuIi6DFykCgY0RT',
     },
     {
-        id: 167,
+        id: `167-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'abwärtsgehen',
@@ -1886,7 +1886,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhEQsnwsEBe95wT1ApKMvZ0U8kdzs6lPNEhOR4',
     },
     {
-        id: 168,
+        id: `168-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'imstande sein',
@@ -1897,7 +1897,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhfDxTAyE7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
     },
     {
-        id: 169,
+        id: `169-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'anschaulich',
@@ -1908,7 +1908,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhegLPsAF5phCDZfm6yax0YcPV9r7qRQN1kgJb',
     },
     {
-        id: 170,
+        id: `170-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausgeprägt',
@@ -1919,7 +1919,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhbyzHzbArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
     },
     {
-        id: 171,
+        id: `171-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'eigenständig',
@@ -1930,7 +1930,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhcw3KZWvxsIW48BMn5jH2lVp9LzJXDy1TkiKr',
     },
     {
-        id: 172,
+        id: `172-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schlau',
@@ -1941,7 +1941,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhpH0Bf92shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
-        id: 173,
+        id: `173-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'allmählich',
@@ -1952,7 +1952,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh6L0F3IPisOKx5VSaw0LRnFcMd9oyfv1g4Qer',
     },
     {
-        id: 174,
+        id: `174-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'lediglich',
@@ -1963,7 +1963,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh1bdJrhkGF4rdxKs5yAfZujcn3gYeqUTDtSRC',
     },
     {
-        id: 175,
+        id: `175-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'hingegen',
@@ -1974,7 +1974,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh0MqzWmLSHd98mAhbqVNOczXjJBnyGrFoI6PR',
     },
     {
-        id: 176,
+        id: `176-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Lerneinheit',
@@ -1986,7 +1986,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh8G4Jvg1pEDTtnbqjYeRBhIVLQSxJWXgs3COU',
     },
     {
-        id: 177,
+        id: `177-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Reiz',
@@ -1998,7 +1998,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhzF2STFpFPErID6hOu9WUTsic5yqdxGH0YQ1L',
     },
     {
-        id: 178,
+        id: `178-${EnumWORDLEVELS.C1SICHER}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Vorsprung',
@@ -2010,7 +2010,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhhnEQBQIdR9r06GDKfBbSoICYuEPtT5glMaJH',
     },
     {
-        id: 179,
+        id: `179-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'jemandem etwas abverlangen',
@@ -2021,7 +2021,7 @@ export const C1_Sicher_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhuu2TOHz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
     },
     {
-        id: 180,
+        id: `180-${EnumWORDLEVELS.C1SICHER}`,
         article: '',
         pluralEnding: '',
         wordDe: 'etwas einprägen',
