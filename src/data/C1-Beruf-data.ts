@@ -244,7 +244,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh2qRB6uYvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
     },
     {
-        id: `22 -${EnumWORDLEVELS.C1BERUF}`,
+        id: `22-${EnumWORDLEVELS.C1BERUF}`,
         article: '',
         pluralEnding: '',
         wordDe: 'beiderseitig',

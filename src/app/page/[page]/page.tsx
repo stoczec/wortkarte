@@ -52,7 +52,7 @@ export default function PaginatedPage() {
             </div>
         )
     }
-
+    console.log(getDataByCategory(selectedCardCategory))
     return (
         <div className="h-full flex flex-col justify-between items-center">
             {searchQuery ? (
