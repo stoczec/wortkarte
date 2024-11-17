@@ -10,19 +10,22 @@ import {
     SelectValue,
 } from '@/components/ui/select'
 import { EnumWORDLEVELS } from '@/enums/enums'
-import { useAllCardsStore } from '@/stores'
-import { Badge } from './ui/badge'
+import { useCardsStore } from '@/stores'
 import { useRouter } from 'next/navigation'
 import { ILanguageCard } from '@/interfaces/interfaces'
 import { A2_B2_data, C1_Beruf_data, C1_Sicher_data } from '@/data'
+import { Badge } from '../ui/badge'
 
 export const WordLevelSelect = () => {
-    const { selectedLevel, setSelectedLevel } = useAllCardsStore()
+    const { selectedLevel, setSelectedLevel } = useCardsStore()
 
+    const [selectedValue, setSelectedValue] =
+        useState<(typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]>(selectedLevel)
     const router = useRouter()
 
     const handleSelectChange = (value: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]) => {
         setSelectedLevel(value)
+        setSelectedValue(value)
         router.push('/page/1')
     }
 
@@ -43,15 +46,22 @@ export const WordLevelSelect = () => {
     const totalA2B2Cards = countTotalCards(A2_B2_data)
     const totalC1SicherCards = countTotalCards(C1_Sicher_data)
     const totalC1BerufCards = countTotalCards(C1_Beruf_data)
+    const totalAllLevels = totalA2B2Cards + totalC1SicherCards + totalC1BerufCards
 
     return (
         <div className="w-full flex justify-start gap-2 px-1">
-            <Select onValueChange={handleSelectChange}>
-                <SelectTrigger className="w-[240px] flex  items-center">
-                    <SelectValue placeholder="Wähle das Niveau der Wörter" />
+            <Select value={selectedValue} onValueChange={handleSelectChange}>
+                <SelectTrigger className="w-[240px]">
+                    <SelectValue>{selectedValue}</SelectValue>
                 </SelectTrigger>
                 <SelectContent>
                     <SelectGroup>
+                        <SelectItem value={EnumWORDLEVELS.ALLLEVELS} className="cursor-pointer">
+                            <span className="mr-10">Alle Sprachebenen</span>
+                            <Badge variant="default" className="bg-primary">
+                                {totalAllLevels} Stück
+                            </Badge>
+                        </SelectItem>
                         <SelectItem value={EnumWORDLEVELS.A2B2} className="cursor-pointer">
                             <span className="mr-10">A2-B2</span>
                             <Badge variant="default" className="bg-primary">
@@ -73,9 +83,6 @@ export const WordLevelSelect = () => {
                     </SelectGroup>
                 </SelectContent>
             </Select>
-            <Badge variant="default" className="bg-primary">
-                {selectedLevel}
-            </Badge>
         </div>
     )
 }

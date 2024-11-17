@@ -9,12 +9,16 @@ import {
     SheetTitle,
     SheetTrigger,
 } from '@/components/ui/sheet'
-import { ItemsPerPageSelect, ModeToggle, NavMenu, WordLevelSelect } from '.'
+import {
+    CardCategorySelect,
+    ItemsPerPageSelect,
+    ModeToggle,
+    NavMenu,
+    WordLevelSelect,
+    AlertDialogCustom,
+} from '.'
 import { Separator } from './ui/separator'
 import { Menu } from 'lucide-react'
-import { useAllCardsStore } from '@/stores'
-
-// const SHEET_SIDES = ['right'] as const
 
 export function BurgerMenu() {
     return (
@@ -25,16 +29,23 @@ export function BurgerMenu() {
             <SheetContent side="right" className="flex flex-col justify-start h-full">
                 <SheetTitle className="p-2">Navigation</SheetTitle>
                 <SheetDescription className="px-2">
-                    Wählen Sie einen Bereich zum Navigieren aus
+                    Wähle einen Bereich zum Navigieren aus
                 </SheetDescription>
                 <Separator />
 
                 <NavMenu />
 
                 <Separator />
-                <ItemsPerPageSelect />
 
-                <Separator />
+                <SheetDescription className="px-2">
+                    Wähle den Kartentyp für die Anzeige aus
+                </SheetDescription>
+                <CardCategorySelect />
+                <SheetDescription className="px-2">
+                    Wähle die Anzahl der Karten pro Seite aus
+                </SheetDescription>
+                <ItemsPerPageSelect />
+                <SheetDescription className="px-2">Wähle das Niveau der Wörter</SheetDescription>
 
                 <WordLevelSelect />
                 <Separator />
@@ -45,6 +56,15 @@ export function BurgerMenu() {
                 </div>
                 {/* </ul> */}
 
+                <Separator />
+                <div className="flex flex-col justify-start gap-4">
+                    <SheetDescription className="px-2 text-red-500">
+                        Achtung, Gefahrenzone!
+                    </SheetDescription>
+                    <div className="px-2">
+                        <AlertDialogCustom />
+                    </div>
+                </div>
                 <SheetFooter className="flex flex-col justify-center items-center mt-auto sm:justify-center sm:flex-col flex-grow-0 flex-shrink-0 gap-2">
                     <Separator />
 
