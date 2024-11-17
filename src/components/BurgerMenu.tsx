@@ -9,10 +9,10 @@ import {
     SheetTitle,
     SheetTrigger,
 } from '@/components/ui/sheet'
-import { ItemsPerPageSelect, ModeToggle, NavMenu, WordLevelSelect } from '.'
+import { CardCategorySelect, ItemsPerPageSelect, ModeToggle, NavMenu, WordLevelSelect } from '.'
 import { Separator } from './ui/separator'
 import { Menu } from 'lucide-react'
-import { useAllCardsStore } from '@/stores'
+import { useCardsStore } from '@/stores'
 
 // const SHEET_SIDES = ['right'] as const
 
@@ -25,16 +25,23 @@ export function BurgerMenu() {
             <SheetContent side="right" className="flex flex-col justify-start h-full">
                 <SheetTitle className="p-2">Navigation</SheetTitle>
                 <SheetDescription className="px-2">
-                    Wählen Sie einen Bereich zum Navigieren aus
+                    Wähle einen Bereich zum Navigieren aus
                 </SheetDescription>
                 <Separator />
 
                 <NavMenu />
 
                 <Separator />
-                <ItemsPerPageSelect />
 
-                <Separator />
+                <SheetDescription className="px-2">
+                    Wähle den Kartentyp für die Anzeige aus
+                </SheetDescription>
+                <CardCategorySelect />
+                <SheetDescription className="px-2">
+                    Wähle die Anzahl der Karten pro Seite aus
+                </SheetDescription>
+                <ItemsPerPageSelect />
+                <SheetDescription className="px-2">Wähle das Niveau der Wörter</SheetDescription>
 
                 <WordLevelSelect />
                 <Separator />

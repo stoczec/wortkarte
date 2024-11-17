@@ -7,7 +7,7 @@ import { Card, CardContent } from './ui/card'
 import { IWordCardProperties } from '@/interfaces/interfaces'
 import { cn } from '@/lib/utils'
 import { EnumWORDCLASSES } from '@/enums/enums'
-import { useAllCardsStore, useFavoriteCardsStore } from '@/stores'
+import { useCardsStore, useFavoriteCardsStore } from '@/stores'
 import { Heart } from 'lucide-react'
 import ImageWithLoading from './ImageWithLoading'
 import { URL_IMAGES } from '@/constans/constans'
@@ -28,7 +28,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 
     const addFavoriteCard = useFavoriteCardsStore(state => state.addFavoriteCard)
     const removeFavoriteCard = useFavoriteCardsStore(state => state.removeFavoriteCard)
-    const { selectedLevel } = useAllCardsStore()
+    const { selectedLevel } = useCardsStore()
 
     const {
         id,

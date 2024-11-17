@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import { useAllCardsStore } from '@/stores'
+import { useCardsStore } from '@/stores'
 import { IFilteredCardsStore, ILanguageCard } from '@/interfaces/interfaces'
 
 export function useFilteredCards(): IFilteredCardsStore {
-    const allWords = useAllCardsStore(state => state.allWords)
+    const allWords = useCardsStore(state => state.allWords)
     const [searchQuery, setSearchQuery] = useState('')
     const [filteredCards, setFilteredCards] = useState<ILanguageCard[]>(allWords)
 
