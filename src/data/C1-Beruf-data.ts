@@ -761,4 +761,40 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'В условиях климатического кризиса многим людям приходится переосмысливать своё поведение.',
         fileKeyUploadthing: 'Yosg29JtFzNhJB1aJNwfcMyl2V46DGiNWAse9zQUT5pOkEKa',
     },
+    {
+        id: `68-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'der',
+        pluralEnding: '',
+        wordDe: 'Flurfunk',
+        wordRu: 'слухи, сплетни на рабочем месте',
+        wordClass: EnumWORDCLASSES.MASCULIN,
+        exampleDe:
+            'Im Büro kursierten durch den Flurfunk Gerüchte über die bevorstehende Umstrukturierung.',
+        exampleRu: 'В офисе через слухи распространились сплетни о предстоящей реструктуризации.',
+        fileKeyUploadthing: 'Yosg29JtFzNhxOwG6XmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
+    },
+    {
+        id: `69-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'betriebsintern',
+        wordRu: 'внутри предприятия, внутренний (для компании)',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe:
+            'Diese Informationen sind streng betriebsintern und dürfen nicht nach außen gelangen.',
+        exampleRu:
+            'Эта информация строго внутреннего характера и не должна выходить за пределы компании.',
+        fileKeyUploadthing: 'Yosg29JtFzNhdYoOBMqi3tZyl6GjPUJxSoKLRrC1ehEkv97z',
+    },
+    {
+        id: `70-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'erfolgen, erfolgt, ist erfolgt',
+        wordRu: 'происходить, осуществляться',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe: 'Die Zahlung muss innerhalb von fünf Werktagen erfolgen.',
+        exampleRu: 'Оплата должна быть произведена в течение пяти рабочих дней.',
+        fileKeyUploadthing: 'Yosg29JtFzNh6n41iCPisOKx5VSaw0LRnFcMd9oyfv1g4Qer',
+    },
 ]
