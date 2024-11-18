@@ -19,7 +19,7 @@ export const HintDrawer = () => {
     return (
         <div className="w-full flex justify-center">
             <Drawer>
-                <DrawerTrigger className="w-full font-bold bg-blue-600 px-4 py-2 border rounded-lg">
+                <DrawerTrigger className="w-full font-bold bg-green-500 px-4 py-2 border rounded-lg">
                     Tipp
                 </DrawerTrigger>
                 <DrawerContent>
