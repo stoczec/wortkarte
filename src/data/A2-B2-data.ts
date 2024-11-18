@@ -11,7 +11,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Wir fahren morgen mit dem Auto an den See.',
         exampleRu: 'Завтра мы поедем на озеро на машине.',
-        fileKeyUploadthing: 'Yosg29JtFzNhBlKIzyVerN29CWdI6V3bchq7YFQ0GPDR54iO',
+        fileKeyUploadthing: 'Yosg29JtFzNhpRqZJh2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
         id: `2-${EnumWORDLEVELS.A2B2}`,
@@ -22,7 +22,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Das Feuer brennt hell und wärmt uns in der kalten Nacht.',
         exampleRu: 'Огонь ярко горит и согревает нас в холодную ночь.',
-        fileKeyUploadthing: 'Yosg29JtFzNhhW7ls1IdR9r06GDKfBbSoICYuEPtT5glMaJH',
+        fileKeyUploadthing: 'Yosg29JtFzNhlRV0TAwrpiqx3HJV94oLBGfRN0nMjvTyZSE1',
     },
     {
         id: `3-${EnumWORDLEVELS.A2B2}`,
@@ -33,7 +33,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Sie empfängt ihre Gäste mit einem freundlichen Lächeln.',
         exampleRu: 'Она принимает своих гостей с дружелюбной улыбкой.',
-        fileKeyUploadthing: 'Yosg29JtFzNhAwKavYulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
+        fileKeyUploadthing: 'Yosg29JtFzNh4vYDbM6wOqj81VfMisExF0Xm56z2QrgI43vl',
     },
     {
         id: `4-${EnumWORDLEVELS.A2B2}`,
@@ -44,7 +44,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Ich empfehle dir, diesen Film anzuschauen – er ist wirklich spannend.',
         exampleRu: 'Рекомендую тебе посмотреть этот фильм – он действительно захватывающий.',
-        fileKeyUploadthing: 'Yosg29JtFzNh0xTUnGLSHd98mAhbqVNOczXjJBnyGrFoI6PR',
+        fileKeyUploadthing: 'Yosg29JtFzNhbSltDVArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
     },
     {
         id: `5-${EnumWORDLEVELS.A2B2}`,
@@ -55,7 +55,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Er ist vor Schreck zurückgewichen, als er den Clown aus dem Film "Es" sah.',
         exampleRu: 'Он отпрянул от страха, когда увидел клоуна из фильма "Оно".',
-        fileKeyUploadthing: 'Yosg29JtFzNhzKwnK0pFPErID6hOu9WUTsic5yqdxGH0YQ1L',
+        fileKeyUploadthing: 'Yosg29JtFzNh6ey72dPisOKx5VSaw0LRnFcMd9oyfv1g4Qer',
     },
     {
         id: `6-${EnumWORDLEVELS.A2B2}`,
@@ -66,7 +66,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Das Kind versucht, bunte Schmetterlinge im Garten zu fangen.',
         exampleRu: 'Ребёнок пытается поймать ярких бабочек в саду.',
-        fileKeyUploadthing: 'Yosg29JtFzNhvRtP0K8GDSXB4RHWIPwtqLFUmnjci5ChdEAJ',
+        fileKeyUploadthing: 'Yosg29JtFzNh6jIWHQPisOKx5VSaw0LRnFcMd9oyfv1g4Qer',
     },
     {
         id: `7-${EnumWORDLEVELS.A2B2}`,
@@ -77,7 +77,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Der Verbrecher flieht aus dem Gefängnis bei Nacht.',
         exampleRu: 'Преступник сбегает из тюрьмы.',
-        fileKeyUploadthing: 'Yosg29JtFzNhnnlJhB38yHS4RL3AgWpO2GQ1TvcIh9aB6KbE',
+        fileKeyUploadthing: 'Yosg29JtFzNhujnvebz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
     },
     {
         id: `8-${EnumWORDLEVELS.A2B2}`,
@@ -88,7 +88,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Der Fluss fließt ruhig durch die weite Landschaft.',
         exampleRu: 'Река течет спокойно через широкие просторы.',
-        fileKeyUploadthing: 'Yosg29JtFzNhA5t74PulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
+        fileKeyUploadthing: 'Yosg29JtFzNhpv30tv2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
         id: `9-${EnumWORDLEVELS.A2B2}`,
@@ -99,7 +99,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Der Hund frisst sein Futter schnell, weil er Hunger hat.',
         exampleRu: 'Собака быстро ест свою еду, потому что голодна.',
-        fileKeyUploadthing: 'Yosg29JtFzNhYydEb2JtFzNhDLRbEpOK4inVgWujTHf15rx3',
+        fileKeyUploadthing: 'Yosg29JtFzNhFzLuLdTubBCpndtMKSeV7IPW4zZa0vXUywL5',
     },
     {
         id: `10-${EnumWORDLEVELS.A2B2}`,
@@ -110,7 +110,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Im kalten Winter friert er, obwohl er viele Schichten Kleidung trägt.',
         exampleRu: 'Он мерзнет зимой, несмотря на то, что одет в несколько слоев одежды.',
-        fileKeyUploadthing: 'Yosg29JtFzNhMFtmZn4Kq64xuGBkrejT9EQmSYta7vXAKLsz',
+        fileKeyUploadthing: 'Yosg29JtFzNhYaaufMJtFzNhDLRbEpOK4inVgWujTHf15rx3',
     },
     {
         id: `11-${EnumWORDLEVELS.A2B2}`,
@@ -121,7 +121,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Ich beginne heute mit der Arbeit.',
         exampleRu: 'Я начинаю работать.',
-        fileKeyUploadthing: 'Yosg29JtFzNhwm0DFJbKx3oQcHXA85iDdYagnsSZVFPkheU4',
+        fileKeyUploadthing: 'Yosg29JtFzNhwMYgMobKx3oQcHXA85iDdYagnsSZVFPkheU4',
     },
     {
         id: `12-${EnumWORDLEVELS.A2B2}`,
@@ -132,7 +132,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Er bietet seine Hilfe an.',
         exampleRu: 'Он предлагает свою помощь.',
-        fileKeyUploadthing: 'Yosg29JtFzNhItbhZEXjGtPnx5WlKFgyNY93L2wqA8bODCei',
+        fileKeyUploadthing: 'Yosg29JtFzNhApETNzkulJ4FsLD6jKCRqv1rBcWZzk02tgme',
     },
     {
         id: `13-${EnumWORDLEVELS.A2B2}`,
@@ -143,7 +143,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Der Reisepass gilt noch.',
         exampleRu: 'Паспорт действителен.',
-        fileKeyUploadthing: 'Yosg29JtFzNhST0uoQidZ5fPhj2MLRcv89up034XUErWgAix',
+        fileKeyUploadthing: 'Yosg29JtFzNh9NhsKJ0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
     },
     {
         id: `14-${EnumWORDLEVELS.A2B2}`,
@@ -154,7 +154,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Sie genießt das Essen.',
         exampleRu: 'Она наслаждается едой.',
-        fileKeyUploadthing: 'Yosg29JtFzNhO7N5jkrSYJbPBwrh97WFmSMdAVkKZlnevTX0',
+        fileKeyUploadthing: 'Yosg29JtFzNhEkvQOfBe95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
     },
     {
         id: `15-${EnumWORDLEVELS.A2B2}`,
@@ -165,7 +165,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Ein Unfall ist auf der Straße geschehen.',
         exampleRu: 'На дороге произошла авария.',
-        fileKeyUploadthing: 'Yosg29JtFzNhfAImCYE7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
+        fileKeyUploadthing: 'Yosg29JtFzNhJ8ITNMfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
     },
     {
         id: `16-${EnumWORDLEVELS.A2B2}`,
@@ -176,7 +176,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Das Team gewinnt den Pokal.',
         exampleRu: 'Команда выигрывает кубок.',
-        fileKeyUploadthing: 'Yosg29JtFzNhzVlR4qpFPErID6hOu9WUTsic5yqdxGH0YQ1L',
+        fileKeyUploadthing: 'Yosg29JtFzNhJnY49qfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
     },
     {
         id: `17-${EnumWORDLEVELS.A2B2}`,
@@ -187,7 +187,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Sie gießt die Blumen im Garten.',
         exampleRu: 'Она поливает цветы в саду.',
-        fileKeyUploadthing: 'Yosg29JtFzNhrppLrGn1sqJTVcNudIg3BDMPtGOXY8K72Ziy',
+        fileKeyUploadthing: 'Yosg29JtFzNhxlyRoSmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
     },
     {
         id: `18-${EnumWORDLEVELS.A2B2}`,
@@ -198,7 +198,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Er greift nach Luft.',
         exampleRu: 'Он хватает воздух.',
-        fileKeyUploadthing: 'Yosg29JtFzNhntO7PL38yHS4RL3AgWpO2GQ1TvcIh9aB6KbE',
+        fileKeyUploadthing: 'Yosg29JtFzNh9CyjF20LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
     },
     {
         id: `19-${EnumWORDLEVELS.A2B2}`,
@@ -209,7 +209,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Ich hebe einen Stein.',
         exampleRu: 'Я поднимаю камень.',
-        fileKeyUploadthing: 'Yosg29JtFzNh84MnaD1pEDTtnbqjYeRBhIVLQSxJWXgs3COU',
+        fileKeyUploadthing: 'Yosg29JtFzNhF9rWHA2TubBCpndtMKSeV7IPW4zZa0vXUywL',
     },
     {
         id: `20-${EnumWORDLEVELS.A2B2}`,
@@ -220,7 +220,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Das Telefon klingt.',
         exampleRu: 'Звонит телефон.',
-        fileKeyUploadthing: 'Yosg29JtFzNhc1ZSTM6vxsIW48BMn5jH2lVp9LzJXDy1TkiK',
+        fileKeyUploadthing: 'Yosg29JtFzNhMF9TAg1Kq64xuGBkrejT9EQmSYta7vXAKLsz',
     },
     {
         id: `21-${EnumWORDLEVELS.A2B2}`,
@@ -231,7 +231,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Sie leidet unter starken Kopfschmerzen.',
         exampleRu: 'Она страдает от сильной головной боли.',
-        fileKeyUploadthing: 'Yosg29JtFzNhnbpkY538yHS4RL3AgWpO2GQ1TvcIh9aB6KbE',
+        fileKeyUploadthing: 'Yosg29JtFzNhGKBz7tUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2j',
     },
     {
         id: `22-${EnumWORDLEVELS.A2B2}`,
@@ -242,7 +242,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Er misst die Länge des Tisches.',
         exampleRu: 'Он измеряет длину стола.',
-        fileKeyUploadthing: 'Yosg29JtFzNhrqr7mgn1sqJTVcNudIg3BDMPtGOXY8K72Ziy',
+        fileKeyUploadthing: 'Yosg29JtFzNhNkzHBolSLjOv7ZJ8WUplQhuIi6DFykCgY0RT',
     },
     {
         id: `23-${EnumWORDLEVELS.A2B2}`,
@@ -253,7 +253,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Er reitet auf einem Drachen durch die Lüfte.',
         exampleRu: 'Он ездит верхом на драконе по небу.',
-        fileKeyUploadthing: 'Yosg29JtFzNh5RBNcw9o7UlyJrOGAjeSa6FfcBquN4z89m2P',
+        fileKeyUploadthing: 'Yosg29JtFzNh5wn8PE9o7UlyJrOGAjeSa6FfcBquN4z89m2P',
     },
     {
         id: `24-${EnumWORDLEVELS.A2B2}`,
@@ -264,7 +264,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Das Pferd rennt im Galopp über die Wiese.',
         exampleRu: 'Конь мчится галопом по лугу.',
-        fileKeyUploadthing: 'Yosg29JtFzNh8NXN3A1pEDTtnbqjYeRBhIVLQSxJWXgs3COU',
+        fileKeyUploadthing: 'Yosg29JtFzNhkFWWxqhXtQ6BK7viORPW5L9sxm4bchzE3J0l',
     },
     {
         id: `25-${EnumWORDLEVELS.A2B2}`,
@@ -275,7 +275,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Die Ägypter schieben große Steinblöcke für den Bau der Pyramiden.',
         exampleRu: 'Египтяне толкают большие каменные блоки при постройке пирамид.',
-        fileKeyUploadthing: 'Yosg29JtFzNhTTo81F54978sPWymYbGCLVwivJjoSRlhteBc',
+        fileKeyUploadthing: 'Yosg29JtFzNhM6EySuKq64xuGBkrejT9EQmSYta7vXAKLszV',
     },
     {
         id: `26-${EnumWORDLEVELS.A2B2}`,
@@ -286,7 +286,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Der Polizist schießt mit einer Pistole.',
         exampleRu: 'Полицейский стреляет из пистолета.',
-        fileKeyUploadthing: 'Yosg29JtFzNhIakPAwXjGtPnx5WlKFgyNY93L2wqA8bODCei',
+        fileKeyUploadthing: 'Yosg29JtFzNhu9k5vXz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
     },
     {
         id: `27-${EnumWORDLEVELS.A2B2}`,
@@ -297,7 +297,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Ein Mann schlägt einen anderen Mann.',
         exampleRu: 'Человек бьет другого человека.',
-        fileKeyUploadthing: 'Yosg29JtFzNhTJ11Bx54978sPWymYbGCLVwivJjoSRlhteBc',
+        fileKeyUploadthing: 'Yosg29JtFzNhJRQEwyfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
     },
     {
         id: `28-${EnumWORDLEVELS.A2B2}`,
@@ -308,7 +308,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Die Frau schreit ihren Mann an.',
         exampleRu: 'Жена кричит на мужа.',
-        fileKeyUploadthing: 'Yosg29JtFzNhFYbUOkTubBCpndtMKSeV7IPW4zZa0vXUywL5',
+        fileKeyUploadthing: 'Yosg29JtFzNhz3xrhbpFPErID6hOu9WUTsic5yqdxGH0YQ1L',
     },
     {
         id: `29-${EnumWORDLEVELS.A2B2}`,
@@ -319,7 +319,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Ein Mann schweigt während der Befragung durch die Agenten.',
         exampleRu: 'Мужчина молчит во время допроса агентами.',
-        fileKeyUploadthing: 'Yosg29JtFzNhceQ6Z0vxsIW48BMn5jH2lVp9LzJXDy1TkiKr',
+        fileKeyUploadthing: 'Yosg29JtFzNhvY6QS08GDSXB4RHWIPwtqLFUmnjci5ChdEAJ',
     },
     {
         id: `30-${EnumWORDLEVELS.A2B2}`,
@@ -330,7 +330,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Der Mensch sendet einen Brief.',
         exampleRu: 'Человек отправляет письмо.',
-        fileKeyUploadthing: 'Yosg29JtFzNhpUAW5R2shpGY1ctFIeDyvwu24madHBxoLWRM',
+        fileKeyUploadthing: 'Yosg29JtFzNhvGyVCU8GDSXB4RHWIPwtqLFUmnjci5ChdEAJ',
     },
     {
         id: `31-${EnumWORDLEVELS.A2B2}`,
@@ -341,7 +341,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Das Känguru springt.',
         exampleRu: 'Кенгуру прыгает.',
-        fileKeyUploadthing: 'Yosg29JtFzNhcb97TMvxsIW48BMn5jH2lVp9LzJXDy1TkiKr',
+        fileKeyUploadthing: 'Yosg29JtFzNhFRyjY6TubBCpndtMKSeV7IPW4zZa0vXUywL5',
     },
     {
         id: `32-${EnumWORDLEVELS.A2B2}`,
@@ -352,7 +352,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Die Biene sticht in die Hand.',
         exampleRu: 'Пчела жалит в руку.',
-        fileKeyUploadthing: 'Yosg29JtFzNhyjnVMjrDLWcC2lIrhH17xJvjKnQR9ws536ei',
+        fileKeyUploadthing: 'Yosg29JtFzNhY7SsL5JtFzNhDLRbEpOK4inVgWujTHf15rx3',
     },
     {
         id: `33-${EnumWORDLEVELS.A2B2}`,
@@ -363,7 +363,7 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Der Graph steigt nach oben.',
         exampleRu: 'График поднимается вверх.',
-        fileKeyUploadthing: 'Yosg29JtFzNhMCb83NKq64xuGBkrejT9EQmSYta7vXAKLszV',
+        fileKeyUploadthing: 'Yosg29JtFzNh1oxim9kGF4rdxKs5yAfZujcn3gYeqUTDtSRC',
     },
     {
         id: `34-${EnumWORDLEVELS.A2B2}`,
@@ -374,6 +374,6 @@ export const A2_B2_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Es ist hier üblich, sich zur Begrüßung die Hand zu geben.',
         exampleRu: 'Здесь обычно принято здороваться за руку.',
-        fileKeyUploadthing: 'Yosg29JtFzNhtGwm9byxXU3oa7DEsTyVQ2zGrJZFuYglcj84',
+        fileKeyUploadthing: 'Yosg29JtFzNh1I54BAkGF4rdxKs5yAfZujcn3gYeqUTDtSRC',
     },
 ]
