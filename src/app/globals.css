@@ -115,8 +115,11 @@ body {
 }
 
 @font-face {
-    font-family: 'MyCustomFont';
+    font-family: 'DynaPuffMedium';
     src: url('/fonts/DynaPuff-Medium.ttf') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DynaPuffRegular';
+    src: url('/fonts/DynaPuff-Regular.ttf') format('woff2');
 }

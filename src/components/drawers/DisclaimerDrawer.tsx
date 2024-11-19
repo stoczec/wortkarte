@@ -33,7 +33,7 @@ export const DisclaimerDrawer = () => {
                         <DrawerTitle className="text-2xl">
                             {language === 'DE' ? disclaimer.DE.title : disclaimer.RU.title}
                         </DrawerTitle>
-                        <DrawerDescription>
+                        <DrawerDescription className="w-[320px] text-balance text-center">
                             {language === 'DE'
                                 ? disclaimer.DE.description
                                 : disclaimer.RU.description}

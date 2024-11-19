@@ -27,7 +27,7 @@ export const HintDrawer = () => {
                         <DrawerTitle className="text-2xl">
                             <Menu width={40} height={40} />
                         </DrawerTitle>
-                        <DrawerDescription>
+                        <DrawerDescription className="w-[320px] text-balance text-center">
                             im Menü kannst du zwischen verschiedenen Bereichen navigieren, die
                             Karteneinstellungen anpassen, das Sprachniveau auswählen und wichtige
                             Aktionen durchführen.

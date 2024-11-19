@@ -11,7 +11,7 @@ export default function Home() {
         <section className="flex flex-col items-center justify-start gap-10 py-3 flex-grow flex-shrink-0 basis-auto">
             <p
                 className="text-4xl font-bold mt-5 bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient"
-                style={{ fontFamily: 'MyCustomFont, sans-serif' }}
+                style={{ fontFamily: 'DynaPuffMedium, sans-serif' }}
             >
                 Willkommen!
             </p>
