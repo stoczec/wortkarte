@@ -11,6 +11,17 @@ export const metadata: Metadata = {
         'Wortkarte hilft Nutzern dabei, Deutsch zu lernen, indem Wörter je nach Wortklasse farblich hervorgehoben und Lernkarten mit assoziativen Bildern verwendet werden, um die Einprägung zu verbessern.',
 }
 
+const geistSans = localFont({
+    src: './fonts/GeistVF.woff',
+    variable: '--font-geist-sans',
+    weight: '100 900',
+})
+const geistMono = localFont({
+    src: './fonts/GeistMonoVF.woff',
+    variable: '--font-geist-mono',
+    weight: '100 900',
+})
+
 export default function RootLayout({
     children,
 }: Readonly<{
@@ -18,7 +29,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" suppressHydrationWarning={true}>
-            <body style={{ fontFamily: 'DynaPuffRegular, sans-serif' }}>
+            <body
+                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+                // style={{ fontFamily: 'DynaPuffRegular, sans-serif' }}
+            >
                 <div className="flex flex-col h-full">
                     <ThemeProvider
                         attribute="class"
