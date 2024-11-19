@@ -2,15 +2,17 @@
 
 import React, { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
-import { Loader, PaginatedList, SearchBar, WordCarousel } from '@/components'
-import { useCardsStore } from '@/stores'
+import { Loader, PaginatedList } from '@/components'
+import { getDataByLevel, useCardsStore } from '@/stores'
 import { EnumCARDSCATEGORY } from '@/enums/enums'
 import { ILanguageCard } from '@/interfaces/interfaces'
+import { useRouter } from 'next/navigation'
 
 export default function PaginatedPage() {
     const pathname = usePathname()
     const pageParam = pathname.split('/').pop() || '1'
     const currentPage = Number(pageParam)
+    const router = useRouter()
 
     const {
         displayedCards,
@@ -19,6 +21,8 @@ export default function PaginatedPage() {
         selectedCardCategory,
         searchQuery,
         filteredCards,
+        selectedLevel,
+        resetStore,
     } = useCardsStore()
     const [loading, setLoading] = useState(true)
 
@@ -37,12 +41,23 @@ export default function PaginatedPage() {
                 return []
         }
     }
-
+    const checkDataConsistency = () => {
+        const expectedLength = getDataByLevel(selectedLevel).flatMap(card => [
+            card,
+            ...(card.multiple || []),
+        ]).length
+        return expectedLength !== displayedCards.length
+    }
     useEffect(() => {
         if (displayedCards) {
             setLoading(false)
         }
-    }, [displayedCards])
+
+        if (checkDataConsistency()) {
+            resetStore()
+            router.push('/page/1')
+        }
+    }, [displayedCards, selectedLevel])
 
     if (loading) {
         return (

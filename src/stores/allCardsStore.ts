@@ -14,7 +14,7 @@ function shuffleArray(array: ILanguageCard[]) {
     return shuffled
 }
 
-function getDataByLevel(
+export function getDataByLevel(
     level: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]
 ): ILanguageCard[] {
     switch (level) {
@@ -109,6 +109,18 @@ export const useCardsStore = create<ICardsStore>()(
                             filteredCards: filtered,
                         }
                     }),
+                resetStore: () =>
+                    set(state => ({
+                        displayedCards: shuffledAllWords,
+                        shuffledCards: shuffledAllWords,
+                        itemsPerPage: state.itemsPerPage,
+                        selectedLevel: EnumWORDLEVELS.ALLLEVELS,
+                        selectedCardCategory: EnumCARDSCATEGORY.ALLE,
+                        searchQuery: '',
+                        filteredCards: shuffledAllWords,
+                        // Preserve favoriteCards
+                        favoriteCards: state.favoriteCards,
+                    })),
             }
         },
 
