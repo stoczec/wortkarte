@@ -9,6 +9,9 @@ const config: Config = {
     ],
     theme: {
         extend: {
+            backdropBrightness: {
+                25: '0.25',
+            },
             colors: {
                 background: 'hsl(var(--background))',
                 foreground: 'hsl(var(--foreground))',
