@@ -116,10 +116,10 @@ body {
 
 @font-face {
     font-family: 'DynaPuffMedium';
-    src: url('/fonts/DynaPuff-Medium.woff') format('woff2');
+    src: url('/fonts/DynaPuff-Medium.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'DynaPuffRegular';
-    src: url('/fonts/DynaPuff-Regular.woff') format('woff2');
+    src: url('/fonts/DynaPuff-Regular.woff2') format('woff2');
 }
