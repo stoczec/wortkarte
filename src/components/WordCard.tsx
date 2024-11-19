@@ -115,7 +115,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                 )}
             >
                 {!isFlipped ? (
-                    <motion.p
+                    <p
                         className={cn(
                             getFontSizeClass(wordDe),
                             'font-bold text-balance text-center',
@@ -132,12 +132,12 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                                 'text-teal-500': wordClass === EnumWORDCLASSES.PARTIKEL,
                             }
                         )}
-                        initial={{ y: -100 }}
-                        animate={{ y: 0 }}
-                        transition={animationTransitionConfig}
+                        // initial={{ y: -100 }}
+                        // animate={{ y: 0 }}
+                        // transition={animationTransitionConfig}
                     >
                         {`${article} ${wordDe}${pluralEnding}`}
-                    </motion.p>
+                    </p>
                 ) : (
                     <div className="flex flex-col items-center justify-center gap-2">
                         <motion.p

@@ -61,7 +61,7 @@ export function BurgerMenu() {
                 {/* </ul> */}
 
                 <Separator />
-                <div className="flex flex-col justify-start gap-3">
+                <div className="flex flex-col justify-start gap-2">
                     <SheetDescription className="px-2 text-red-500">
                         Achtung, Gefahrenzone!
                     </SheetDescription>
