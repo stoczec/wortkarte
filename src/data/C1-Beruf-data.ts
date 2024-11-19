@@ -1013,17 +1013,17 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Пользователь стоит перед интерактивным экраном и хочет добавить фотографию, которую держит в руках.',
         fileKeyUploadthing: 'Yosg29JtFzNh9Vokdz0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
     },
-    // {
-    //     id: `90-${EnumWORDLEVELS.C1BERUF}`,
-    //     article: '',
-    //     pluralEnding: '',
-    //     wordDe: 'TEST',
-    //     wordRu: 'добавлять',
-    //     wordClass: EnumWORDCLASSES.VERB,
-    //     exampleDe:
-    //         'Der Benutzer steht vor einem interaktiven Bildschirm und möchte ein Foto hinzufügen, das er in den Händen hält.',
-    //     exampleRu:
-    //         'Пользователь стоит перед интерактивным экраном и хочет добавить фотографию, которую держит в руках.',
-    //     fileKeyUploadthing: 'Yosg29JtFzNh9Vokdz0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
-    // },
+    {
+        id: `90-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'TEST',
+        wordRu: 'добавлять',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe:
+            'Der Benutzer steht vor einem interaktiven Bildschirm und möchte ein Foto hinzufügen, das er in den Händen hält.',
+        exampleRu:
+            'Пользователь стоит перед интерактивным экраном и хочет добавить фотографию, которую держит в руках.',
+        fileKeyUploadthing: 'Yosg29JtFzNh9Vokdz0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
+    },
 ]
