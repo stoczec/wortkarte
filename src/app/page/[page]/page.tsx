@@ -56,6 +56,7 @@ export default function PaginatedPage() {
         if (checkDataConsistency()) {
             resetStore()
             router.push('/page/1')
+            alert('Neue Wörter wurden hinzugefügt!')
         }
     }, [displayedCards, selectedLevel])
 
@@ -66,6 +67,7 @@ export default function PaginatedPage() {
             </div>
         )
     }
+
     return (
         <div className="h-full flex flex-col justify-between items-center flex-grow">
             <PaginatedList
