@@ -922,7 +922,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     {
         id: `82-${EnumWORDLEVELS.C1BERUF}`,
         article: '',
-        pluralEnding: ', ',
+        pluralEnding: '',
         wordDe: 'überflüssig',
         wordRu: 'лишний, излишний',
         wordClass: EnumWORDCLASSES.ADJEKTIV,
@@ -962,5 +962,42 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe: 'Vor Arbeitsbeginn erhielt der neue Mitarbeiter eine gründliche Einweisung.',
         exampleRu: 'Перед началом работы новый сотрудник прошел подробный инструктаж.',
         fileKeyUploadthing: 'Yosg29JtFzNhquN6EnoHMb4Fx3SuAL2OkR1JDz8hvClYy5fd',
+    },
+    {
+        id: `86-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'entsprechend',
+        wordRu: 'соответствующий',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe:
+            'Sie trug ein entsprechendes Kleid zur Party, da alle Gäste in Blau gekleidet waren.',
+        exampleRu:
+            'Она надела соответствующее платье на вечеринку, так как все гости были в синем.',
+        fileKeyUploadthing: 'Yosg29JtFzNh3PtUrA4ojvmFX2AO1hJNYV9ixGpuDfd5zUcL',
+    },
+    {
+        id: `87-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'durchstellen',
+        wordRu: 'передавать (телефонный звонок), соединять',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe: 'Der Empfang hat mich mit der zuständigen Abteilung durchgestellt.',
+        exampleRu: 'Администратор передал меня в соответствующий отдел.',
+        fileKeyUploadthing: 'Yosg29JtFzNhxU7VTgNmdaqpS3zs71DFeJYoM4NUW5OEbPwj',
+    },
+    {
+        id: `88-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'hinzufügen',
+        wordRu: 'добавлять',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe:
+            'Der Benutzer steht vor einem interaktiven Bildschirm und möchte ein Foto hinzufügen, das er in den Händen hält.',
+        exampleRu:
+            'Пользователь стоит перед интерактивным экраном и хочет добавить фотографию, которую держит в руках.',
+        fileKeyUploadthing: 'Yosg29JtFzNh9Vokdz0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
     },
 ]
