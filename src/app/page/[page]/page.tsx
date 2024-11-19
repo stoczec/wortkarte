@@ -22,10 +22,10 @@ export default function PaginatedPage() {
     const notify = () =>
         toast.success(' Neue Wörter wurden hinzugefügt!', {
             position: 'top-center',
-            autoClose: 5000,
+            autoClose: false,
             hideProgressBar: false,
             closeOnClick: true,
-            pauseOnHover: true,
+            pauseOnHover: false,
             draggable: true,
             progress: undefined,
             theme: 'colored',
