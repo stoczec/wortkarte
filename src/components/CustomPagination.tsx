@@ -42,7 +42,7 @@ export const CustomPagination = ({
     }
     return (
         <MaxWidthWrapper>
-            <Pagination>
+            <Pagination style={{ fontFamily: 'DynaPuffRegular, sans-serif' }}>
                 <PaginationContent>
                     <PaginationItem>
                         <PaginationPrevious
