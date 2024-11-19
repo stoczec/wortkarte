@@ -30,8 +30,8 @@ export default function RootLayout({
     return (
         <html lang="en" suppressHydrationWarning={true}>
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-                // style={{ fontFamily: 'DynaPuffRegular, sans-serif' }}
+                // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+                style={{ fontFamily: 'DynaPuffRegular, sans-serif' }}
             >
                 <div className="flex flex-col h-full">
                     <ThemeProvider
