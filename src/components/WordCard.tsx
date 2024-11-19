@@ -85,6 +85,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
         <Card
             className="relative aspect-[9/16] w-[320px] p-0 rounded-xl shadow-lg shadow-zinc-900 transform transition-transform "
             onClick={handleFlipCard}
+            style={{ fontFamily: 'Arial, sans-serif' }}
         >
             <div className="absolute top-2 left-2 z-10">
                 <Badge>

@@ -11,16 +11,16 @@ export const metadata: Metadata = {
         'Wortkarte hilft Nutzern dabei, Deutsch zu lernen, indem Wörter je nach Wortklasse farblich hervorgehoben und Lernkarten mit assoziativen Bildern verwendet werden, um die Einprägung zu verbessern.',
 }
 
-const geistSans = localFont({
-    src: './fonts/GeistVF.woff',
-    variable: '--font-geist-sans',
-    weight: '100 900',
-})
-const geistMono = localFont({
-    src: './fonts/GeistMonoVF.woff',
-    variable: '--font-geist-mono',
-    weight: '100 900',
-})
+// export const geistSans = localFont({
+//     src: './fonts/GeistVF.woff',
+//     variable: '--font-geist-sans',
+//     weight: '100 900',
+// })
+// export const geistMono = localFont({
+//     src: './fonts/GeistMonoVF.woff',
+//     variable: '--font-geist-mono',
+//     weight: '100 900',
+// })
 
 export default function RootLayout({
     children,
