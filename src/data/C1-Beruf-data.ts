@@ -385,7 +385,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Die dienstliche Beziehung zwischen den Kollegen entwickelte sich unerwartet.',
         exampleRu: 'Служебные отношения между коллегами развивались неожиданно.',
-        fileKeyUploadthing: 'Yosg29JtFzNh1I54BAkGF4rdxKs5yAfZujcn3gYeqUTDtSRC',
+        fileKeyUploadthing: 'Yosg29JtFzNhMLTawiKq64xuGBkrejT9EQmSYta7vXAKLszV',
     },
     {
         id: `35-${EnumWORDLEVELS.C1BERUF}`,
