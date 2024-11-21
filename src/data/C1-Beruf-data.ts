@@ -1406,7 +1406,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhf1GllkE7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
     },
     {
-        id: `110-${EnumWORDLEVELS.C1BERUF}`,
+        id: `125-${EnumWORDLEVELS.C1BERUF}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Förderbedarf',
@@ -1417,5 +1417,27 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu:
             'Потребность в поддержке сотрудников определяется в ходе ежегодных собеседований по развитию.',
         fileKeyUploadthing: 'Yosg29JtFzNhxBvJKPmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
+    },
+    {
+        id: `126-${EnumWORDLEVELS.C1SICHER}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'ausversehen',
+        wordRu: 'случайно, нечаянно, по ошибке',
+        wordClass: EnumWORDCLASSES.PRÄPOSITION,
+        exampleDe: 'Ich habe ausversehen die falsche Taste gedrückt.',
+        exampleRu: 'Я случайно нажал не ту кнопку.',
+        fileKeyUploadthing: 'Yosg29JtFzNhEcPlYYBe95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
+    },
+    {
+        id: `127-${EnumWORDLEVELS.C1SICHER}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'entfernen, entfernt, hat entfernt',
+        wordRu: 'удалять, устранять, убирать',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe: 'Bitte entfernen Sie alle überflüssigen Dateien von Ihrem Arbeitscomputer.',
+        exampleRu: 'Пожалуйста, удалите все лишние файлы с рабочего компьютера.',
+        fileKeyUploadthing: 'Yosg29JtFzNhtojvsExXU3oa7DEsTyVQ2zGrJZFuYglcj84A',
     },
 ]
