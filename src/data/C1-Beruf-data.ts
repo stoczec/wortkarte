@@ -1227,7 +1227,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     {
         id: `109-${EnumWORDLEVELS.C1BERUF}`,
         article: 'der',
-        pluralEnding: '-e',
+        pluralEnding: ', -e',
         wordDe: 'Nachweis',
         wordRu: 'доказательство, справка, свидетельство',
         wordClass: EnumWORDCLASSES.MASCULIN,
@@ -1249,7 +1249,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     {
         id: `111-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
-        pluralEnding: '-n',
+        pluralEnding: ', -n',
         wordDe: 'Verständnisfrage',
         wordRu: 'вопрос для уточнения понимания',
         wordClass: EnumWORDCLASSES.FEMININ,
@@ -1308,7 +1308,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     {
         id: `116-${EnumWORDLEVELS.C1SICHER}`,
         article: 'die',
-        pluralEnding: '-en',
+        pluralEnding: ', -en',
         wordDe: 'Qual',
         wordRu: 'мучение, страдание, пытка',
         wordClass: EnumWORDCLASSES.FEMININ,
