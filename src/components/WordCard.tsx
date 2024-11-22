@@ -118,7 +118,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                     <motion.p
                         className={cn(
                             getFontSizeClass(wordDe),
-                            'font-bold text-balance text-center',
+                            'font-bold text-balance text-center px-2',
                             {
                                 'text-blue-500': wordClass === EnumWORDCLASSES.MASCULIN,
                                 'text-red-500': wordClass === EnumWORDCLASSES.FEMININ,
@@ -175,7 +175,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                         <motion.p
                             className={cn(
                                 getFontSizeClass(wordRu),
-                                'font-bold text-balance text-center',
+                                'font-bold text-balance text-center px-2',
                                 {
                                     'text-blue-500': wordClass === EnumWORDCLASSES.MASCULIN,
                                     'text-red-500': wordClass === EnumWORDCLASSES.FEMININ,
