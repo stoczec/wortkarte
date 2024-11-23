@@ -45,7 +45,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
     const getFontSizeClass = (word: string) => {
         if (word.length < 15) {
             return 'text-4xl'
-        } else if (word.length <= 20) {
+        } else if (word.length < 20) {
             return 'text-3xl'
         } else {
             return 'text-2xl'
