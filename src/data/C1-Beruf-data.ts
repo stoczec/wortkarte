@@ -1454,7 +1454,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     {
         id: `129-${EnumWORDLEVELS.C1BERUF}`,
         article: 'die',
-        pluralEnding: '-n',
+        pluralEnding: ', -n',
         wordDe: 'Übergabe',
         wordRu: 'передача, вручение, сдача',
         wordClass: EnumWORDCLASSES.FEMININ,
@@ -1499,7 +1499,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     {
         id: `133-${EnumWORDLEVELS.C1BERUF}`,
         article: 'der',
-        pluralEnding: '-e',
+        pluralEnding: ', -e',
         wordDe: 'Abgabetermin',
         wordRu: 'срок сдачи, дедлайн',
         wordClass: EnumWORDCLASSES.MASCULIN,
