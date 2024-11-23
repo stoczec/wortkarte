@@ -1440,4 +1440,15 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Пожалуйста, удалите все лишние файлы с рабочего компьютера.',
         fileKeyUploadthing: 'Yosg29JtFzNhtojvsExXU3oa7DEsTyVQ2zGrJZFuYglcj84A',
     },
+    {
+        id: `128-${EnumWORDLEVELS.C1SICHER}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'beurteilen, beurteilt, hat beurteilt',
+        wordRu: 'оценивать, судить, давать оценку',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe: 'Der Vorgesetzte muss die Leistung seiner Mitarbeiter regelmäßig beurteilen.',
+        exampleRu: 'Руководитель должен регулярно оценивать работу своих сотрудников.',
+        fileKeyUploadthing: 'Yosg29JtFzNhLwU3B4yU1vJKEiwc6tXCo24HYTQ8xVrjL9Gu',
+    },
 ]
