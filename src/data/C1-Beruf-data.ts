@@ -1552,4 +1552,53 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Компания потерпела крах, потому что руководство довело её до провала.',
         fileKeyUploadthing: 'Yosg29JtFzNh5FactZ9o7UlyJrOGAjeSa6FfcBquN4z89m2P',
     },
+    {
+        id: `138-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Kapazitäten',
+        wordRu: 'мощности; ресурсы',
+        wordClass: EnumWORDCLASSES.PLURAL,
+        exampleDe:
+            'Die Firma hat nicht genug Kapazitäten, um die steigende Nachfrage zu bewältigen.',
+        exampleRu: 'У компании недостаточно мощностей, чтобы справиться с растущим спросом.',
+        fileKeyUploadthing: 'Yosg29JtFzNhWhNgHFC8UvtqgBs1aRVjix4wlZ9nzArQXO27',
+    },
+    {
+        id: `139-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'überfordert',
+        wordRu: 'перегруженный; находящийся под слишком большим давлением',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe:
+            'Der neue Mitarbeiter fühlte sich überfordert, da ihm zu viele Aufgaben auf einmal gegeben wurden.',
+        exampleRu:
+            'Новый сотрудник чувствовал себя перегруженным, так как ему дали слишком много задач одновременно.',
+        fileKeyUploadthing: 'Yosg29JtFzNhCXP2h9Oc52LSlA4MjeGxyPtkg0ZQhWdHzJuF',
+    },
+    {
+        id: `140-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'der',
+        pluralEnding: ', -e',
+        wordDe: 'Meilenstein',
+        wordRu: 'веха; ключевое достижение',
+        wordClass: EnumWORDCLASSES.MASCULIN,
+        exampleDe:
+            'Das Erreichen dieses Meilensteins hat das Projekt auf die nächste Stufe gebracht.',
+        exampleRu: 'Достижение этой вехи вывело проект на новый уровень.',
+        fileKeyUploadthing: 'Yosg29JtFzNhNIEIvylSLjOv7ZJ8WUplQhuIi6DFykCgY0RT',
+    },
+    {
+        id: `141-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'das',
+        pluralEnding: ', -e',
+        wordDe: 'Finanzierungskonzept',
+        wordRu: 'концепция финансирования; план финансирования',
+        wordClass: EnumWORDCLASSES.NEUTRAL,
+        exampleDe:
+            'Das Finanzierungskonzept des neuen Projekts wurde von der Geschäftsführung genehmigt.',
+        exampleRu: 'Концепция финансирования нового проекта была одобрена руководством.',
+        fileKeyUploadthing: 'Yosg29JtFzNhGuuG7qUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2j',
+    },
 ]
