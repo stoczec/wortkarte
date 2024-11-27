@@ -3,8 +3,7 @@ import React from 'react'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Chat, DisclaimerDrawer, HintDrawer } from '@/components'
-import { Menu } from 'lucide-react'
+import { DisclaimerDrawer, HintDrawer } from '@/components'
 
 export default function Home() {
     return (

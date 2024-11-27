@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React from 'react'
 import { Button } from '../ui/button'
 import {
     Drawer,
@@ -12,7 +12,6 @@ import {
     DrawerFooter,
     DrawerClose,
 } from '../ui/drawer'
-import { disclaimer } from '@/data'
 import { Menu } from 'lucide-react'
 
 export const HintDrawer = () => {

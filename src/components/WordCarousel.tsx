@@ -13,9 +13,9 @@ export function WordCarousel({ data }: { data: ILanguageCard[] }) {
                 orientation="vertical"
                 className="w-full"
             >
-                <CarouselContent className="-mt-1 items-center h-[576px]">
+                <CarouselContent className="-mt-1 items-center h-[616px] ">
                     {data.map(card => (
-                        <CarouselItem key={card.id} className="pt-1">
+                        <CarouselItem key={card.id} className="pt-1 rounded-b-xl">
                             <WordCard data={card} />
                         </CarouselItem>
                     ))}
