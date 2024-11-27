@@ -71,11 +71,11 @@ export default function PaginatedPage() {
             setLoading(false)
         }
 
-        if (checkDataConsistency()) {
-            resetStore()
-            router.push('/page/1')
-            notify()
-        }
+        // if (checkDataConsistency()) {
+        //     resetStore()
+        //     router.push('/page/1')
+        //     notify()
+        // }
     }, [displayedCards, selectedLevel])
 
     if (loading) {

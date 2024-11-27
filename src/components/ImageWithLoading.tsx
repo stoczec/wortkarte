@@ -38,7 +38,7 @@ const ImageWithLoading = ({ src, alt }: IImageWithLoadingProperties) => {
 
     return (
         <div className="relative aspect-[9/16]">
-            <Image src={src} alt={alt} fill sizes="320px" className="rounded-xl" />
+            <Image src={src} alt={alt} fill sizes="320px" className="rounded-t-xl" />
         </div>
     )
 }
