@@ -48,6 +48,7 @@ export interface ICardsStore {
     clearFavorites: () => void
     clearStorage: () => void
     updateSearchQuery: (query: string) => void
+    resetStore: () => void
 }
 
 export interface IFavoriteCardsStore {

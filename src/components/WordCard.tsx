@@ -45,7 +45,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
     const getFontSizeClass = (word: string) => {
         if (word.length < 15) {
             return 'text-4xl'
-        } else if (word.length <= 20) {
+        } else if (word.length < 20) {
             return 'text-3xl'
         } else {
             return 'text-2xl'
@@ -111,14 +111,14 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                     'w-full p-1',
                     'absolute bottom-0 z-10',
                     'flex justify-center items-center',
-                    'rounded-b-xl overflow-hidden before:bg-white/10 shadow-small backdrop-brightness-50'
+                    'rounded-b-xl overflow-hidden before:bg-white/10 shadow-small  backdrop-brightness-25'
                 )}
             >
                 {!isFlipped ? (
                     <motion.p
                         className={cn(
                             getFontSizeClass(wordDe),
-                            'font-bold text-balance text-center',
+                            'font-bold text-balance text-center px-2',
                             {
                                 'text-blue-500': wordClass === EnumWORDCLASSES.MASCULIN,
                                 'text-red-500': wordClass === EnumWORDCLASSES.FEMININ,
@@ -175,7 +175,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                         <motion.p
                             className={cn(
                                 getFontSizeClass(wordRu),
-                                'font-bold text-balance text-center',
+                                'font-bold text-balance text-center px-2',
                                 {
                                     'text-blue-500': wordClass === EnumWORDCLASSES.MASCULIN,
                                     'text-red-500': wordClass === EnumWORDCLASSES.FEMININ,

@@ -42,7 +42,7 @@ export const CustomPagination = ({
     }
     return (
         <MaxWidthWrapper>
-            <Pagination>
+            <Pagination style={{ fontFamily: 'DynaPuffRegular, sans-serif' }}>
                 <PaginationContent>
                     <PaginationItem>
                         <PaginationPrevious
@@ -67,7 +67,7 @@ export const CustomPagination = ({
                                 href={`/${pageName}/${currentPage - 1}`}
                                 className={
                                     currentPage === 1
-                                        ? 'text-xl border border-primary rounded-full font-bold'
+                                        ? 'text-2xl text-primary rounded-full font-extrabold'
                                         : ''
                                 }
                             >
@@ -79,7 +79,7 @@ export const CustomPagination = ({
                     <PaginationItem>
                         <PaginationLink
                             href={`/${pageName}/${currentPage}`}
-                            className="text-xl border border-primary rounded-full font-bold"
+                            className="text-2xl text-primary rounded-full font-extrabold"
                         >
                             {currentPage}
                         </PaginationLink>
@@ -91,7 +91,7 @@ export const CustomPagination = ({
                                 href={`/${pageName}/${currentPage + 1}`}
                                 className={
                                     currentPage === totalPages
-                                        ? ' text-xl border border-primary rounded-full font-bold'
+                                        ? ' text-2xl text-primary rounded-full font-extrabold'
                                         : ''
                                 }
                             >
@@ -107,7 +107,7 @@ export const CustomPagination = ({
                                     href={`/${pageName}/${totalPages}`}
                                     className={
                                         currentPage === totalPages
-                                            ? ' text-xl border border-primary rounded-full font-bold'
+                                            ? ' text-2xl text-primary rounded-full font-extrabold'
                                             : ''
                                     }
                                 >

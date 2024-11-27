@@ -26,7 +26,11 @@ export function BurgerMenu() {
             <SheetTrigger asChild className="flex justify-center items-center">
                 <Menu className="cursor-pointer" />
             </SheetTrigger>
-            <SheetContent side="right" className="flex flex-col justify-start h-full">
+            <SheetContent
+                side="right"
+                className="flex flex-col justify-start h-full"
+                style={{ fontFamily: 'DynaPuffRegular, sans-serif' }}
+            >
                 <SheetTitle className="p-2">Navigation</SheetTitle>
                 <SheetDescription className="px-2">
                     Wähle einen Bereich zum Navigieren aus
@@ -57,7 +61,7 @@ export function BurgerMenu() {
                 {/* </ul> */}
 
                 <Separator />
-                <div className="flex flex-col justify-start gap-4">
+                <div className="flex flex-col justify-start gap-2">
                     <SheetDescription className="px-2 text-red-500">
                         Achtung, Gefahrenzone!
                     </SheetDescription>

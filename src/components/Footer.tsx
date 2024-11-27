@@ -13,7 +13,10 @@ export const Footer = () => {
 
     const isHomeRoute = pathname === '/'
     return (
-        <footer className="w-full border-t border-gray-200 bg-black/5 py-2">
+        <footer
+            className="w-full border-t border-gray-200 bg-black/5 py-2"
+            style={{ fontFamily: 'DynaPuffRegular, sans-serif' }}
+        >
             <MaxWidthWrapper className="flex justify-center items-center">
                 {isHomeRoute ? (
                     <p className="text-sm text-center text-muted-foreground">
