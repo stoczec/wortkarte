@@ -2268,4 +2268,15 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'После кризиса компания начала постепенно наращивать производство.',
         fileKeyUploadthing: 'Yosg29JtFzNhELUXpHBe95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
     },
+    {
+        id: `201-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'aufstocken, stockt auf, hat aufgestockt',
+        wordRu: 'увеличивать, пополнять, наращивать',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe: 'Das Unternehmen beschloss, seine Mitarbeiterzahl aufzustocken.',
+        exampleRu: 'Компания решила увеличить количество сотрудников.',
+        fileKeyUploadthing: 'Yosg29JtFzNh80SNq91pEDTtnbqjYeRBhIVLQSxJWXgs3COU',
+    },
 ]
