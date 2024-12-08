@@ -25,8 +25,8 @@ export default function PaginatedPage() {
             autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
+            pauseOnHover: false,
+            draggable: false,
             progress: undefined,
             theme: 'colored',
             transition: bounce,
@@ -71,11 +71,11 @@ export default function PaginatedPage() {
             setLoading(false)
         }
 
-        // if (checkDataConsistency()) {
-        //     resetStore()
-        //     router.push('/page/1')
-        //     notify()
-        // }
+        if (checkDataConsistency()) {
+            resetStore()
+            router.push('/page/1')
+            notify()
+        }
     }, [displayedCards, selectedLevel])
 
     if (loading) {
