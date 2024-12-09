@@ -2323,4 +2323,15 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Поставщик вовремя доставил необходимые детали.',
         fileKeyUploadthing: 'Yosg29JtFzNhQLLrOYcJs09PbMZ3emtdonxCEGKNvwWqBkuS',
     },
+    {
+        id: `206-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'austauschen, tauscht aus, hat ausgetauscht',
+        wordRu: 'обменивать; заменять',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe: 'Die Kollegen tauschten Informationen über das neue Projekt aus.',
+        exampleRu: 'Коллеги обменялись информацией о новом проекте.',
+        fileKeyUploadthing: 'Yosg29JtFzNhEfvED7Be95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
+    },
 ]
