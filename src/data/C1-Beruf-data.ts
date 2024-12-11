@@ -2438,4 +2438,55 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Долгосрочные инвестиции могут обеспечить стабильность компании.',
         fileKeyUploadthing: 'Yosg29JtFzNhpW7DOl2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
+    {
+        id: `216-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Regelung',
+        wordRu: 'регулирование, правило, положение',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Die neue Regelung im Unternehmen verbesserte die Kommunikation zwischen Abteilungen.',
+        exampleRu: 'Новое положение в компании улучшило коммуникацию между отделами.',
+        fileKeyUploadthing: 'Yosg29JtFzNhhm9nZ1IdR9r06GDKfBbSoICYuEPtT5glMaJH',
+    },
+    {
+        id: `217-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Liefervereinbarung',
+        wordRu: 'договоренность о поставке, соглашение о доставке',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Die Liefervereinbarung garantierte pünktliche und zuverlässige Warenlieferungen für beide Vertragspartner.',
+        exampleRu:
+            'Соглашение о поставке гарантировало своевременную и надежную доставку товаров для обеих сторон контракта.',
+        fileKeyUploadthing: 'Yosg29JtFzNhSwyaoDidZ5fPhj2MLRcv89up034XUErWgAix',
+    },
+    {
+        id: `218-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: '',
+        wordDe: 'Sortimentsumstellung',
+        wordRu: 'изменение ассортимента, перестройка товарного ряда',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Die Drogeriekette führte eine umfassende Sortimentsumstellung durch, um besser auf Kundenvorlieben zu reagieren.',
+        exampleRu:
+            'Сеть аптек провела масштабное изменение ассортимента, чтобы лучше реагировать на предпочтения покупателей.',
+        fileKeyUploadthing: 'Yosg29JtFzNhXZabRJsq9khKSUvpJeH506yLiP3w8TAdGr7u',
+    },
+    {
+        id: `219-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Unregelmäßigkeit',
+        wordRu: 'неправильность, нерегулярность, отклонение',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Die Unregelmäßigkeit in den Geschäftsprozessen führte zu Ineffizienz und Qualitätseinbußen.',
+        exampleRu:
+            'Нерегулярность в бизнес-процессах привела к неэффективности и снижению качества.',
+        fileKeyUploadthing: 'Yosg29JtFzNhKa4fIyeokgqc0bL4dRrztvZG8lU9nhDyXPTu',
+    },
 ]
