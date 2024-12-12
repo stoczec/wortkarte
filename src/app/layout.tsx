@@ -5,6 +5,7 @@ import './globals.css'
 import { ThemeProvider } from 'next-themes'
 import { Footer, Header } from '@/components'
 import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 export const metadata: Metadata = {
     title: 'Wortkarte - Deutsch lernen mit farblichen Lernkarten',
@@ -44,6 +45,7 @@ export default function RootLayout({
                         <Header />
                         {children}
                         <Analytics />
+                        <SpeedInsights />
                         <Footer />
                     </ThemeProvider>
                 </div>
