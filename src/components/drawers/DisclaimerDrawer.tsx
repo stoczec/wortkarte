@@ -16,9 +16,7 @@ import { disclaimer } from '@/data'
 
 export const DisclaimerDrawer = () => {
     const [language, setLanguage] = useState<'DE' | 'RU'>('DE')
-    const handleSetLanguage = () => {
-        setLanguage(language === 'DE' ? 'RU' : 'DE')
-    }
+
     return (
         <div className="w-full flex justify-center">
             <Drawer>
@@ -30,9 +28,20 @@ export const DisclaimerDrawer = () => {
                 </DrawerTrigger>
                 <DrawerContent style={{ fontFamily: 'DynaPuffRegular, sans-serif' }}>
                     <DrawerHeader className="flex flex-col justify-center items-center">
-                        <Button onClick={handleSetLanguage} variant="secondary">
-                            {language}
-                        </Button>
+                        <div className="flex gap-4">
+                            <Button
+                                onClick={() => setLanguage('DE')}
+                                variant={language === 'DE' ? 'default' : 'secondary'}
+                            >
+                                DE
+                            </Button>
+                            <Button
+                                onClick={() => setLanguage('RU')}
+                                variant={language === 'RU' ? 'default' : 'secondary'}
+                            >
+                                RU
+                            </Button>
+                        </div>
                         <DrawerTitle className="text-2xl">
                             {language === 'DE' ? disclaimer.DE.title : disclaimer.RU.title}
                         </DrawerTitle>
