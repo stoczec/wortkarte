@@ -74,7 +74,7 @@ export default function PaginatedPage() {
         if (checkDataConsistency()) {
             resetStore()
             router.push('/page/1')
-            notify()
+            // notify()
         }
     }, [displayedCards, selectedLevel])
 

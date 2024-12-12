@@ -17,7 +17,7 @@ export default function Home() {
             >
                 Willkommen!
             </p>
-            <Image src="/favicon.ico" alt="logo" width={320} height={576} />
+            <Image src="/favicon.ico" alt="logo" width={320} height={320} priority />
             <div className="w-[320px] h-full flex flex-col justify-between items-center gap-4">
                 <Link href="/page/1">
                     <Button
@@ -38,12 +38,12 @@ export default function Home() {
                 <ScrollArea className="h-16 w-[320px] rounded-md border">
                     <div className="p-2">
                         {[...updates].reverse().map((update, index) => (
-                            <>
-                                <div key={Date.now()} className="text-sm">
+                            <div key={index}>
+                                <div className="text-sm">
                                     {update.date} - {update.message}
                                 </div>
                                 <Separator className="my-2" />
-                            </>
+                            </div>
                         ))}
                     </div>
                 </ScrollArea>
