@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React, { useState } from 'react'
 import { Button } from '../ui/button'
 import {
     Drawer,
@@ -12,9 +12,12 @@ import {
     DrawerFooter,
     DrawerClose,
 } from '../ui/drawer'
-import { Menu } from 'lucide-react'
+import { Menu, MousePointerClick, ArrowLeft } from 'lucide-react'
+import { tipp } from '@/data/tipp'
 
 export const HintDrawer = () => {
+    const [language, setLanguage] = useState<'DE' | 'RU'>('DE')
+
     return (
         <div className="w-full flex justify-center">
             <Drawer>
@@ -27,17 +30,35 @@ export const HintDrawer = () => {
                 <DrawerContent style={{ fontFamily: 'DynaPuffRegular, sans-serif' }}>
                     <DrawerHeader className="flex flex-col justify-center items-center">
                         <DrawerTitle className="text-2xl">
-                            <Menu width={40} height={40} />
+                            <div className="flex gap-4">
+                                <Button
+                                    onClick={() => setLanguage('DE')}
+                                    variant={language === 'DE' ? 'default' : 'secondary'}
+                                >
+                                    DE
+                                </Button>
+                                <Button
+                                    onClick={() => setLanguage('RU')}
+                                    variant={language === 'RU' ? 'default' : 'secondary'}
+                                >
+                                    RU
+                                </Button>
+                            </div>
+                            <div className="flex mt-4">
+                                <Menu width={40} height={40} />
+                                <ArrowLeft width={40} height={40} />
+                                <MousePointerClick width={40} height={40} />
+                            </div>
                         </DrawerTitle>
                         <DrawerDescription className="w-[320px] text-balance text-center">
-                            im Menü kannst du zwischen verschiedenen Bereichen navigieren, die
-                            Karteneinstellungen anpassen, das Sprachniveau auswählen und wichtige
-                            Aktionen durchführen.
+                            {language === 'DE' ? tipp.DE.description : tipp.RU.description}
                         </DrawerDescription>
                     </DrawerHeader>
                     <DrawerFooter>
                         <DrawerClose>
-                            <Button>Verstanden</Button>
+                            <Button>
+                                {language === 'DE' ? tipp.DE.buttonTitle : tipp.RU.buttonTitle}
+                            </Button>
                         </DrawerClose>
                     </DrawerFooter>
                 </DrawerContent>
