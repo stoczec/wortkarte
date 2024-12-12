@@ -2511,4 +2511,65 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Добросовестный сотрудник тщательно проверял каждую деталь проекта.',
         fileKeyUploadthing: 'Yosg29JtFzNhTPn0Pm54978sPWymYbGCLVwivJjoSRlhteBc',
     },
+    {
+        id: `222-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: '',
+        wordDe: 'Nachhaltigkeit',
+        wordRu: 'устойчивость, долговечность, экологичность',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Nachhaltigkeit ist ein Schlüsselkonzept für moderne Unternehmen, die langfristige Verantwortung übernehmen wollen.',
+        exampleRu:
+            'Устойчивость - ключевой концепт для современных компаний, стремящихся взять на себя долгосрочную ответственность.',
+        fileKeyUploadthing: 'Yosg29JtFzNhKTL64b5eokgqc0bL4dRrztvZG8lU9nhDyXPT',
+    },
+    {
+        id: `223-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'ein gutes Gewissen haben',
+        wordRu: 'иметь чистую совесть, быть спокойным за свои поступки',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe:
+            'Nach der Spende an die Wohltätigkeitsorganisation hatte sie ein gutes Gewissen.',
+        exampleRu: 'После пожертвования благотворительной организации у неё была чистая совесть.',
+        fileKeyUploadthing: 'Yosg29JtFzNhUSYde7WcAx1lePRnpGv52BK4HaVMoFTEJC3f',
+    },
+    {
+        id: `224-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'belasten, belastet, hat belastet',
+        wordRu: 'нагружать, обременять, отягощать',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe:
+            'Die hohen Schulden belasten das Unternehmen und schränken seine Handlungsfähigkeit ein.',
+        exampleRu: 'Высокие долги обременяют компанию и ограничивают её дееспособность.',
+        fileKeyUploadthing: 'Yosg29JtFzNhIRmmQ9XjGtPnx5WlKFgyNY93L2wqA8bODCei',
+    },
+    {
+        id: `225-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Kaufentscheidung',
+        wordRu: 'решение о покупке, выбор товара',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Die Kaufentscheidung hängt von vielen Faktoren wie Preis, Qualität und Markenimage ab.',
+        exampleRu:
+            'Решение о покупке зависит от многих факторов, таких как цена, качество и имидж бренда.',
+        fileKeyUploadthing: 'Yosg29JtFzNh3fmJS54ojvmFX2AO1hJNYV9ixGpuDfd5zUcL',
+    },
+    {
+        id: `226-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: '',
+        wordDe: 'Lebensdauer',
+        wordRu: 'срок службы, продолжительность жизни',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe: 'Die Lebensdauer der Batterie beträgt etwa fünf Jahre.',
+        exampleRu: 'Срок службы батареи составляет около пяти лет.',
+        fileKeyUploadthing: 'Yosg29JtFzNh5aL3NM9o7UlyJrOGAjeSa6FfcBquN4z89m2P',
+    },
 ]
