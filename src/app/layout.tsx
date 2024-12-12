@@ -4,6 +4,7 @@ import localFont from 'next/font/local'
 import './globals.css'
 import { ThemeProvider } from 'next-themes'
 import { Footer, Header } from '@/components'
+import { Analytics } from '@vercel/analytics/next'
 
 export const metadata: Metadata = {
     title: 'Wortkarte - Deutsch lernen mit farblichen Lernkarten',
@@ -42,6 +43,7 @@ export default function RootLayout({
                     >
                         <Header />
                         {children}
+                        <Analytics />
                         <Footer />
                     </ThemeProvider>
                 </div>
