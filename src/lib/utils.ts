@@ -33,3 +33,29 @@ export const getWordClassColor = (
             return ''
     }
 }
+
+export const getDateLabel = (updateDate: string) => {
+    const today = new Date()
+    const yesterday = new Date()
+    yesterday.setDate(today.getDate() - 1)
+
+    const updateDateObj = new Date(updateDate)
+    console.log(updateDateObj.getDate())
+    console.log(today.getDate())
+
+    if (
+        updateDateObj.getFullYear() === today.getFullYear() &&
+        updateDateObj.getMonth() === today.getMonth() &&
+        updateDateObj.getDate() === today.getDate()
+    ) {
+        return 'heute'
+    } else if (
+        updateDateObj.getFullYear() === yesterday.getFullYear() &&
+        updateDateObj.getMonth() === yesterday.getMonth() &&
+        updateDateObj.getDate() === yesterday.getDate()
+    ) {
+        return 'gestern'
+    } else {
+        return updateDate
+    }
+}

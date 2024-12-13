@@ -7,4 +7,8 @@ export const updates = [
         date: '12.12.24',
         message: 'Informationen über die letzten Updates wurden auf die Startseite hinzugefügt.',
     },
+    {
+        date: '13.12.24',
+        message: '20 neue Wörter aus dem Buch C1 Beruf wurden hinzugefügt.',
+    },
 ]
