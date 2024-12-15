@@ -6,11 +6,18 @@ import {
     PaginationItem,
     PaginationPrevious,
     PaginationLink,
-    PaginationEllipsis,
     PaginationNext,
 } from './ui/pagination'
 import { ILanguageCard } from '@/interfaces/interfaces'
 import { useCardsStore } from '@/stores'
+import {
+    Select,
+    SelectTrigger,
+    SelectValue,
+    SelectContent,
+    SelectItem,
+    SelectGroup,
+} from './ui/select'
 
 export const CustomPagination = ({
     currentPage,
@@ -40,10 +47,25 @@ export const CustomPagination = ({
             handlePageChange(currentPage + 1)
         }
     }
+
+    const handleSelectChange = (value: string) => {
+        const selectedPage = parseInt(value, 10)
+        handlePageChange(selectedPage)
+    }
+
     return (
         <MaxWidthWrapper>
             <Pagination style={{ fontFamily: 'DynaPuffRegular, sans-serif' }}>
                 <PaginationContent>
+                    <PaginationItem>
+                        <PaginationLink
+                            className="w-[75px] text-sm border-2 rounded-full p-2 text-center shadow-inner shadow-[--shadow-color]"
+                            href={`/${pageName}/1`}
+                        >
+                            erste
+                        </PaginationLink>
+                    </PaginationItem>
+
                     <PaginationItem>
                         <PaginationPrevious
                             onClick={handlePreviousPage}
@@ -51,74 +73,34 @@ export const CustomPagination = ({
                         />
                     </PaginationItem>
 
-                    {currentPage > 2 && (
-                        <>
-                            <PaginationItem>
-                                <PaginationLink href={`/${pageName}/1`}>
-                                    <PaginationEllipsis />
-                                </PaginationLink>
-                            </PaginationItem>
-                        </>
-                    )}
-
-                    {currentPage > 1 && (
-                        <PaginationItem>
-                            <PaginationLink
-                                href={`/${pageName}/${currentPage - 1}`}
-                                className={
-                                    currentPage === 1
-                                        ? 'text-2xl text-primary rounded-full font-extrabold'
-                                        : ''
-                                }
-                            >
-                                {currentPage - 1}
-                            </PaginationLink>
-                        </PaginationItem>
-                    )}
-
                     <PaginationItem>
-                        <PaginationLink
-                            href={`/${pageName}/${currentPage}`}
-                            className="text-2xl text-primary rounded-full font-extrabold"
-                        >
-                            {currentPage}
-                        </PaginationLink>
+                        <Select value={String(currentPage)} onValueChange={handleSelectChange}>
+                            <SelectTrigger className="text-2xl text-primary rounded-full text-center font-extrabold pl-4">
+                                <SelectValue placeholder={`Page ${currentPage}`} />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectGroup>
+                                    {Array.from({ length: totalPages }, (_, index) => (
+                                        <SelectItem key={index + 1} value={String(index + 1)}>
+                                            {index + 1}
+                                        </SelectItem>
+                                    ))}
+                                </SelectGroup>
+                            </SelectContent>
+                        </Select>
                     </PaginationItem>
-
-                    {currentPage < totalPages && (
-                        <PaginationItem>
-                            <PaginationLink
-                                href={`/${pageName}/${currentPage + 1}`}
-                                className={
-                                    currentPage === totalPages
-                                        ? ' text-2xl text-primary rounded-full font-extrabold'
-                                        : ''
-                                }
-                            >
-                                {currentPage + 1}
-                            </PaginationLink>
-                        </PaginationItem>
-                    )}
-
-                    {currentPage < totalPages - 1 && (
-                        <>
-                            <PaginationItem>
-                                <PaginationLink
-                                    href={`/${pageName}/${totalPages}`}
-                                    className={
-                                        currentPage === totalPages
-                                            ? ' text-2xl text-primary rounded-full font-extrabold'
-                                            : ''
-                                    }
-                                >
-                                    <PaginationEllipsis />
-                                </PaginationLink>
-                            </PaginationItem>
-                        </>
-                    )}
 
                     <PaginationItem>
                         <PaginationNext onClick={handleNextPage} className="cursor-pointer" />
+                    </PaginationItem>
+
+                    <PaginationItem>
+                        <PaginationLink
+                            href={`/${pageName}/${totalPages}`}
+                            className="w-[75px] text-sm border-2 rounded-full p-2 text-center shadow-inner shadow-[--shadow-color]"
+                        >
+                            letzte
+                        </PaginationLink>
                     </PaginationItem>
                 </PaginationContent>
             </Pagination>
