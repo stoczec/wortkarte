@@ -3048,4 +3048,78 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Преподаватель объяснил студентам основы программирования.',
         fileKeyUploadthing: 'Yosg29JtFzNh85LdTz1pEDTtnbqjYeRBhIVLQSxJWXgs3COU',
     },
+    {
+        id: `267-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Schuldzuweisung',
+        wordRu: 'обвинение, перекладывание вины',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'In Konfliktsituationen sollte man Schuldzuweisungen vermeiden und gemeinsam nach Lösungen suchen.',
+        exampleRu: 'В конфликтных ситуациях следует избегать обвинений и совместно искать решения.',
+        fileKeyUploadthing: 'Yosg29JtFzNh6G1E29PisOKx5VSaw0LRnFcMd9oyfv1g4Qer',
+    },
+    {
+        id: `268-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'unvermeidbar',
+        wordRu: 'неизбежный, неминуемый',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe: 'Der Anstieg der Kosten war unter den gegebenen Umständen unvermeidbar.',
+        exampleRu: 'Рост расходов был неизбежным в сложившихся обстоятельствах.',
+        fileKeyUploadthing: 'Yosg29JtFzNhWyK4QPC8UvtqgBs1aRVjix4wlZ9nzArQXO27',
+    },
+    {
+        id: `269-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'verteufeln, verteufelt, hat verteufelt',
+        wordRu: 'очернять, демонизировать, сильно критиковать',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe:
+            'Es ist nicht fair, neue Technologien grundsätzlich zu verteufeln, ohne ihre Vorteile zu betrachten.',
+        exampleRu:
+            'Несправедливо демонизировать новые технологии, не рассматривая их преимущества.',
+        fileKeyUploadthing: 'Yosg29JtFzNhyqn8qhrDLWcC2lIrhH17xJvjKnQR9ws536ei',
+    },
+    {
+        id: `270-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Wertschätzung',
+        wordRu: 'признательность, уважение, высокая оценка',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Eine offene Wertschätzung der Mitarbeiter trägt zu einem positiven Arbeitsklima bei.',
+        exampleRu:
+            'Открытая признательность сотрудников способствует положительной рабочей атмосфере.',
+        fileKeyUploadthing: 'Yosg29JtFzNhLJdGsoyU1vJKEiwc6tXCo24HYTQ8xVrjL9Gu',
+    },
+    {
+        id: `271-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'der',
+        pluralEnding: ', -s',
+        wordDe: 'Workflow',
+        wordRu: 'рабочий процесс, поток работы',
+        wordClass: EnumWORDCLASSES.MASCULIN,
+        exampleDe:
+            'Ein effizienter Workflow spart Zeit und erhöht die Produktivität im Unternehmen.',
+        exampleRu:
+            'Эффективный рабочий процесс экономит время и повышает продуктивность в компании.',
+        fileKeyUploadthing: 'Yosg29JtFzNhF93OzG1TubBCpndtMKSeV7IPW4zZa0vXUywL',
+    },
+    {
+        id: `272-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'abwägen, wägt ab, hat abgewogen',
+        wordRu: 'взвешивать, обдумывать, оценивать',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe:
+            'Bevor man eine Entscheidung trifft, sollte man die Vor- und Nachteile sorgfältig abwägen.',
+        exampleRu: 'Перед тем как принять решение, следует тщательно взвесить все за и против.',
+        fileKeyUploadthing: 'Yosg29JtFzNhYhLf31JtFzNhDLRbEpOK4inVgWujTHf15rx3',
+    },
 ]
