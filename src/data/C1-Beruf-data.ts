@@ -3400,4 +3400,115 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Сотрудники могут в любое время получить доступ к необходимым данным.',
         fileKeyUploadthing: 'Yosg29JtFzNhtGGU7qSxXU3oa7DEsTyVQ2zGrJZFuYglcj84',
     },
+    {
+        id: `298-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'aufgebracht',
+        wordRu: 'возмущенный, разгневанный',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe:
+            'Der Kunde war sehr aufgebracht, weil seine Bestellung nicht pünktlich geliefert wurde.',
+        exampleRu: 'Клиент был очень возмущен, потому что его заказ не доставили вовремя.',
+        fileKeyUploadthing: 'Yosg29JtFzNhXI0MEuq9khKSUvpJeH506yLiP3w8TAdGr7ua',
+    },
+    {
+        id: `299-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Beanstandung',
+        wordRu: 'рекламация, претензия',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Wegen zahlreicher Beanstandungen der Produktqualität musste die gesamte Charge zurückgerufen werden.',
+        exampleRu:
+            'Из-за многочисленных претензий к качеству продукции пришлось отозвать всю партию.',
+        fileKeyUploadthing: 'Yosg29JtFzNhpNxHeq2shpGY1ctFIeDyvwu24madHBxoLWRM',
+    },
+    {
+        id: `300-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'billigen, billigt, hat gebilligt',
+        wordRu: 'одобрять, утверждать',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe: 'Der Vorstand hat das neue Projekt endlich gebilligt.',
+        exampleRu: 'Правление наконец одобрило новый проект.',
+        fileKeyUploadthing: 'Yosg29JtFzNhNZJEaOlSLjOv7ZJ8WUplQhuIi6DFykCgY0RT',
+    },
+    {
+        id: `301-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Erwartungshaltung',
+        wordRu: 'ожидания, уровень ожиданий',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Die hohe Erwartungshaltung der Kunden stellt eine große Herausforderung für unser Serviceteam dar.',
+        exampleRu:
+            'Высокий уровень ожиданий клиентов представляет большой вызов для нашей сервисной команды.',
+        fileKeyUploadthing: 'Yosg29JtFzNh8JssRv1pEDTtnbqjYeRBhIVLQSxJWXgs3COU',
+    },
+    {
+        id: `302-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'geteilter Meinung sein',
+        wordRu: 'иметь разные мнения, расходиться во мнениях',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe: 'Die Teammitglieder waren über die neue Marketingstrategie geteilter Meinung.',
+        exampleRu: 'Члены команды разошлись во мнениях относительно новой маркетинговой стратегии.',
+        fileKeyUploadthing: 'Yosg29JtFzNhkqFrdfhXtQ6BK7viORPW5L9sxm4bchzE3J0l',
+    },
+    {
+        id: `303-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Kernarbeitszeit',
+        wordRu: 'основное рабочее время',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Die Kernarbeitszeit in unserem Büro ist von 10:00 bis 15:00 Uhr, in der alle Mitarbeiter anwesend sein müssen.',
+        exampleRu:
+            'Основное рабочее время в нашем офисе с 10:00 до 15:00, когда все сотрудники должны присутствовать.',
+        fileKeyUploadthing: 'Yosg29JtFzNhbwoJQCArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
+    },
+    {
+        id: `304-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'lösungsorientiert',
+        wordRu: 'ориентированный на решение, нацеленный на результат',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe:
+            'Unser neuer Projektmanager arbeitet sehr lösungsorientiert und findet schnell praktische Wege aus schwierigen Situationen.',
+        exampleRu:
+            'Наш новый проектный менеджер работает очень ориентированно на решение и быстро находит практические выходы из сложных ситуаций.',
+        fileKeyUploadthing: 'Yosg29JtFzNhwJ1acBbKx3oQcHXA85iDdYagnsSZVFPkheU4',
+    },
+    {
+        id: `305-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'der',
+        pluralEnding: ', -äden',
+        wordDe: 'Leitfaden',
+        wordRu: 'руководство, инструкция',
+        wordClass: EnumWORDCLASSES.MASCULIN,
+        exampleDe:
+            'Der neue Leitfaden für Mitarbeiter erklärt alle wichtigen Prozesse und Vorschriften im Unternehmen.',
+        exampleRu:
+            'Новое руководство для сотрудников объясняет все важные процессы и правила в компании.',
+        fileKeyUploadthing: 'Yosg29JtFzNhOciZh1SYJbPBwrh97WFmSMdAVkKZlnevTX08',
+    },
+    {
+        id: `306-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Rahmenbedingung',
+        wordRu: 'общие условия, рамочные условия',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe: 'Die Rahmenbedingungen für das Projekt wurden im Vorfeld genau definiert.',
+        exampleRu: 'Рамочные условия для проекта были точно определены заранее.',
+        fileKeyUploadthing: 'Yosg29JtFzNhLLSb9vyU1vJKEiwc6tXCo24HYTQ8xVrjL9Gu',
+    }
+    
 ]
