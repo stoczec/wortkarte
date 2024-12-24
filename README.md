@@ -10,6 +10,7 @@
 <li> Flashcards with associative images to aid in vocabulary memorization</li>
 <li> Grammar categorization by color for easy recognition and retention</li>
 <li> Interactive and engaging user interface</li>
+<li> AI Bot</li>
 </ul>
 
 <h3>Technologies Used</h3>
