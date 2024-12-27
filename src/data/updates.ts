@@ -9,7 +9,7 @@ export const updates = [
     },
     {
         date: '13.12.24',
-        message: '20 neue Wörter aus dem Buch C1 Aspekte Beruf wurden hinzugefügt.',
+        message: '21 neue Wörter aus dem Buch C1 Aspekte Beruf wurden hinzugefügt.',
     },
     {
         date: '14.12.24',
