@@ -2351,7 +2351,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         pluralEnding: '',
         wordDe: 'Verhalten',
         wordRu: 'поведение',
-        wordClass: EnumWORDCLASSES.MASCULIN,
+        wordClass: EnumWORDCLASSES.NEUTRAL,
         exampleDe: 'Das Verhalten der Mitarbeiter beeinflusst die Unternehmenskultur maßgeblich.',
         exampleRu: 'Поведение сотрудников существенно влияет на культуру компании.',
         fileKeyUploadthing: 'Yosg29JtFzNhwfF6U4bKx3oQcHXA85iDdYagnsSZVFPkheU4',
