@@ -2934,7 +2934,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         pluralEnding: '',
         wordDe: 'Arbeitszeitenregelung',
         wordRu: 'регламент рабочего времени, порядок трудового распорядка',
-        wordClass: EnumWORDCLASSES.NEUTRAL,
+        wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe:
             'Die neue Arbeitszeitenregelung im Unternehmen ermöglicht flexible Arbeitszeiten für bessere Work-Life-Balance.',
         exampleRu:
