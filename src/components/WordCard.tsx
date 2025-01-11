@@ -141,7 +141,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                                     'text-teal-700': wordClass === EnumWORDCLASSES.PHRASEN,
                                     'text-cyan-600': wordClass === EnumWORDCLASSES.SATZADVERBIEN,
                                     'text-gray-800': wordClass === EnumWORDCLASSES.AUXILIARVERB,
-                                    'text-brown-600': wordClass === EnumWORDCLASSES.MODALVERB,
+                                    'text-orange-700': wordClass === EnumWORDCLASSES.MODALVERB,
                                     'text-rose-500': wordClass === EnumWORDCLASSES.REFLEXIVPRONOMEN,
                                     'text-yellow-600':
                                         wordClass === EnumWORDCLASSES.DEMONSTRATIVPRONOMEN,
@@ -216,7 +216,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                                         'text-cyan-600':
                                             wordClass === EnumWORDCLASSES.SATZADVERBIEN,
                                         'text-gray-800': wordClass === EnumWORDCLASSES.AUXILIARVERB,
-                                        'text-brown-600': wordClass === EnumWORDCLASSES.MODALVERB,
+                                        'text-orange-700': wordClass === EnumWORDCLASSES.MODALVERB,
                                         'text-rose-500':
                                             wordClass === EnumWORDCLASSES.REFLEXIVPRONOMEN,
                                         'text-yellow-600':

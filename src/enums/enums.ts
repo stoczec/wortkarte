@@ -1,52 +1,52 @@
 type EnumWordClassesType =
-    | 'maskulin' // мужской род
-    | 'feminin' // женский род
-    | 'neutral' // средний род
-    | 'plural' // множественное число
-    | 'verb' // глагол
-    | 'adjektiv' // прилагательное
-    | 'adverb' // наречие
-    | 'präposition' // предлог
-    | 'konjunktion' // союз
-    | 'partikel' // частица
-    | 'numerale' // числительное
-    | 'pronomen' // местоимение
-    | 'interjektion' // междометие
-    | 'artikel' // артикль
-    | 'phrasen' // фразы
-    | 'satzadverbien' // предложные наречия
-    | 'auxiliarverb' // вспомогательный глагол
-    | 'modalverb' // модальный глагол
-    | 'reflexivpronomen' // рефлексивное местоимение
-    | 'demonstrativpronomen' // указательное местоимение
-    | 'relativpronomen' // относительное местоимение
-    | 'interrogativpronomen' // вопросительное местоимение
-    | 'possessivpronomen' // притяжательное местоимение
+    | 'Maskulin' // мужской род
+    | 'Feminin' // женский род
+    | 'Neutral' // средний род
+    | 'Plural' // множественное число
+    | 'Verb' // глагол
+    | 'Adjektiv' // прилагательное
+    | 'Adverb' // наречие
+    | 'Präposition' // предлог
+    | 'Konjunktion' // союз
+    | 'Partikel' // частица
+    | 'Numerale' // числительное
+    | 'Pronomen' // местоимение
+    | 'Interjektion' // междометие
+    | 'Artikel' // артикль
+    | 'Phrasen' // фразы
+    | 'Satzadverbien' // предложные наречия
+    | 'Auxiliarverb' // вспомогательный глагол
+    | 'Modalverb' // модальный глагол
+    | 'Reflexivpronomen' // рефлексивное местоимение
+    | 'Demonstrativpronomen' // указательное местоимение
+    | 'Relativpronomen' // относительное местоимение
+    | 'Interrogativpronomen' // вопросительное местоимение
+    | 'Possessivpronomen' // притяжательное местоимение
 
 export const EnumWORDCLASSES = {
-    MASCULIN: 'maskulin' as EnumWordClassesType,
-    FEMININ: 'feminin' as EnumWordClassesType,
-    NEUTRAL: 'neutral' as EnumWordClassesType,
-    PLURAL: 'plural' as EnumWordClassesType,
-    VERB: 'verb' as EnumWordClassesType,
-    ADJEKTIV: 'adjektiv' as EnumWordClassesType,
-    ADVERB: 'adverb' as EnumWordClassesType,
-    PRÄPOSITION: 'präposition' as EnumWordClassesType,
-    KONJUNKTION: 'konjunktion' as EnumWordClassesType,
-    PARTIKEL: 'partikel' as EnumWordClassesType,
-    NUMERALE: 'numerale' as EnumWordClassesType,
-    PRONOMEN: 'pronomen' as EnumWordClassesType,
-    INTERJEKTION: 'interjektion' as EnumWordClassesType,
-    ARTIKEL: 'artikel' as EnumWordClassesType,
-    PHRASEN: 'phrasen' as EnumWordClassesType,
-    SATZADVERBIEN: 'satzadverbien' as EnumWordClassesType,
-    AUXILIARVERB: 'auxiliarverb' as EnumWordClassesType,
-    MODALVERB: 'modalverb' as EnumWordClassesType,
-    REFLEXIVPRONOMEN: 'reflexivpronomen' as EnumWordClassesType,
-    DEMONSTRATIVPRONOMEN: 'demonstrativpronomen' as EnumWordClassesType,
-    RELATIVPRONOMEN: 'relativpronomen' as EnumWordClassesType,
-    INTERROGATIVPRONOMEN: 'interrogativpronomen' as EnumWordClassesType,
-    POSSESSIVPRONOMEN: 'possessivpronomen' as EnumWordClassesType,
+    MASCULIN: 'Maskulin' as EnumWordClassesType,
+    FEMININ: 'Feminin' as EnumWordClassesType,
+    NEUTRAL: 'Neutral' as EnumWordClassesType,
+    PLURAL: 'Plural' as EnumWordClassesType,
+    VERB: 'Verb' as EnumWordClassesType,
+    ADJEKTIV: 'Adjektiv' as EnumWordClassesType,
+    ADVERB: 'Adverb' as EnumWordClassesType,
+    PRÄPOSITION: 'Präposition' as EnumWordClassesType,
+    KONJUNKTION: 'Konjunktion' as EnumWordClassesType,
+    PARTIKEL: 'Partikel' as EnumWordClassesType,
+    NUMERALE: 'Numerale' as EnumWordClassesType,
+    PRONOMEN: 'Pronomen' as EnumWordClassesType,
+    INTERJEKTION: 'Interjektion' as EnumWordClassesType,
+    ARTIKEL: 'Artikel' as EnumWordClassesType,
+    PHRASEN: 'Phrasen' as EnumWordClassesType,
+    SATZADVERBIEN: 'Satzadverbien' as EnumWordClassesType,
+    AUXILIARVERB: 'Auxiliarverb' as EnumWordClassesType,
+    MODALVERB: 'Modalverb' as EnumWordClassesType,
+    REFLEXIVPRONOMEN: 'Reflexivpronomen' as EnumWordClassesType,
+    DEMONSTRATIVPRONOMEN: 'Demonstrativpronomen' as EnumWordClassesType,
+    RELATIVPRONOMEN: 'Relativpronomen' as EnumWordClassesType,
+    INTERROGATIVPRONOMEN: 'Interrogativpronomen' as EnumWordClassesType,
+    POSSESSIVPRONOMEN: 'Possessivpronomen' as EnumWordClassesType,
 }
 
 type EnumWordLevelsType = 'A2-B2' | 'C1 Sicher!' | 'C1 Beruf' | 'Alle Sprachebenen'
