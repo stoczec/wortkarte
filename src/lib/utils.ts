@@ -1,5 +1,6 @@
 import { EnumWORDCLASSES } from '@/enums/enums'
 import { clsx, type ClassValue } from 'clsx'
+import { useMemo } from 'react'
 import { twMerge } from 'tailwind-merge'
 
 export function cn(...inputs: ClassValue[]) {
@@ -60,28 +61,17 @@ export const getWordClassColor = (
     }
 }
 
-export const getDateLabel = (updateDate: string) => {
-    const today = new Date()
-    const yesterday = new Date()
-    yesterday.setDate(today.getDate() - 1)
+export const getFontSizeClass = (word: string) => {
+    const size = useMemo(() => {
+        const length = word.length
+        return length < 15
+            ? 'text-4xl'
+            : length < 20
+            ? 'text-3xl'
+            : length < 24
+            ? 'text-2xl'
+            : 'text-xl'
+    }, [word])
 
-    const updateDateObj = new Date(updateDate)
-    console.log(updateDateObj.getDate())
-    console.log(today.getDate())
-
-    if (
-        updateDateObj.getFullYear() === today.getFullYear() &&
-        updateDateObj.getMonth() === today.getMonth() &&
-        updateDateObj.getDate() === today.getDate()
-    ) {
-        return 'heute'
-    } else if (
-        updateDateObj.getFullYear() === yesterday.getFullYear() &&
-        updateDateObj.getMonth() === yesterday.getMonth() &&
-        updateDateObj.getDate() === yesterday.getDate()
-    ) {
-        return 'gestern'
-    } else {
-        return updateDate
-    }
+    return size
 }

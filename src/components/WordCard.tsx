@@ -1,10 +1,10 @@
 'use client'
 
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Card, CardContent } from './ui/card'
 import { IWordCardProperties } from '@/interfaces/interfaces'
-import { cn } from '@/lib/utils'
+import { cn, getFontSizeClass } from '@/lib/utils'
 import { EnumWORDCLASSES } from '@/enums/enums'
 import { useCardsStore } from '@/stores'
 import { Heart } from 'lucide-react'
@@ -43,18 +43,6 @@ export const WordCard = ({ data }: IWordCardProperties) => {
         setIsFlipped(prevCount => !prevCount)
     }
 
-    const getFontSizeClass = (word: string) => {
-        if (word.length < 15) {
-            return 'text-4xl'
-        } else if (word.length < 20) {
-            return 'text-3xl'
-        } else if (word.length < 24) {
-            return 'text-2xl'
-        } else {
-            return 'text-xl'
-        }
-    }
-
     const handleFavoriteToggle = () => {
         if (isFavorite) {
             removeFavoriteCard(id)
@@ -62,8 +50,6 @@ export const WordCard = ({ data }: IWordCardProperties) => {
             addFavoriteCard(data)
         }
     }
-
-    // Функция для получения изображения
 
     useEffect(() => {
         const fetchImage = async () => {
