@@ -48,8 +48,10 @@ export const WordCard = ({ data }: IWordCardProperties) => {
             return 'text-4xl'
         } else if (word.length < 20) {
             return 'text-3xl'
-        } else {
+        } else if (word.length < 24) {
             return 'text-2xl'
+        } else {
+            return 'text-xl'
         }
     }
 
@@ -132,6 +134,22 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                                     'text-gray-500': wordClass === EnumWORDCLASSES.PRÄPOSITION,
                                     'text-amber-800': wordClass === EnumWORDCLASSES.KONJUNKTION,
                                     'text-teal-500': wordClass === EnumWORDCLASSES.PARTIKEL,
+                                    'text-indigo-600': wordClass === EnumWORDCLASSES.NUMERALE,
+                                    'text-lime-500': wordClass === EnumWORDCLASSES.PRONOMEN,
+                                    'text-indigo-500': wordClass === EnumWORDCLASSES.INTERJEKTION,
+                                    'text-slate-700': wordClass === EnumWORDCLASSES.ARTIKEL,
+                                    'text-teal-700': wordClass === EnumWORDCLASSES.PHRASEN,
+                                    'text-cyan-600': wordClass === EnumWORDCLASSES.SATZADVERBIEN,
+                                    'text-gray-800': wordClass === EnumWORDCLASSES.AUXILIARVERB,
+                                    'text-brown-600': wordClass === EnumWORDCLASSES.MODALVERB,
+                                    'text-rose-500': wordClass === EnumWORDCLASSES.REFLEXIVPRONOMEN,
+                                    'text-yellow-600':
+                                        wordClass === EnumWORDCLASSES.DEMONSTRATIVPRONOMEN,
+                                    'text-teal-600': wordClass === EnumWORDCLASSES.RELATIVPRONOMEN,
+                                    'text-blue-600':
+                                        wordClass === EnumWORDCLASSES.INTERROGATIVPRONOMEN,
+                                    'text-indigo-700':
+                                        wordClass === EnumWORDCLASSES.POSSESSIVPRONOMEN,
                                 }
                             )}
                             initial={{ y: -100 }}
@@ -189,6 +207,26 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                                         'text-gray-500': wordClass === EnumWORDCLASSES.PRÄPOSITION,
                                         'text-amber-800': wordClass === EnumWORDCLASSES.KONJUNKTION,
                                         'text-teal-500': wordClass === EnumWORDCLASSES.PARTIKEL,
+                                        'text-indigo-600': wordClass === EnumWORDCLASSES.NUMERALE,
+                                        'text-lime-500': wordClass === EnumWORDCLASSES.PRONOMEN,
+                                        'text-indigo-500':
+                                            wordClass === EnumWORDCLASSES.INTERJEKTION,
+                                        'text-slate-700': wordClass === EnumWORDCLASSES.ARTIKEL,
+                                        'text-teal-700': wordClass === EnumWORDCLASSES.PHRASEN,
+                                        'text-cyan-600':
+                                            wordClass === EnumWORDCLASSES.SATZADVERBIEN,
+                                        'text-gray-800': wordClass === EnumWORDCLASSES.AUXILIARVERB,
+                                        'text-brown-600': wordClass === EnumWORDCLASSES.MODALVERB,
+                                        'text-rose-500':
+                                            wordClass === EnumWORDCLASSES.REFLEXIVPRONOMEN,
+                                        'text-yellow-600':
+                                            wordClass === EnumWORDCLASSES.DEMONSTRATIVPRONOMEN,
+                                        'text-teal-600':
+                                            wordClass === EnumWORDCLASSES.RELATIVPRONOMEN,
+                                        'text-blue-600':
+                                            wordClass === EnumWORDCLASSES.INTERROGATIVPRONOMEN,
+                                        'text-indigo-700':
+                                            wordClass === EnumWORDCLASSES.POSSESSIVPRONOMEN,
                                     }
                                 )}
                                 initial={{ y: 100 }}
