@@ -6046,4 +6046,67 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Закат был настолько ослепительным, что почти невозможно было смотреть.',
         fileKeyUploadthing: 'Yosg29JtFzNhp6PwSF2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
+    {
+        id: `531-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'in gegenseitigem Einvernehmen',
+        wordRu: 'по взаимному согласию',
+        wordClass: EnumWORDCLASSES.PHRASEN,
+        exampleDe: 'Der Vertrag wurde in gegenseitigem Einvernehmen beendet.',
+        exampleRu: 'Договор был расторгнут по взаимному согласию.',
+        fileKeyUploadthing: 'Yosg29JtFzNhr4mqCldn1sqJTVcNudIg3BDMPtGOXY8K72Zi',
+    },
+    {
+        id: `532-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'das',
+        pluralEnding: ', -se',
+        wordDe: 'Zwischenzeugnis',
+        wordRu: 'промежуточный отчет, промежуточный аттестат',
+        wordClass: EnumWORDCLASSES.NEUTRAL,
+        exampleDe:
+            'Der Mitarbeiter bat seinen Vorgesetzten um ein Zwischenzeugnis nach zwei Jahren im Unternehmen.',
+        exampleRu:
+            'Сотрудник попросил своего начальника выдать промежуточный аттестат после двух лет работы в компании.',
+        fileKeyUploadthing: 'Yosg29JtFzNhImfR5IXjGtPnx5WlKFgyNY93L2wqA8bODCei',
+    },
+    {
+        id: `533-${EnumWORDLEVELS.C1BERUF}`,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'betriebsbedingt',
+        wordRu: 'вызванный производственными причинами',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe:
+            'Die betriebsbedingte Kündigung wurde aufgrund des Personalabbaus ausgesprochen.',
+        exampleRu:
+            'Увольнение по производственным причинам было произведено из-за сокращения персонала.',
+        fileKeyUploadthing: 'Yosg29JtFzNhMyj06xKq64xuGBkrejT9EQmSYta7vXAKLszV',
+    },
+    {
+        id: `534-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'der',
+        pluralEnding: ', "-e',
+        wordDe: 'Auflösungsvertrag',
+        wordRu: 'соглашение о расторжении (договора)',
+        wordClass: EnumWORDCLASSES.MASCULIN,
+        exampleDe:
+            'Beide Parteien einigten sich auf einen Auflösungsvertrag, um das Arbeitsverhältnis zu beenden.',
+        exampleRu:
+            'Обе стороны договорились о соглашении о расторжении, чтобы завершить трудовые отношения.',
+        fileKeyUploadthing: 'Yosg29JtFzNh2L17iwYvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
+    },
+    {
+        id: `535-${EnumWORDLEVELS.C1BERUF}`,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Freistellung',
+        wordRu: 'освобождение (от обязанностей), отпуск за свой счёт',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Nach der Kündigung erhielt der Mitarbeiter eine Freistellung bis zum Vertragsende.',
+        exampleRu:
+            'После увольнения сотрудник получил освобождение от обязанностей до конца срока договора.',
+        fileKeyUploadthing: 'Yosg29JtFzNhU41Ap8WcAx1lePRnpGv52BK4HaVMoFTEJC3f',
+    },
 ]
