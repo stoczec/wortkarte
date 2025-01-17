@@ -470,7 +470,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         article: '',
         pluralEnding: '',
         wordDe: 'konsequent',
-        wordRu: 'последовательный, целеустремленный',
+        wordRu: 'последовательный, неуклонный, твердый в своих убеждениях',
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Er verfolgt seine Ziele konsequent und gibt nie auf.',
         exampleRu: 'Он последовательно идет к своим целям и никогда не сдается.',
@@ -2959,7 +2959,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         article: '',
         pluralEnding: '',
         wordDe: 'gegenchecken, checkt gegen, checkte gegen, hat gegengecheckt',
-        wordRu: 'проверять, перекрестно проверять',
+        wordRu: 'перепроверить, проверить ещё раз, сверить',
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe:
             'Bevor wir den Bericht einreichen, sollten wir alle Zahlen gegenchecken, um Fehler auszuschließen.',
