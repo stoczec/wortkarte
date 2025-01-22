@@ -1,7 +1,8 @@
-import { EnumCARDSCATEGORY, EnumWORDCLASSES, EnumWORDLEVELS } from '@/enums/enums'
+import { EnumCARDSCATEGORY, EnumTOPICS, EnumWORDCLASSES, EnumWORDLEVELS } from '@/enums/enums'
 
 export interface ILanguageCard {
     id: any
+    thema?: (typeof EnumTOPICS)[keyof typeof EnumTOPICS]
     article: string
     pluralEnding: string
     wordDe: string

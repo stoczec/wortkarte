@@ -65,3 +65,28 @@ export const EnumCARDSCATEGORY = {
     GEMISCHTEN: 'Gemischten' as EnumCardsCategoryType,
     FAVORITEN: 'Favoriten' as EnumCardsCategoryType,
 }
+
+type EnumTopicsType =
+    | 'Thema 1'
+    | 'Thema 2'
+    | 'Thema 3'
+    | 'Thema 4'
+    | 'Thema 5'
+    | 'Thema 6'
+    | 'Thema 7'
+    | 'Thema 8'
+    | 'Thema 9'
+    | 'Thema 10'
+
+export const EnumTOPICS = {
+    THEMA1: 'Thema 1' as EnumTopicsType,
+    THEMA2: 'Thema 2' as EnumTopicsType,
+    THEMA3: 'Thema 3' as EnumTopicsType,
+    THEMA4: 'Thema 4' as EnumTopicsType,
+    THEMA5: 'Thema 5' as EnumTopicsType,
+    THEMA6: 'Thema 6' as EnumTopicsType,
+    THEMA7: 'Thema 7' as EnumTopicsType,
+    THEMA8: 'Thema 8' as EnumTopicsType,
+    THEMA9: 'Thema 9' as EnumTopicsType,
+    THEMA10: 'Thema 10' as EnumTopicsType,
+}
