@@ -66,7 +66,7 @@ export const getFontSizeClass = (word: string) => {
         const length = word.length
         return length < 15
             ? 'text-4xl'
-            : length < 20
+            : length < 19
             ? 'text-3xl'
             : length < 24
             ? 'text-2xl'
