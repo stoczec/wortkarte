@@ -10,7 +10,7 @@ export const getWordClassColor = (
     wordClass: (typeof EnumWORDCLASSES)[keyof typeof EnumWORDCLASSES]
 ) => {
     switch (wordClass) {
-        case EnumWORDCLASSES.MASCULIN:
+        case EnumWORDCLASSES.MASKULIN:
             return 'text-blue-500'
         case EnumWORDCLASSES.FEMININ:
             return 'text-red-500'

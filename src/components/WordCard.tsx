@@ -110,7 +110,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                                 getFontSizeClass(wordDe),
                                 'font-bold text-balance text-center px-2',
                                 {
-                                    'text-blue-500': wordClass === EnumWORDCLASSES.MASCULIN,
+                                    'text-blue-500': wordClass === EnumWORDCLASSES.MASKULIN,
                                     'text-red-500': wordClass === EnumWORDCLASSES.FEMININ,
                                     'text-green-500': wordClass === EnumWORDCLASSES.NEUTRAL,
                                     'text-yellow-500': wordClass === EnumWORDCLASSES.PLURAL,
@@ -183,7 +183,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                                     getFontSizeClass(wordRu),
                                     'font-bold text-balance text-center px-2',
                                     {
-                                        'text-blue-500': wordClass === EnumWORDCLASSES.MASCULIN,
+                                        'text-blue-500': wordClass === EnumWORDCLASSES.MASKULIN,
                                         'text-red-500': wordClass === EnumWORDCLASSES.FEMININ,
                                         'text-green-500': wordClass === EnumWORDCLASSES.NEUTRAL,
                                         'text-yellow-500': wordClass === EnumWORDCLASSES.PLURAL,

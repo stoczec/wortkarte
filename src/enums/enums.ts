@@ -24,7 +24,7 @@ type EnumWordClassesType =
     | 'Possessivpronomen' // притяжательное местоимение
 
 export const EnumWORDCLASSES = {
-    MASCULIN: 'Maskulin' as EnumWordClassesType,
+    MASKULIN: 'Maskulin' as EnumWordClassesType,
     FEMININ: 'Feminin' as EnumWordClassesType,
     NEUTRAL: 'Neutral' as EnumWordClassesType,
     PLURAL: 'Plural' as EnumWordClassesType,
