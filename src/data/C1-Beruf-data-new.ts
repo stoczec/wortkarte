@@ -3786,7 +3786,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `272-${EnumWORDLEVELS.C1BERUF}`,
+        id: `250-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3799,7 +3799,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `273-${EnumWORDLEVELS.C1BERUF}`,
+        id: `251-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3812,7 +3812,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `274-${EnumWORDLEVELS.C1BERUF}`,
+        id: `252-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -3824,7 +3824,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `275-${EnumWORDLEVELS.C1BERUF}`,
+        id: `253-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'der/die',
         pluralEnding: ', -n',
@@ -3836,7 +3836,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `276-${EnumWORDLEVELS.C1BERUF}`,
+        id: `254-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3848,7 +3848,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `277-${EnumWORDLEVELS.C1BERUF}`,
+        id: `255-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3860,7 +3860,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `278-${EnumWORDLEVELS.C1BERUF}`,
+        id: `256-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'das',
         pluralEnding: ', -en',
@@ -3872,7 +3872,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `279-${EnumWORDLEVELS.C1BERUF}`,
+        id: `257-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -3884,7 +3884,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `280-${EnumWORDLEVELS.C1BERUF}`,
+        id: `258-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3893,10 +3893,10 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Der Administrator hat die neuen Benutzer für das System freigeschaltet.',
         exampleRu: 'Администратор предоставил новым пользователям доступ к системе.',
-        fileKeyUploadthing: 'Yosg29JtFzNh9zqocW0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
+        fileKeyUploadthing: '',
     },
     {
-        id: `281-${EnumWORDLEVELS.C1BERUF}`,
+        id: `259-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'das',
         pluralEnding: '',
@@ -3905,10 +3905,10 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.NEUTRAL,
         exampleDe: 'Das Probe-Abo läuft nach einem Monat automatisch aus.',
         exampleRu: 'Пробная подписка автоматически заканчивается через месяц.',
-        fileKeyUploadthing: 'Yosg29JtFzNhLmK2eTyU1vJKEiwc6tXCo24HYTQ8xVrjL9Gu',
+        fileKeyUploadthing: '',
     },
     {
-        id: `282-${EnumWORDLEVELS.C1BERUF}`,
+        id: `260-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -n',
@@ -3917,10 +3917,10 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe: 'Die Regierung hat Sofortmaßnahmen zur Stabilisierung der Wirtschaft ergriffen.',
         exampleRu: 'Правительство приняло меры немедленного действия для стабилизации экономики.',
-        fileKeyUploadthing: 'Yosg29JtFzNhBvYTWKVerN29CWdI6V3bchq7YFQ0GPDR54iO',
+        fileKeyUploadthing: '',
     },
     {
-        id: `283-${EnumWORDLEVELS.C1BERUF}`,
+        id: `261-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3929,10 +3929,10 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Das Angebot war unverbindlich und konnte jederzeit geändert werden.',
         exampleRu: 'Предложение было необязательным и могло быть изменено в любое время.',
-        fileKeyUploadthing: 'Yosg29JtFzNhlA0B5hwrpiqx3HJV94oLBGfRN0nMjvTyZSE1',
+        fileKeyUploadthing: '',
     },
     {
-        id: `284-${EnumWORDLEVELS.C1BERUF}`,
+        id: `262-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3942,7 +3942,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe: 'Er hat mich auf nächste Woche vertröstet, weil er heute keine Zeit hatte.',
         exampleRu:
             'Он перенес встречу на следующую неделю, потому что сегодня у него не было времени.',
-        fileKeyUploadthing: 'Yosg29JtFzNhJCdJwefcMyl2V46DGiNWAse9zQUT5pOkEKaB',
+        fileKeyUploadthing: '',
     },
     {
         id: `285-${EnumWORDLEVELS.C1BERUF}`,
