@@ -3760,6 +3760,18 @@ export const C1_Beruf_data: ILanguageCard[] = [
     {
         id: `248-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'vertuschen, vertuscht, vertuschte, hat vertuscht',
+        wordRu: 'скрывать, замалчивать',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe: 'Der Skandal konnte nicht länger vertuscht werden.',
+        exampleRu: 'Скандал больше нельзя было скрывать.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `249-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Wertschätzung',
@@ -3772,7 +3784,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `249-${EnumWORDLEVELS.C1BERUF}`,
+        id: `250-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'der',
         pluralEnding: ', -s',
@@ -3786,7 +3798,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `250-${EnumWORDLEVELS.C1BERUF}`,
+        id: `251-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3799,7 +3811,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `251-${EnumWORDLEVELS.C1BERUF}`,
+        id: `252-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3812,7 +3824,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `252-${EnumWORDLEVELS.C1BERUF}`,
+        id: `253-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -3824,7 +3836,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `253-${EnumWORDLEVELS.C1BERUF}`,
+        id: `254-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'der/die',
         pluralEnding: ', -n',
@@ -3836,7 +3848,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `254-${EnumWORDLEVELS.C1BERUF}`,
+        id: `255-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3848,7 +3860,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `255-${EnumWORDLEVELS.C1BERUF}`,
+        id: `256-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3860,7 +3872,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `256-${EnumWORDLEVELS.C1BERUF}`,
+        id: `257-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'das',
         pluralEnding: ', -en',
@@ -3872,7 +3884,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `257-${EnumWORDLEVELS.C1BERUF}`,
+        id: `258-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -3884,7 +3896,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `258-${EnumWORDLEVELS.C1BERUF}`,
+        id: `259-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3896,7 +3908,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `259-${EnumWORDLEVELS.C1BERUF}`,
+        id: `260-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'das',
         pluralEnding: '',
@@ -3908,7 +3920,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `260-${EnumWORDLEVELS.C1BERUF}`,
+        id: `261-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -n',
@@ -3920,7 +3932,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `261-${EnumWORDLEVELS.C1BERUF}`,
+        id: `262-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3932,7 +3944,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `262-${EnumWORDLEVELS.C1BERUF}`,
+        id: `263-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3945,7 +3957,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `263-${EnumWORDLEVELS.C1BERUF}`,
+        id: `264-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3957,7 +3969,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `264-${EnumWORDLEVELS.C1BERUF}`,
+        id: `265-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'das',
         pluralEnding: ', -',
@@ -3969,7 +3981,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `265-${EnumWORDLEVELS.C1BERUF}`,
+        id: `266-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3981,7 +3993,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `266-${EnumWORDLEVELS.C1BERUF}`,
+        id: `267-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3993,7 +4005,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `267-${EnumWORDLEVELS.C1BERUF}`,
+        id: `268-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -4005,7 +4017,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `268-${EnumWORDLEVELS.C1BERUF}`,
+        id: `269-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -4017,7 +4029,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `269-${EnumWORDLEVELS.C1BERUF}`,
+        id: `270-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -4029,7 +4041,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `270-${EnumWORDLEVELS.C1BERUF}`,
+        id: `271-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -4041,7 +4053,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `271-${EnumWORDLEVELS.C1BERUF}`,
+        id: `272-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -4053,7 +4065,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `272-${EnumWORDLEVELS.C1BERUF}`,
+        id: `273-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -4066,7 +4078,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `273-${EnumWORDLEVELS.C1BERUF}`,
+        id: `274-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'der',
         pluralEnding: ', -e',
@@ -4078,7 +4090,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `274-${EnumWORDLEVELS.C1BERUF}`,
+        id: `275-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -4090,7 +4102,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `275-${EnumWORDLEVELS.C1BERUF}`,
+        id: `276-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -4102,7 +4114,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `276-${EnumWORDLEVELS.C1BERUF}`,
+        id: `277-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -4115,7 +4127,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `277-${EnumWORDLEVELS.C1BERUF}`,
+        id: `278-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -4129,7 +4141,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `278-${EnumWORDLEVELS.C1BERUF}`,
+        id: `279-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -4141,7 +4153,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `279-${EnumWORDLEVELS.C1BERUF}`,
+        id: `280-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -4155,7 +4167,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `280-${EnumWORDLEVELS.C1BERUF}`,
+        id: `281-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -4167,7 +4179,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `281-${EnumWORDLEVELS.C1BERUF}`,
+        id: `282-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -4181,7 +4193,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `282-${EnumWORDLEVELS.C1BERUF}`,
+        id: `283-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -4194,7 +4206,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `283-${EnumWORDLEVELS.C1BERUF}`,
+        id: `284-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -4208,7 +4220,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `284-${EnumWORDLEVELS.C1BERUF}`,
+        id: `285-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'der',
         pluralEnding: ', -äden',
@@ -4222,7 +4234,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `285-${EnumWORDLEVELS.C1BERUF}`,
+        id: `286-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -4244,7 +4256,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.NEUTRAL,
         exampleDe: 'Das Wachstum der Wirtschaft hat sich im letzten Quartal verlangsamt.',
         exampleRu: 'Рост экономики замедлился в последнем квартале.',
-        fileKeyUploadthing: 'Yosg29JtFzNhq9aCloHMb4Fx3SuAL2OkR1JDz8hvClYy5fdp',
+        fileKeyUploadthing: '',
     },
     {
         id: `308-${EnumWORDLEVELS.C1BERUF}`,
@@ -4256,7 +4268,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe: 'Die Verfügbarkeit der Produkte wird täglich aktualisiert.',
         exampleRu: 'Наличие продуктов обновляется ежедневно.',
-        fileKeyUploadthing: 'Yosg29JtFzNhosrtrh4Zkc03OmYsX6Ry4wTgS2luHCNiqbnt',
+        fileKeyUploadthing: '',
     },
     {
         id: `309-${EnumWORDLEVELS.C1BERUF}`,
@@ -4269,7 +4281,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Das Unternehmen ist bestrebt, seine Dienstleistungen kontinuierlich zu verbessern.',
         exampleRu: 'Компания стремится постоянно улучшать свои услуги.',
-        fileKeyUploadthing: 'Yosg29JtFzNh2BlbFtYvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
+        fileKeyUploadthing: '',
     },
     {
         id: `310-${EnumWORDLEVELS.C1BERUF}`,
@@ -4281,7 +4293,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Der Bericht zeigt die Schwachstellen im System deutlich auf.',
         exampleRu: 'Отчет четко выявляет слабые места в системе.',
-        fileKeyUploadthing: 'Yosg29JtFzNhAcPPWoulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
+        fileKeyUploadthing: '',
     },
     {
         id: `311-${EnumWORDLEVELS.C1BERUF}`,
@@ -4293,7 +4305,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Das Unternehmen profitiert von den neuen Technologien auf dem Markt.',
         exampleRu: 'Компания извлекает выгоду из новых технологий на рынке.',
-        fileKeyUploadthing: 'Yosg29JtFzNhc1K54AnvxsIW48BMn5jH2lVp9LzJXDy1TkiK',
+        fileKeyUploadthing: '',
     },
     {
         id: `312-${EnumWORDLEVELS.C1BERUF}`,
@@ -4305,7 +4317,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADVERB,
         exampleDe: 'Die bestellten Möbel wurden frei Haus geliefert.',
         exampleRu: 'Заказанная мебель была доставлена бесплатно на дом.',
-        fileKeyUploadthing: 'Yosg29JtFzNhAMmjf8ulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
+        fileKeyUploadthing: '',
     },
     {
         id: `313-${EnumWORDLEVELS.C1BERUF}`,
@@ -4317,7 +4329,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Er möchte seine Kenntnisse in diesem Fachgebiet vertiefen.',
         exampleRu: 'Он хочет углубить свои знания в этой области.',
-        fileKeyUploadthing: 'Yosg29JtFzNhkKPBwBhXtQ6BK7viORPW5L9sxm4bchzE3J0l',
+        fileKeyUploadthing: '',
     },
     {
         id: `314-${EnumWORDLEVELS.C1BERUF}`,
@@ -4329,7 +4341,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Wir müssen mit einer längeren Wartezeit rechnen.',
         exampleRu: 'Нам нужно рассчитывать на более долгое ожидание.',
-        fileKeyUploadthing: 'Yosg29JtFzNhLwm1eDyU1vJKEiwc6tXCo24HYTQ8xVrjL9Gu',
+        fileKeyUploadthing: '',
     },
     {
         id: `315-${EnumWORDLEVELS.C1BERUF}`,
@@ -4341,7 +4353,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'In dem Schreiben finden Sie die beiliegenden Dokumente.',
         exampleRu: 'В письме вы найдете прилагаемые документы.',
-        fileKeyUploadthing: 'Yosg29JtFzNhf4aXKLE7ZS8aFTpxy04W6gvboGB5ctDHL2EK',
+        fileKeyUploadthing: '',
     },
     {
         id: `316-${EnumWORDLEVELS.C1BERUF}`,
@@ -4354,7 +4366,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Das Unternehmen versucht, neue Kunden zu akquirieren, um den Umsatz zu steigern.',
         exampleRu: 'Компания пытается привлечь новых клиентов, чтобы увеличить оборот.',
-        fileKeyUploadthing: 'Yosg29JtFzNhXZ0hUJYq9khKSUvpJeH506yLiP3w8TAdGr7u',
+        fileKeyUploadthing: '',
     },
     {
         id: `317-${EnumWORDLEVELS.C1BERUF}`,
@@ -4366,7 +4378,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'In Krisensituationen muss das Management schnell und entschlossen agieren.',
         exampleRu: 'В кризисных ситуациях руководство должно действовать быстро и решительно.',
-        fileKeyUploadthing: 'Yosg29JtFzNhPBPNa9t7MpSIRvq4tz3AcQfTyCugXJ6Ox2L0',
+        fileKeyUploadthing: '',
     },
     {
         id: `318-${EnumWORDLEVELS.C1BERUF}`,
@@ -4380,7 +4392,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Eine starke Kundenbindung ist für den langfristigen Erfolg eines Unternehmens entscheidend.',
         exampleRu:
             'Сильная лояльность клиентов является решающей для долгосрочного успеха компании.',
-        fileKeyUploadthing: 'Yosg29JtFzNhzYEvWdzpFPErID6hOu9WUTsic5yqdxGH0YQ1',
+        fileKeyUploadthing: '',
     },
     {
         id: `319-${EnumWORDLEVELS.C1BERUF}`,
@@ -4392,7 +4404,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Das Diagramm stellt die Entwicklung der Verkaufszahlen im letzten Jahr dar.',
         exampleRu: 'Диаграмма представляет развитие показателей продаж за прошлый год.',
-        fileKeyUploadthing: 'Yosg29JtFzNhYhf6NUJtFzNhDLRbEpOK4inVgWujTHf15rx3',
+        fileKeyUploadthing: '',
     },
     {
         id: `320-${EnumWORDLEVELS.C1BERUF}`,
@@ -4405,7 +4417,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Die Digitalisierung stellt für viele Unternehmen eine große Herausforderung dar.',
         exampleRu: 'Цифровизация является большим вызовом для многих компаний.',
-        fileKeyUploadthing: 'Yosg29JtFzNhMFLV0gkKq64xuGBkrejT9EQmSYta7vXAKLsz',
+        fileKeyUploadthing: '',
     },
     {
         id: `321-${EnumWORDLEVELS.C1BERUF}`,
@@ -4417,7 +4429,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Das Projekt umfasst mehrere Phasen, von der Planung bis zur Umsetzung.',
         exampleRu: 'Проект охватывает несколько этапов, от планирования до реализации.',
-        fileKeyUploadthing: 'Yosg29JtFzNhtGi6LMJxXU3oa7DEsTyVQ2zGrJZFuYglcj84',
+        fileKeyUploadthing: '',
     },
     {
         id: `322-${EnumWORDLEVELS.C1BERUF}`,
@@ -4429,7 +4441,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.NEUTRAL,
         exampleDe: 'Im Gespräch ist es wichtig, das Gegenüber genau zu verstehen.',
         exampleRu: 'В разговоре важно точно понимать своего собеседника.',
-        fileKeyUploadthing: 'Yosg29JtFzNhk13amhXtQ6BK7viORPW5L9sxm4bchzE3J0lf',
+        fileKeyUploadthing: '',
     },
     {
         id: `323-${EnumWORDLEVELS.C1BERUF}`,
@@ -4441,7 +4453,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Ich habe alle nötigen Informationen zur Hand, um die Entscheidung zu treffen.',
         exampleRu: 'У меня есть все необходимые сведения под рукой, чтобы принять решение.',
-        fileKeyUploadthing: 'Yosg29JtFzNhoCq91JZkc03OmYsX6Ry4wTgS2luHCNiqbntU',
+        fileKeyUploadthing: '',
     },
     {
         id: `324-${EnumWORDLEVELS.C1BERUF}`,
@@ -4453,7 +4465,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Es ist ratsam, vor der Reise alle Unterlagen zu überprüfen.',
         exampleRu: 'Рекомендуется перед поездкой проверить все документы.',
-        fileKeyUploadthing: 'Yosg29JtFzNhw4wugabKx3oQcHXA85iDdYagnsSZVFPkheU4',
+        fileKeyUploadthing: '',
     },
     {
         id: `325-${EnumWORDLEVELS.C1BERUF}`,
@@ -4465,7 +4477,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Ein proaktiver Ansatz hilft, Probleme frühzeitig zu erkennen und zu lösen.',
         exampleRu: 'Проактивный подход помогает своевременно выявлять и решать проблемы.',
-        fileKeyUploadthing: 'Yosg29JtFzNh3PtIbbt4ojvmFX2AO1hJNYV9ixGpuDfd5zUc',
+        fileKeyUploadthing: '',
     },
     {
         id: `326-${EnumWORDLEVELS.C1BERUF}`,
@@ -4477,7 +4489,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Das Team hat die Aufgabe zügig und effizient erledigt.',
         exampleRu: 'Команда быстро и эффективно выполнила задание.',
-        fileKeyUploadthing: 'Yosg29JtFzNhhPGgLMIdR9r06GDKfBbSoICYuEPtT5glMaJH',
+        fileKeyUploadthing: '',
     },
     {
         id: `327-${EnumWORDLEVELS.C1BERUF}`,
@@ -4489,7 +4501,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Es ist unbestritten, dass Digitalisierung die Arbeitswelt verändert hat.',
         exampleRu: 'Бесспорно, что цифровизация изменила мир труда.',
-        fileKeyUploadthing: 'Yosg29JtFzNhodDJ8uZkc03OmYsX6Ry4wTgS2luHCNiqbntU',
+        fileKeyUploadthing: '',
     },
     {
         id: `328-${EnumWORDLEVELS.C1BERUF}`,
@@ -4501,7 +4513,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Im Meeting kamen wir auf die neuen Projektziele zu sprechen.',
         exampleRu: 'На совещании мы затронули тему новых целей проекта.',
-        fileKeyUploadthing: 'Yosg29JtFzNhlOFBvzwrpiqx3HJV94oLBGfRN0nMjvTyZSE1',
+        fileKeyUploadthing: '',
     },
     {
         id: `329-${EnumWORDLEVELS.C1BERUF}`,
@@ -4513,7 +4525,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe: 'Die Sachkompetenz des Beraters war entscheidend für den Erfolg des Projekts.',
         exampleRu: 'Профессиональная компетенция консультанта была решающей для успеха проекта.',
-        fileKeyUploadthing: 'Yosg29JtFzNh4tPtrxQ6wOqj81VfMisExF0Xm56z2QrgI43v',
+        fileKeyUploadthing: '',
     },
     {
         id: `330-${EnumWORDLEVELS.C1BERUF}`,
@@ -4525,7 +4537,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe: 'Die Zugewandtheit des Gesprächspartners schafft Vertrauen und Offenheit.',
         exampleRu: 'Внимательность собеседника создаёт доверие и открытость.',
-        fileKeyUploadthing: 'Yosg29JtFzNh40VKrm6wOqj81VfMisExF0Xm56z2QrgI43vl',
+        fileKeyUploadthing: '',
     },
     {
         id: `331-${EnumWORDLEVELS.C1BERUF}`,
@@ -4537,7 +4549,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.NEUTRAL,
         exampleDe: 'Im Berufsleben ist ein gepflegtes Äußeres oft von großer Bedeutung.',
         exampleRu: 'В профессиональной жизни ухоженная внешность часто имеет большое значение.',
-        fileKeyUploadthing: 'Yosg29JtFzNhxY4stcmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
+        fileKeyUploadthing: '',
     },
     {
         id: `332-${EnumWORDLEVELS.C1BERUF}`,
@@ -4550,7 +4562,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Die Analyse war äußerst aufschlussreich und half, wichtige Entscheidungen zu treffen.',
         exampleRu: 'Анализ был крайне поучительным и помог принять важные решения.',
-        fileKeyUploadthing: 'Yosg29JtFzNhO7760tySYJbPBwrh97WFmSMdAVkKZlnevTX0',
+        fileKeyUploadthing: '',
     },
     {
         id: `333-${EnumWORDLEVELS.C1BERUF}`,
@@ -4562,7 +4574,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Die Besprechung wurde zeitversetzt übertragen, damit alle teilnehmen konnten.',
         exampleRu: 'Совещание транслировалось с временной задержкой, чтобы все могли участвовать.',
-        fileKeyUploadthing: 'Yosg29JtFzNhUSJjf2WcAx1lePRnpGv52BK4HaVMoFTEJC3f',
+        fileKeyUploadthing: '',
     },
     {
         id: `334-${EnumWORDLEVELS.C1BERUF}`,
@@ -4574,7 +4586,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADVERB,
         exampleDe: 'Gelegentlich besuche ich meine alten Kollegen, um in Kontakt zu bleiben.',
         exampleRu: 'Время от времени я навещаю своих старых коллег, чтобы поддерживать связь.',
-        fileKeyUploadthing: 'Yosg29JtFzNhAo7H7tulJ4FsLD6jKCRqv1rBcWZzk02tgmeI',
+        fileKeyUploadthing: '',
     },
     {
         id: `335-${EnumWORDLEVELS.C1BERUF}`,
@@ -4587,7 +4599,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Der Bericht basierte auf einem Fehlschluss und führte zu falschen Entscheidungen.',
         exampleRu: 'Отчёт основывался на ложном выводе и привёл к неправильным решениям.',
-        fileKeyUploadthing: 'Yosg29JtFzNhFt9PHiTubBCpndtMKSeV7IPW4zZa0vXUywL5',
+        fileKeyUploadthing: '',
     },
     {
         id: `336-${EnumWORDLEVELS.C1BERUF}`,
@@ -4599,7 +4611,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Er gab bedenkenlos seine Zustimmung, ohne die Konsequenzen zu prüfen.',
         exampleRu: 'Он без раздумий дал своё согласие, не проверив последствия.',
-        fileKeyUploadthing: 'Yosg29JtFzNhKTFaJXveokgqc0bL4dRrztvZG8lU9nhDyXPT',
+        fileKeyUploadthing: '',
     },
     {
         id: `337-${EnumWORDLEVELS.C1BERUF}`,
@@ -6446,18 +6458,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'К основному блюду был подан свежий салат в качестве гарнира.',
         fileKeyUploadthing: 'Yosg29JtFzNhG2VjJeUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2j',
     },
-    {
-        id: `487-${EnumWORDLEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA1,
-        article: '',
-        pluralEnding: '',
-        wordDe: 'vertuschen, vertuscht, vertuschte, hat vertuscht',
-        wordRu: 'скрывать, замалчивать',
-        wordClass: EnumWORDCLASSES.VERB,
-        exampleDe: 'Der Skandal konnte nicht länger vertuscht werden.',
-        exampleRu: 'Скандал больше нельзя было скрывать.',
-        fileKeyUploadthing: 'Yosg29JtFzNhT0nSyzo54978sPWymYbGCLVwivJjoSRlhteB',
-    },
+
     {
         id: `488-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
