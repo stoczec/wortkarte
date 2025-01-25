@@ -4873,9 +4873,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Эффективность новой системы значительно снизила производственные расходы.',
         fileKeyUploadthing: '',
     },
-    ////////////////////
     {
-        id: `354-${EnumWORDLEVELS.C1BERUF}`,
+        id: `338-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: ', -n',
@@ -4887,7 +4886,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `355-${EnumWORDLEVELS.C1BERUF}`,
+        id: `339-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4899,7 +4898,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `356-${EnumWORDLEVELS.C1BERUF}`,
+        id: `340-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4912,7 +4911,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `357-${EnumWORDLEVELS.C1BERUF}`,
+        id: `341-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4925,7 +4924,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `358-${EnumWORDLEVELS.C1BERUF}`,
+        id: `342-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4939,7 +4938,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `359-${EnumWORDLEVELS.C1BERUF}`,
+        id: `343-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4950,6 +4949,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'По опыту, освоение новой системы занимает примерно две недели.',
         fileKeyUploadthing: '',
     },
+    ////////////////////
     {
         id: `360-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
