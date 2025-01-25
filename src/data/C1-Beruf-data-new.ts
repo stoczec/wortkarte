@@ -4307,7 +4307,6 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Компания извлекает выгоду из новых технологий на рынке.',
         fileKeyUploadthing: '',
     },
-    ///////////////////////////////////////////////////////
     {
         id: `292-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
@@ -4383,7 +4382,6 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'В письме вы найдете прилагаемые документы.',
         fileKeyUploadthing: '',
     },
-    /////////////////////////////////
     {
         id: `298-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
@@ -4581,7 +4579,6 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'В современном мире работы цифровые навыки незаменимы.',
         fileKeyUploadthing: '',
     },
-    ////////////////////////////////////
     {
         id: `314-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
@@ -4949,9 +4946,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'По опыту, освоение новой системы занимает примерно две недели.',
         fileKeyUploadthing: '',
     },
-    ////////////////////
     {
-        id: `360-${EnumWORDLEVELS.C1BERUF}`,
+        id: `344-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: ', -n',
@@ -4965,7 +4961,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `361-${EnumWORDLEVELS.C1BERUF}`,
+        id: `345-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: ', -en',
@@ -4979,7 +4975,49 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `362-${EnumWORDLEVELS.C1BERUF}`,
+        id: `346-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA5,
+        article: 'der',
+        pluralEnding: ', -en',
+        wordDe: 'Investor',
+        wordRu: 'инвестор',
+        wordClass: EnumWORDCLASSES.MASKULIN,
+        exampleDe:
+            'Der Investor hat beschlossen, in das Startup zu investieren, da er großes Potenzial sieht.',
+        exampleRu:
+            'Инвестор решил вложить средства в стартап, так как видит в нём большой потенциал.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `347-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA5,
+        article: 'das',
+        pluralEnding: ', -s',
+        wordDe: 'Investment',
+        wordRu: 'инвестиция, вложение',
+        wordClass: EnumWORDCLASSES.NEUTRAL,
+        exampleDe:
+            'Das Investment in erneuerbare Energien hat sich langfristig als sehr profitabel erwiesen.',
+        exampleRu:
+            'Инвестиции в возобновляемые источники энергии оказались очень прибыльными в долгосрочной перспективе.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `348-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA5,
+        article: 'der',
+        pluralEnding: ', -pläne',
+        wordDe: 'Businessplan',
+        wordRu: 'бизнес-план',
+        wordClass: EnumWORDCLASSES.MASKULIN,
+        exampleDe:
+            'Ein gut durchdachter Businessplan ist entscheidend, um Investoren von einer Geschäftsidee zu überzeugen.',
+        exampleRu:
+            'Хорошо продуманный бизнес-план необходим, чтобы убедить инвесторов в жизнеспособности бизнес-идеи.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `349-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: ', -en',
@@ -4993,7 +5031,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `363-${EnumWORDLEVELS.C1BERUF}`,
+        id: `350-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -5005,7 +5043,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `364-${EnumWORDLEVELS.C1BERUF}`,
+        id: `351-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -5017,7 +5055,35 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `365-${EnumWORDLEVELS.C1BERUF}`,
+        id: `352-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA5,
+        article: 'das',
+        pluralEnding: '',
+        wordDe: 'Startkapital',
+        wordRu: 'стартовый капитал, начальные средства',
+        wordClass: EnumWORDCLASSES.NEUTRAL,
+        exampleDe:
+            'Das Startkapital für das neue Projekt wurde durch eine erfolgreiche Crowdfunding-Kampagne gesammelt.',
+        exampleRu:
+            'Стартовый капитал для нового проекта был собран благодаря успешной краудфандинговой кампании.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `353-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA5,
+        article: 'der',
+        pluralEnding: ', -s',
+        wordDe: 'Fond',
+        wordRu: 'фонд',
+        wordClass: EnumWORDCLASSES.MASKULIN,
+        exampleDe:
+            'Der Fond investiert vor allem in nachhaltige und sozial verantwortliche Unternehmen.',
+        exampleRu:
+            'Фонд инвестирует преимущественно в устойчивые и социально ответственные компании.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `354-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: '',
@@ -5030,7 +5096,21 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `366-${EnumWORDLEVELS.C1BERUF}`,
+        id: `355-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA5,
+        article: 'das',
+        pluralEnding: ', -e',
+        wordDe: 'Potenzial',
+        wordRu: 'потенциал',
+        wordClass: EnumWORDCLASSES.NEUTRAL,
+        exampleDe:
+            'Das Potenzial der neuen Technologie ist enorm, da sie viele Branchen revolutionieren könnte.',
+        exampleRu:
+            'Потенциал новой технологии огромен, так как она может революционизировать многие отрасли.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `356-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'der',
         pluralEnding: ', -es',
@@ -5044,7 +5124,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `367-${EnumWORDLEVELS.C1BERUF}`,
+        id: `357-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -5056,11 +5136,11 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `368-${EnumWORDLEVELS.C1BERUF}`,
+        id: `358-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
-        wordDe: 'auf den Punkt bringen, bringt, hat gebracht',
+        wordDe: 'auf den Punkt bringen, bringt, brachte, hat gebracht',
         wordRu: 'выразить суть, изложить кратко и точно',
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'In seiner Präsentation konnte er das Konzept klar auf den Punkt bringen.',
@@ -5068,7 +5148,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `369-${EnumWORDLEVELS.C1BERUF}`,
+        id: `359-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'der',
         pluralEnding: ', -n',
@@ -5080,7 +5160,20 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `370-${EnumWORDLEVELS.C1BERUF}`,
+        id: `360-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA2,
+        article: 'die',
+        pluralEnding: ', -n',
+        wordDe: 'Expertise',
+        wordRu: 'экспертиза; компетенция',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Die Expertise des Teams war entscheidend für den erfolgreichen Abschluss des Projekts.',
+        exampleRu: 'Компетенция команды сыграла ключевую роль в успешном завершении проекта.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `361-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -5092,7 +5185,21 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `371-${EnumWORDLEVELS.C1BERUF}`,
+        id: `362-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA2,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'tabu',
+        wordRu: 'табу, запретная тема',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe:
+            'In manchen Kulturen sind bestimmte Themen tabu und werden nicht öffentlich diskutiert.',
+        exampleRu:
+            'В некоторых культурах определённые темы являются табу и не обсуждаются публично.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `363-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -5106,11 +5213,11 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `372-${EnumWORDLEVELS.C1BERUF}`,
+        id: `364-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
-        wordDe: 'ein Produkt vertreiben, vertreibt, hat vertrieben',
+        wordDe: 'ein Produkt vertreiben, vertreibt, vertrieb, hat vertrieben',
         wordRu: 'распространять продукт, заниматься сбытом',
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Das Unternehmen vertreibt seine Produkte mittlerweile auch international.',
@@ -5118,7 +5225,20 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `373-${EnumWORDLEVELS.C1BERUF}`,
+        id: `365-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA5,
+        article: 'der',
+        pluralEnding: ', -s',
+        wordDe: 'Transfer',
+        wordRu: 'передача, перевод',
+        wordClass: EnumWORDCLASSES.MASKULIN,
+        exampleDe:
+            'Der Transfer von Wissen zwischen den Abteilungen ist entscheidend für die Effizienz des Unternehmens.',
+        exampleRu: 'Передача знаний между отделами играет ключевую роль в эффективности компании.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `366-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -5129,6 +5249,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Предложение действительно исключительно для новых клиентов.',
         fileKeyUploadthing: '',
     },
+    /* THEMA 6 */
     {
         id: `374-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
