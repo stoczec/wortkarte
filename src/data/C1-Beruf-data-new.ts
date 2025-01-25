@@ -5337,6 +5337,130 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     /////////////////////////
     {
+        id: `374-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA6,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Diskriminierung',
+        wordRu: 'дискриминация',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Die Diskriminierung aufgrund des Geschlechts ist in vielen Ländern immer noch ein ernstes Problem.',
+        exampleRu:
+            'Дискриминация по половому признаку до сих пор остаётся серьёзной проблемой во многих странах.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `375-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA6,
+        article: 'die',
+        pluralEnding: ', -en',
+        wordDe: 'Verstärkung',
+        wordRu: 'усиление; подкрепление',
+        wordClass: EnumWORDCLASSES.FEMININ,
+        exampleDe:
+            'Die Verstärkung des Teams durch neue Mitarbeiter hat die Produktivität deutlich erhöht.',
+        exampleRu:
+            'Усиление команды за счёт новых сотрудников значительно повысило производительность.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `376-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA6,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'dynamisch',
+        wordRu: 'динамичный, активный',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe:
+            'Die dynamische Entwicklung des Unternehmens zeigt, dass es sich schnell an neue Marktbedingungen anpasst.',
+        exampleRu:
+            'Динамичное развитие компании демонстрирует её способность быстро адаптироваться к новым рыночным условиям.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `377-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA6,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'belastbar',
+        wordRu: 'надёжный; устойчивый к нагрузкам',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe:
+            'Die belastbaren Daten sind entscheidend, um fundierte Entscheidungen treffen zu können.',
+        exampleRu: 'Надёжные данные необходимы для принятия обоснованных решений.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `378-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA6,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'rassistisch',
+        wordRu: 'расистский',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe:
+            'Rassistische Äußerungen haben in einer modernen Gesellschaft keinen Platz und müssen konsequent bekämpft werden.',
+        exampleRu:
+            'Расистские высказывания не имеют места в современном обществе и должны решительно пресекаться.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `379-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA6,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'inklusiv',
+        wordRu: 'инклюзивный, включающий',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe:
+            'Eine inklusive Arbeitskultur fördert die Zusammenarbeit und das Wohlbefinden aller Mitarbeiter.',
+        exampleRu:
+            'Инклюзивная корпоративная культура способствует сотрудничеству и благополучию всех сотрудников.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `380-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA6,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'zu seinem Recht kommen, kommt, kam, ist gekommen',
+        wordRu: 'получить справедливость; добиться своего',
+        wordClass: EnumWORDCLASSES.PHRASEN,
+        exampleDe: 'Jeder Mitarbeiter sollte in einem fairen Arbeitsumfeld zu seinem Recht kommen.',
+        exampleRu:
+            'Каждый сотрудник должен получить справедливость в условиях честной рабочей среды.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `381-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA6,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'darlegen, legt dar, legte dar, hat dargelegt',
+        wordRu: 'излагать, объяснять',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe: 'Der Anwalt legte die Gründe für seine Argumentation detailliert dar.',
+        exampleRu: 'Адвокат подробно изложил причины своей аргументации.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `382-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA6,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'diskriminieren, diskriminiert, diskriminierte, hat diskriminiert',
+        wordRu: 'дискриминировать',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe:
+            'Niemand sollte aufgrund seines Geschlechts, seiner Herkunft oder seines Glaubens diskriminiert werden.',
+        exampleRu:
+            'Никто не должен подвергаться дискриминации по признаку пола, происхождения или вероисповедания.',
+        fileKeyUploadthing: '',
+    },
+
+    ////////////////////////
+    {
         id: `381-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
