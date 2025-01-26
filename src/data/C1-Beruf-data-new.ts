@@ -5777,9 +5777,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Он исполнил свой долг и сразу сообщил о происшествии.',
         fileKeyUploadthing: '',
     },
-    //////////////////////////////
     {
-        id: `404-${EnumWORDLEVELS.C1BERUF}`,
+        id: `409-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'die',
         pluralEnding: ', -en',
@@ -5791,7 +5790,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `405-${EnumWORDLEVELS.C1BERUF}`,
+        id: `410-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5803,7 +5802,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `406-${EnumWORDLEVELS.C1BERUF}`,
+        id: `411-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'der',
         pluralEnding: ', -e',
@@ -5815,7 +5814,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `407-${EnumWORDLEVELS.C1BERUF}`,
+        id: `412-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5827,7 +5826,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `408-${EnumWORDLEVELS.C1BERUF}`,
+        id: `413-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5839,7 +5838,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `409-${EnumWORDLEVELS.C1BERUF}`,
+        id: `414-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5851,7 +5850,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `410-${EnumWORDLEVELS.C1BERUF}`,
+        id: `415-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5863,7 +5862,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `411-${EnumWORDLEVELS.C1BERUF}`,
+        id: `416-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5875,7 +5874,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `412-${EnumWORDLEVELS.C1BERUF}`,
+        id: `417-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5887,7 +5886,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `413-${EnumWORDLEVELS.C1BERUF}`,
+        id: `418-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5899,7 +5898,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `414-${EnumWORDLEVELS.C1BERUF}`,
+        id: `419-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5911,7 +5910,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `415-${EnumWORDLEVELS.C1BERUF}`,
+        id: `420-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5923,7 +5922,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `416-${EnumWORDLEVELS.C1BERUF}`,
+        id: `421-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5937,7 +5936,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `417-${EnumWORDLEVELS.C1BERUF}`,
+        id: `422-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5949,7 +5948,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `418-${EnumWORDLEVELS.C1BERUF}`,
+        id: `423-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5961,7 +5960,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `419-${EnumWORDLEVELS.C1BERUF}`,
+        id: `424-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'der',
         pluralEnding: ', -e',
@@ -5973,7 +5972,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `420-${EnumWORDLEVELS.C1BERUF}`,
+        id: `45-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'der',
         pluralEnding: ', -e',
@@ -5985,7 +5984,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `421-${EnumWORDLEVELS.C1BERUF}`,
+        id: `426-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5996,6 +5995,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Для нас было невообразимо бросить проект.',
         fileKeyUploadthing: '',
     },
+    /* THEMA 7 */
     {
         id: `422-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
