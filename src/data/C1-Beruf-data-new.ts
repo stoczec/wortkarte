@@ -5461,7 +5461,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
 
     ////////////////////////
     {
-        id: `381-${EnumWORDLEVELS.C1BERUF}`,
+        id: `383-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5473,7 +5473,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `382-${EnumWORDLEVELS.C1BERUF}`,
+        id: `384-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'die',
         pluralEnding: '',
@@ -5485,7 +5485,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `383-${EnumWORDLEVELS.C1BERUF}`,
+        id: `385-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5497,7 +5497,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `384-${EnumWORDLEVELS.C1BERUF}`,
+        id: `386-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5509,7 +5509,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `385-${EnumWORDLEVELS.C1BERUF}`,
+        id: `387-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5521,7 +5521,19 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `386-${EnumWORDLEVELS.C1BERUF}`,
+        id: `388-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA6,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'vertraulich',
+        wordRu: 'конфиденциальный, секретный',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe: 'Diese Information ist vertraulich.',
+        exampleRu: 'Эта информация конфиденциальна.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `389-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5534,7 +5546,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `387-${EnumWORDLEVELS.C1BERUF}`,
+        id: `390-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5547,7 +5559,19 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `388-${EnumWORDLEVELS.C1BERUF}`,
+        id: `391-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA6,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'zulässig',
+        wordRu: 'допустимый, разрешённый',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe: 'Die Nutzung von Mobiltelefonen ist in diesem Bereich nicht zulässig.',
+        exampleRu: 'Использование мобильных телефонов в этой зоне не допускается.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `392-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5559,7 +5583,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `389-${EnumWORDLEVELS.C1BERUF}`,
+        id: `393-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5571,7 +5595,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `390-${EnumWORDLEVELS.C1BERUF}`,
+        id: `394-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5584,7 +5608,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `391-${EnumWORDLEVELS.C1BERUF}`,
+        id: `395-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5596,7 +5620,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `392-${EnumWORDLEVELS.C1BERUF}`,
+        id: `396-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5608,7 +5632,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `393-${EnumWORDLEVELS.C1BERUF}`,
+        id: `397-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5619,6 +5643,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Запрос можно сделать безформально по электронной почте.',
         fileKeyUploadthing: '',
     },
+    //////////////////////////////
     {
         id: `394-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
