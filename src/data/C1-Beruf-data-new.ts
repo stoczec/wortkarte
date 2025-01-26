@@ -6474,7 +6474,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     /////////////////
     {
-        id: `453-${EnumWORDLEVELS.C1BERUF}`,
+        id: `465-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6487,7 +6487,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `454-${EnumWORDLEVELS.C1BERUF}`,
+        id: `466-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6500,7 +6500,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `455-${EnumWORDLEVELS.C1BERUF}`,
+        id: `467-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6514,7 +6514,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `456-${EnumWORDLEVELS.C1BERUF}`,
+        id: `468-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'der',
         pluralEnding: ', -e',
@@ -6526,7 +6526,22 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `457-${EnumWORDLEVELS.C1BERUF}`,
+        id: `469-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA7,
+        article: 'der',
+        pluralEnding: ', -s',
+        wordDe: 'Burn-out',
+        wordRu: 'эмоциональное выгорание',
+        wordClass: EnumWORDCLASSES.MASKULIN,
+        exampleDe:
+            'Ein Burn-out kann entstehen, wenn man über längere Zeit hohem Stress ausgesetzt ist.',
+        exampleRu:
+            'Эмоциональное выгорание может возникнуть, если человек длительное время подвергается высокому уровню стресса.',
+        fileKeyUploadthing: '',
+    },
+    //////////////////////
+    {
+        id: `470-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'die',
         pluralEnding: ', -en',
@@ -6538,7 +6553,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `458-${EnumWORDLEVELS.C1BERUF}`,
+        id: `471-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6550,7 +6565,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `459-${EnumWORDLEVELS.C1BERUF}`,
+        id: `472-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6562,7 +6577,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `460-${EnumWORDLEVELS.C1BERUF}`,
+        id: `473-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'das',
         pluralEnding: ', -se',
@@ -6574,7 +6589,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `461-${EnumWORDLEVELS.C1BERUF}`,
+        id: `474-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6586,7 +6601,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `462-${EnumWORDLEVELS.C1BERUF}`,
+        id: `475-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'der',
         pluralEnding: '',
@@ -6599,7 +6614,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `463-${EnumWORDLEVELS.C1BERUF}`,
+        id: `476-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'die',
         pluralEnding: ', -n',
@@ -6612,7 +6627,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `464-${EnumWORDLEVELS.C1BERUF}`,
+        id: `477-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6624,7 +6639,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `465-${EnumWORDLEVELS.C1BERUF}`,
+        id: `478-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6633,8 +6648,9 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Er ist mir noch Geld schuldig, das er mir vor einer Woche geliehen hat.',
         exampleRu: 'Он мне еще должен деньги, которые одолжил неделю назад.',
-        fileKeyUploadthing: 'Yosg29JtFzNh2fIkhNzYvxLYiDJ8uFhUGTnZXtHds9E4KI2y',
+        fileKeyUploadthing: '',
     },
+    /////////////////////////
     {
         id: `466-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
