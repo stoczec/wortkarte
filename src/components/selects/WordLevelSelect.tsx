@@ -57,25 +57,25 @@ export const WordLevelSelect = () => {
                 <SelectContent>
                     <SelectGroup>
                         <SelectItem value={EnumWORDLEVELS.ALLLEVELS} className="cursor-pointer">
-                            <span className="mr-10">Alle Sprachebenen</span>
+                            <span className="mr-10">{EnumWORDLEVELS.ALLLEVELS}</span>
                             <Badge variant="default" className="bg-primary">
                                 {totalAllLevels} Stück
                             </Badge>
                         </SelectItem>
                         <SelectItem value={EnumWORDLEVELS.A2B2} className="cursor-pointer">
-                            <span className="mr-10">A2-B2</span>
+                            <span className="mr-10">{EnumWORDLEVELS.A2B2}</span>
                             <Badge variant="default" className="bg-primary">
                                 {totalA2B2Cards} Stück
                             </Badge>
                         </SelectItem>
                         <SelectItem value={EnumWORDLEVELS.C1SICHER} className="cursor-pointer">
-                            <span className="mr-10">C1 Sicher!</span>{' '}
+                            <span className="mr-10">{EnumWORDLEVELS.C1SICHER}</span>{' '}
                             <Badge variant="default" className="bg-primary">
                                 {totalC1SicherCards} Stück
                             </Badge>
                         </SelectItem>
                         <SelectItem value={EnumWORDLEVELS.C1BERUF} className="cursor-pointer">
-                            <span className="mr-10">C1 Beruf</span>{' '}
+                            <span className="mr-10">{EnumWORDLEVELS.C1BERUF}</span>{' '}
                             <Badge variant="default" className="bg-primary">
                                 {totalC1BerufCards} Stück
                             </Badge>

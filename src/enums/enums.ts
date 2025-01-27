@@ -49,12 +49,12 @@ export const EnumWORDCLASSES = {
     POSSESSIVPRONOMEN: 'Possessivpronomen' as EnumWordClassesType,
 }
 
-type EnumWordLevelsType = 'A2-B2' | 'C1 Sicher!' | 'C1 Beruf' | 'Alle Sprachebenen'
+type EnumWordLevelsType = 'A2-B2' | 'C1 Sicher!' | 'C1 Aspekte Beruf' | 'Alle Sprachebenen'
 
 export const EnumWORDLEVELS = {
     A2B2: 'A2-B2' as EnumWordLevelsType,
     C1SICHER: 'C1 Sicher!' as EnumWordLevelsType,
-    C1BERUF: 'C1 Beruf' as EnumWordLevelsType,
+    C1BERUF: 'C1 Aspekte Beruf' as EnumWordLevelsType,
     ALLLEVELS: 'Alle Sprachebenen' as EnumWordLevelsType,
 }
 
