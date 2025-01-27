@@ -4,33 +4,15 @@ import React, { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import { Loader, PaginatedList } from '@/components'
 import { getDataByLevel, useCardsStore } from '@/stores'
-import { EnumCARDSCATEGORY } from '@/enums/enums'
+import { CARDS_CATEGORY } from '@/enums/enums'
 import { ILanguageCard } from '@/interfaces/interfaces'
 import { useRouter } from 'next/navigation'
-import { ToastContainer, cssTransition, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
 
 export default function PaginatedPage() {
     const pathname = usePathname()
     const pageParam = pathname.split('/').pop() || '1'
     const currentPage = Number(pageParam)
     const router = useRouter()
-    const bounce = cssTransition({
-        enter: 'animate__animated animate__bounceIn',
-        exit: 'animate__animated animate__bounceOut',
-    })
-    const notify = () =>
-        toast.success(' Neue Wörter wurden hinzugefügt!', {
-            position: 'top-center',
-            autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: false,
-            draggable: false,
-            progress: undefined,
-            theme: 'colored',
-            transition: bounce,
-        })
 
     const {
         displayedCards,
@@ -39,20 +21,20 @@ export default function PaginatedPage() {
         selectedCardCategory,
         searchQuery,
         filteredCards,
-        selectedLevel,
+        selectedWordLevel,
         resetStore,
     } = useCardsStore()
     const [loading, setLoading] = useState(true)
 
     function getDataByCategory(
-        selectedCardCategory: (typeof EnumCARDSCATEGORY)[keyof typeof EnumCARDSCATEGORY]
+        selectedCardCategory: (typeof CARDS_CATEGORY)[keyof typeof CARDS_CATEGORY]
     ): ILanguageCard[] {
         switch (selectedCardCategory) {
-            case EnumCARDSCATEGORY.ALLE:
+            case CARDS_CATEGORY.ALLE:
                 return displayedCards
-            case EnumCARDSCATEGORY.GEMISCHTEN:
+            case CARDS_CATEGORY.GEMISCHTEN:
                 return shuffledCards
-            case EnumCARDSCATEGORY.FAVORITEN:
+            case CARDS_CATEGORY.FAVORITEN:
                 return favoriteCards
 
             default:
@@ -60,7 +42,7 @@ export default function PaginatedPage() {
         }
     }
     const checkDataConsistency = () => {
-        const expectedLength = getDataByLevel(selectedLevel).flatMap(card => [
+        const expectedLength = getDataByLevel(selectedWordLevel).flatMap(card => [
             card,
             ...(card.multiple || []),
         ]).length
@@ -74,9 +56,8 @@ export default function PaginatedPage() {
         if (checkDataConsistency()) {
             resetStore()
             router.push('/page/1')
-            // notify()
         }
-    }, [displayedCards, selectedLevel])
+    }, [displayedCards, selectedWordLevel])
 
     if (loading) {
         return (
@@ -95,7 +76,6 @@ export default function PaginatedPage() {
                 pageName="page"
                 currentPage={currentPage}
             />
-            <ToastContainer />
         </div>
     )
 }

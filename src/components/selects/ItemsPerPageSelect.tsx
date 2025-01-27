@@ -11,37 +11,35 @@ import {
 } from '@/components/ui/select'
 import { useCardsStore } from '@/stores'
 import { useRouter } from 'next/navigation'
+import { ITEMS_PER_PAGE_OPTIONS } from '@/constans/constans'
 
 export const ItemsPerPageSelect = () => {
-    const setItemsPerPage = useCardsStore(state => state.setItemsPerPage)
-    const itemsPerPage = useCardsStore(state => state.itemsPerPage)
-
+    const updateItemsPerPage = useCardsStore(state => state.setItemsPerPage)
+    const itemsPerPageCount = useCardsStore(state => state.itemsPerPage)
     const router = useRouter()
 
-    const handleSelectChange = (value: string) => {
-        setItemsPerPage(Number(value))
+    const handleItemsPerPageChange = (value: `${number}`) => {
+        updateItemsPerPage(Number(value))
         router.replace('/page/1')
     }
+
     return (
         <div className="w-full flex justify-start gap-2 px-1">
-            <Select value={String(itemsPerPage)} onValueChange={handleSelectChange}>
+            <Select value={String(itemsPerPageCount)} onValueChange={handleItemsPerPageChange}>
                 <SelectTrigger className="w-[240px]">
-                    <SelectValue>{itemsPerPage} Stück</SelectValue>
+                    <SelectValue>{itemsPerPageCount} Stück</SelectValue>
                 </SelectTrigger>
                 <SelectContent>
                     <SelectGroup>
-                        <SelectItem value="5" className="cursor-pointer">
-                            5 Stück
-                        </SelectItem>
-                        <SelectItem value="10" className="cursor-pointer">
-                            10 Stück
-                        </SelectItem>
-                        <SelectItem value="15" className="cursor-pointer">
-                            15 Stück
-                        </SelectItem>
-                        <SelectItem value="20" className="cursor-pointer">
-                            20 Stück
-                        </SelectItem>
+                        {ITEMS_PER_PAGE_OPTIONS.map(option => (
+                            <SelectItem
+                                key={option}
+                                value={String(option)}
+                                className="cursor-pointer"
+                            >
+                                {option} Stück
+                            </SelectItem>
+                        ))}
                     </SelectGroup>
                 </SelectContent>
             </Select>

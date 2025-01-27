@@ -1,13 +1,13 @@
-import { EnumCARDSCATEGORY, EnumTOPICS, EnumWORDCLASSES, EnumWORDLEVELS } from '@/enums/enums'
+import { CARDS_CATEGORY, TOPICS, WORD_CLASSES, WORD_LEVELS } from '@/enums/enums'
 
 export interface ILanguageCard {
     id: any
-    thema?: (typeof EnumTOPICS)[keyof typeof EnumTOPICS]
+    thema?: (typeof TOPICS)[keyof typeof TOPICS]
     article: string
     pluralEnding: string
     wordDe: string
     wordRu: string
-    wordClass: (typeof EnumWORDCLASSES)[keyof typeof EnumWORDCLASSES]
+    wordClass: (typeof WORD_CLASSES)[keyof typeof WORD_CLASSES]
     exampleDe: string
     exampleRu: string
     fileKeyUploadthing: string
@@ -34,16 +34,14 @@ export interface ICardsStore {
     favoriteCards: ILanguageCard[]
     loading: boolean
     itemsPerPage: number
-    selectedLevel: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]
-    selectedCardCategory: (typeof EnumCARDSCATEGORY)[keyof typeof EnumCARDSCATEGORY]
+    selectedWordLevel: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]
+    selectedCardCategory: (typeof CARDS_CATEGORY)[keyof typeof CARDS_CATEGORY]
     searchQuery: string
     filteredCards: ILanguageCard[]
     setLoading: (isLoading: boolean) => void
     setItemsPerPage: (items: number) => void
-    setSelectedLevel: (level: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]) => void
-    setSelectedCardCategory: (
-        level: (typeof EnumCARDSCATEGORY)[keyof typeof EnumCARDSCATEGORY]
-    ) => void
+    setSelectedWordLevel: (level: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]) => void
+    setSelectedCardCategory: (level: (typeof CARDS_CATEGORY)[keyof typeof CARDS_CATEGORY]) => void
     addFavoriteCard: (card: ILanguageCard) => void
     removeFavoriteCard: (id: number) => void
     clearFavorites: () => void
