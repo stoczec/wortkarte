@@ -34,13 +34,13 @@ export interface ICardsStore {
     favoriteCards: ILanguageCard[]
     loading: boolean
     itemsPerPage: number
-    selectedLevel: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]
+    selectedWordLevel: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]
     selectedCardCategory: (typeof EnumCARDSCATEGORY)[keyof typeof EnumCARDSCATEGORY]
     searchQuery: string
     filteredCards: ILanguageCard[]
     setLoading: (isLoading: boolean) => void
     setItemsPerPage: (items: number) => void
-    setSelectedLevel: (level: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]) => void
+    setSelectedWordLevel: (level: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]) => void
     setSelectedCardCategory: (
         level: (typeof EnumCARDSCATEGORY)[keyof typeof EnumCARDSCATEGORY]
     ) => void

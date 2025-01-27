@@ -39,7 +39,7 @@ export default function PaginatedPage() {
         selectedCardCategory,
         searchQuery,
         filteredCards,
-        selectedLevel,
+        selectedWordLevel,
         resetStore,
     } = useCardsStore()
     const [loading, setLoading] = useState(true)
@@ -60,7 +60,7 @@ export default function PaginatedPage() {
         }
     }
     const checkDataConsistency = () => {
-        const expectedLength = getDataByLevel(selectedLevel).flatMap(card => [
+        const expectedLength = getDataByLevel(selectedWordLevel).flatMap(card => [
             card,
             ...(card.multiple || []),
         ]).length
@@ -76,7 +76,7 @@ export default function PaginatedPage() {
             router.push('/page/1')
             // notify()
         }
-    }, [displayedCards, selectedLevel])
+    }, [displayedCards, selectedWordLevel])
 
     if (loading) {
         return (

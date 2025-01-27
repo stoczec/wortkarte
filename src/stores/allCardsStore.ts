@@ -51,7 +51,7 @@ export const useCardsStore = create<ICardsStore>()(
                 favoriteCards: [],
                 loading: true,
                 itemsPerPage: 5,
-                selectedLevel: EnumWORDLEVELS.ALLLEVELS,
+                selectedWordLevel: EnumWORDLEVELS.ALLLEVELS,
                 selectedCardCategory: EnumCARDSCATEGORY.ALLE,
                 searchQuery: '',
                 filteredCards: shuffledAllWords,
@@ -59,11 +59,13 @@ export const useCardsStore = create<ICardsStore>()(
                 setLoading: isLoading => set({ loading: isLoading }),
                 setItemsPerPage: items => set({ itemsPerPage: items }),
 
-                setSelectedLevel: (level: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]) => {
+                setSelectedWordLevel: (
+                    level: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]
+                ) => {
                     const data = getDataByLevel(level)
                     const shuffledData = shuffleArray(data)
                     set({
-                        selectedLevel: level,
+                        selectedWordLevel: level,
                         displayedCards: data,
                         shuffledCards: shuffledData,
                     })
@@ -93,7 +95,7 @@ export const useCardsStore = create<ICardsStore>()(
                         shuffledCards: shuffledAllWords,
                         favoriteCards: [],
                         itemsPerPage: 5,
-                        selectedLevel: EnumWORDLEVELS.ALLLEVELS,
+                        selectedWordLevel: EnumWORDLEVELS.ALLLEVELS,
                         selectedCardCategory: EnumCARDSCATEGORY.ALLE,
                     })
                 },
@@ -114,7 +116,7 @@ export const useCardsStore = create<ICardsStore>()(
                         displayedCards: shuffledAllWords,
                         shuffledCards: shuffledAllWords,
                         itemsPerPage: state.itemsPerPage,
-                        selectedLevel: EnumWORDLEVELS.ALLLEVELS,
+                        selectedWordLevel: EnumWORDLEVELS.ALLLEVELS,
                         selectedCardCategory: EnumCARDSCATEGORY.ALLE,
                         searchQuery: '',
                         filteredCards: shuffledAllWords,
@@ -129,7 +131,7 @@ export const useCardsStore = create<ICardsStore>()(
             partialize: state => ({
                 itemsPerPage: state.itemsPerPage,
                 displayedCards: state.displayedCards,
-                selectedLevel: state.selectedLevel,
+                selectedWordLevel: state.selectedWordLevel,
                 selectedCardCategory: state.selectedCardCategory,
                 shuffledCards: state.shuffledCards,
                 favoriteCards: state.favoriteCards,
