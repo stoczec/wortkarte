@@ -7841,7 +7841,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe: 'Eine gute Altersvorsorge ist wichtig, um im Alter abgesichert zu sein.',
         exampleRu: 'Хорошее пенсионное обеспечение важно для финансовой стабильности в старости.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj21kkQ95FxmtKa2DGLNwRdUkJ8OXIEMyop04Zi',
     },
     {
         id: `628-${EnumWORDLEVELS.C1BERUF}`,
@@ -7854,7 +7854,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe: 'Sie brennt für ihr neues Projekt und arbeitet mit großer Leidenschaft daran.',
         exampleRu:
             'Она горит желанием работать над своим новым проектом и делает это с огромным энтузиазмом.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2aCJEnulkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
         id: `629-${EnumWORDLEVELS.C1BERUF}`,
@@ -7867,7 +7867,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Die Jahresprämie wird an die Mitarbeiter ausgezahlt, die ihre Ziele übertroffen haben.',
         exampleRu: 'Годовая премия выплачивается сотрудникам, которые превысили свои цели.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2xgiz4hErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
         id: `630-${EnumWORDLEVELS.C1BERUF}`,
@@ -7881,7 +7881,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Das Jobticket ermöglicht es den Mitarbeitern, kostengünstig mit öffentlichen Verkehrsmitteln zur Arbeit zu fahren.',
         exampleRu:
             'Проездной для сотрудников позволяет работникам добираться до работы на общественном транспорте по низкой цене.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj29SmxD1P8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
         id: `631-${EnumWORDLEVELS.C1BERUF}`,
@@ -7895,7 +7895,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Die Schichtzulage hilft, die zusätzlichen Belastungen der Nachtschichten zu kompensieren.',
         exampleRu:
             'Надбавка за сменную работу помогает компенсировать дополнительную нагрузку ночных смен.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2uaaqvBXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
         id: `632-${EnumWORDLEVELS.C1BERUF}`,
@@ -7909,7 +7909,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Die tariflichen Regelungen garantieren den Mitarbeitern faire Löhne und Arbeitsbedingungen.',
         exampleRu:
             'Тарифные соглашения гарантируют сотрудникам справедливую зарплату и условия труда.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2HzEN1D2cNosUue0XzCG9rj1kKA6vYTSdgJFq',
     },
     {
         id: `633-${EnumWORDLEVELS.C1BERUF}`,
@@ -7921,9 +7921,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Trotz der Herausforderungen ist das Team gut gegen die Konkurrenz angekommen.',
         exampleRu: 'Несмотря на трудности, команда успешно справилась с конкуренцией.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2NZh3ewFxrQ3DE5MPoqZ8OYn60HJ7XGfUS1eu',
     },
-    ///////////////////
     {
         id: `634-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
@@ -7934,7 +7933,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.MASKULIN,
         exampleDe: 'Nach dem Unfall musste der Bruch im Arm sofort behandelt werden.',
         exampleRu: 'После аварии перелом руки пришлось немедленно лечить.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2E8sUYhkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
         id: `635-${EnumWORDLEVELS.C1BERUF}`,
@@ -7946,7 +7945,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe: 'Die Bruchstelle der Brücke war deutlich sichtbar.',
         exampleRu: 'Место разлома моста было отчетливо видно.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2ZbsSKiuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
         id: `636-${EnumWORDLEVELS.C1BERUF}`,
@@ -7958,7 +7957,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Das Glas ist sehr brüchig und kann leicht zerbrechen.',
         exampleRu: 'Стекло очень хрупкое и может легко разбиться.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj22FyxVsjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
     {
         id: `637-${EnumWORDLEVELS.C1BERUF}`,
@@ -7970,7 +7969,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Der Anwalt konnte alle Anschuldigungen erfolgreich entkräften.',
         exampleRu: 'Адвокату удалось успешно опровергнуть все обвинения.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2CI4xddda0RY1oVptKNDjmwu7HdWefzJbcIMQ',
     },
     {
         id: `638-${EnumWORDLEVELS.C1BERUF}`,
@@ -7982,7 +7981,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.MASKULIN,
         exampleDe: 'Der rote Faden in seiner Geschichte war die Suche nach der Wahrheit.',
         exampleRu: 'Красной нитью в его истории была поиски правды.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2ZKjUD6uAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
         id: `639-${EnumWORDLEVELS.C1BERUF}`,
@@ -7996,7 +7995,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Es war nur eine Formalität, den Vertrag zu unterschreiben, da alle Bedingungen bereits geklärt waren.',
         exampleRu:
             'Подписание контракта было всего лишь формальностью, так как все условия уже были согласованы.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2a6CdSUlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
         id: `640-${EnumWORDLEVELS.C1BERUF}`,
@@ -8008,7 +8007,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.NEUTRAL,
         exampleDe: 'Das Kunstwerk im Museum zog die Aufmerksamkeit aller Besucher auf sich.',
         exampleRu: 'Произведение искусства в музее привлекло внимание всех посетителей.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2loByUAIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
         id: `641-${EnumWORDLEVELS.C1BERUF}`,
@@ -8020,7 +8019,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Die Entscheidung hatte nachteilige Folgen für das Unternehmen.',
         exampleRu: 'Решение имело неблагоприятные последствия для компании.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2NtpOuvCFxrQ3DE5MPoqZ8OYn60HJ7XGfUS1e',
     },
 
     {
@@ -8035,7 +8034,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Der Richter hat den gefährlichen Verbrecher, der nur Tattoos und Narben trägt, gerechtfertigt. Der Verbrecher freut sich darüber.',
         exampleRu:
             'Судья оправдал опасного преступника, всего в татуировках и шрамах, преступник радуется этому.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2Z0XdzQuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
         id: `643-${EnumWORDLEVELS.C1BERUF}`,
@@ -8047,7 +8046,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.NEUTRAL,
         exampleDe: 'Das Stereotyp, dass Frauen weniger technikaffin sind, ist längst überholt.',
         exampleRu: 'Стереотип о том, что женщины менее склонны к технике, давно устарел.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2dWfati9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
         id: `644-${EnumWORDLEVELS.C1BERUF}`,
@@ -8059,7 +8058,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Das Wetter ist heute unbeständig, mal scheint die Sonne, mal regnet es.',
         exampleRu: 'Сегодня погода непостоянная: то светит солнце, то идет дождь.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2l11Zt6AIoHmBWYk93sSFP6LenbujJvyiNEIV',
     },
     {
         id: `645-${EnumWORDLEVELS.C1BERUF}`,
@@ -8072,6 +8071,6 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Er versuchte, die unangenehmen Gedanken zu verdrängen, indem er sich auf die Arbeit konzentrierte.',
         exampleRu: 'Он пытался подавить неприятные мысли, сосредоточив внимание на работе.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj23gnLYip5i0mW2zR9YsTl17wtjAoCyFhEqUV3',
     },
 ]
