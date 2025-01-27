@@ -12,7 +12,7 @@ import {
 import { Badge } from '@/components/ui/badge'
 import { useCardsStore } from '@/stores'
 import { useRouter } from 'next/navigation'
-import { EnumCARDSCATEGORY } from '@/enums/enums'
+import { CARDS_CATEGORY } from '@/enums/enums'
 
 export const CardCategorySelect = () => {
     const displayedCards = useCardsStore(state => state.displayedCards)
@@ -20,12 +20,10 @@ export const CardCategorySelect = () => {
     const { selectedCardCategory, setSelectedCardCategory } = useCardsStore()
 
     const [selectedValue, setSelectedValue] =
-        useState<(typeof EnumCARDSCATEGORY)[keyof typeof EnumCARDSCATEGORY]>(selectedCardCategory)
+        useState<(typeof CARDS_CATEGORY)[keyof typeof CARDS_CATEGORY]>(selectedCardCategory)
     const router = useRouter()
 
-    const handleCategoryChange = (
-        value: (typeof EnumCARDSCATEGORY)[keyof typeof EnumCARDSCATEGORY]
-    ) => {
+    const handleCategoryChange = (value: (typeof CARDS_CATEGORY)[keyof typeof CARDS_CATEGORY]) => {
         setSelectedCardCategory(value)
         setSelectedValue(value)
         router.replace('/page/1')
@@ -38,20 +36,20 @@ export const CardCategorySelect = () => {
                 </SelectTrigger>
                 <SelectContent className="w-[240px]">
                     <SelectGroup>
-                        <SelectItem value={EnumCARDSCATEGORY.ALLE} className="cursor-pointer">
-                            <span className="mr-5">{EnumCARDSCATEGORY.ALLE}</span>
+                        <SelectItem value={CARDS_CATEGORY.ALLE} className="cursor-pointer">
+                            <span className="mr-5">{CARDS_CATEGORY.ALLE}</span>
                             <Badge variant="default" className="bg-primary">
                                 {displayedCards.length} Stück
                             </Badge>
                         </SelectItem>
-                        <SelectItem value={EnumCARDSCATEGORY.GEMISCHTEN} className="cursor-pointer">
-                            <span className="mr-5">{EnumCARDSCATEGORY.GEMISCHTEN}</span>
+                        <SelectItem value={CARDS_CATEGORY.GEMISCHTEN} className="cursor-pointer">
+                            <span className="mr-5">{CARDS_CATEGORY.GEMISCHTEN}</span>
                             <Badge variant="default" className="bg-primary">
                                 {displayedCards.length} Stück
                             </Badge>
                         </SelectItem>
-                        <SelectItem value={EnumCARDSCATEGORY.FAVORITEN} className="cursor-pointer">
-                            <span className="mr-5">{EnumCARDSCATEGORY.FAVORITEN}</span>
+                        <SelectItem value={CARDS_CATEGORY.FAVORITEN} className="cursor-pointer">
+                            <span className="mr-5">{CARDS_CATEGORY.FAVORITEN}</span>
                             <Badge variant="default" className="bg-primary">
                                 {favoriteCards.length} Stück
                             </Badge>

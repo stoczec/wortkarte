@@ -58,12 +58,12 @@ export const WORD_LEVELS = {
     ALLLEVELS: 'Alle Sprachebenen' as WordLevel,
 }
 
-type EnumCardsCategoryType = 'Alle' | 'Gemischten' | 'Favoriten'
+type CardsCategory = 'Alle' | 'Gemischten' | 'Favoriten'
 
-export const EnumCARDSCATEGORY = {
-    ALLE: 'Alle' as EnumCardsCategoryType,
-    GEMISCHTEN: 'Gemischten' as EnumCardsCategoryType,
-    FAVORITEN: 'Favoriten' as EnumCardsCategoryType,
+export const CARDS_CATEGORY = {
+    ALLE: 'Alle' as CardsCategory,
+    GEMISCHTEN: 'Gemischten' as CardsCategory,
+    FAVORITEN: 'Favoriten' as CardsCategory,
 }
 
 type EnumTopicsType =

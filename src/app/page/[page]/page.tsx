@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import { Loader, PaginatedList } from '@/components'
 import { getDataByLevel, useCardsStore } from '@/stores'
-import { EnumCARDSCATEGORY } from '@/enums/enums'
+import { CARDS_CATEGORY } from '@/enums/enums'
 import { ILanguageCard } from '@/interfaces/interfaces'
 import { useRouter } from 'next/navigation'
 
@@ -27,14 +27,14 @@ export default function PaginatedPage() {
     const [loading, setLoading] = useState(true)
 
     function getDataByCategory(
-        selectedCardCategory: (typeof EnumCARDSCATEGORY)[keyof typeof EnumCARDSCATEGORY]
+        selectedCardCategory: (typeof CARDS_CATEGORY)[keyof typeof CARDS_CATEGORY]
     ): ILanguageCard[] {
         switch (selectedCardCategory) {
-            case EnumCARDSCATEGORY.ALLE:
+            case CARDS_CATEGORY.ALLE:
                 return displayedCards
-            case EnumCARDSCATEGORY.GEMISCHTEN:
+            case CARDS_CATEGORY.GEMISCHTEN:
                 return shuffledCards
-            case EnumCARDSCATEGORY.FAVORITEN:
+            case CARDS_CATEGORY.FAVORITEN:
                 return favoriteCards
 
             default:

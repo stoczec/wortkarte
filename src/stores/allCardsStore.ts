@@ -2,7 +2,7 @@ import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { ICardsStore, ILanguageCard } from '@/interfaces/interfaces'
 import { C1_Sicher_data, C1_Beruf_data, A2_B2_data } from '@/data'
-import { EnumCARDSCATEGORY, WORD_LEVELS } from '@/enums/enums'
+import { CARDS_CATEGORY, WORD_LEVELS } from '@/enums/enums'
 
 // Функция для перемешивания массива
 function shuffleArray(array: ILanguageCard[]) {
@@ -52,7 +52,7 @@ export const useCardsStore = create<ICardsStore>()(
                 loading: true,
                 itemsPerPage: 5,
                 selectedWordLevel: WORD_LEVELS.ALLLEVELS,
-                selectedCardCategory: EnumCARDSCATEGORY.ALLE,
+                selectedCardCategory: CARDS_CATEGORY.ALLE,
                 searchQuery: '',
                 filteredCards: shuffledAllWords,
 
@@ -70,7 +70,7 @@ export const useCardsStore = create<ICardsStore>()(
                 },
 
                 setSelectedCardCategory: (
-                    category: (typeof EnumCARDSCATEGORY)[keyof typeof EnumCARDSCATEGORY]
+                    category: (typeof CARDS_CATEGORY)[keyof typeof CARDS_CATEGORY]
                 ) => {
                     set({
                         selectedCardCategory: category,
@@ -94,7 +94,7 @@ export const useCardsStore = create<ICardsStore>()(
                         favoriteCards: [],
                         itemsPerPage: 5,
                         selectedWordLevel: WORD_LEVELS.ALLLEVELS,
-                        selectedCardCategory: EnumCARDSCATEGORY.ALLE,
+                        selectedCardCategory: CARDS_CATEGORY.ALLE,
                     })
                 },
                 updateSearchQuery: (query: string) =>
@@ -115,7 +115,7 @@ export const useCardsStore = create<ICardsStore>()(
                         shuffledCards: shuffledAllWords,
                         itemsPerPage: state.itemsPerPage,
                         selectedWordLevel: WORD_LEVELS.ALLLEVELS,
-                        selectedCardCategory: EnumCARDSCATEGORY.ALLE,
+                        selectedCardCategory: CARDS_CATEGORY.ALLE,
                         searchQuery: '',
                         filteredCards: shuffledAllWords,
                         // Preserve favoriteCards
