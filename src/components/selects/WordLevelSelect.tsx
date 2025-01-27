@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useMemo, useState } from 'react'
 import {
     Select,
     SelectContent,
@@ -23,44 +23,22 @@ export const WordLevelSelect = () => {
         useState<(typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]>(selectedWordLevel)
     const router = useRouter()
 
-    const handleSelectChange = (value: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]) => {
+    const handleWordLevelChange = (value: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]) => {
         setSelectedWordLevel(value)
         setSelectedValue(value)
         router.push('/page/1')
     }
 
-    // function countTotalCards(cards: ILanguageCard[]): number {
-    //     let count = 0
-
-    //     for (const card of cards) {
-    //         count++
-
-    //         if (card.multiple) {
-    //             count += countTotalCards(card.multiple)
-    //         }
-    //     }
-
-    //     return count
-    // }
-
-    function countTotalCards(cards: ILanguageCard[]): number {
+    const calculateTotalCards = (cards: ILanguageCard[]): number => {
         return cards.reduce((count, card) => {
-            return count + 1 + (card.multiple ? countTotalCards(card.multiple) : 0)
+            return count + 1 + (card.multiple ? calculateTotalCards(card.multiple) : 0)
         }, 0)
     }
 
-    // const totalA2B2Cards = countTotalCards(A2_B2_data)
-    // const totalC1SicherCards = countTotalCards(C1_Sicher_data)
-    // const totalC1BerufCards = countTotalCards(C1_Beruf_data)
-    // const totalAllLevels = totalA2B2Cards + totalC1SicherCards + totalC1BerufCards
-
-    const totalA2B2Cards = React.useMemo(() => countTotalCards(A2_B2_data), [A2_B2_data])
-    const totalC1SicherCards = React.useMemo(
-        () => countTotalCards(C1_Sicher_data),
-        [C1_Sicher_data]
-    )
-    const totalC1BerufCards = React.useMemo(() => countTotalCards(C1_Beruf_data), [C1_Beruf_data])
-    const totalAllLevelsCards = React.useMemo(
+    const totalA2B2Cards = useMemo(() => calculateTotalCards(A2_B2_data), [A2_B2_data])
+    const totalC1SicherCards = useMemo(() => calculateTotalCards(C1_Sicher_data), [C1_Sicher_data])
+    const totalC1BerufCards = useMemo(() => calculateTotalCards(C1_Beruf_data), [C1_Beruf_data])
+    const totalAllLevelsCards = useMemo(
         () => totalA2B2Cards + totalC1SicherCards + totalC1BerufCards,
         [totalA2B2Cards, totalC1SicherCards, totalC1BerufCards]
     )
@@ -79,36 +57,16 @@ export const WordLevelSelect = () => {
 
     return (
         <div className="w-full flex justify-start gap-2 px-1">
-            <Select value={selectedValue} onValueChange={handleSelectChange}>
+            <Select value={selectedValue} onValueChange={handleWordLevelChange}>
                 <SelectTrigger className="w-[240px]">
                     <SelectValue>{selectedValue}</SelectValue>
                 </SelectTrigger>
                 <SelectContent>
                     <SelectGroup>
-                        <SelectItem value={EnumWORDLEVELS.ALLLEVELS} className="cursor-pointer">
-                            <span className="mr-10">{EnumWORDLEVELS.ALLLEVELS}</span>
-                            <Badge variant="default" className="bg-primary">
-                                {totalAllLevelsCards} Stück
-                            </Badge>
-                        </SelectItem>
-                        <SelectItem value={EnumWORDLEVELS.A2B2} className="cursor-pointer">
-                            <span className="mr-10">{EnumWORDLEVELS.A2B2}</span>
-                            <Badge variant="default" className="bg-primary">
-                                {totalA2B2Cards} Stück
-                            </Badge>
-                        </SelectItem>
-                        <SelectItem value={EnumWORDLEVELS.C1SICHER} className="cursor-pointer">
-                            <span className="mr-10">{EnumWORDLEVELS.C1SICHER}</span>{' '}
-                            <Badge variant="default" className="bg-primary">
-                                {totalC1SicherCards} Stück
-                            </Badge>
-                        </SelectItem>
-                        <SelectItem value={EnumWORDLEVELS.C1BERUF} className="cursor-pointer">
-                            <span className="mr-10">{EnumWORDLEVELS.C1BERUF}</span>{' '}
-                            <Badge variant="default" className="bg-primary">
-                                {totalC1BerufCards} Stück
-                            </Badge>
-                        </SelectItem>
+                        {renderSelectItem(EnumWORDLEVELS.ALLLEVELS, totalAllLevelsCards)}
+                        {renderSelectItem(EnumWORDLEVELS.A2B2, totalA2B2Cards)}
+                        {renderSelectItem(EnumWORDLEVELS.C1SICHER, totalC1SicherCards)}
+                        {renderSelectItem(EnumWORDLEVELS.C1BERUF, totalC1BerufCards)}
                     </SelectGroup>
                 </SelectContent>
             </Select>
