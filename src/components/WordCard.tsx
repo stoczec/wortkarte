@@ -13,6 +13,7 @@ import { URL_IMAGES } from '@/constans/constans'
 import { Badge } from './ui/badge'
 import { GroqBotDrawer } from '.'
 import { Separator } from './ui/separator'
+import { Button } from './ui/button'
 
 const animationTransitionConfig = {
     duration: 1,
@@ -29,6 +30,7 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 
     const {
         id,
+        thema,
         article,
         pluralEnding,
         wordDe,
@@ -76,11 +78,22 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                 className="relative border-none aspect-[9/16] w-[320px] p-0 rounded-t-xl  transform transition-transform "
                 onClick={handleFlipCard}
             >
-                <div className="absolute top-2 left-2 z-10">
+                <div
+                    className="absolute top-2 left-2 z-10"
+                    onClick={e => {
+                        e.stopPropagation()
+                    }}
+                >
                     <Badge>
                         <span>{result}</span>
-                    </Badge>
+                    </Badge>{' '}
+                    {thema && (
+                        <Badge>
+                            <span>{thema}</span>
+                        </Badge>
+                    )}
                 </div>
+
                 <div
                     onClick={e => {
                         e.stopPropagation()
