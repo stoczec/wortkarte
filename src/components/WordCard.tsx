@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { Card, CardContent } from './ui/card'
 import { IWordCardProperties } from '@/interfaces/interfaces'
 import { cn, getFontSizeClass } from '@/lib/utils'
-import { EnumWORDCLASSES } from '@/enums/enums'
+import { WORD_CLASSES } from '@/enums/enums'
 import { useCardsStore } from '@/stores'
 import { Heart } from 'lucide-react'
 import ImageWithLoading from './ImageWithLoading'
@@ -110,32 +110,31 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                                 getFontSizeClass(wordDe),
                                 'font-bold text-balance text-center px-2',
                                 {
-                                    'text-blue-500': wordClass === EnumWORDCLASSES.MASKULIN,
-                                    'text-red-500': wordClass === EnumWORDCLASSES.FEMININ,
-                                    'text-green-500': wordClass === EnumWORDCLASSES.NEUTRAL,
-                                    'text-yellow-500': wordClass === EnumWORDCLASSES.PLURAL,
-                                    'text-orange-500': wordClass === EnumWORDCLASSES.VERB,
-                                    'text-purple-500': wordClass === EnumWORDCLASSES.ADJEKTIV,
-                                    'text-pink-500': wordClass === EnumWORDCLASSES.ADVERB,
-                                    'text-gray-500': wordClass === EnumWORDCLASSES.PRÄPOSITION,
-                                    'text-amber-800': wordClass === EnumWORDCLASSES.KONJUNKTION,
-                                    'text-teal-500': wordClass === EnumWORDCLASSES.PARTIKEL,
-                                    'text-indigo-600': wordClass === EnumWORDCLASSES.NUMERALE,
-                                    'text-lime-500': wordClass === EnumWORDCLASSES.PRONOMEN,
-                                    'text-indigo-500': wordClass === EnumWORDCLASSES.INTERJEKTION,
-                                    'text-slate-700': wordClass === EnumWORDCLASSES.ARTIKEL,
-                                    'text-teal-700': wordClass === EnumWORDCLASSES.PHRASEN,
-                                    'text-cyan-600': wordClass === EnumWORDCLASSES.SATZADVERBIEN,
-                                    'text-gray-800': wordClass === EnumWORDCLASSES.AUXILIARVERB,
-                                    'text-orange-700': wordClass === EnumWORDCLASSES.MODALVERB,
-                                    'text-rose-500': wordClass === EnumWORDCLASSES.REFLEXIVPRONOMEN,
+                                    'text-blue-500': wordClass === WORD_CLASSES.MASKULIN,
+                                    'text-red-500': wordClass === WORD_CLASSES.FEMININ,
+                                    'text-green-500': wordClass === WORD_CLASSES.NEUTRAL,
+                                    'text-yellow-500': wordClass === WORD_CLASSES.PLURAL,
+                                    'text-orange-500': wordClass === WORD_CLASSES.VERB,
+                                    'text-purple-500': wordClass === WORD_CLASSES.ADJEKTIV,
+                                    'text-pink-500': wordClass === WORD_CLASSES.ADVERB,
+                                    'text-gray-500': wordClass === WORD_CLASSES.PRÄPOSITION,
+                                    'text-amber-800': wordClass === WORD_CLASSES.KONJUNKTION,
+                                    'text-teal-500': wordClass === WORD_CLASSES.PARTIKEL,
+                                    'text-indigo-600': wordClass === WORD_CLASSES.NUMERALE,
+                                    'text-lime-500': wordClass === WORD_CLASSES.PRONOMEN,
+                                    'text-indigo-500': wordClass === WORD_CLASSES.INTERJEKTION,
+                                    'text-slate-700': wordClass === WORD_CLASSES.ARTIKEL,
+                                    'text-teal-700': wordClass === WORD_CLASSES.PHRASEN,
+                                    'text-cyan-600': wordClass === WORD_CLASSES.SATZADVERBIEN,
+                                    'text-gray-800': wordClass === WORD_CLASSES.AUXILIARVERB,
+                                    'text-orange-700': wordClass === WORD_CLASSES.MODALVERB,
+                                    'text-rose-500': wordClass === WORD_CLASSES.REFLEXIVPRONOMEN,
                                     'text-yellow-600':
-                                        wordClass === EnumWORDCLASSES.DEMONSTRATIVPRONOMEN,
-                                    'text-teal-600': wordClass === EnumWORDCLASSES.RELATIVPRONOMEN,
+                                        wordClass === WORD_CLASSES.DEMONSTRATIVPRONOMEN,
+                                    'text-teal-600': wordClass === WORD_CLASSES.RELATIVPRONOMEN,
                                     'text-blue-600':
-                                        wordClass === EnumWORDCLASSES.INTERROGATIVPRONOMEN,
-                                    'text-indigo-700':
-                                        wordClass === EnumWORDCLASSES.POSSESSIVPRONOMEN,
+                                        wordClass === WORD_CLASSES.INTERROGATIVPRONOMEN,
+                                    'text-indigo-700': wordClass === WORD_CLASSES.POSSESSIVPRONOMEN,
                                 }
                             )}
                             initial={{ y: -100 }}
@@ -183,36 +182,33 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                                     getFontSizeClass(wordRu),
                                     'font-bold text-balance text-center px-2',
                                     {
-                                        'text-blue-500': wordClass === EnumWORDCLASSES.MASKULIN,
-                                        'text-red-500': wordClass === EnumWORDCLASSES.FEMININ,
-                                        'text-green-500': wordClass === EnumWORDCLASSES.NEUTRAL,
-                                        'text-yellow-500': wordClass === EnumWORDCLASSES.PLURAL,
-                                        'text-orange-500': wordClass === EnumWORDCLASSES.VERB,
-                                        'text-purple-500': wordClass === EnumWORDCLASSES.ADJEKTIV,
-                                        'text-pink-500': wordClass === EnumWORDCLASSES.ADVERB,
-                                        'text-gray-500': wordClass === EnumWORDCLASSES.PRÄPOSITION,
-                                        'text-amber-800': wordClass === EnumWORDCLASSES.KONJUNKTION,
-                                        'text-teal-500': wordClass === EnumWORDCLASSES.PARTIKEL,
-                                        'text-indigo-600': wordClass === EnumWORDCLASSES.NUMERALE,
-                                        'text-lime-500': wordClass === EnumWORDCLASSES.PRONOMEN,
-                                        'text-indigo-500':
-                                            wordClass === EnumWORDCLASSES.INTERJEKTION,
-                                        'text-slate-700': wordClass === EnumWORDCLASSES.ARTIKEL,
-                                        'text-teal-700': wordClass === EnumWORDCLASSES.PHRASEN,
-                                        'text-cyan-600':
-                                            wordClass === EnumWORDCLASSES.SATZADVERBIEN,
-                                        'text-gray-800': wordClass === EnumWORDCLASSES.AUXILIARVERB,
-                                        'text-orange-700': wordClass === EnumWORDCLASSES.MODALVERB,
+                                        'text-blue-500': wordClass === WORD_CLASSES.MASKULIN,
+                                        'text-red-500': wordClass === WORD_CLASSES.FEMININ,
+                                        'text-green-500': wordClass === WORD_CLASSES.NEUTRAL,
+                                        'text-yellow-500': wordClass === WORD_CLASSES.PLURAL,
+                                        'text-orange-500': wordClass === WORD_CLASSES.VERB,
+                                        'text-purple-500': wordClass === WORD_CLASSES.ADJEKTIV,
+                                        'text-pink-500': wordClass === WORD_CLASSES.ADVERB,
+                                        'text-gray-500': wordClass === WORD_CLASSES.PRÄPOSITION,
+                                        'text-amber-800': wordClass === WORD_CLASSES.KONJUNKTION,
+                                        'text-teal-500': wordClass === WORD_CLASSES.PARTIKEL,
+                                        'text-indigo-600': wordClass === WORD_CLASSES.NUMERALE,
+                                        'text-lime-500': wordClass === WORD_CLASSES.PRONOMEN,
+                                        'text-indigo-500': wordClass === WORD_CLASSES.INTERJEKTION,
+                                        'text-slate-700': wordClass === WORD_CLASSES.ARTIKEL,
+                                        'text-teal-700': wordClass === WORD_CLASSES.PHRASEN,
+                                        'text-cyan-600': wordClass === WORD_CLASSES.SATZADVERBIEN,
+                                        'text-gray-800': wordClass === WORD_CLASSES.AUXILIARVERB,
+                                        'text-orange-700': wordClass === WORD_CLASSES.MODALVERB,
                                         'text-rose-500':
-                                            wordClass === EnumWORDCLASSES.REFLEXIVPRONOMEN,
+                                            wordClass === WORD_CLASSES.REFLEXIVPRONOMEN,
                                         'text-yellow-600':
-                                            wordClass === EnumWORDCLASSES.DEMONSTRATIVPRONOMEN,
-                                        'text-teal-600':
-                                            wordClass === EnumWORDCLASSES.RELATIVPRONOMEN,
+                                            wordClass === WORD_CLASSES.DEMONSTRATIVPRONOMEN,
+                                        'text-teal-600': wordClass === WORD_CLASSES.RELATIVPRONOMEN,
                                         'text-blue-600':
-                                            wordClass === EnumWORDCLASSES.INTERROGATIVPRONOMEN,
+                                            wordClass === WORD_CLASSES.INTERROGATIVPRONOMEN,
                                         'text-indigo-700':
-                                            wordClass === EnumWORDCLASSES.POSSESSIVPRONOMEN,
+                                            wordClass === WORD_CLASSES.POSSESSIVPRONOMEN,
                                     }
                                 )}
                                 initial={{ y: 100 }}

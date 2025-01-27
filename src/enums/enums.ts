@@ -1,4 +1,4 @@
-type EnumWordClassesType =
+export type WordClass =
     | 'Maskulin' // мужской род
     | 'Feminin' // женский род
     | 'Neutral' // средний род
@@ -23,30 +23,30 @@ type EnumWordClassesType =
     | 'Interrogativpronomen' // вопросительное местоимение
     | 'Possessivpronomen' // притяжательное местоимение
 
-export const EnumWORDCLASSES = {
-    MASKULIN: 'Maskulin' as EnumWordClassesType,
-    FEMININ: 'Feminin' as EnumWordClassesType,
-    NEUTRAL: 'Neutral' as EnumWordClassesType,
-    PLURAL: 'Plural' as EnumWordClassesType,
-    VERB: 'Verb' as EnumWordClassesType,
-    ADJEKTIV: 'Adjektiv' as EnumWordClassesType,
-    ADVERB: 'Adverb' as EnumWordClassesType,
-    PRÄPOSITION: 'Präposition' as EnumWordClassesType,
-    KONJUNKTION: 'Konjunktion' as EnumWordClassesType,
-    PARTIKEL: 'Partikel' as EnumWordClassesType,
-    NUMERALE: 'Numerale' as EnumWordClassesType,
-    PRONOMEN: 'Pronomen' as EnumWordClassesType,
-    INTERJEKTION: 'Interjektion' as EnumWordClassesType,
-    ARTIKEL: 'Artikel' as EnumWordClassesType,
-    PHRASEN: 'Phrasen' as EnumWordClassesType,
-    SATZADVERBIEN: 'Satzadverbien' as EnumWordClassesType,
-    AUXILIARVERB: 'Auxiliarverb' as EnumWordClassesType,
-    MODALVERB: 'Modalverb' as EnumWordClassesType,
-    REFLEXIVPRONOMEN: 'Reflexivpronomen' as EnumWordClassesType,
-    DEMONSTRATIVPRONOMEN: 'Demonstrativpronomen' as EnumWordClassesType,
-    RELATIVPRONOMEN: 'Relativpronomen' as EnumWordClassesType,
-    INTERROGATIVPRONOMEN: 'Interrogativpronomen' as EnumWordClassesType,
-    POSSESSIVPRONOMEN: 'Possessivpronomen' as EnumWordClassesType,
+export const WORD_CLASSES = {
+    MASKULIN: 'Maskulin' as WordClass,
+    FEMININ: 'Feminin' as WordClass,
+    NEUTRAL: 'Neutral' as WordClass,
+    PLURAL: 'Plural' as WordClass,
+    VERB: 'Verb' as WordClass,
+    ADJEKTIV: 'Adjektiv' as WordClass,
+    ADVERB: 'Adverb' as WordClass,
+    PRÄPOSITION: 'Präposition' as WordClass,
+    KONJUNKTION: 'Konjunktion' as WordClass,
+    PARTIKEL: 'Partikel' as WordClass,
+    NUMERALE: 'Numerale' as WordClass,
+    PRONOMEN: 'Pronomen' as WordClass,
+    INTERJEKTION: 'Interjektion' as WordClass,
+    ARTIKEL: 'Artikel' as WordClass,
+    PHRASEN: 'Phrasen' as WordClass,
+    SATZADVERBIEN: 'Satzadverbien' as WordClass,
+    AUXILIARVERB: 'Auxiliarverb' as WordClass,
+    MODALVERB: 'Modalverb' as WordClass,
+    REFLEXIVPRONOMEN: 'Reflexivpronomen' as WordClass,
+    DEMONSTRATIVPRONOMEN: 'Demonstrativpronomen' as WordClass,
+    RELATIVPRONOMEN: 'Relativpronomen' as WordClass,
+    INTERROGATIVPRONOMEN: 'Interrogativpronomen' as WordClass,
+    POSSESSIVPRONOMEN: 'Possessivpronomen' as WordClass,
 }
 
 type EnumWordLevelsType = 'A2-B2' | 'C1 Sicher!' | 'C1 Aspekte Beruf' | 'Alle Sprachebenen'
