@@ -23,7 +23,7 @@ export const CardCategorySelect = () => {
         useState<(typeof EnumCARDSCATEGORY)[keyof typeof EnumCARDSCATEGORY]>(selectedCardCategory)
     const router = useRouter()
 
-    const handleSelectChange = (
+    const handleCategoryChange = (
         value: (typeof EnumCARDSCATEGORY)[keyof typeof EnumCARDSCATEGORY]
     ) => {
         setSelectedCardCategory(value)
@@ -32,26 +32,26 @@ export const CardCategorySelect = () => {
     }
     return (
         <div className="w-full flex justify-start gap-2 px-1">
-            <Select value={selectedValue} onValueChange={handleSelectChange}>
+            <Select value={selectedValue} onValueChange={handleCategoryChange}>
                 <SelectTrigger className="w-[240px]">
                     <SelectValue>{selectedValue} Karten</SelectValue>
                 </SelectTrigger>
                 <SelectContent className="w-[240px]">
                     <SelectGroup>
                         <SelectItem value={EnumCARDSCATEGORY.ALLE} className="cursor-pointer">
-                            <span className="mr-5">Alle</span>
+                            <span className="mr-5">{EnumCARDSCATEGORY.ALLE}</span>
                             <Badge variant="default" className="bg-primary">
                                 {displayedCards.length} Stück
                             </Badge>
                         </SelectItem>
                         <SelectItem value={EnumCARDSCATEGORY.GEMISCHTEN} className="cursor-pointer">
-                            <span className="mr-5">Gemischten</span>
+                            <span className="mr-5">{EnumCARDSCATEGORY.GEMISCHTEN}</span>
                             <Badge variant="default" className="bg-primary">
                                 {displayedCards.length} Stück
                             </Badge>
                         </SelectItem>
                         <SelectItem value={EnumCARDSCATEGORY.FAVORITEN} className="cursor-pointer">
-                            <span className="mr-5">Favoriten</span>
+                            <span className="mr-5">{EnumCARDSCATEGORY.FAVORITEN}</span>
                             <Badge variant="default" className="bg-primary">
                                 {favoriteCards.length} Stück
                             </Badge>
