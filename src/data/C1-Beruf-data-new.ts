@@ -80,17 +80,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     //     fileKeyUploadthing: '',
     // },
     // {
-    //     id: `2-${EnumWORDLEVELS.C1BERUF}`,
-    //     thema: EnumTOPICS.THEMA7,
-    //     article: '',
-    //     pluralEnding: '',
-    //     wordDe: 'einbüßen, büßt ein, büßte ein, hat eingebüßt',
-    //     wordRu: 'терять, утрачивать',
-    //     wordClass: EnumWORDCLASSES.VERB,
-    //     exampleDe: 'Das Unternehmen hat im letzten Jahr viele Kunden eingebüßt.',
-    //     exampleRu: 'Компания в прошлом году потеряла многих клиентов.',
-    //     fileKeyUploadthing: '',
-    // },
+
     // {
     //     id: `1-${EnumWORDLEVELS.C1BERUF}`, thema: EnumTOPICS.THEMA1,
     //     article: '',
@@ -7760,7 +7750,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     //////////////////////////
     {
-        id: `555-${EnumWORDLEVELS.C1BERUF}`,
+        id: `561-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7772,7 +7762,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `556-${EnumWORDLEVELS.C1BERUF}`,
+        id: `562-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'das',
         pluralEnding: ', -se',
@@ -7784,11 +7774,11 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `557-${EnumWORDLEVELS.C1BERUF}`,
+        id: `563-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
-        wordDe: 'die Oberhand haben',
+        wordDe: 'die Oberhand haben, hat, hatte, hat gehabt',
         wordRu: 'иметь преимущество, иметь превосходство, доминировать',
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'In der Verhandlung hatte er dank seiner Argumente die Oberhand.',
@@ -7796,7 +7786,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `558-${EnumWORDLEVELS.C1BERUF}`,
+        id: `564-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7809,7 +7799,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `559-${EnumWORDLEVELS.C1BERUF}`,
+        id: `565-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7822,7 +7812,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `560-${EnumWORDLEVELS.C1BERUF}`,
+        id: `566-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7834,7 +7824,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `561-${EnumWORDLEVELS.C1BERUF}`,
+        id: `567-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7846,7 +7836,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `562-${EnumWORDLEVELS.C1BERUF}`,
+        id: `568-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7859,7 +7849,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `563-${EnumWORDLEVELS.C1BERUF}`,
+        id: `569-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7872,7 +7862,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `564-${EnumWORDLEVELS.C1BERUF}`,
+        id: `570-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7884,7 +7874,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `565-${EnumWORDLEVELS.C1BERUF}`,
+        id: `571-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -7896,7 +7886,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `566-${EnumWORDLEVELS.C1BERUF}`,
+        id: `572-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7909,7 +7899,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `567-${EnumWORDLEVELS.C1BERUF}`,
+        id: `573-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7921,7 +7911,20 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `568-${EnumWORDLEVELS.C1BERUF}`,
+        id: `574-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA9,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'einbüßen, büßt ein, büßte ein, hat eingebüßt',
+        wordRu: 'терять, утрачивать',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe: 'Das Unternehmen hat im letzten Jahr viele Kunden eingebüßt.',
+        exampleRu: 'Компания в прошлом году потеряла многих клиентов.',
+        fileKeyUploadthing: '',
+    },
+    ////////////////////////
+    {
+        id: `575-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -7933,7 +7936,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `569-${EnumWORDLEVELS.C1BERUF}`,
+        id: `576-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7946,11 +7949,11 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `570-${EnumWORDLEVELS.C1BERUF}`,
+        id: `577-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
-        wordDe: 'am längeren Hebel sitzen',
+        wordDe: 'am längeren Hebel sitzen, sitzt, saß, hat gesessen',
         wordRu: 'иметь преимущество, быть в выгодном положении',
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Wer die finanziellen Mittel kontrolliert, sitzt am längeren Hebel.',
@@ -7958,7 +7961,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `571-${EnumWORDLEVELS.C1BERUF}`,
+        id: `578-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'der',
         pluralEnding: '',
@@ -7970,7 +7973,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `572-${EnumWORDLEVELS.C1BERUF}`,
+        id: `579-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'der',
         pluralEnding: ', -e',
@@ -7983,7 +7986,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `573-${EnumWORDLEVELS.C1BERUF}`,
+        id: `580-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7995,7 +7998,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `574-${EnumWORDLEVELS.C1BERUF}`,
+        id: `581-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'der',
         pluralEnding: '',
@@ -8007,7 +8010,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `575-${EnumWORDLEVELS.C1BERUF}`,
+        id: `582-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -8019,7 +8022,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `576-${EnumWORDLEVELS.C1BERUF}`,
+        id: `583-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8033,7 +8036,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `577-${EnumWORDLEVELS.C1BERUF}`,
+        id: `584-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: '',
@@ -8047,7 +8050,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `578-${EnumWORDLEVELS.C1BERUF}`,
+        id: `585-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: '',
@@ -8058,6 +8061,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Налоговые поступления государства увеличились в прошлом году.',
         fileKeyUploadthing: '',
     },
+    /////////////////////
     {
         id: `579-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
