@@ -475,17 +475,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     //     fileKeyUploadthing: 'Yosg29JtFzNhVD9FKhQGWr0oIbjYndiBXl2ukOh78NvP3ecJ',
     // },
     // {
-    //     id: `99-${EnumWORDLEVELS.C1BERUF}`,
-    //     thema: EnumTOPICS.THEMA3,
-    //     article: '',
-    //     pluralEnding: '',
-    //     wordDe: 'rückwirkend',
-    //     wordRu: 'обратный, имеющий обратную силу',
-    //     wordClass: EnumWORDCLASSES.ADJEKTIV,
-    //     exampleDe: 'Die Gehaltserhöhung wurde rückwirkend zum 1. Januar genehmigt.',
-    //     exampleRu: 'Повышение зарплаты было утверждено с обратной силой с 1 января.',
-    //     fileKeyUploadthing: 'Yosg29JtFzNhYEqDDzHJtFzNhDLRbEpOK4inVgWujTHf15rx',
-    // },
+
     // {
     //     id: `100-${EnumWORDLEVELS.C1BERUF}`,
     //     thema: EnumTOPICS.THEMA3,
@@ -8373,7 +8363,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     ///////////////////////////
     {
-        id: `604-${EnumWORDLEVELS.C1BERUF}`,
+        id: `611-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8385,7 +8375,32 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `605-${EnumWORDLEVELS.C1BERUF}`,
+        id: `612-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA9,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'rückwirkend',
+        wordRu: 'обратный, имеющий обратную силу',
+        wordClass: EnumWORDCLASSES.ADJEKTIV,
+        exampleDe: 'Die Gehaltserhöhung wurde rückwirkend zum 1. Januar genehmigt.',
+        exampleRu: 'Повышение зарплаты было утверждено с обратной силой с 1 января.',
+        fileKeyUploadthing: '',
+    },
+    {
+        id: `613-${EnumWORDLEVELS.C1BERUF}`,
+        thema: EnumTOPICS.THEMA9,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'verfallen, verfällt, verfiel, ist verfallen',
+        wordRu: 'истекать, утрачивать силу (о праве, документе)',
+        wordClass: EnumWORDCLASSES.VERB,
+        exampleDe:
+            'Der Vertrag verfällt, wenn er nicht innerhalb von 30 Tagen unterschrieben wird.',
+        exampleRu: 'Договор утрачивает силу, если его не подписать в течение 30 дней.',
+        fileKeyUploadthing: '02oRwhT5lMj2XApn7HCIbx3hQUkp4NorV8CycZWejGFv9muD',
+    },
+    {
+        id: `614-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -8397,7 +8412,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `606-${EnumWORDLEVELS.C1BERUF}`,
+        id: `615-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8410,7 +8425,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `607-${EnumWORDLEVELS.C1BERUF}`,
+        id: `616-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8422,7 +8437,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `608-${EnumWORDLEVELS.C1BERUF}`,
+        id: `617-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8435,7 +8450,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `609-${EnumWORDLEVELS.C1BERUF}`,
+        id: `618-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8449,7 +8464,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `610-${EnumWORDLEVELS.C1BERUF}`,
+        id: `619-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8461,11 +8476,11 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `611-${EnumWORDLEVELS.C1BERUF}`,
+        id: `620-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
-        wordDe: 'gelten als, gilt als, galt als, hat gegolten als + N.',
+        wordDe: 'gelten als + N, gilt als, galt als, hat gegolten als',
         wordRu: 'считаться кем-то/чем-то, слыть кем-то/чем-то, восприниматься как',
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Er gilt als Experte auf dem Gebiet der künstlichen Intelligenz.',
@@ -8473,7 +8488,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `612-${EnumWORDLEVELS.C1BERUF}`,
+        id: `621-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'der',
         pluralEnding: ', -e',
@@ -8485,7 +8500,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `613-${EnumWORDLEVELS.C1BERUF}`,
+        id: `622-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8497,7 +8512,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `614-${EnumWORDLEVELS.C1BERUF}`,
+        id: `623-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8509,7 +8524,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `615-${EnumWORDLEVELS.C1BERUF}`,
+        id: `624-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8521,7 +8536,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `616-${EnumWORDLEVELS.C1BERUF}`,
+        id: `625-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8534,7 +8549,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `617-${EnumWORDLEVELS.C1BERUF}`,
+        id: `626-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: '',
