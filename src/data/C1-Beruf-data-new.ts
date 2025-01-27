@@ -6932,7 +6932,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe: 'Jede Entscheidung hat ihre Konsequenzen, die bedacht werden müssen.',
         exampleRu: 'Каждое решение имеет свои последствия, которые необходимо учитывать.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2VcrAXBoerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
         id: `495-${EnumWORDLEVELS.C1BERUF}`,
@@ -6944,7 +6944,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe: 'Bitte bringen Sie Ihre Versichertenkarte zum Arzttermin mit.',
         exampleRu: 'Пожалуйста, принесите свою страховую карту на прием к врачу.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2vcZzY8t2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
         id: `496-${EnumWORDLEVELS.C1BERUF}`,
@@ -6956,7 +6956,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Ihr außergewöhnlicher Stil fällt sofort auf.',
         exampleRu: 'Ее необычный стиль сразу бросается в глаза.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2CI140JCa0RY1oVptKNDjmwu7HdWefzJbcIMQ',
     },
     {
         id: `497-${EnumWORDLEVELS.C1BERUF}`,
@@ -6968,7 +6968,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'In stressigen Situationen darf man nicht durchdrehen.',
         exampleRu: 'В стрессовых ситуациях нельзя терять контроль.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj22uaf4WSjrLf1RDXyUVEK8O9sekvMF7GjQBSN',
     },
     {
         id: `498-${EnumWORDLEVELS.C1BERUF}`,
@@ -6980,7 +6980,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Es fiel ihm schwer, die Komplexität des Problems zu begreifen.',
         exampleRu: 'Ему было трудно понять сложность проблемы.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2CIM16da0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
         id: `499-${EnumWORDLEVELS.C1BERUF}`,
@@ -6992,9 +6992,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe: 'Als Beilage zum Hauptgericht wurde ein frischer Salat serviert.',
         exampleRu: 'К основному блюду был подан свежий салат в качестве гарнира.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2aRAdyDUlkeUbj4ryVWscL7OqIuH3Tao1N2pR',
     },
-    /////////////////////////
     {
         id: `500-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
@@ -7005,7 +7004,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Nach der schlechten Nachricht wirkte er niedergeschlagen.',
         exampleRu: 'После плохой новости он выглядел подавленным.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2P788wsk3cqDi0uIjZSfOAMVoXCzhe4gUb8Fa',
     },
     {
         id: `501-${EnumWORDLEVELS.C1BERUF}`,
@@ -7017,7 +7016,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Sie versuchte, das weinende Kind zu trösten.',
         exampleRu: 'Она пыталась утешить плачущего ребёнка.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2kzJgtJrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
         id: `502-${EnumWORDLEVELS.C1BERUF}`,
@@ -7029,7 +7028,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'In stressigen Situationen darf man nicht die Nerven verlieren.',
         exampleRu: 'В стрессовых ситуациях нельзя терять самообладание.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2roBIkdDbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN',
     },
     {
         id: `503-${EnumWORDLEVELS.C1BERUF}`,
@@ -7041,7 +7040,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Als ihn alle fragten, schwieg er beharrlich.',
         exampleRu: 'Когда его все спрашивали, он упорно молчал.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2a20c5ulkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
         id: `504-${EnumWORDLEVELS.C1BERUF}`,
@@ -7053,7 +7052,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Stress kann die Symptome einer Krankheit verschlimmern.',
         exampleRu: 'Стресс может ухудшить симптомы болезни.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2143WMgxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
         id: `505-${EnumWORDLEVELS.C1BERUF}`,
@@ -7065,7 +7064,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Er hat die Chance auf eine Beförderung versäumt.',
         exampleRu: 'Он упустил шанс на повышение.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2sBzo8qut05vGR4xAzBPChl1rWEkFbY2aNUoI',
     },
     {
         id: `506-${EnumWORDLEVELS.C1BERUF}`,
@@ -7077,7 +7076,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Er erhob die Stimme, um gegen die Ungerechtigkeit zu protestieren.',
         exampleRu: 'Он поднял голос, чтобы протестовать против несправедливости.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2RUg38n1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
         id: `507-${EnumWORDLEVELS.C1BERUF}`,
@@ -7089,7 +7088,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Trotz der schwierigen Lage hatte sie die Situation im Griff.',
         exampleRu: 'Несмотря на сложное положение, она держала ситуацию под контролем.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2ZMGhVTuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
         id: `508-${EnumWORDLEVELS.C1BERUF}`,
@@ -7101,7 +7100,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Bei der Diskussion fiel er völlig aus der Rolle und wurde laut.',
         exampleRu: 'Во время дискуссии он совершенно вышел из себя и начал кричать.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj28oo0LqhuBKpyIfRkZmiaHghrVcO620oFYwQS',
     },
     {
         id: `509-${EnumWORDLEVELS.C1BERUF}`,
@@ -7113,7 +7112,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.MASKULIN,
         exampleDe: 'Sport ist für viele Menschen ein idealer Weg zum Frustabbau.',
         exampleRu: 'Спорт для многих людей — идеальный способ снять стресс.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj21krqffTxmtKa2DGLNwRdUkJ8OXIEMyop04Zi',
     },
     {
         id: `510-${EnumWORDLEVELS.C1BERUF}`,
@@ -7127,7 +7126,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Er versuchte immer, die Schuld auf andere zu schieben, anstatt Verantwortung zu übernehmen.',
         exampleRu:
             'Он всегда пытался переложить вину на других, вместо того чтобы взять на себя ответственность.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2L4sdgP00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
         id: `511-${EnumWORDLEVELS.C1BERUF}`,
@@ -7139,7 +7138,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Sein destruktives Verhalten hat das Projekt stark beeinträchtigt.',
         exampleRu: 'Его деструктивное поведение сильно повлияло на проект.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2ihZa677OnwEHxZaD0uOAK2PpyVl5TU3Sj4WI',
     },
     {
         id: `512-${EnumWORDLEVELS.C1BERUF}`,
@@ -7151,7 +7150,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Nach dem stressigen Arbeitstag musste er erstmal Dampf ablassen.',
         exampleRu: 'После напряжённого рабочего дня ему нужно было сначала выпустить пар.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj247xybp5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
         id: `513-${EnumWORDLEVELS.C1BERUF}`,
@@ -7163,7 +7162,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Sie meckert ständig über die Arbeitsbedingungen.',
         exampleRu: 'Она постоянно ворчит по поводу условий работы.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2uIvS58XaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
         id: `514-${EnumWORDLEVELS.C1BERUF}`,
@@ -7175,7 +7174,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.MASKULIN,
         exampleDe: 'Unter diesen Umständen mussten wir die Entscheidung verschieben.',
         exampleRu: 'При этих обстоятельствах нам пришлось отложить решение.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj21FbheWxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
         id: `515-${EnumWORDLEVELS.C1BERUF}`,
@@ -7188,7 +7187,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Er hat das nötige Fingerspitzengefühl, um mit schwierigen Situationen umzugehen.',
         exampleRu: 'У него есть необходимое чувство меры, чтобы справляться с трудными ситуациями.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2OmZPmDc8mNuvC5FRwjsLIE2opZbGxD8ge6WS',
     },
     {
         id: `516-${EnumWORDLEVELS.C1BERUF}`,
@@ -7200,7 +7199,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.NEUTRAL,
         exampleDe: 'Das Werkstück wurde sorgfältig bearbeitet, bevor es in die Endmontage ging.',
         exampleRu: 'Деталь была тщательно обработана перед тем, как попасть на финальную сборку.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2l0xaulIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
         id: `517-${EnumWORDLEVELS.C1BERUF}`,
@@ -7212,7 +7211,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Er hat den richtigen Moment abgepasst, um seine Idee vorzutragen.',
         exampleRu: 'Он поймал удачный момент, чтобы представить свою идею.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj266T4LjdlpeThmKQnFU9aqMN7IywAgsvXEdOY',
     },
     {
         id: `518-${EnumWORDLEVELS.C1BERUF}`,
@@ -7224,9 +7223,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Seine zielführenden Vorschläge haben die Diskussion erheblich vorangebracht.',
         exampleRu: 'Его целенаправленные предложения значительно продвинули дискуссию.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2qD5mzyAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
-    ///////////////////////////////////
     {
         id: `519-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
@@ -7237,7 +7235,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe: 'Es gab Unstimmigkeiten bezüglich der Verteilung der Aufgaben.',
         exampleRu: 'Были разногласия относительно распределения задач.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2CD44Uha0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
         id: `520-${EnumWORDLEVELS.C1BERUF}`,
@@ -7250,7 +7248,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Die Anfeindungen gegen ihn aufgrund seiner Entscheidung waren nicht gerechtfertigt.',
         exampleRu: 'Враждебность к нему из-за его решения была необоснованной.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2M6SypUjzcjrpP4Fmzi8x1ygHvahW2KBowuJ0',
     },
     {
         id: `521-${EnumWORDLEVELS.C1BERUF}`,
@@ -7264,7 +7262,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Sie zoffen sich ständig über Kleinigkeiten, was die Atmosphäre im Büro belastet.',
         exampleRu:
             'Они постоянно ссорятся из-за мелочей, что создаёт напряжённую атмосферу в офисе.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2pv0VeQ7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
         id: `522-${EnumWORDLEVELS.C1BERUF}`,
@@ -7277,7 +7275,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Die beiden Kollegen haben sich in die Haare gekriegt, weil sie unterschiedliche Meinungen hatten.',
         exampleRu: 'Оба коллеги поссорились, потому что у них были разные мнения.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2a2Rgd6lkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
         id: `523-${EnumWORDLEVELS.C1BERUF}`,
@@ -7290,7 +7288,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Die Abteilungen liegen seit Wochen im Clinch wegen der neuen Projektverteilung.',
         exampleRu: 'Отделы уже несколько недель в конфликте из-за распределения нового проекта.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2lb9kKjIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
         id: `524-${EnumWORDLEVELS.C1BERUF}`,
@@ -7303,7 +7301,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Er legt ihr ständig Steine in den Weg, weil er ihren Erfolg nicht akzeptieren will.',
         exampleRu: 'Он постоянно ставит ей палки в колёса, потому что не может принять её успех.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2ci8CqS2f4R8P6OUJz5WNDXld7g0AorutVFxq',
     },
     {
         id: `525-${EnumWORDLEVELS.C1BERUF}`,
@@ -7316,7 +7314,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Sie wollte sich nicht in die Diskussion einmischen, da es sie nicht direkt betraf.',
         exampleRu: 'Она не хотела вмешиваться в обсуждение, так как это её напрямую не касалось.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj29CmxyzP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
         id: `526-${EnumWORDLEVELS.C1BERUF}`,
@@ -7329,7 +7327,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Als die Situation eskalierte, ging er dazwischen, um die Streitenden zu trennen.',
         exampleRu: 'Когда ситуация накалилась, он вмешался, чтобы разнять спорящих.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2YSyw0RxcS3i1d96lRqa7uUAbkrwx2PovceWn',
     },
     {
         id: `527-${EnumWORDLEVELS.C1BERUF}`,
@@ -7341,7 +7339,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Der Lehrer versuchte, den Streit zwischen den Schülern zu schlichten.',
         exampleRu: 'Учитель попытался уладить спор между учениками.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2pXQyEp7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
         id: `528-${EnumWORDLEVELS.C1BERUF}`,
@@ -7353,9 +7351,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Er hat immer viele Aufgaben auf dem Zettel, die er erledigen muss.',
         exampleRu: 'У него всегда много дел, которые ему нужно сделать.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj22bOxhIjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
-    //////////////////
     {
         id: `529-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
@@ -7368,7 +7365,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Aller Wahrscheinlichkeit nach wird das Meeting verschoben, da der Leiter verhindert ist.',
         exampleRu:
             'Скорее всего, встреча будет перенесена, так как руководитель не сможет присутствовать.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2XZm6hzCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
         id: `530-${EnumWORDLEVELS.C1BERUF}`,
@@ -7380,7 +7377,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADVERB,
         exampleDe: 'Er ist zweifellos einer der besten Experten in seinem Fachgebiet.',
         exampleRu: 'Он, несомненно, один из лучших экспертов в своей области.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2aKWhFPlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
         id: `531-${EnumWORDLEVELS.C1BERUF}`,
@@ -7392,7 +7389,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADVERB,
         exampleDe: 'Er wird gewiss die richtige Entscheidung treffen, wenn er alle Fakten kennt.',
         exampleRu: 'Он наверняка примет правильное решение, если будет знать все факты.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2qQzIhbxAOQUIgXTmsGN4Yk2fxvzbn6RhKueE',
     },
     {
         id: `532-${EnumWORDLEVELS.C1BERUF}`,
@@ -7404,7 +7401,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Die Ergebnisse der Umfrage lassen auf eine positive Entwicklung schließen.',
         exampleRu: 'Результаты опроса свидетельствуют о положительной динамике.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2OMKyZP8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
         id: `533-${EnumWORDLEVELS.C1BERUF}`,
@@ -7416,7 +7413,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Die Ergebnisse deuten darauf hin, dass der Plan erfolgreich ist.',
         exampleRu: 'Результаты указывают на то, что план успешен.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj28elLrPhuBKpyIfRkZmiaHghrVcO620oFYwQS',
     },
     {
         id: `534-${EnumWORDLEVELS.C1BERUF}`,
@@ -7429,7 +7426,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Der angeblich verschwundene Schlüssel wurde schließlich in der Schublade gefunden.',
         exampleRu: 'Предположительно потерянный ключ в итоге был найден в ящике.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2kFq8AqrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
         id: `535-${EnumWORDLEVELS.C1BERUF}`,
@@ -7443,7 +7440,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Luftverschmutzung ist eine der größten Bedrohungen durch Schadstoffe in städtischen Gebieten.',
         exampleRu:
             'Загрязнение воздуха — одна из крупнейших угроз от загрязняющих веществ в городских районах.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2ua1FettXaI1DXObTetfWnBQ8Hsr5zdYkpjAc',
     },
     {
         id: `536-${EnumWORDLEVELS.C1BERUF}`,
@@ -7455,7 +7452,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Er hat die Schule geschwänzt, um mit seinen Freunden ins Kino zu gehen.',
         exampleRu: 'Он прогуливал школу, чтобы пойти с друзьями в кино.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2NgU13GFxrQ3DE5MPoqZ8OYn60HJ7XGfUS1eu',
     },
     {
         id: `537-${EnumWORDLEVELS.C1BERUF}`,
@@ -7467,9 +7464,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Der Sonnenuntergang war so blendend, dass es fast unmöglich war, hinzusehen.',
         exampleRu: 'Закат был настолько ослепительным, что почти невозможно было смотреть.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2ECq2nmkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
-    //////////////////
     {
         id: `538-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
@@ -7482,7 +7478,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Der Mitarbeiter bat seinen Vorgesetzten um ein Zwischenzeugnis nach zwei Jahren im Unternehmen.',
         exampleRu:
             'Сотрудник попросил своего начальника выдать промежуточный аттестат после двух лет работы в компании.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2eAGyX11siQUDIfn45vcpLXTBZkuWjmb6rthK',
     },
     {
         id: `539-${EnumWORDLEVELS.C1BERUF}`,
@@ -7496,7 +7492,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Die betriebsbedingte Kündigung wurde aufgrund des Personalabbaus ausgesprochen.',
         exampleRu:
             'Увольнение по производственным причинам было произведено из-за сокращения персонала.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2a6nCkilkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
         id: `540-${EnumWORDLEVELS.C1BERUF}`,
@@ -7510,7 +7506,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Beide Parteien einigten sich auf einen Auflösungsvertrag, um das Arbeitsverhältnis zu beenden.',
         exampleRu:
             'Обе стороны договорились о соглашении о расторжении, чтобы завершить трудовые отношения.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2hGTWwRmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
         id: `541-${EnumWORDLEVELS.C1BERUF}`,
@@ -7524,7 +7520,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Nach der Kündigung erhielt der Mitarbeiter eine Freistellung bis zum Vertragsende.',
         exampleRu:
             'После увольнения сотрудник получил освобождение от обязанностей до конца срока договора.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2LYJu82z00gdyMkDH61c2wFBO5xAipXWreU4m',
     },
     {
         id: `542-${EnumWORDLEVELS.C1BERUF}`,
@@ -7538,7 +7534,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Im Rahmen der Vertragsauflösung wurde dem Mitarbeiter eine Abfindungszahlung zugesichert.',
         exampleRu:
             'В рамках расторжения договора сотруднику была гарантирована выплата компенсации.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2d3f2QvF9i3PrGnSwUuz6jDqFJCQEYhZxlMcO',
     },
     {
         id: `543-${EnumWORDLEVELS.C1BERUF}`,
@@ -7552,7 +7548,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Die Kündigungsabsicht des Arbeitgebers wurde dem Betriebsrat frühzeitig mitgeteilt.',
         exampleRu:
             'Намерение работодателя уволить было своевременно сообщено производственному совету.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2W9hyVcA6S4RT9lgFD8vA7hQKNyia0cHdUPCG',
     },
     {
         id: `544-${EnumWORDLEVELS.C1BERUF}`,
@@ -7565,7 +7561,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe: 'Die Kündigung wurde fristgemäß und schriftlich eingereicht.',
         exampleRu:
             'Уведомление об увольнении было подано в установленный срок и в письменной форме.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2kVGiLNRrpDu65zAlXH9EihUjeotgfJTZ3IPV',
     },
     {
         id: `545-${EnumWORDLEVELS.C1BERUF}`,
@@ -7577,7 +7573,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Der Mitarbeiter wurde aufgrund eines schweren Verstoßes fristlos entlassen.',
         exampleRu: 'Сотрудник был уволен незамедлительно из-за серьёзного нарушения.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2e630R2siQUDIfn45vcpLXTBZkuWjmb6rthKz',
     },
     {
         id: `546-${EnumWORDLEVELS.C1BERUF}`,
@@ -7589,7 +7585,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Er hat die Regeln absichtlich missachtet und wurde dafür bestraft.',
         exampleRu: 'Он сознательно пренебрег правилами и был за это наказан.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2FnWLXWAvPzSh60iIawY8NmKvojetsZu7g4Vk',
     },
     {
         id: `547-${EnumWORDLEVELS.C1BERUF}`,
@@ -7601,7 +7597,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe: 'Die Sperre des Kontos wurde aufgrund verdächtiger Aktivitäten verhängt.',
         exampleRu: 'Блокировка счета была наложена из-за подозрительной активности.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj24sMZsqG5jTrOdhNFvLIzbScl0H7kuEyeBaDA',
     },
     {
         id: `548-${EnumWORDLEVELS.C1BERUF}`,
@@ -7613,7 +7609,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.NEUTRAL,
         exampleDe: 'Das Beschäftigungsverhältnis wurde nach fünf Jahren erfolgreich beendet.',
         exampleRu: 'Трудовые отношения были успешно завершены после пяти лет.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2hHOcdEmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
         id: `549-${EnumWORDLEVELS.C1BERUF}`,
@@ -7626,7 +7622,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleDe:
             'Der Kündigungsschutz verhindert eine unrechtmäßige Entlassung des Mitarbeiters.',
         exampleRu: 'Защита от увольнения предотвращает незаконное увольнение сотрудника.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj21dE5LMxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
         id: `550-${EnumWORDLEVELS.C1BERUF}`,
@@ -7638,7 +7634,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Das Verhalten des Mitarbeiters war in diesem Fall unzulässig.',
         exampleRu: 'Поведение сотрудника в данном случае было недопустимым.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj279QdE4LB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
         id: `551-${EnumWORDLEVELS.C1BERUF}`,
@@ -7650,7 +7646,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.ADJEKTIV,
         exampleDe: 'Es ist unzumutbar, von den Mitarbeitern so viele Überstunden zu verlangen.',
         exampleRu: 'Невозможно требовать от сотрудников так много сверхурочных часов.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2qWx9LJAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
         id: `552-${EnumWORDLEVELS.C1BERUF}`,
@@ -7662,7 +7658,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Der Lieferant ist im Verzug, und die Bestellung wird später eintreffen.',
         exampleRu: 'Поставщик задерживается, и заказ прибудет позже.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj22u1IFgrjrLf1RDXyUVEK8O9sekvMF7GjQBSN',
     },
     {
         id: `553-${EnumWORDLEVELS.C1BERUF}`,
@@ -7674,7 +7670,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.MASKULIN,
         exampleDe: 'Der Kunde bat um einen Zahlungsaufschub, um die Rechnung später zu begleichen.',
         exampleRu: 'Клиент попросил об отсрочке платежа, чтобы оплатить счёт позже.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2In6VdORERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
         id: `554-${EnumWORDLEVELS.C1BERUF}`,
@@ -7686,7 +7682,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.FEMININ,
         exampleDe: 'Die Belästigung am Arbeitsplatz wurde sofort gemeldet und untersucht.',
         exampleRu: 'Домогательства на рабочем месте были немедленно сообщены и расследованы.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2CNCVsUa0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
         id: `555-${EnumWORDLEVELS.C1BERUF}`,
@@ -7698,7 +7694,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         wordClass: EnumWORDCLASSES.MASKULIN,
         exampleDe: 'Das Unternehmen gilt als Marktführer in der Technologiebranche.',
         exampleRu: 'Компания считается лидером рынка в технологической отрасли.',
-        fileKeyUploadthing: '',
+        fileKeyUploadthing: '02oRwhT5lMj2l1k1C75IoHmBWYk93sSFP6LenbujJvyiNEIV',
     },
     /* THEMA 9 */
     {
