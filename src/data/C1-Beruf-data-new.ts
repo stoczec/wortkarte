@@ -8201,7 +8201,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     ////////////////////
     {
-        id: `590-${EnumWORDLEVELS.C1BERUF}`,
+        id: `597-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8213,11 +8213,11 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `591-${EnumWORDLEVELS.C1BERUF}`,
+        id: `598-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
-        wordDe: 'Zeit finden für + A',
+        wordDe: 'Zeit finden für + A, findet, fand, hat gefunden',
         wordRu: 'найти время для чего-то',
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Es ist nicht immer einfach, Zeit für persönliche Interessen zu finden.',
@@ -8225,11 +8225,11 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `592-${EnumWORDLEVELS.C1BERUF}`,
+        id: `599-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
-        wordDe: 'aneinander vorbeileben',
+        wordDe: 'aneinander vorbeileben, lebt vorbei, lebte vorbei, ist vorbeigelebt',
         wordRu: 'жить как чужие, жить каждый своей жизнью',
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe:
@@ -8238,11 +8238,11 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `593-${EnumWORDLEVELS.C1BERUF}`,
+        id: `600-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
-        wordDe: 'eine Schicht einlegen',
+        wordDe: 'eine Schicht einlegen, legt ein, legte ein, hat eingelegt',
         wordRu: 'отдохнуть, сделать перерыв, прилечь, вздремнуть',
         wordClass: EnumWORDCLASSES.PHRASEN,
         exampleDe: 'Ich lege erstmal eine Schicht ein.',
@@ -8250,7 +8250,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `594-${EnumWORDLEVELS.C1BERUF}`,
+        id: `601-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8262,11 +8262,11 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `595-${EnumWORDLEVELS.C1BERUF}`,
+        id: `602-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
-        wordDe: 'einen Auftrag ergattern',
+        wordDe: 'einen Auftrag ergattern, ergattert, ergatterte, hat ergattert',
         wordRu: 'завоевать/заполучить/получить заказ',
         wordClass: EnumWORDCLASSES.VERB,
         exampleDe: 'Durch seine gute Präsentation konnte er endlich einen Auftrag ergattern.',
@@ -8274,7 +8274,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `596-${EnumWORDLEVELS.C1BERUF}`,
+        id: `603-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8286,7 +8286,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `597-${EnumWORDLEVELS.C1BERUF}`,
+        id: `604-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'das',
         pluralEnding: ', "er',
@@ -8298,7 +8298,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `598-${EnumWORDLEVELS.C1BERUF}`,
+        id: `605-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8310,7 +8310,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `599-${EnumWORDLEVELS.C1BERUF}`,
+        id: `606-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8322,7 +8322,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `600-${EnumWORDLEVELS.C1BERUF}`,
+        id: `607-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8334,7 +8334,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `601-${EnumWORDLEVELS.C1BERUF}`,
+        id: `608-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -8346,7 +8346,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `602-${EnumWORDLEVELS.C1BERUF}`,
+        id: `609-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -8358,7 +8358,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '',
     },
     {
-        id: `603-${EnumWORDLEVELS.C1BERUF}`,
+        id: `610-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -8371,6 +8371,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Во время праздников часто назначалась дополнительная смена, чтобы поддерживать производство.',
         fileKeyUploadthing: '',
     },
+    ///////////////////////////
     {
         id: `604-${EnumWORDLEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
