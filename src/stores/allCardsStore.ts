@@ -2,7 +2,7 @@ import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { ICardsStore, ILanguageCard } from '@/interfaces/interfaces'
 import { C1_Sicher_data, C1_Beruf_data, A2_B2_data } from '@/data'
-import { EnumCARDSCATEGORY, EnumWORDLEVELS } from '@/enums/enums'
+import { EnumCARDSCATEGORY, WORD_LEVELS } from '@/enums/enums'
 
 // Функция для перемешивания массива
 function shuffleArray(array: ILanguageCard[]) {
@@ -15,16 +15,16 @@ function shuffleArray(array: ILanguageCard[]) {
 }
 
 export function getDataByLevel(
-    level: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]
+    level: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]
 ): ILanguageCard[] {
     switch (level) {
-        case EnumWORDLEVELS.C1SICHER:
+        case WORD_LEVELS.C1SICHER:
             return C1_Sicher_data
-        case EnumWORDLEVELS.C1BERUF:
+        case WORD_LEVELS.C1BERUF:
             return C1_Beruf_data
-        case EnumWORDLEVELS.A2B2:
+        case WORD_LEVELS.A2B2:
             return A2_B2_data
-        case EnumWORDLEVELS.ALLLEVELS:
+        case WORD_LEVELS.ALLLEVELS:
             return [...C1_Sicher_data, ...C1_Beruf_data, ...A2_B2_data]
         default:
             return []
@@ -51,7 +51,7 @@ export const useCardsStore = create<ICardsStore>()(
                 favoriteCards: [],
                 loading: true,
                 itemsPerPage: 5,
-                selectedWordLevel: EnumWORDLEVELS.ALLLEVELS,
+                selectedWordLevel: WORD_LEVELS.ALLLEVELS,
                 selectedCardCategory: EnumCARDSCATEGORY.ALLE,
                 searchQuery: '',
                 filteredCards: shuffledAllWords,
@@ -59,9 +59,7 @@ export const useCardsStore = create<ICardsStore>()(
                 setLoading: isLoading => set({ loading: isLoading }),
                 setItemsPerPage: items => set({ itemsPerPage: items }),
 
-                setSelectedWordLevel: (
-                    level: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]
-                ) => {
+                setSelectedWordLevel: (level: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]) => {
                     const data = getDataByLevel(level)
                     const shuffledData = shuffleArray(data)
                     set({
@@ -95,7 +93,7 @@ export const useCardsStore = create<ICardsStore>()(
                         shuffledCards: shuffledAllWords,
                         favoriteCards: [],
                         itemsPerPage: 5,
-                        selectedWordLevel: EnumWORDLEVELS.ALLLEVELS,
+                        selectedWordLevel: WORD_LEVELS.ALLLEVELS,
                         selectedCardCategory: EnumCARDSCATEGORY.ALLE,
                     })
                 },
@@ -116,7 +114,7 @@ export const useCardsStore = create<ICardsStore>()(
                         displayedCards: shuffledAllWords,
                         shuffledCards: shuffledAllWords,
                         itemsPerPage: state.itemsPerPage,
-                        selectedWordLevel: EnumWORDLEVELS.ALLLEVELS,
+                        selectedWordLevel: WORD_LEVELS.ALLLEVELS,
                         selectedCardCategory: EnumCARDSCATEGORY.ALLE,
                         searchQuery: '',
                         filteredCards: shuffledAllWords,

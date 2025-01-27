@@ -1,10 +1,10 @@
-import { EnumTOPICS, WORD_CLASSES, EnumWORDLEVELS } from '@/enums/enums'
+import { EnumTOPICS, WORD_CLASSES, WORD_LEVELS } from '@/enums/enums'
 import { ILanguageCard } from '@/interfaces/interfaces'
 
 export const C1_Beruf_data: ILanguageCard[] = [
     /* THEMA 1 */
     {
-        id: `1-${EnumWORDLEVELS.C1BERUF}`,
+        id: `1-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -16,7 +16,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2si3tYxqut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
     {
-        id: `2-${EnumWORDLEVELS.C1BERUF}`,
+        id: `2-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: ', -en',
@@ -29,7 +29,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IqdljzRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `3-${EnumWORDLEVELS.C1BERUF}`,
+        id: `3-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -41,7 +41,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2TpjWmbYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `4-${EnumWORDLEVELS.C1BERUF}`,
+        id: `4-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -53,7 +53,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Y9s5OjcS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
     {
-        id: `5-${EnumWORDLEVELS.C1BERUF}`,
+        id: `5-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: ', -n',
@@ -66,7 +66,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29p7izHvP8xagtImQ23pOC4PewkRlh69S1rub',
     },
     {
-        id: `6-${EnumWORDLEVELS.C1BERUF}`,
+        id: `6-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: ', -en',
@@ -79,7 +79,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OCGYf18mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `7-${EnumWORDLEVELS.C1BERUF}`,
+        id: `7-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -91,7 +91,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bqQzvqVMKxjXEqCh12naiyulY9Z3N4v7c5Q0',
     },
     {
-        id: `8-${EnumWORDLEVELS.C1BERUF}`,
+        id: `8-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: ', -e',
@@ -103,7 +103,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EQca9HkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `9-${EnumWORDLEVELS.C1BERUF}`,
+        id: `9-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -115,7 +115,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2TfjEmoxYMUSiw8CBH2aVWuzv9b1xXrgJGpe7',
     },
     {
-        id: `10-${EnumWORDLEVELS.C1BERUF}`,
+        id: `10-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -128,7 +128,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29qcf5mP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `11-${EnumWORDLEVELS.C1BERUF}`,
+        id: `11-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -140,7 +140,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IL3QMkRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `12-${EnumWORDLEVELS.C1BERUF}`,
+        id: `12-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -152,7 +152,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xTXrNSErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
-        id: `13-${EnumWORDLEVELS.C1BERUF}`,
+        id: `13-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -164,7 +164,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WFVQVs6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `14-${EnumWORDLEVELS.C1BERUF}`,
+        id: `14-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -176,7 +176,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2YSiGYC7cS3i1d96lRqa7uUAbkrwx2PovceWn',
     },
     {
-        id: `15-${EnumWORDLEVELS.C1BERUF}`,
+        id: `15-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -188,7 +188,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sNcGT7qut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
     {
-        id: `16-${EnumWORDLEVELS.C1BERUF}`,
+        id: `16-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -200,7 +200,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2T68ijuYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `17-${EnumWORDLEVELS.C1BERUF}`,
+        id: `17-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: ', -en',
@@ -212,7 +212,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jqVBdKZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `18-${EnumWORDLEVELS.C1BERUF}`,
+        id: `18-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: '',
@@ -224,7 +224,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2F4LOQpvPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `19-${EnumWORDLEVELS.C1BERUF}`,
+        id: `19-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'das',
         pluralEnding: '',
@@ -236,7 +236,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2SKslxdi8xZTwlRrBq2DKP6ysXHaGvLWi3QVJ',
     },
     {
-        id: `20-${EnumWORDLEVELS.C1BERUF}`,
+        id: `20-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -248,7 +248,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2oTpzN1Dx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `21-${EnumWORDLEVELS.C1BERUF}`,
+        id: `21-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: ', -en',
@@ -261,7 +261,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2V4QDe3zoerLP4zAHFIU3bhna97sgYcKy6SGf',
     },
     {
-        id: `22-${EnumWORDLEVELS.C1BERUF}`,
+        id: `22-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -273,7 +273,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tT1MtDnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `23-${EnumWORDLEVELS.C1BERUF}`,
+        id: `23-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: ', -en',
@@ -285,7 +285,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2PK49mw3cqDi0uIjZSfOAMVoXCzhe4gUb8FaG',
     },
     {
-        id: `24-${EnumWORDLEVELS.C1BERUF}`,
+        id: `24-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: ', -e',
@@ -297,7 +297,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qGHhklAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `25-${EnumWORDLEVELS.C1BERUF}`,
+        id: `25-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -310,7 +310,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2oONdGYDx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `26-${EnumWORDLEVELS.C1BERUF}`,
+        id: `26-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: ', -en',
@@ -322,7 +322,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2F7rZEAvPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `27-${EnumWORDLEVELS.C1BERUF}`,
+        id: `27-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -334,7 +334,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CoMf8Xa0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `28-${EnumWORDLEVELS.C1BERUF}`,
+        id: `28-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -346,7 +346,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2PzYvcV3cqDi0uIjZSfOAMVoXCzhe4gUb8FaG',
     },
     {
-        id: `29-${EnumWORDLEVELS.C1BERUF}`,
+        id: `29-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -358,7 +358,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2l1RMNaYIoHmBWYk93sSFP6LenbujJvyiNEIV',
     },
     {
-        id: `30-${EnumWORDLEVELS.C1BERUF}`,
+        id: `30-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: '',
@@ -370,7 +370,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2R65vGF1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `31-${EnumWORDLEVELS.C1BERUF}`,
+        id: `31-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -382,7 +382,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nTwxiIMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `32-${EnumWORDLEVELS.C1BERUF}`,
+        id: `32-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: ', -en',
@@ -394,7 +394,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2eTQCKvsiQUDIfn45vcpLXTBZkuWjmb6rthKz',
     },
     {
-        id: `33-${EnumWORDLEVELS.C1BERUF}`,
+        id: `33-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: ', -en',
@@ -406,7 +406,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2v4S8pYt2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `34-${EnumWORDLEVELS.C1BERUF}`,
+        id: `34-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: ', -räume',
@@ -418,7 +418,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21RzEX7xmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `35-${EnumWORDLEVELS.C1BERUF}`,
+        id: `35-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -430,7 +430,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj20uXaVHT5lMj2Hg6WNcwtUQmOBxkpdICAvZ4r',
     },
     {
-        id: `36-${EnumWORDLEVELS.C1BERUF}`,
+        id: `36-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -442,7 +442,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Tfw1J7dYMUSiw8CBH2aVWuzv9b1xXrgJGpe7',
     },
     {
-        id: `37-${EnumWORDLEVELS.C1BERUF}`,
+        id: `37-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -454,7 +454,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IGH4OFRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `38-${EnumWORDLEVELS.C1BERUF}`,
+        id: `38-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -468,7 +468,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2FTkMILvPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `39-${EnumWORDLEVELS.C1BERUF}`,
+        id: `39-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -480,7 +480,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2o8hjGYDx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `40-${EnumWORDLEVELS.C1BERUF}`,
+        id: `40-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: ', -e',
@@ -492,7 +492,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RJLSER1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `41-${EnumWORDLEVELS.C1BERUF}`,
+        id: `41-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: ', -e',
@@ -504,7 +504,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nWiy3aiMzHMhlAWOvkajZ7Xxbdr2PLgyY49R',
     },
     {
-        id: `42-${EnumWORDLEVELS.C1BERUF}`,
+        id: `42-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: ', -e',
@@ -516,7 +516,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DeMblHZ4bjOvU7hgyJZFifIasMQunldBS8m1',
     },
     {
-        id: `43-${EnumWORDLEVELS.C1BERUF}`,
+        id: `43-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -530,7 +530,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZkGZxtuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `44-${EnumWORDLEVELS.C1BERUF}`,
+        id: `44-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -544,7 +544,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WNmAah6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `45-${EnumWORDLEVELS.C1BERUF}`,
+        id: `45-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -556,7 +556,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Z06tptuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `46-${EnumWORDLEVELS.C1BERUF}`,
+        id: `46-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: ', -en',
@@ -569,7 +569,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24qg2jt5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `47-${EnumWORDLEVELS.C1BERUF}`,
+        id: `47-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -581,7 +581,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HZIlUW12cNosUue0XzCG9rj1kKA6vYTSdgJF',
     },
     {
-        id: `48-${EnumWORDLEVELS.C1BERUF}`,
+        id: `48-${WORD_LEVELS.C1BERUF}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Maßnahme',
@@ -593,7 +593,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DifVDB4bjOvU7hgyJZFifIasMQunldBS8m10',
     },
     {
-        id: `49-${EnumWORDLEVELS.C1BERUF}`,
+        id: `49-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -605,7 +605,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2dV0rAi9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `50-${EnumWORDLEVELS.C1BERUF}`,
+        id: `50-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -617,7 +617,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fbYtENSfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `51-${EnumWORDLEVELS.C1BERUF}`,
+        id: `51-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: '',
@@ -629,7 +629,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22CVdlBjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
     {
-        id: `52-${EnumWORDLEVELS.C1BERUF}`,
+        id: `52-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -641,7 +641,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj26g37A8dlpeThmKQnFU9aqMN7IywAgsvXEdOY',
     },
     {
-        id: `53-${EnumWORDLEVELS.C1BERUF}`,
+        id: `53-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -653,7 +653,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Xjj1INCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `54-${EnumWORDLEVELS.C1BERUF}`,
+        id: `54-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -665,7 +665,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WjWDo56S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `55-${EnumWORDLEVELS.C1BERUF}`,
+        id: `55-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -677,7 +677,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lVEhMeIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `56-${EnumWORDLEVELS.C1BERUF}`,
+        id: `56-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -689,7 +689,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xcHZ2QErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
-        id: `57-${EnumWORDLEVELS.C1BERUF}`,
+        id: `57-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: ', -e',
@@ -701,7 +701,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fLQj5DSfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `58-${EnumWORDLEVELS.C1BERUF}`,
+        id: `58-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: ', -n',
@@ -713,7 +713,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xroKGICErEf9kX7tASwp5OenNvCayZmP1qFi',
     },
     {
-        id: `59-${EnumWORDLEVELS.C1BERUF}`,
+        id: `59-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -726,7 +726,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XdkJ2xCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `60-${EnumWORDLEVELS.C1BERUF}`,
+        id: `60-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -738,7 +738,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RXQyOk1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `61-${EnumWORDLEVELS.C1BERUF}`,
+        id: `61-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -750,7 +750,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lAoC8KIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `62-${EnumWORDLEVELS.C1BERUF}`,
+        id: `62-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -763,7 +763,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RzhSCt1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `63-${EnumWORDLEVELS.C1BERUF}`,
+        id: `63-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -776,7 +776,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CIIL6bwa0RY1oVptKNDjmwu7HdWefzJbcIMQ',
     },
     {
-        id: `64-${EnumWORDLEVELS.C1BERUF}`,
+        id: `64-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: '',
@@ -789,7 +789,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LkfFfk00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `65-${EnumWORDLEVELS.C1BERUF}`,
+        id: `65-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: '',
@@ -801,7 +801,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2SecGxci8xZTwlRrBq2DKP6ysXHaGvLWi3QVJ',
     },
     {
-        id: `66-${EnumWORDLEVELS.C1BERUF}`,
+        id: `66-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -815,7 +815,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2NU6v90FxrQ3DE5MPoqZ8OYn60HJ7XGfUS1eu',
     },
     {
-        id: `67-${EnumWORDLEVELS.C1BERUF}`,
+        id: `67-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -827,7 +827,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2x6JRAfErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
-        id: `68-${EnumWORDLEVELS.C1BERUF}`,
+        id: `68-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: ', -n',
@@ -840,7 +840,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2S8ZqA8Gi8xZTwlRrBq2DKP6ysXHaGvLWi3QV',
     },
     {
-        id: `69-${EnumWORDLEVELS.C1BERUF}`,
+        id: `69-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: ', -en',
@@ -852,7 +852,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EWFfcwkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `70-${EnumWORDLEVELS.C1BERUF}`,
+        id: `70-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -864,7 +864,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2d3cSS019i3PrGnSwUuz6jDqFJCQEYhZxlMcO',
     },
     {
-        id: `71-${EnumWORDLEVELS.C1BERUF}`,
+        id: `71-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: ', -en',
@@ -876,7 +876,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29viXwxP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `72-${EnumWORDLEVELS.C1BERUF}`,
+        id: `72-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: ', -äge',
@@ -888,7 +888,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tQxWW3nzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `73-${EnumWORDLEVELS.C1BERUF}`,
+        id: `73-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -900,7 +900,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21KzvotxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `74-${EnumWORDLEVELS.C1BERUF}`,
+        id: `74-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -912,7 +912,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29iauB9P8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `75-${EnumWORDLEVELS.C1BERUF}`,
+        id: `75-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -924,7 +924,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jYR1PrZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `76-${EnumWORDLEVELS.C1BERUF}`,
+        id: `76-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: ', -änge',
@@ -936,7 +936,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29ATvAkP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `77-${EnumWORDLEVELS.C1BERUF}`,
+        id: `77-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -948,7 +948,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XkdFbWCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `78-${EnumWORDLEVELS.C1BERUF}`,
+        id: `78-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'die',
         pluralEnding: ', -n',
@@ -960,7 +960,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2VwO70DoerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `79-${EnumWORDLEVELS.C1BERUF}`,
+        id: `79-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -972,7 +972,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2n9WVxRMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `80-${EnumWORDLEVELS.C1BERUF}`,
+        id: `80-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -985,7 +985,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     /* THEMA 2 */
     {
-        id: `81-${EnumWORDLEVELS.C1BERUF}`,
+        id: `81-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: ', -n',
@@ -999,7 +999,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sxgojWqut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
     {
-        id: `82-${EnumWORDLEVELS.C1BERUF}`,
+        id: `82-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: '',
@@ -1011,7 +1011,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EbNvfYCkA85LO9g2Ia7lqmrNVjzPuGEWYUFM',
     },
     {
-        id: `83-${EnumWORDLEVELS.C1BERUF}`,
+        id: `83-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1023,7 +1023,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aRoX3FNlkeUbj4ryVWscL7OqIuH3Tao1N2pR',
     },
     {
-        id: `84-${EnumWORDLEVELS.C1BERUF}`,
+        id: `84-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1037,7 +1037,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2FeV645vPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `85-${EnumWORDLEVELS.C1BERUF}`,
+        id: `85-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1050,7 +1050,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2rWm8DJbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `86-${EnumWORDLEVELS.C1BERUF}`,
+        id: `86-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1062,7 +1062,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ToFKzjYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `87-${EnumWORDLEVELS.C1BERUF}`,
+        id: `87-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'das',
         pluralEnding: ', -e',
@@ -1076,7 +1076,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aQw8BHlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `88-${EnumWORDLEVELS.C1BERUF}`,
+        id: `88-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1088,7 +1088,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uBG1EeXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `89-${EnumWORDLEVELS.C1BERUF}`,
+        id: `89-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: ', -en',
@@ -1100,7 +1100,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uQFWyYXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `90-${EnumWORDLEVELS.C1BERUF}`,
+        id: `90-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'der',
         pluralEnding: ', -e',
@@ -1112,7 +1112,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qPpVboAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `91-${EnumWORDLEVELS.C1BERUF}`,
+        id: `91-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1124,7 +1124,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hrc0q3mE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `92-${EnumWORDLEVELS.C1BERUF}`,
+        id: `92-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1136,7 +1136,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MtNPNhzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `93-${EnumWORDLEVELS.C1BERUF}`,
+        id: `93-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1149,7 +1149,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sb8SY3qut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
     {
-        id: `94-${EnumWORDLEVELS.C1BERUF}`,
+        id: `94-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: ', -n',
@@ -1162,7 +1162,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ajJbTElkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `95-${EnumWORDLEVELS.C1BERUF}`,
+        id: `95-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1174,7 +1174,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2156WZIxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `96-${EnumWORDLEVELS.C1BERUF}`,
+        id: `96-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1186,7 +1186,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2YShirqhcS3i1d96lRqa7uUAbkrwx2PovceWn',
     },
     {
-        id: `97-${EnumWORDLEVELS.C1BERUF}`,
+        id: `97-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: ', -en',
@@ -1199,7 +1199,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
 
     {
-        id: `98-${EnumWORDLEVELS.C1BERUF}`,
+        id: `98-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1211,7 +1211,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2C9vVwoa0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `99-${EnumWORDLEVELS.C1BERUF}`,
+        id: `99-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1223,7 +1223,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2R4g6wg1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `100-${EnumWORDLEVELS.C1BERUF}`,
+        id: `100-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'der',
         pluralEnding: '',
@@ -1237,7 +1237,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2o5G3xWHDx6dMY0UtOKTuziVqcHa4JwPbS3I9',
     },
     {
-        id: `101-${EnumWORDLEVELS.C1BERUF}`,
+        id: `101-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: ', -n',
@@ -1249,7 +1249,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tzpilE1nzPEDhip5awk9oJ0LZsHVKWTrtuBm',
     },
     {
-        id: `102-${EnumWORDLEVELS.C1BERUF}`,
+        id: `102-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1262,7 +1262,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pHi8K7yLVcWGIlN4nRqPmS5w1e9M0QKHErDO',
     },
     {
-        id: `103-${EnumWORDLEVELS.C1BERUF}`,
+        id: `103-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1274,7 +1274,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21MznoexmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `104-${EnumWORDLEVELS.C1BERUF}`,
+        id: `104-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1286,7 +1286,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EFjcq1kA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `105-${EnumWORDLEVELS.C1BERUF}`,
+        id: `105-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'der',
         pluralEnding: ', -e',
@@ -1298,7 +1298,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Ix4AdsbRERnXyAFs1wgkQeO08mBbCrLMxhVG',
     },
     {
-        id: `106-${EnumWORDLEVELS.C1BERUF}`,
+        id: `106-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1310,7 +1310,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Cbzg2Ra0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `107-${EnumWORDLEVELS.C1BERUF}`,
+        id: `107-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1323,7 +1323,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pzX3so7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `108-${EnumWORDLEVELS.C1BERUF}`,
+        id: `108-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1335,7 +1335,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Fn6DU8ivPzSh60iIawY8NmKvojetsZu7g4Vk',
     },
     {
-        id: `109-${EnumWORDLEVELS.C1BERUF}`,
+        id: `109-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1347,7 +1347,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lh2XBbIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `110-${EnumWORDLEVELS.C1BERUF}`,
+        id: `110-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1360,7 +1360,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj20ijNKmT5lMj2Hg6WNcwtUQmOBxkpdICAvZ4r',
     },
     {
-        id: `111-${EnumWORDLEVELS.C1BERUF}`,
+        id: `111-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: '',
@@ -1373,7 +1373,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZzTAVEuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `112-${EnumWORDLEVELS.C1BERUF}`,
+        id: `112-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1387,7 +1387,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZCEH9LZuAsNohD0PafmZuC68pT42EvxRIWqt',
     },
     {
-        id: `113-${EnumWORDLEVELS.C1BERUF}`,
+        id: `113-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'der',
         pluralEnding: ', -e',
@@ -1400,7 +1400,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2urkIAXaI1DXObTetfWnBQ8Hsr5zdYkpjAc64',
     },
     {
-        id: `114-${EnumWORDLEVELS.C1BERUF}`,
+        id: `114-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'das',
         pluralEnding: ', -e',
@@ -1413,7 +1413,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29oGiVMP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `115-${EnumWORDLEVELS.C1BERUF}`,
+        id: `115-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'der',
         pluralEnding: '',
@@ -1425,7 +1425,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xcnPpuErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
-        id: `116-${EnumWORDLEVELS.C1BERUF}`,
+        id: `116-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'der',
         pluralEnding: '',
@@ -1437,7 +1437,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fHEszLSfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `117-${EnumWORDLEVELS.C1BERUF}`,
+        id: `117-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'der',
         pluralEnding: ', -ände',
@@ -1449,7 +1449,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj25qQ4kfxeSBWH6O842CKGNnTpeQhiJMycFDYq',
     },
     {
-        id: `118-${EnumWORDLEVELS.C1BERUF}`,
+        id: `118-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1461,7 +1461,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ud5n1dXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `119-${EnumWORDLEVELS.C1BERUF}`,
+        id: `119-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1473,7 +1473,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pvbCBr7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `120-${EnumWORDLEVELS.C1BERUF}`,
+        id: `120-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1485,7 +1485,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2u6iLmLXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `121-${EnumWORDLEVELS.C1BERUF}`,
+        id: `121-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: ', -en',
@@ -1497,7 +1497,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21tQVdOxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `122-${EnumWORDLEVELS.C1BERUF}`,
+        id: `122-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1510,7 +1510,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj23Qefz8p5i0mW2zR9YsTl17wtjAoCyFhEqUV3',
     },
     {
-        id: `123-${EnumWORDLEVELS.C1BERUF}`,
+        id: `123-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: '',
@@ -1522,7 +1522,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21q9OO3xmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `124-${EnumWORDLEVELS.C1BERUF}`,
+        id: `124-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1534,7 +1534,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj26axu4cdlpeThmKQnFU9aqMN7IywAgsvXEdOY',
     },
     {
-        id: `125-${EnumWORDLEVELS.C1BERUF}`,
+        id: `125-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: ', -en',
@@ -1546,7 +1546,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2V2cMfAoerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `126-${EnumWORDLEVELS.C1BERUF}`,
+        id: `126-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1558,7 +1558,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2afDEdplkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `127-${EnumWORDLEVELS.C1BERUF}`,
+        id: `127-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'der',
         pluralEnding: ', -n',
@@ -1570,7 +1570,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27NjrkNLB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `128-${EnumWORDLEVELS.C1BERUF}`,
+        id: `128-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: ', -en',
@@ -1582,7 +1582,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2W2Jdci6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `129-${EnumWORDLEVELS.C1BERUF}`,
+        id: `129-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'der',
         pluralEnding: ', -e',
@@ -1595,7 +1595,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2F6qsnPvPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `130-${EnumWORDLEVELS.C1BERUF}`,
+        id: `130-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: ', -n',
@@ -1607,7 +1607,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2otL43hDx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `131-${EnumWORDLEVELS.C1BERUF}`,
+        id: `131-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: ', -n',
@@ -1619,7 +1619,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kBfvoCrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `132-${EnumWORDLEVELS.C1BERUF}`,
+        id: `132-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'das',
         pluralEnding: ', -e',
@@ -1631,7 +1631,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2dAWt6N9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `133-${EnumWORDLEVELS.C1BERUF}`,
+        id: `133-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1644,7 +1644,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Xrv4NmCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `134-${EnumWORDLEVELS.C1BERUF}`,
+        id: `134-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1656,7 +1656,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jXrjvBfZEBv8DwLkfWZGqXKbarA6lusdpNUC',
     },
     {
-        id: `135-${EnumWORDLEVELS.C1BERUF}`,
+        id: `135-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1668,7 +1668,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2akw3Y6lkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `136-${EnumWORDLEVELS.C1BERUF}`,
+        id: `136-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1680,7 +1680,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DkvpeQ4bjOvU7hgyJZFifIasMQunldBS8m10',
     },
     {
-        id: `137-${EnumWORDLEVELS.C1BERUF}`,
+        id: `137-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1692,7 +1692,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2if2BjoOnwEHxZaD0uOAK2PpyVl5TU3Sj4WIe',
     },
     {
-        id: `138-${EnumWORDLEVELS.C1BERUF}`,
+        id: `138-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'der',
         pluralEnding: ', -¨e',
@@ -1704,7 +1704,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hrd8YcmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `139-${EnumWORDLEVELS.C1BERUF}`,
+        id: `139-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: ', -en',
@@ -1716,7 +1716,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IZKbZoRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `140-${EnumWORDLEVELS.C1BERUF}`,
+        id: `140-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: ', -n',
@@ -1728,7 +1728,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EqgEDLkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `141-${EnumWORDLEVELS.C1BERUF}`,
+        id: `141-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1740,7 +1740,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tzY5hbinzPEDhip5awk9oJ0LZsHVKWTrtuBm',
     },
     {
-        id: `142-${EnumWORDLEVELS.C1BERUF}`,
+        id: `142-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: ', -en',
@@ -1754,7 +1754,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OmhslYm8mNuvC5FRwjsLIE2opZbGxD8ge6WS',
     },
     {
-        id: `143-${EnumWORDLEVELS.C1BERUF}`,
+        id: `143-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: '',
@@ -1766,7 +1766,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2T3qE6LYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `144-${EnumWORDLEVELS.C1BERUF}`,
+        id: `144-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1778,7 +1778,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jwYIV4ZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `145-${EnumWORDLEVELS.C1BERUF}`,
+        id: `145-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1790,7 +1790,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2u12bPbXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `146-${EnumWORDLEVELS.C1BERUF}`,
+        id: `146-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1802,7 +1802,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Ix1BISIRERnXyAFs1wgkQeO08mBbCrLMxhVG',
     },
     {
-        id: `147-${EnumWORDLEVELS.C1BERUF}`,
+        id: `147-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1814,7 +1814,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2yh98tcHazuUF1Dqj4EbrZvioT0X8eMJkc9NG',
     },
     {
-        id: `148-${EnumWORDLEVELS.C1BERUF}`,
+        id: `148-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -1829,7 +1829,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     /* THEMA 3 */
 
     {
-        id: `149-${EnumWORDLEVELS.C1BERUF}`,
+        id: `149-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -1841,7 +1841,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2j2cbuwZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `150-${EnumWORDLEVELS.C1BERUF}`,
+        id: `150-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -1855,7 +1855,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2rwEymqbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `151-${EnumWORDLEVELS.C1BERUF}`,
+        id: `151-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -1868,7 +1868,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2eAGr4krsiQUDIfn45vcpLXTBZkuWjmb6rthK',
     },
     {
-        id: `152-${EnumWORDLEVELS.C1BERUF}`,
+        id: `152-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -1881,7 +1881,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WSEIxx6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `153-${EnumWORDLEVELS.C1BERUF}`,
+        id: `153-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -n',
@@ -1893,7 +1893,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29jLuXpP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `154-${EnumWORDLEVELS.C1BERUF}`,
+        id: `154-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -e',
@@ -1906,7 +1906,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ycPIdHazuUF1Dqj4EbrZvioT0X8eMJkc9NGt',
     },
     {
-        id: `155-${EnumWORDLEVELS.C1BERUF}`,
+        id: `155-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -n',
@@ -1919,7 +1919,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2daNRcr9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `156-${EnumWORDLEVELS.C1BERUF}`,
+        id: `156-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -n',
@@ -1933,7 +1933,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HDMoNN2cNosUue0XzCG9rj1kKA6vYTSdgJFq',
     },
     {
-        id: `157-${EnumWORDLEVELS.C1BERUF}`,
+        id: `157-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -1946,7 +1946,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aya9ZDlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `158-${EnumWORDLEVELS.C1BERUF}`,
+        id: `158-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -n',
@@ -1958,7 +1958,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29phqxIQP8xagtImQ23pOC4PewkRlh69S1rub',
     },
     {
-        id: `159-${EnumWORDLEVELS.C1BERUF}`,
+        id: `159-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: '',
@@ -1972,7 +1972,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Y1X6V5cS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
     {
-        id: `160-${EnumWORDLEVELS.C1BERUF}`,
+        id: `160-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -1984,7 +1984,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EYMVILkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `161-${EnumWORDLEVELS.C1BERUF}`,
+        id: `161-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: '',
@@ -1997,7 +1997,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DkVDFL4bjOvU7hgyJZFifIasMQunldBS8m10',
     },
     {
-        id: `162-${EnumWORDLEVELS.C1BERUF}`,
+        id: `162-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2009,7 +2009,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24W0FGu5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `163-${EnumWORDLEVELS.C1BERUF}`,
+        id: `163-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2021,7 +2021,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nerGpKMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `164-${EnumWORDLEVELS.C1BERUF}`,
+        id: `164-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2033,7 +2033,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jQLTbiZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `165-${EnumWORDLEVELS.C1BERUF}`,
+        id: `165-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2046,7 +2046,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XllXneoCIbx3hQUkp4NorV8CycZWejGFv9mu',
     },
     {
-        id: `166-${EnumWORDLEVELS.C1BERUF}`,
+        id: `166-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2058,7 +2058,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24EOudE5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `167-${EnumWORDLEVELS.C1BERUF}`,
+        id: `167-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2070,7 +2070,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2NtMi48DFxrQ3DE5MPoqZ8OYn60HJ7XGfUS1e',
     },
     {
-        id: `168-${EnumWORDLEVELS.C1BERUF}`,
+        id: `168-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -2082,7 +2082,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IvepNLRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `169-${EnumWORDLEVELS.C1BERUF}`,
+        id: `169-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'der',
         pluralEnding: ', -e',
@@ -2094,7 +2094,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hNd8TvmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `170-${EnumWORDLEVELS.C1BERUF}`,
+        id: `170-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2107,7 +2107,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2owAzrKDx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `171-${EnumWORDLEVELS.C1BERUF}`,
+        id: `171-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2120,7 +2120,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nbFDwEMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `172-${EnumWORDLEVELS.C1BERUF}`,
+        id: `172-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2132,7 +2132,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sKnG98bqut05vGR4xAzBPChl1rWEkFbY2aNU',
     },
     {
-        id: `173-${EnumWORDLEVELS.C1BERUF}`,
+        id: `173-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'der',
         pluralEnding: ', -e',
@@ -2144,7 +2144,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Xkc4jLCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `174-${EnumWORDLEVELS.C1BERUF}`,
+        id: `174-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2156,7 +2156,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2PTZiiX3cqDi0uIjZSfOAMVoXCzhe4gUb8FaG',
     },
     {
-        id: `175-${EnumWORDLEVELS.C1BERUF}`,
+        id: `175-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2168,7 +2168,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Z7HsNnuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `176-${EnumWORDLEVELS.C1BERUF}`,
+        id: `176-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -2180,7 +2180,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XdAoiiCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `177-${EnumWORDLEVELS.C1BERUF}`,
+        id: `177-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'der',
         pluralEnding: '',
@@ -2192,7 +2192,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZGDQb1uAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `178-${EnumWORDLEVELS.C1BERUF}`,
+        id: `178-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2204,7 +2204,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2exINMMsiQUDIfn45vcpLXTBZkuWjmb6rthKz',
     },
     {
-        id: `179-${EnumWORDLEVELS.C1BERUF}`,
+        id: `179-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'der',
         pluralEnding: ', -n',
@@ -2216,7 +2216,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RaampT1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `180-${EnumWORDLEVELS.C1BERUF}`,
+        id: `180-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'das',
         pluralEnding: '',
@@ -2228,7 +2228,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj23hs1xPp5i0mW2zR9YsTl17wtjAoCyFhEqUV3',
     },
     {
-        id: `181-${EnumWORDLEVELS.C1BERUF}`,
+        id: `181-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: '',
@@ -2241,7 +2241,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj26JmUppdlpeThmKQnFU9aqMN7IywAgsvXEdOY',
     },
     {
-        id: `182-${EnumWORDLEVELS.C1BERUF}`,
+        id: `182-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2254,7 +2254,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tzdm6xYnzPEDhip5awk9oJ0LZsHVKWTrtuBm',
     },
     {
-        id: `183-${EnumWORDLEVELS.C1BERUF}`,
+        id: `183-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -2267,7 +2267,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2NZSST1FxrQ3DE5MPoqZ8OYn60HJ7XGfUS1eu',
     },
     {
-        id: `184-${EnumWORDLEVELS.C1BERUF}`,
+        id: `184-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: '',
@@ -2280,7 +2280,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Moav4LzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `185-${EnumWORDLEVELS.C1BERUF}`,
+        id: `185-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2292,7 +2292,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RalhaE1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `186-${EnumWORDLEVELS.C1BERUF}`,
+        id: `186-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2305,7 +2305,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Fnt3oR0vPzSh60iIawY8NmKvojetsZu7g4Vk',
     },
     {
-        id: `187-${EnumWORDLEVELS.C1BERUF}`,
+        id: `187-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2317,7 +2317,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2TfjynOhYMUSiw8CBH2aVWuzv9b1xXrgJGpe7',
     },
     {
-        id: `188-${EnumWORDLEVELS.C1BERUF}`,
+        id: `188-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -2330,7 +2330,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xro0FRAErEf9kX7tASwp5OenNvCayZmP1qFi',
     },
     {
-        id: `189-${EnumWORDLEVELS.C1BERUF}`,
+        id: `189-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -2344,7 +2344,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21ftn9QxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `190-${EnumWORDLEVELS.C1BERUF}`,
+        id: `190-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: '',
@@ -2358,7 +2358,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24JCaL05jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `191-${EnumWORDLEVELS.C1BERUF}`,
+        id: `191-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -2372,7 +2372,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28JJdd9IhuBKpyIfRkZmiaHghrVcO620oFYwQ',
     },
     {
-        id: `192-${EnumWORDLEVELS.C1BERUF}`,
+        id: `192-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2384,7 +2384,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tzYBzbDnzPEDhip5awk9oJ0LZsHVKWTrtuBm',
     },
     {
-        id: `193-${EnumWORDLEVELS.C1BERUF}`,
+        id: `193-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2396,7 +2396,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2apjJ5zlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `194-${EnumWORDLEVELS.C1BERUF}`,
+        id: `194-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: '',
@@ -2410,7 +2410,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj26PLCuSWdlpeThmKQnFU9aqMN7IywAgsvXEdO',
     },
     {
-        id: `195-${EnumWORDLEVELS.C1BERUF}`,
+        id: `195-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2423,7 +2423,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LYT39PV00gdyMkDH61c2wFBO5xAipXWreU4m',
     },
     {
-        id: `196-${EnumWORDLEVELS.C1BERUF}`,
+        id: `196-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2436,7 +2436,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jXbQmpeZEBv8DwLkfWZGqXKbarA6lusdpNUC',
     },
     {
-        id: `197-${EnumWORDLEVELS.C1BERUF}`,
+        id: `197-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -2450,7 +2450,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jVod1mZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `198-${EnumWORDLEVELS.C1BERUF}`,
+        id: `198-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -n',
@@ -2462,7 +2462,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bMIg1xVMKxjXEqCh12naiyulY9Z3N4v7c5Q0',
     },
     {
-        id: `199-${EnumWORDLEVELS.C1BERUF}`,
+        id: `199-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: '',
@@ -2474,7 +2474,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Rc7UKO1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `200-${EnumWORDLEVELS.C1BERUF}`,
+        id: `200-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2486,7 +2486,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27fkiGHLB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `201-${EnumWORDLEVELS.C1BERUF}`,
+        id: `201-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -2498,7 +2498,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uyFxOEXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `202-${EnumWORDLEVELS.C1BERUF}`,
+        id: `202-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'der',
         pluralEnding: ', -e',
@@ -2512,7 +2512,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lqe5n6IoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `203-${EnumWORDLEVELS.C1BERUF}`,
+        id: `203-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: '',
@@ -2526,7 +2526,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Z7YedFuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `204-${EnumWORDLEVELS.C1BERUF}`,
+        id: `204-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'der',
         pluralEnding: ', -¨e',
@@ -2540,7 +2540,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2oZCS8QDx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `205-${EnumWORDLEVELS.C1BERUF}`,
+        id: `205-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'ein',
         pluralEnding: '',
@@ -2553,7 +2553,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HdO6sy2cNosUue0XzCG9rj1kKA6vYTSdgJFq',
     },
     {
-        id: `206-${EnumWORDLEVELS.C1BERUF}`,
+        id: `206-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -n',
@@ -2567,7 +2567,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lv60sUIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `207-${EnumWORDLEVELS.C1BERUF}`,
+        id: `207-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2579,7 +2579,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Vy7l6WoerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `208-${EnumWORDLEVELS.C1BERUF}`,
+        id: `208-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2591,7 +2591,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jWGKOPZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `209-${EnumWORDLEVELS.C1BERUF}`,
+        id: `209-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'das',
         pluralEnding: ', -e',
@@ -2605,7 +2605,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uynsY5XaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `210-${EnumWORDLEVELS.C1BERUF}`,
+        id: `210-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2617,7 +2617,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2TfH8EbMYMUSiw8CBH2aVWuzv9b1xXrgJGpe7',
     },
     {
-        id: `211-${EnumWORDLEVELS.C1BERUF}`,
+        id: `211-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -2629,7 +2629,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21kq7LJRxmtKa2DGLNwRdUkJ8OXIEMyop04Zi',
     },
     {
-        id: `212-${EnumWORDLEVELS.C1BERUF}`,
+        id: `212-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: '',
@@ -2643,7 +2643,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jJhsE1ZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `213-${EnumWORDLEVELS.C1BERUF}`,
+        id: `213-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2655,7 +2655,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bDFf3fiVMKxjXEqCh12naiyulY9Z3N4v7c5Q',
     },
     {
-        id: `214-${EnumWORDLEVELS.C1BERUF}`,
+        id: `214-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'der',
         pluralEnding: ', -e',
@@ -2667,7 +2667,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bDN0xDYVMKxjXEqCh12naiyulY9Z3N4v7c5Q',
     },
     {
-        id: `215-${EnumWORDLEVELS.C1BERUF}`,
+        id: `215-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2680,7 +2680,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2u4rfz3XaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `216-${EnumWORDLEVELS.C1BERUF}`,
+        id: `216-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -2692,7 +2692,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28JI01PvhuBKpyIfRkZmiaHghrVcO620oFYwQ',
     },
     {
-        id: `217-${EnumWORDLEVELS.C1BERUF}`,
+        id: `217-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'der',
         pluralEnding: '',
@@ -2704,7 +2704,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27zTjXELB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `218-${EnumWORDLEVELS.C1BERUF}`,
+        id: `218-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: '',
@@ -2718,7 +2718,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aRDN3IUlkeUbj4ryVWscL7OqIuH3Tao1N2pR',
     },
     {
-        id: `219-${EnumWORDLEVELS.C1BERUF}`,
+        id: `219-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -2731,7 +2731,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CI5FEm9a0RY1oVptKNDjmwu7HdWefzJbcIMQ',
     },
     {
-        id: `220-${EnumWORDLEVELS.C1BERUF}`,
+        id: `220-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -2745,7 +2745,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2q6cwfDAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `221-${EnumWORDLEVELS.C1BERUF}`,
+        id: `221-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'das',
         pluralEnding: ', -e',
@@ -2758,7 +2758,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24sQ6tAj5jTrOdhNFvLIzbScl0H7kuEyeBaDA',
     },
     {
-        id: `222-${EnumWORDLEVELS.C1BERUF}`,
+        id: `222-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2770,7 +2770,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ucOuTTXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `223-${EnumWORDLEVELS.C1BERUF}`,
+        id: `223-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2784,7 +2784,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2rsL1QSbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `224-${EnumWORDLEVELS.C1BERUF}`,
+        id: `224-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -2798,7 +2798,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2REkiWH21oUWlvZanfsiPK2zhEDpc1eSMkdYJ',
     },
     {
-        id: `225-${EnumWORDLEVELS.C1BERUF}`,
+        id: `225-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'der',
         pluralEnding: '',
@@ -2812,7 +2812,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2zTPiU4WyVkpZlH1caN6f8su25OjS79oEeWxq',
     },
     {
-        id: `226-${EnumWORDLEVELS.C1BERUF}`,
+        id: `226-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2824,7 +2824,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2REstEba1oUWlvZanfsiPK2zhEDpc1eSMkdYJ',
     },
     {
-        id: `227-${EnumWORDLEVELS.C1BERUF}`,
+        id: `227-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -2836,7 +2836,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2z8nYMoWyVkpZlH1caN6f8su25OjS79oEeWxq',
     },
     {
-        id: `228-${EnumWORDLEVELS.C1BERUF}`,
+        id: `228-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -2852,7 +2852,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     /* THEMA 4 */
 
     {
-        id: `229-${EnumWORDLEVELS.C1BERUF}`,
+        id: `229-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -2866,7 +2866,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vzqTVLt2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `230-${EnumWORDLEVELS.C1BERUF}`,
+        id: `230-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -2880,7 +2880,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2M672yO4zcjrpP4Fmzi8x1ygHvahW2KBowuJ0',
     },
     {
-        id: `231-${EnumWORDLEVELS.C1BERUF}`,
+        id: `231-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'das',
         pluralEnding: ', -s',
@@ -2893,7 +2893,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj26P9LHnldlpeThmKQnFU9aqMN7IywAgsvXEdO',
     },
     {
-        id: `232-${EnumWORDLEVELS.C1BERUF}`,
+        id: `232-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -2907,7 +2907,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21i7Fg7xmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `233-${EnumWORDLEVELS.C1BERUF}`,
+        id: `233-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -2921,7 +2921,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LO4T7700gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `234-${EnumWORDLEVELS.C1BERUF}`,
+        id: `234-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'das',
         pluralEnding: ', -s',
@@ -2933,7 +2933,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aAv1MAlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `235-${EnumWORDLEVELS.C1BERUF}`,
+        id: `235-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -2947,7 +2947,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2X40qQJCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `236-${EnumWORDLEVELS.C1BERUF}`,
+        id: `236-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'das',
         pluralEnding: ', -s',
@@ -2961,7 +2961,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj25fhzsteSBWH6O842CKGNnTpeQhiJMycFDYqb',
     },
     {
-        id: `237-${EnumWORDLEVELS.C1BERUF}`,
+        id: `237-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -2975,7 +2975,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Mp5smDzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `238-${EnumWORDLEVELS.C1BERUF}`,
+        id: `238-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -2989,7 +2989,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ReqTJu1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `239-${EnumWORDLEVELS.C1BERUF}`,
+        id: `239-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3001,7 +3001,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MS1dJ0zcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `240-${EnumWORDLEVELS.C1BERUF}`,
+        id: `240-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3014,7 +3014,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XjIhfnCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `241-${EnumWORDLEVELS.C1BERUF}`,
+        id: `241-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3026,7 +3026,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kmRyasrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `242-${EnumWORDLEVELS.C1BERUF}`,
+        id: `242-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3038,7 +3038,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2rMjkL1bP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `243-${EnumWORDLEVELS.C1BERUF}`,
+        id: `243-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3050,7 +3050,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jLJJPHZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `244-${EnumWORDLEVELS.C1BERUF}`,
+        id: `244-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3063,7 +3063,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Xlex8IdCIbx3hQUkp4NorV8CycZWejGFv9mu',
     },
     {
-        id: `245-${EnumWORDLEVELS.C1BERUF}`,
+        id: `245-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -3076,7 +3076,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hggoGlFmE40UlzHRsdQgT12PakeBw9DpMibv',
     },
     {
-        id: `246-${EnumWORDLEVELS.C1BERUF}`,
+        id: `246-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3088,7 +3088,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Mf8TG8zcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `247-${EnumWORDLEVELS.C1BERUF}`,
+        id: `247-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3102,7 +3102,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jjc6eOZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `248-${EnumWORDLEVELS.C1BERUF}`,
+        id: `248-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3114,7 +3114,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ciuDuSsf4R8P6OUJz5WNDXld7g0AorutVFxq',
     },
     {
-        id: `249-${EnumWORDLEVELS.C1BERUF}`,
+        id: `249-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -3128,7 +3128,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sywJVQqut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
     {
-        id: `250-${EnumWORDLEVELS.C1BERUF}`,
+        id: `250-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'der',
         pluralEnding: ', -s',
@@ -3142,7 +3142,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sKnVDY4qut05vGR4xAzBPChl1rWEkFbY2aNU',
     },
     {
-        id: `251-${EnumWORDLEVELS.C1BERUF}`,
+        id: `251-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3155,7 +3155,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IAjK9DRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `252-${EnumWORDLEVELS.C1BERUF}`,
+        id: `252-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3168,7 +3168,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29fQf3GP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `253-${EnumWORDLEVELS.C1BERUF}`,
+        id: `253-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -3180,7 +3180,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2n2uzHLMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `254-${EnumWORDLEVELS.C1BERUF}`,
+        id: `254-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'der/die',
         pluralEnding: ', -n',
@@ -3192,7 +3192,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Xua79FCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `255-${EnumWORDLEVELS.C1BERUF}`,
+        id: `255-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3204,7 +3204,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IxrN4d7RERnXyAFs1wgkQeO08mBbCrLMxhVG',
     },
     {
-        id: `256-${EnumWORDLEVELS.C1BERUF}`,
+        id: `256-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3216,7 +3216,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EbKv1z6kA85LO9g2Ia7lqmrNVjzPuGEWYUFM',
     },
     {
-        id: `257-${EnumWORDLEVELS.C1BERUF}`,
+        id: `257-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'das',
         pluralEnding: ', -en',
@@ -3228,7 +3228,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sKzSSQwqut05vGR4xAzBPChl1rWEkFbY2aNU',
     },
     {
-        id: `258-${EnumWORDLEVELS.C1BERUF}`,
+        id: `258-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -3240,7 +3240,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sKzSSQwqut05vGR4xAzBPChl1rWEkFbY2aNU',
     },
     {
-        id: `259-${EnumWORDLEVELS.C1BERUF}`,
+        id: `259-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3252,7 +3252,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ytQhKYHazuUF1Dqj4EbrZvioT0X8eMJkc9NG',
     },
     {
-        id: `260-${EnumWORDLEVELS.C1BERUF}`,
+        id: `260-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'das',
         pluralEnding: '',
@@ -3264,7 +3264,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jTllqyZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `261-${EnumWORDLEVELS.C1BERUF}`,
+        id: `261-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -n',
@@ -3276,7 +3276,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29eKeNxP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `262-${EnumWORDLEVELS.C1BERUF}`,
+        id: `262-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3288,7 +3288,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bDUNue0VMKxjXEqCh12naiyulY9Z3N4v7c5Q',
     },
     {
-        id: `263-${EnumWORDLEVELS.C1BERUF}`,
+        id: `263-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3301,7 +3301,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29Tyiy4P8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `264-${EnumWORDLEVELS.C1BERUF}`,
+        id: `264-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3313,7 +3313,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2l14jwDNIoHmBWYk93sSFP6LenbujJvyiNEIV',
     },
     {
-        id: `265-${EnumWORDLEVELS.C1BERUF}`,
+        id: `265-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'das',
         pluralEnding: ', -',
@@ -3325,7 +3325,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2rBAc4dbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `266-${EnumWORDLEVELS.C1BERUF}`,
+        id: `266-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3337,7 +3337,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2h52vTKmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `267-${EnumWORDLEVELS.C1BERUF}`,
+        id: `267-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3349,7 +3349,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2r9kZOzbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `268-${EnumWORDLEVELS.C1BERUF}`,
+        id: `268-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -3361,7 +3361,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lzJoTnIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `269-${EnumWORDLEVELS.C1BERUF}`,
+        id: `269-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3373,7 +3373,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZP9UGFuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `270-${EnumWORDLEVELS.C1BERUF}`,
+        id: `270-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -3385,7 +3385,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2o55yqGXDx6dMY0UtOKTuziVqcHa4JwPbS3I9',
     },
     {
-        id: `271-${EnumWORDLEVELS.C1BERUF}`,
+        id: `271-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3397,7 +3397,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aGHhF2lkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `272-${EnumWORDLEVELS.C1BERUF}`,
+        id: `272-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3409,7 +3409,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28yZ5x4huBKpyIfRkZmiaHghrVcO620oFYwQS',
     },
     {
-        id: `273-${EnumWORDLEVELS.C1BERUF}`,
+        id: `273-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3422,7 +3422,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29MCQ8gP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `274-${EnumWORDLEVELS.C1BERUF}`,
+        id: `274-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'der',
         pluralEnding: ', -e',
@@ -3434,7 +3434,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ahFIMSlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `275-${EnumWORDLEVELS.C1BERUF}`,
+        id: `275-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3446,7 +3446,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27i5J8KLB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `276-${EnumWORDLEVELS.C1BERUF}`,
+        id: `276-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3458,7 +3458,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nZsTrXMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `277-${EnumWORDLEVELS.C1BERUF}`,
+        id: `277-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3471,7 +3471,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lpGX4LIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `278-${EnumWORDLEVELS.C1BERUF}`,
+        id: `278-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -3485,7 +3485,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DesAeLm4bjOvU7hgyJZFifIasMQunldBS8m1',
     },
     {
-        id: `279-${EnumWORDLEVELS.C1BERUF}`,
+        id: `279-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3497,7 +3497,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XwEvgaCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `280-${EnumWORDLEVELS.C1BERUF}`,
+        id: `280-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -3511,7 +3511,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24hQDHx5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `281-${EnumWORDLEVELS.C1BERUF}`,
+        id: `281-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3523,7 +3523,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kMZ91yrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `282-${EnumWORDLEVELS.C1BERUF}`,
+        id: `282-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -3537,7 +3537,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OSuy7L8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `283-${EnumWORDLEVELS.C1BERUF}`,
+        id: `283-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3550,7 +3550,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2feH9G0SfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `284-${EnumWORDLEVELS.C1BERUF}`,
+        id: `284-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -3564,7 +3564,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj224CXqhjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
     {
-        id: `285-${EnumWORDLEVELS.C1BERUF}`,
+        id: `285-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'der',
         pluralEnding: ', -äden',
@@ -3578,7 +3578,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21mOX4cxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `286-${EnumWORDLEVELS.C1BERUF}`,
+        id: `286-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -3591,7 +3591,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     /* THEMA 5 */
     {
-        id: `287-${EnumWORDLEVELS.C1BERUF}`,
+        id: `287-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'das',
         pluralEnding: '',
@@ -3603,7 +3603,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2oSawzrDx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `288-${EnumWORDLEVELS.C1BERUF}`,
+        id: `288-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: '',
@@ -3615,7 +3615,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Tm4dJ4YMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `289-${EnumWORDLEVELS.C1BERUF}`,
+        id: `289-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3628,7 +3628,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2eAAOjFFsiQUDIfn45vcpLXTBZkuWjmb6rthK',
     },
     {
-        id: `290-${EnumWORDLEVELS.C1BERUF}`,
+        id: `290-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3640,7 +3640,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2099VnaT5lMj2Hg6WNcwtUQmOBxkpdICAvZ4r',
     },
     {
-        id: `291-${EnumWORDLEVELS.C1BERUF}`,
+        id: `291-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3652,7 +3652,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IxexvJ3RERnXyAFs1wgkQeO08mBbCrLMxhVG',
     },
     {
-        id: `292-${EnumWORDLEVELS.C1BERUF}`,
+        id: `292-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'der',
         pluralEnding: '',
@@ -3666,7 +3666,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ueBE68XaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `293-${EnumWORDLEVELS.C1BERUF}`,
+        id: `293-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3679,7 +3679,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nptlPPMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `294-${EnumWORDLEVELS.C1BERUF}`,
+        id: `294-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3691,7 +3691,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZCC6IVxuAsNohD0PafmZuC68pT42EvxRIWqt',
     },
     {
-        id: `295-${EnumWORDLEVELS.C1BERUF}`,
+        id: `295-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3703,7 +3703,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OuXpZl8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `296-${EnumWORDLEVELS.C1BERUF}`,
+        id: `296-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3715,7 +3715,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LFuoD800gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `297-${EnumWORDLEVELS.C1BERUF}`,
+        id: `297-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3727,7 +3727,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2p0ONkyv7yLVcWGIlN4nRqPmS5w1e9M0QKHEr',
     },
     {
-        id: `298-${EnumWORDLEVELS.C1BERUF}`,
+        id: `298-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3739,7 +3739,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj23ZoKO8p5i0mW2zR9YsTl17wtjAoCyFhEqUV3',
     },
     {
-        id: `299-${EnumWORDLEVELS.C1BERUF}`,
+        id: `299-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3752,7 +3752,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2yOdaTfHazuUF1Dqj4EbrZvioT0X8eMJkc9NG',
     },
     {
-        id: `300-${EnumWORDLEVELS.C1BERUF}`,
+        id: `300-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3764,7 +3764,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2FnLhAunvPzSh60iIawY8NmKvojetsZu7g4Vk',
     },
     {
-        id: `301-${EnumWORDLEVELS.C1BERUF}`,
+        id: `301-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: ', -en',
@@ -3778,7 +3778,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qWN8OIAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `302-${EnumWORDLEVELS.C1BERUF}`,
+        id: `302-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3790,7 +3790,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2um8u8YXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `303-${EnumWORDLEVELS.C1BERUF}`,
+        id: `303-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: ', -en',
@@ -3803,7 +3803,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21ee3kIxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `304-${EnumWORDLEVELS.C1BERUF}`,
+        id: `304-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3815,7 +3815,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2SLW1H4i8xZTwlRrBq2DKP6ysXHaGvLWi3QVJ',
     },
     {
-        id: `305-${EnumWORDLEVELS.C1BERUF}`,
+        id: `305-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'das',
         pluralEnding: '',
@@ -3827,7 +3827,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bSJKNMVMKxjXEqCh12naiyulY9Z3N4v7c5Q0',
     },
     {
-        id: `306-${EnumWORDLEVELS.C1BERUF}`,
+        id: `306-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3839,7 +3839,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Otl6sC8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `307-${EnumWORDLEVELS.C1BERUF}`,
+        id: `307-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3851,7 +3851,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2PTEVjH3cqDi0uIjZSfOAMVoXCzhe4gUb8FaG',
     },
     {
-        id: `308-${EnumWORDLEVELS.C1BERUF}`,
+        id: `308-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3863,7 +3863,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MkFjLlzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `309-${EnumWORDLEVELS.C1BERUF}`,
+        id: `309-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3875,7 +3875,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2c16vYZf4R8P6OUJz5WNDXld7g0AorutVFxqm',
     },
     {
-        id: `310-${EnumWORDLEVELS.C1BERUF}`,
+        id: `310-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3887,7 +3887,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nsOuPAMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `311-${EnumWORDLEVELS.C1BERUF}`,
+        id: `311-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3899,7 +3899,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2j2W5VzZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `312-${EnumWORDLEVELS.C1BERUF}`,
+        id: `312-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: ', -en',
@@ -3912,7 +3912,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
 
     {
-        id: `313-${EnumWORDLEVELS.C1BERUF}`,
+        id: `313-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: '',
@@ -3924,7 +3924,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CwieRKa0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `314-${EnumWORDLEVELS.C1BERUF}`,
+        id: `314-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: '',
@@ -3936,7 +3936,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj26cemqBdlpeThmKQnFU9aqMN7IywAgsvXEdOY',
     },
     {
-        id: `315-${EnumWORDLEVELS.C1BERUF}`,
+        id: `315-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'ein',
         pluralEnding: '',
@@ -3948,7 +3948,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj20cgbJP8T5lMj2Hg6WNcwtUQmOBxkpdICAvZ4',
     },
     {
-        id: `316-${EnumWORDLEVELS.C1BERUF}`,
+        id: `316-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3961,7 +3961,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Yao3xGcS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
     {
-        id: `317-${EnumWORDLEVELS.C1BERUF}`,
+        id: `317-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3973,7 +3973,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22XzRZkjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
     {
-        id: `318-${EnumWORDLEVELS.C1BERUF}`,
+        id: `318-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -3985,7 +3985,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LaNWoq00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `319-${EnumWORDLEVELS.C1BERUF}`,
+        id: `319-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'der',
         pluralEnding: ', -e',
@@ -3998,7 +3998,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fMrvh5SfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `320-${EnumWORDLEVELS.C1BERUF}`,
+        id: `320-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4010,7 +4010,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2zoEMMLWyVkpZlH1caN6f8su25OjS79oEeWxq',
     },
     {
-        id: `321-${EnumWORDLEVELS.C1BERUF}`,
+        id: `321-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4022,7 +4022,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2t8FcIhnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `322-${EnumWORDLEVELS.C1BERUF}`,
+        id: `322-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4034,7 +4034,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27gtYlmLB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `323-${EnumWORDLEVELS.C1BERUF}`,
+        id: `323-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4046,7 +4046,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MavuhqzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `324-${EnumWORDLEVELS.C1BERUF}`,
+        id: `324-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4058,7 +4058,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xY6sjTErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
-        id: `325-${EnumWORDLEVELS.C1BERUF}`,
+        id: `325-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4070,7 +4070,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2zRugBbWyVkpZlH1caN6f8su25OjS79oEeWxq',
     },
     {
-        id: `326-${EnumWORDLEVELS.C1BERUF}`,
+        id: `326-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4082,7 +4082,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RWYxzn1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `327-${EnumWORDLEVELS.C1BERUF}`,
+        id: `327-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4094,7 +4094,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj25qKHrgHeSBWH6O842CKGNnTpeQhiJMycFDYq',
     },
     {
-        id: `328-${EnumWORDLEVELS.C1BERUF}`,
+        id: `328-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'ein',
         pluralEnding: '',
@@ -4106,7 +4106,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ageksKlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `329-${EnumWORDLEVELS.C1BERUF}`,
+        id: `329-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4118,7 +4118,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2roFWAxabP5ZvnBOYuiHkz7M6AlLdo4sc8jRN',
     },
     {
-        id: `330-${EnumWORDLEVELS.C1BERUF}`,
+        id: `330-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4130,7 +4130,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24Dokft5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `331-${EnumWORDLEVELS.C1BERUF}`,
+        id: `331-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4142,7 +4142,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2V3FjOjoerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `332-${EnumWORDLEVELS.C1BERUF}`,
+        id: `332-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4154,7 +4154,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2p2MykJ7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `333-${EnumWORDLEVELS.C1BERUF}`,
+        id: `333-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: ', -en',
@@ -4166,7 +4166,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jYH2asZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `334-${EnumWORDLEVELS.C1BERUF}`,
+        id: `334-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: '',
@@ -4179,7 +4179,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2YjG7NHcS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
     {
-        id: `335-${EnumWORDLEVELS.C1BERUF}`,
+        id: `335-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4191,7 +4191,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lgm6HXIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `336-${EnumWORDLEVELS.C1BERUF}`,
+        id: `336-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: '',
@@ -4203,7 +4203,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZArs6WuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `337-${EnumWORDLEVELS.C1BERUF}`,
+        id: `337-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: '',
@@ -4215,7 +4215,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27850mzLB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `338-${EnumWORDLEVELS.C1BERUF}`,
+        id: `338-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: ', -n',
@@ -4227,7 +4227,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2t3B48nzPEDhip5awk9oJ0LZsHVKWTrtuBm31',
     },
     {
-        id: `339-${EnumWORDLEVELS.C1BERUF}`,
+        id: `339-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4239,7 +4239,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2asGrLGlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `340-${EnumWORDLEVELS.C1BERUF}`,
+        id: `340-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4252,7 +4252,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OBC1fj8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `341-${EnumWORDLEVELS.C1BERUF}`,
+        id: `341-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4265,7 +4265,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZRn6g8uAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `342-${EnumWORDLEVELS.C1BERUF}`,
+        id: `342-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4279,7 +4279,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WOwMCq6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `343-${EnumWORDLEVELS.C1BERUF}`,
+        id: `343-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4291,7 +4291,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aDZX5OlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `344-${EnumWORDLEVELS.C1BERUF}`,
+        id: `344-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: ', -n',
@@ -4305,7 +4305,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tVFQqlnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `345-${EnumWORDLEVELS.C1BERUF}`,
+        id: `345-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: ', -en',
@@ -4319,7 +4319,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27XYMM3LB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `346-${EnumWORDLEVELS.C1BERUF}`,
+        id: `346-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'der',
         pluralEnding: ', -en',
@@ -4333,7 +4333,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CR0DkVa0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `347-${EnumWORDLEVELS.C1BERUF}`,
+        id: `347-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'das',
         pluralEnding: ', -s',
@@ -4347,7 +4347,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24OBI1W5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `348-${EnumWORDLEVELS.C1BERUF}`,
+        id: `348-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'der',
         pluralEnding: ', -pläne',
@@ -4361,7 +4361,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tYR6MbnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `349-${EnumWORDLEVELS.C1BERUF}`,
+        id: `349-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: ', -en',
@@ -4375,7 +4375,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aiYHtelkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `350-${EnumWORDLEVELS.C1BERUF}`,
+        id: `350-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4387,7 +4387,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj217qB74xmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `351-${EnumWORDLEVELS.C1BERUF}`,
+        id: `351-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4399,7 +4399,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RGDc2j1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `352-${EnumWORDLEVELS.C1BERUF}`,
+        id: `352-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'das',
         pluralEnding: '',
@@ -4413,7 +4413,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bSucRyVMKxjXEqCh12naiyulY9Z3N4v7c5Q0',
     },
     {
-        id: `353-${EnumWORDLEVELS.C1BERUF}`,
+        id: `353-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'der',
         pluralEnding: ', -s',
@@ -4427,7 +4427,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21fWPHvxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `354-${EnumWORDLEVELS.C1BERUF}`,
+        id: `354-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'die',
         pluralEnding: '',
@@ -4440,7 +4440,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2N3CoJNFxrQ3DE5MPoqZ8OYn60HJ7XGfUS1eu',
     },
     {
-        id: `355-${EnumWORDLEVELS.C1BERUF}`,
+        id: `355-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'das',
         pluralEnding: ', -e',
@@ -4454,7 +4454,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24PVkCQ5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `356-${EnumWORDLEVELS.C1BERUF}`,
+        id: `356-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'der',
         pluralEnding: ', -es',
@@ -4468,7 +4468,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uHeruFXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `357-${EnumWORDLEVELS.C1BERUF}`,
+        id: `357-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4480,7 +4480,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MaHBvuzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `358-${EnumWORDLEVELS.C1BERUF}`,
+        id: `358-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4492,7 +4492,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LhXuEd00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `359-${EnumWORDLEVELS.C1BERUF}`,
+        id: `359-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'der',
         pluralEnding: ', -n',
@@ -4504,7 +4504,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lDXszLIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `360-${EnumWORDLEVELS.C1BERUF}`,
+        id: `360-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: 'die',
         pluralEnding: ', -n',
@@ -4517,7 +4517,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2VRE26joerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `361-${EnumWORDLEVELS.C1BERUF}`,
+        id: `361-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4529,7 +4529,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2r0apvqbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `362-${EnumWORDLEVELS.C1BERUF}`,
+        id: `362-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA2,
         article: '',
         pluralEnding: '',
@@ -4543,7 +4543,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RRfDbB1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `363-${EnumWORDLEVELS.C1BERUF}`,
+        id: `363-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4557,7 +4557,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lVWt7gIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `364-${EnumWORDLEVELS.C1BERUF}`,
+        id: `364-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4569,7 +4569,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hA68agmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `365-${EnumWORDLEVELS.C1BERUF}`,
+        id: `365-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: 'der',
         pluralEnding: ', -s',
@@ -4582,7 +4582,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MrdtYTzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `366-${EnumWORDLEVELS.C1BERUF}`,
+        id: `366-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -4595,7 +4595,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     /* THEMA 6 */
     {
-        id: `367-${EnumWORDLEVELS.C1BERUF}`,
+        id: `367-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'der',
         pluralEnding: ', -en',
@@ -4607,7 +4607,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27oOiD2LB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `368-${EnumWORDLEVELS.C1BERUF}`,
+        id: `368-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'der',
         pluralEnding: ', -s',
@@ -4619,7 +4619,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2itFNBNOnwEHxZaD0uOAK2PpyVl5TU3Sj4WIe',
     },
     {
-        id: `369-${EnumWORDLEVELS.C1BERUF}`,
+        id: `369-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'die',
         pluralEnding: ', -en',
@@ -4631,7 +4631,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kczg12rpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `370-${EnumWORDLEVELS.C1BERUF}`,
+        id: `370-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'der',
         pluralEnding: ', -e',
@@ -4643,7 +4643,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj221rUXFjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
     {
-        id: `371-${EnumWORDLEVELS.C1BERUF}`,
+        id: `371-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4657,7 +4657,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2TUBORgYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `372-${EnumWORDLEVELS.C1BERUF}`,
+        id: `372-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'die',
         pluralEnding: ', -en',
@@ -4670,7 +4670,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2PTseo53cqDi0uIjZSfOAMVoXCzhe4gUb8FaG',
     },
     {
-        id: `373-${EnumWORDLEVELS.C1BERUF}`,
+        id: `373-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'die',
         pluralEnding: ', -en',
@@ -4682,7 +4682,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vLbnUit2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `374-${EnumWORDLEVELS.C1BERUF}`,
+        id: `374-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'die',
         pluralEnding: ', -en',
@@ -4696,7 +4696,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2o5MAmqdDx6dMY0UtOKTuziVqcHa4JwPbS3I9',
     },
     {
-        id: `375-${EnumWORDLEVELS.C1BERUF}`,
+        id: `375-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'die',
         pluralEnding: ', -en',
@@ -4710,7 +4710,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2dLJwNJ9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `376-${EnumWORDLEVELS.C1BERUF}`,
+        id: `376-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4724,7 +4724,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2H0QzCx2cNosUue0XzCG9rj1kKA6vYTSdgJFq',
     },
     {
-        id: `377-${EnumWORDLEVELS.C1BERUF}`,
+        id: `377-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4737,7 +4737,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RCLu3I1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `378-${EnumWORDLEVELS.C1BERUF}`,
+        id: `378-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4751,7 +4751,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HZIqVss2cNosUue0XzCG9rj1kKA6vYTSdgJF',
     },
     {
-        id: `379-${EnumWORDLEVELS.C1BERUF}`,
+        id: `379-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4765,7 +4765,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2elXBmJsiQUDIfn45vcpLXTBZkuWjmb6rthKz',
     },
     {
-        id: `380-${EnumWORDLEVELS.C1BERUF}`,
+        id: `380-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4778,7 +4778,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2apStwKlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `381-${EnumWORDLEVELS.C1BERUF}`,
+        id: `381-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4790,7 +4790,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj20PyQFET5lMj2Hg6WNcwtUQmOBxkpdICAvZ4r',
     },
     {
-        id: `382-${EnumWORDLEVELS.C1BERUF}`,
+        id: `382-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4804,7 +4804,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jyKPGzZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `383-${EnumWORDLEVELS.C1BERUF}`,
+        id: `383-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4816,7 +4816,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZCRrvmduAsNohD0PafmZuC68pT42EvxRIWqt',
     },
     {
-        id: `384-${EnumWORDLEVELS.C1BERUF}`,
+        id: `384-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'die',
         pluralEnding: '',
@@ -4828,7 +4828,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2q9LyIFAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `385-${EnumWORDLEVELS.C1BERUF}`,
+        id: `385-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4840,7 +4840,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jWqNWgZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `386-${EnumWORDLEVELS.C1BERUF}`,
+        id: `386-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4852,7 +4852,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21voRWxmtKa2DGLNwRdUkJ8OXIEMyop04Zigq',
     },
     {
-        id: `387-${EnumWORDLEVELS.C1BERUF}`,
+        id: `387-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4864,7 +4864,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29J6I0oP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `388-${EnumWORDLEVELS.C1BERUF}`,
+        id: `388-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4876,7 +4876,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2u0jIwQXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `389-${EnumWORDLEVELS.C1BERUF}`,
+        id: `389-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4889,7 +4889,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2z3tqcCWyVkpZlH1caN6f8su25OjS79oEeWxq',
     },
     {
-        id: `390-${EnumWORDLEVELS.C1BERUF}`,
+        id: `390-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4902,7 +4902,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jaOMmRZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `391-${EnumWORDLEVELS.C1BERUF}`,
+        id: `391-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4914,7 +4914,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kMy3bwrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `392-${EnumWORDLEVELS.C1BERUF}`,
+        id: `392-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4926,7 +4926,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RZOevy1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `393-${EnumWORDLEVELS.C1BERUF}`,
+        id: `393-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4938,7 +4938,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hC42g9mE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `394-${EnumWORDLEVELS.C1BERUF}`,
+        id: `394-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4951,7 +4951,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XApn7HCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `395-${EnumWORDLEVELS.C1BERUF}`,
+        id: `395-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4963,7 +4963,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LBLooM00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `396-${EnumWORDLEVELS.C1BERUF}`,
+        id: `396-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4975,7 +4975,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj200qh7VT5lMj2Hg6WNcwtUQmOBxkpdICAvZ4r',
     },
     {
-        id: `397-${EnumWORDLEVELS.C1BERUF}`,
+        id: `397-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -4987,7 +4987,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24sv1bNO5jTrOdhNFvLIzbScl0H7kuEyeBaDA',
     },
     {
-        id: `398-${EnumWORDLEVELS.C1BERUF}`,
+        id: `398-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'die',
         pluralEnding: ', -en',
@@ -4999,7 +4999,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sKWjnOiqut05vGR4xAzBPChl1rWEkFbY2aNU',
     },
     {
-        id: `399-${EnumWORDLEVELS.C1BERUF}`,
+        id: `399-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5011,7 +5011,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WpaT5L6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `400-${EnumWORDLEVELS.C1BERUF}`,
+        id: `400-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'der',
         pluralEnding: ', -n',
@@ -5024,7 +5024,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fljkrkSfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `401-${EnumWORDLEVELS.C1BERUF}`,
+        id: `401-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'der',
         pluralEnding: ', -en',
@@ -5037,7 +5037,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WcEhjD6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `402-${EnumWORDLEVELS.C1BERUF}`,
+        id: `402-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5049,7 +5049,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aRH6FlkeUbj4ryVWscL7OqIuH3Tao1N2pRnB',
     },
     {
-        id: `403-${EnumWORDLEVELS.C1BERUF}`,
+        id: `403-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'der',
         pluralEnding: ', -e',
@@ -5061,7 +5061,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2dojEfn9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `404-${EnumWORDLEVELS.C1BERUF}`,
+        id: `404-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'der',
         pluralEnding: ', -e',
@@ -5073,7 +5073,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29pfJKH3P8xagtImQ23pOC4PewkRlh69S1rub',
     },
     {
-        id: `405-${EnumWORDLEVELS.C1BERUF}`,
+        id: `405-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5085,7 +5085,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj23zktwrp5i0mW2zR9YsTl17wtjAoCyFhEqUV3',
     },
     {
-        id: `406-${EnumWORDLEVELS.C1BERUF}`,
+        id: `406-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'das',
         pluralEnding: ', -e',
@@ -5099,7 +5099,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27tKQNmLB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `407-${EnumWORDLEVELS.C1BERUF}`,
+        id: `407-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5111,7 +5111,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZvHTO7uAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `408-${EnumWORDLEVELS.C1BERUF}`,
+        id: `408-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5123,7 +5123,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Op1GO8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ9',
     },
     {
-        id: `409-${EnumWORDLEVELS.C1BERUF}`,
+        id: `409-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5135,7 +5135,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MUpePpzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `410-${EnumWORDLEVELS.C1BERUF}`,
+        id: `410-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'die',
         pluralEnding: ', -en',
@@ -5147,7 +5147,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj20SV5uyT5lMj2Hg6WNcwtUQmOBxkpdICAvZ4r',
     },
     {
-        id: `411-${EnumWORDLEVELS.C1BERUF}`,
+        id: `411-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5159,7 +5159,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2REV3OSq1oUWlvZanfsiPK2zhEDpc1eSMkdYJ',
     },
     {
-        id: `412-${EnumWORDLEVELS.C1BERUF}`,
+        id: `412-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'der',
         pluralEnding: ', -e',
@@ -5171,7 +5171,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hF5KjJmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `413-${EnumWORDLEVELS.C1BERUF}`,
+        id: `413-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5183,7 +5183,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2YHGXstcS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
     {
-        id: `414-${EnumWORDLEVELS.C1BERUF}`,
+        id: `414-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5195,7 +5195,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bDszvNWVMKxjXEqCh12naiyulY9Z3N4v7c5Q',
     },
     {
-        id: `415-${EnumWORDLEVELS.C1BERUF}`,
+        id: `415-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5207,7 +5207,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2znmkYLWyVkpZlH1caN6f8su25OjS79oEeWxq',
     },
     {
-        id: `416-${EnumWORDLEVELS.C1BERUF}`,
+        id: `416-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5219,7 +5219,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2d3LyQwH9i3PrGnSwUuz6jDqFJCQEYhZxlMcO',
     },
     {
-        id: `417-${EnumWORDLEVELS.C1BERUF}`,
+        id: `417-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5231,7 +5231,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZYgYXWuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `418-${EnumWORDLEVELS.C1BERUF}`,
+        id: `418-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5243,7 +5243,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28JCpfNphuBKpyIfRkZmiaHghrVcO620oFYwQ',
     },
     {
-        id: `419-${EnumWORDLEVELS.C1BERUF}`,
+        id: `419-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5255,7 +5255,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2igz3gUOnwEHxZaD0uOAK2PpyVl5TU3Sj4WIe',
     },
     {
-        id: `420-${EnumWORDLEVELS.C1BERUF}`,
+        id: `420-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5267,7 +5267,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vUSO73t2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `421-${EnumWORDLEVELS.C1BERUF}`,
+        id: `421-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5279,7 +5279,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29EtU80P8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `422-${EnumWORDLEVELS.C1BERUF}`,
+        id: `422-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5293,7 +5293,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj258vbb5eSBWH6O842CKGNnTpeQhiJMycFDYqb',
     },
     {
-        id: `423-${EnumWORDLEVELS.C1BERUF}`,
+        id: `423-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5305,7 +5305,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj23LOSQ86p5i0mW2zR9YsTl17wtjAoCyFhEqUV',
     },
     {
-        id: `424-${EnumWORDLEVELS.C1BERUF}`,
+        id: `424-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5317,7 +5317,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ba43hfVMKxjXEqCh12naiyulY9Z3N4v7c5Q0',
     },
     {
-        id: `425-${EnumWORDLEVELS.C1BERUF}`,
+        id: `425-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'der',
         pluralEnding: ', -änge',
@@ -5329,7 +5329,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sKOW4Vqut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
     {
-        id: `426-${EnumWORDLEVELS.C1BERUF}`,
+        id: `426-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: 'der',
         pluralEnding: ', -üsse',
@@ -5341,7 +5341,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lD6RbiIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `427-${EnumWORDLEVELS.C1BERUF}`,
+        id: `427-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA6,
         article: '',
         pluralEnding: '',
@@ -5354,7 +5354,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     /* THEMA 7 */
     {
-        id: `428-${EnumWORDLEVELS.C1BERUF}`,
+        id: `428-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5366,7 +5366,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21t8mBFxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `429-${EnumWORDLEVELS.C1BERUF}`,
+        id: `429-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'der',
         pluralEnding: '',
@@ -5380,7 +5380,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2t2zWHhnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `430-${EnumWORDLEVELS.C1BERUF}`,
+        id: `430-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'die',
         pluralEnding: ', -n',
@@ -5393,7 +5393,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2FIQB7bvPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `431-${EnumWORDLEVELS.C1BERUF}`,
+        id: `431-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'der',
         pluralEnding: ', -e',
@@ -5407,7 +5407,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2FFRUJivPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `432-${EnumWORDLEVELS.C1BERUF}`,
+        id: `432-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5421,7 +5421,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28JyA3GWhuBKpyIfRkZmiaHghrVcO620oFYwQ',
     },
     {
-        id: `433-${EnumWORDLEVELS.C1BERUF}`,
+        id: `433-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5433,7 +5433,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IlQiWxRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `434-${EnumWORDLEVELS.C1BERUF}`,
+        id: `434-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'die',
         pluralEnding: ', -en',
@@ -5445,7 +5445,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IgMUa7RERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `435-${EnumWORDLEVELS.C1BERUF}`,
+        id: `435-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5457,7 +5457,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IycBfoRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `436-${EnumWORDLEVELS.C1BERUF}`,
+        id: `436-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5469,7 +5469,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2P7pSr273cqDi0uIjZSfOAMVoXCzhe4gUb8Fa',
     },
     {
-        id: `437-${EnumWORDLEVELS.C1BERUF}`,
+        id: `437-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5483,7 +5483,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XjYkMnCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `438-${EnumWORDLEVELS.C1BERUF}`,
+        id: `438-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'das',
         pluralEnding: ', -se',
@@ -5495,7 +5495,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2txtUtqnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `439-${EnumWORDLEVELS.C1BERUF}`,
+        id: `439-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5507,7 +5507,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tyoIKFnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `440-${EnumWORDLEVELS.C1BERUF}`,
+        id: `440-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'die',
         pluralEnding: '',
@@ -5519,7 +5519,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jvhY3dZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `441-${EnumWORDLEVELS.C1BERUF}`,
+        id: `441-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5531,7 +5531,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sxEfK7qut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
     {
-        id: `442-${EnumWORDLEVELS.C1BERUF}`,
+        id: `442-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5543,7 +5543,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vcxwEXt2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `443-${EnumWORDLEVELS.C1BERUF}`,
+        id: `443-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'die',
         pluralEnding: '',
@@ -5555,7 +5555,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj25YGE21eSBWH6O842CKGNnTpeQhiJMycFDYqb',
     },
     {
-        id: `444-${EnumWORDLEVELS.C1BERUF}`,
+        id: `444-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5567,7 +5567,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2i7mxE0OnwEHxZaD0uOAK2PpyVl5TU3Sj4WIe',
     },
     {
-        id: `445-${EnumWORDLEVELS.C1BERUF}`,
+        id: `445-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'das',
         pluralEnding: ', -s',
@@ -5580,7 +5580,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ciydL5Wf4R8P6OUJz5WNDXld7g0AorutVFxq',
     },
     {
-        id: `446-${EnumWORDLEVELS.C1BERUF}`,
+        id: `446-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5592,7 +5592,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2o5BCzSEDx6dMY0UtOKTuziVqcHa4JwPbS3I9',
     },
     {
-        id: `447-${EnumWORDLEVELS.C1BERUF}`,
+        id: `447-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5604,7 +5604,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MHDDyazcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `448-${EnumWORDLEVELS.C1BERUF}`,
+        id: `448-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'das',
         pluralEnding: '',
@@ -5616,7 +5616,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZCCVnPfuAsNohD0PafmZuC68pT42EvxRIWqt',
     },
     {
-        id: `449-${EnumWORDLEVELS.C1BERUF}`,
+        id: `449-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5628,7 +5628,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZNOftbuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `450-${EnumWORDLEVELS.C1BERUF}`,
+        id: `450-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'der',
         pluralEnding: ', -e',
@@ -5640,7 +5640,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ENpwlUkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `451-${EnumWORDLEVELS.C1BERUF}`,
+        id: `451-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'die',
         pluralEnding: ', -en',
@@ -5652,7 +5652,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Ok6PEp8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `452-${EnumWORDLEVELS.C1BERUF}`,
+        id: `452-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'die',
         pluralEnding: ', -s',
@@ -5664,7 +5664,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21qO4Q2xmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `453-${EnumWORDLEVELS.C1BERUF}`,
+        id: `453-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5676,7 +5676,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Cbqm2ga0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `454-${EnumWORDLEVELS.C1BERUF}`,
+        id: `454-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5688,7 +5688,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xUtJ8ErEf9kX7tASwp5OenNvCayZmP1qFiDB',
     },
     {
-        id: `455-${EnumWORDLEVELS.C1BERUF}`,
+        id: `455-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5700,7 +5700,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xGqzK2ErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
-        id: `456-${EnumWORDLEVELS.C1BERUF}`,
+        id: `456-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'der',
         pluralEnding: ', -e',
@@ -5712,7 +5712,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2rJSypSbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `457-${EnumWORDLEVELS.C1BERUF}`,
+        id: `457-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5724,7 +5724,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2SS1B6ai8xZTwlRrBq2DKP6ysXHaGvLWi3QVJ',
     },
     {
-        id: `458-${EnumWORDLEVELS.C1BERUF}`,
+        id: `458-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'die',
         pluralEnding: ', -en',
@@ -5736,7 +5736,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ICY5qORERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `459-${EnumWORDLEVELS.C1BERUF}`,
+        id: `459-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'die',
         pluralEnding: ', -en',
@@ -5749,7 +5749,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uAJdfpXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `460-${EnumWORDLEVELS.C1BERUF}`,
+        id: `460-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5762,7 +5762,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZClz6wyuAsNohD0PafmZuC68pT42EvxRIWqt',
     },
     {
-        id: `461-${EnumWORDLEVELS.C1BERUF}`,
+        id: `461-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'der',
         pluralEnding: ', -s',
@@ -5775,7 +5775,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DdvOvj4bjOvU7hgyJZFifIasMQunldBS8m10',
     },
     {
-        id: `462-${EnumWORDLEVELS.C1BERUF}`,
+        id: `462-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5787,7 +5787,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28JJJyuNhuBKpyIfRkZmiaHghrVcO620oFYwQ',
     },
     {
-        id: `463-${EnumWORDLEVELS.C1BERUF}`,
+        id: `463-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'das',
         pluralEnding: ', -s',
@@ -5801,7 +5801,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CKetKva0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `464-${EnumWORDLEVELS.C1BERUF}`,
+        id: `464-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'der',
         pluralEnding: '',
@@ -5815,7 +5815,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2S8Z0nzqi8xZTwlRrBq2DKP6ysXHaGvLWi3QV',
     },
     {
-        id: `465-${EnumWORDLEVELS.C1BERUF}`,
+        id: `465-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5828,7 +5828,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XlxbHwNCIbx3hQUkp4NorV8CycZWejGFv9mu',
     },
     {
-        id: `466-${EnumWORDLEVELS.C1BERUF}`,
+        id: `466-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5841,7 +5841,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aSzvfSlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `467-${EnumWORDLEVELS.C1BERUF}`,
+        id: `467-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5855,7 +5855,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2SXBWpli8xZTwlRrBq2DKP6ysXHaGvLWi3QVJ',
     },
     {
-        id: `468-${EnumWORDLEVELS.C1BERUF}`,
+        id: `468-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'der',
         pluralEnding: ', -e',
@@ -5867,7 +5867,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fYBIeESfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `469-${EnumWORDLEVELS.C1BERUF}`,
+        id: `469-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'der',
         pluralEnding: ', -s',
@@ -5881,7 +5881,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2rC7zNLbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `470-${EnumWORDLEVELS.C1BERUF}`,
+        id: `470-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'die',
         pluralEnding: ', -en',
@@ -5893,7 +5893,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj25qGpYQzeSBWH6O842CKGNnTpeQhiJMycFDYq',
     },
     {
-        id: `471-${EnumWORDLEVELS.C1BERUF}`,
+        id: `471-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5905,7 +5905,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28Gwxg9huBKpyIfRkZmiaHghrVcO620oFYwQS',
     },
     {
-        id: `472-${EnumWORDLEVELS.C1BERUF}`,
+        id: `472-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5917,7 +5917,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj26JyPjOdlpeThmKQnFU9aqMN7IywAgsvXEdOY',
     },
     {
-        id: `473-${EnumWORDLEVELS.C1BERUF}`,
+        id: `473-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'das',
         pluralEnding: ', -se',
@@ -5929,7 +5929,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2efLmrYsiQUDIfn45vcpLXTBZkuWjmb6rthKz',
     },
     {
-        id: `474-${EnumWORDLEVELS.C1BERUF}`,
+        id: `474-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5941,7 +5941,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jGY06bZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `475-${EnumWORDLEVELS.C1BERUF}`,
+        id: `475-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'der',
         pluralEnding: '',
@@ -5954,7 +5954,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2FxX7T9vPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `476-${EnumWORDLEVELS.C1BERUF}`,
+        id: `476-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'die',
         pluralEnding: ', -n',
@@ -5967,7 +5967,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2P079wX3cqDi0uIjZSfOAMVoXCzhe4gUb8FaG',
     },
     {
-        id: `477-${EnumWORDLEVELS.C1BERUF}`,
+        id: `477-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5979,7 +5979,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XndmtrCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `478-${EnumWORDLEVELS.C1BERUF}`,
+        id: `478-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -5991,7 +5991,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uhQQh5XaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `479-${EnumWORDLEVELS.C1BERUF}`,
+        id: `479-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6004,7 +6004,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kFOCvYrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `480-${EnumWORDLEVELS.C1BERUF}`,
+        id: `480-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'der',
         pluralEnding: '',
@@ -6016,7 +6016,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29Tlop0P8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `481-${EnumWORDLEVELS.C1BERUF}`,
+        id: `481-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6028,7 +6028,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2VlyRZaoerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `482-${EnumWORDLEVELS.C1BERUF}`,
+        id: `482-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6040,7 +6040,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Y5V3ficS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
     {
-        id: `483-${EnumWORDLEVELS.C1BERUF}`,
+        id: `483-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'das',
         pluralEnding: '',
@@ -6053,7 +6053,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vu1a5Yt2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `484-${EnumWORDLEVELS.C1BERUF}`,
+        id: `484-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6065,7 +6065,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qQFTtnnAOQUIgXTmsGN4Yk2fxvzbn6RhKueE',
     },
     {
-        id: `485-${EnumWORDLEVELS.C1BERUF}`,
+        id: `485-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6077,7 +6077,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HuMtNB2cNosUue0XzCG9rj1kKA6vYTSdgJFq',
     },
     {
-        id: `486-${EnumWORDLEVELS.C1BERUF}`,
+        id: `486-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'der',
         pluralEnding: '',
@@ -6089,7 +6089,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HM7dUw2cNosUue0XzCG9rj1kKA6vYTSdgJFq',
     },
     {
-        id: `487-${EnumWORDLEVELS.C1BERUF}`,
+        id: `487-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6102,7 +6102,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lBfoYMIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `488-${EnumWORDLEVELS.C1BERUF}`,
+        id: `488-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'die',
         pluralEnding: ', -en',
@@ -6114,7 +6114,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OyIv478mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `489-${EnumWORDLEVELS.C1BERUF}`,
+        id: `489-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'die',
         pluralEnding: ', -en',
@@ -6126,7 +6126,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2F4yB9nvPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `490-${EnumWORDLEVELS.C1BERUF}`,
+        id: `490-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6139,7 +6139,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DHdSUL4bjOvU7hgyJZFifIasMQunldBS8m10',
     },
     {
-        id: `491-${EnumWORDLEVELS.C1BERUF}`,
+        id: `491-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6151,7 +6151,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bsztuIVMKxjXEqCh12naiyulY9Z3N4v7c5Q0',
     },
     {
-        id: `492-${EnumWORDLEVELS.C1BERUF}`,
+        id: `492-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -6164,7 +6164,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2l1VvcsVIoHmBWYk93sSFP6LenbujJvyiNEIV',
     },
     {
-        id: `493-${EnumWORDLEVELS.C1BERUF}`,
+        id: `493-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: 'das',
         pluralEnding: '',
@@ -6178,7 +6178,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     /* THEMA 8 */
     {
-        id: `494-${EnumWORDLEVELS.C1BERUF}`,
+        id: `494-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'die',
         pluralEnding: ', -en',
@@ -6190,7 +6190,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2VcrAXBoerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `495-${EnumWORDLEVELS.C1BERUF}`,
+        id: `495-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'die',
         pluralEnding: ', -n',
@@ -6202,7 +6202,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vcZzY8t2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `496-${EnumWORDLEVELS.C1BERUF}`,
+        id: `496-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6214,7 +6214,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CI140JCa0RY1oVptKNDjmwu7HdWefzJbcIMQ',
     },
     {
-        id: `497-${EnumWORDLEVELS.C1BERUF}`,
+        id: `497-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6226,7 +6226,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22uaf4WSjrLf1RDXyUVEK8O9sekvMF7GjQBSN',
     },
     {
-        id: `498-${EnumWORDLEVELS.C1BERUF}`,
+        id: `498-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6238,7 +6238,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CIM16da0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `499-${EnumWORDLEVELS.C1BERUF}`,
+        id: `499-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'die',
         pluralEnding: ', -n',
@@ -6250,7 +6250,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aRAdyDUlkeUbj4ryVWscL7OqIuH3Tao1N2pR',
     },
     {
-        id: `500-${EnumWORDLEVELS.C1BERUF}`,
+        id: `500-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6262,7 +6262,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2P788wsk3cqDi0uIjZSfOAMVoXCzhe4gUb8Fa',
     },
     {
-        id: `501-${EnumWORDLEVELS.C1BERUF}`,
+        id: `501-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6274,7 +6274,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kzJgtJrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `502-${EnumWORDLEVELS.C1BERUF}`,
+        id: `502-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'die',
         pluralEnding: '',
@@ -6286,7 +6286,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2roBIkdDbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN',
     },
     {
-        id: `503-${EnumWORDLEVELS.C1BERUF}`,
+        id: `503-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6298,7 +6298,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2a20c5ulkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `504-${EnumWORDLEVELS.C1BERUF}`,
+        id: `504-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6310,7 +6310,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2143WMgxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `505-${EnumWORDLEVELS.C1BERUF}`,
+        id: `505-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6322,7 +6322,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sBzo8qut05vGR4xAzBPChl1rWEkFbY2aNUoI',
     },
     {
-        id: `506-${EnumWORDLEVELS.C1BERUF}`,
+        id: `506-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'die',
         pluralEnding: '',
@@ -6334,7 +6334,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RUg38n1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `507-${EnumWORDLEVELS.C1BERUF}`,
+        id: `507-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6346,7 +6346,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZMGhVTuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `508-${EnumWORDLEVELS.C1BERUF}`,
+        id: `508-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6358,7 +6358,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28oo0LqhuBKpyIfRkZmiaHghrVcO620oFYwQS',
     },
     {
-        id: `509-${EnumWORDLEVELS.C1BERUF}`,
+        id: `509-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'der',
         pluralEnding: '',
@@ -6370,7 +6370,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21krqffTxmtKa2DGLNwRdUkJ8OXIEMyop04Zi',
     },
     {
-        id: `510-${EnumWORDLEVELS.C1BERUF}`,
+        id: `510-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'die',
         pluralEnding: '',
@@ -6384,7 +6384,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2L4sdgP00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `511-${EnumWORDLEVELS.C1BERUF}`,
+        id: `511-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6396,7 +6396,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ihZa677OnwEHxZaD0uOAK2PpyVl5TU3Sj4WI',
     },
     {
-        id: `512-${EnumWORDLEVELS.C1BERUF}`,
+        id: `512-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6408,7 +6408,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj247xybp5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `513-${EnumWORDLEVELS.C1BERUF}`,
+        id: `513-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6420,7 +6420,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uIvS58XaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `514-${EnumWORDLEVELS.C1BERUF}`,
+        id: `514-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'der',
         pluralEnding: ', -e',
@@ -6432,7 +6432,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21FbheWxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `515-${EnumWORDLEVELS.C1BERUF}`,
+        id: `515-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'das',
         pluralEnding: '',
@@ -6445,7 +6445,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OmZPmDc8mNuvC5FRwjsLIE2opZbGxD8ge6WS',
     },
     {
-        id: `516-${EnumWORDLEVELS.C1BERUF}`,
+        id: `516-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'das',
         pluralEnding: ', -e',
@@ -6457,7 +6457,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2l0xaulIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `517-${EnumWORDLEVELS.C1BERUF}`,
+        id: `517-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'einen',
         pluralEnding: '',
@@ -6469,7 +6469,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj266T4LjdlpeThmKQnFU9aqMN7IywAgsvXEdOY',
     },
     {
-        id: `518-${EnumWORDLEVELS.C1BERUF}`,
+        id: `518-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6481,7 +6481,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qD5mzyAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `519-${EnumWORDLEVELS.C1BERUF}`,
+        id: `519-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'die',
         pluralEnding: ', -en',
@@ -6493,7 +6493,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CD44Uha0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `520-${EnumWORDLEVELS.C1BERUF}`,
+        id: `520-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'die',
         pluralEnding: ', -en',
@@ -6506,7 +6506,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2M6SypUjzcjrpP4Fmzi8x1ygHvahW2KBowuJ0',
     },
     {
-        id: `521-${EnumWORDLEVELS.C1BERUF}`,
+        id: `521-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6520,7 +6520,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pv0VeQ7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `522-${EnumWORDLEVELS.C1BERUF}`,
+        id: `522-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6533,7 +6533,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2a2Rgd6lkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `523-${EnumWORDLEVELS.C1BERUF}`,
+        id: `523-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6546,7 +6546,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lb9kKjIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `524-${EnumWORDLEVELS.C1BERUF}`,
+        id: `524-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6559,7 +6559,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ci8CqS2f4R8P6OUJz5WNDXld7g0AorutVFxq',
     },
     {
-        id: `525-${EnumWORDLEVELS.C1BERUF}`,
+        id: `525-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6572,7 +6572,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29CmxyzP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `526-${EnumWORDLEVELS.C1BERUF}`,
+        id: `526-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6585,7 +6585,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2YSyw0RxcS3i1d96lRqa7uUAbkrwx2PovceWn',
     },
     {
-        id: `527-${EnumWORDLEVELS.C1BERUF}`,
+        id: `527-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6597,7 +6597,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pXQyEp7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `528-${EnumWORDLEVELS.C1BERUF}`,
+        id: `528-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6609,7 +6609,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22bOxhIjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
     {
-        id: `529-${EnumWORDLEVELS.C1BERUF}`,
+        id: `529-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6623,7 +6623,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XZm6hzCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `530-${EnumWORDLEVELS.C1BERUF}`,
+        id: `530-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6635,7 +6635,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aKWhFPlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `531-${EnumWORDLEVELS.C1BERUF}`,
+        id: `531-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6647,7 +6647,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qQzIhbxAOQUIgXTmsGN4Yk2fxvzbn6RhKueE',
     },
     {
-        id: `532-${EnumWORDLEVELS.C1BERUF}`,
+        id: `532-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6659,7 +6659,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OMKyZP8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `533-${EnumWORDLEVELS.C1BERUF}`,
+        id: `533-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6671,7 +6671,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28elLrPhuBKpyIfRkZmiaHghrVcO620oFYwQS',
     },
     {
-        id: `534-${EnumWORDLEVELS.C1BERUF}`,
+        id: `534-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6684,7 +6684,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kFq8AqrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `535-${EnumWORDLEVELS.C1BERUF}`,
+        id: `535-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'der',
         pluralEnding: ', -e',
@@ -6698,7 +6698,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ua1FettXaI1DXObTetfWnBQ8Hsr5zdYkpjAc',
     },
     {
-        id: `536-${EnumWORDLEVELS.C1BERUF}`,
+        id: `536-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6710,7 +6710,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2NgU13GFxrQ3DE5MPoqZ8OYn60HJ7XGfUS1eu',
     },
     {
-        id: `537-${EnumWORDLEVELS.C1BERUF}`,
+        id: `537-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6722,7 +6722,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ECq2nmkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `538-${EnumWORDLEVELS.C1BERUF}`,
+        id: `538-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'das',
         pluralEnding: ', -se',
@@ -6736,7 +6736,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2eAGyX11siQUDIfn45vcpLXTBZkuWjmb6rthK',
     },
     {
-        id: `539-${EnumWORDLEVELS.C1BERUF}`,
+        id: `539-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6750,7 +6750,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2a6nCkilkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `540-${EnumWORDLEVELS.C1BERUF}`,
+        id: `540-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'der',
         pluralEnding: ', "-e',
@@ -6764,7 +6764,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hGTWwRmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `541-${EnumWORDLEVELS.C1BERUF}`,
+        id: `541-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'die',
         pluralEnding: ', -en',
@@ -6778,7 +6778,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LYJu82z00gdyMkDH61c2wFBO5xAipXWreU4m',
     },
     {
-        id: `542-${EnumWORDLEVELS.C1BERUF}`,
+        id: `542-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'die',
         pluralEnding: ', -en',
@@ -6792,7 +6792,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2d3f2QvF9i3PrGnSwUuz6jDqFJCQEYhZxlMcO',
     },
     {
-        id: `543-${EnumWORDLEVELS.C1BERUF}`,
+        id: `543-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'die',
         pluralEnding: '',
@@ -6806,7 +6806,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2W9hyVcA6S4RT9lgFD8vA7hQKNyia0cHdUPCG',
     },
     {
-        id: `544-${EnumWORDLEVELS.C1BERUF}`,
+        id: `544-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6819,7 +6819,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kVGiLNRrpDu65zAlXH9EihUjeotgfJTZ3IPV',
     },
     {
-        id: `545-${EnumWORDLEVELS.C1BERUF}`,
+        id: `545-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6831,7 +6831,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2e630R2siQUDIfn45vcpLXTBZkuWjmb6rthKz',
     },
     {
-        id: `546-${EnumWORDLEVELS.C1BERUF}`,
+        id: `546-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6843,7 +6843,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2FnWLXWAvPzSh60iIawY8NmKvojetsZu7g4Vk',
     },
     {
-        id: `547-${EnumWORDLEVELS.C1BERUF}`,
+        id: `547-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'die',
         pluralEnding: ', -n',
@@ -6855,7 +6855,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24sMZsqG5jTrOdhNFvLIzbScl0H7kuEyeBaDA',
     },
     {
-        id: `548-${EnumWORDLEVELS.C1BERUF}`,
+        id: `548-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'das',
         pluralEnding: ', -se',
@@ -6867,7 +6867,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hHOcdEmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `549-${EnumWORDLEVELS.C1BERUF}`,
+        id: `549-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'der',
         pluralEnding: '',
@@ -6880,7 +6880,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21dE5LMxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `550-${EnumWORDLEVELS.C1BERUF}`,
+        id: `550-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6892,7 +6892,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj279QdE4LB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `551-${EnumWORDLEVELS.C1BERUF}`,
+        id: `551-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6904,7 +6904,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qWx9LJAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `552-${EnumWORDLEVELS.C1BERUF}`,
+        id: `552-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: '',
         pluralEnding: '',
@@ -6916,7 +6916,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22u1IFgrjrLf1RDXyUVEK8O9sekvMF7GjQBSN',
     },
     {
-        id: `553-${EnumWORDLEVELS.C1BERUF}`,
+        id: `553-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'der',
         pluralEnding: ', "-e',
@@ -6928,7 +6928,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2In6VdORERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `554-${EnumWORDLEVELS.C1BERUF}`,
+        id: `554-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'die',
         pluralEnding: ', -en',
@@ -6940,7 +6940,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CNCVsUa0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `555-${EnumWORDLEVELS.C1BERUF}`,
+        id: `555-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA8,
         article: 'der',
         pluralEnding: '',
@@ -6953,7 +6953,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     /* THEMA 9 */
     {
-        id: `556-${EnumWORDLEVELS.C1BERUF}`,
+        id: `556-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -6965,7 +6965,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2p0LqVis7yLVcWGIlN4nRqPmS5w1e9M0QKHEr',
     },
     {
-        id: `557-${EnumWORDLEVELS.C1BERUF}`,
+        id: `557-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'das',
         pluralEnding: ', -er',
@@ -6977,7 +6977,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj23Yi6ITp5i0mW2zR9YsTl17wtjAoCyFhEqUV3',
     },
     {
-        id: `558-${EnumWORDLEVELS.C1BERUF}`,
+        id: `558-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'der',
         pluralEnding: '',
@@ -6990,7 +6990,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Pt1Cmb3cqDi0uIjZSfOAMVoXCzhe4gUb8FaG',
     },
     {
-        id: `559-${EnumWORDLEVELS.C1BERUF}`,
+        id: `559-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7002,7 +7002,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2W99eR8E6S4RT9lgFD8vA7hQKNyia0cHdUPCG',
     },
     {
-        id: `560-${EnumWORDLEVELS.C1BERUF}`,
+        id: `560-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -7014,7 +7014,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RaIz7I1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `561-${EnumWORDLEVELS.C1BERUF}`,
+        id: `561-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7026,7 +7026,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27oa8RXLB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `562-${EnumWORDLEVELS.C1BERUF}`,
+        id: `562-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'das',
         pluralEnding: ', -se',
@@ -7038,7 +7038,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bKdgLKVMKxjXEqCh12naiyulY9Z3N4v7c5Q0',
     },
     {
-        id: `563-${EnumWORDLEVELS.C1BERUF}`,
+        id: `563-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7050,7 +7050,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29Tt3myP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `564-${EnumWORDLEVELS.C1BERUF}`,
+        id: `564-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7063,7 +7063,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Vfa2Z3oerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `565-${EnumWORDLEVELS.C1BERUF}`,
+        id: `565-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7076,7 +7076,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2smR1dqut05vGR4xAzBPChl1rWEkFbY2aNUoI',
     },
     {
-        id: `566-${EnumWORDLEVELS.C1BERUF}`,
+        id: `566-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7088,7 +7088,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZJHcwquAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `567-${EnumWORDLEVELS.C1BERUF}`,
+        id: `567-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7100,7 +7100,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2p6u6f07yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `568-${EnumWORDLEVELS.C1BERUF}`,
+        id: `568-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7113,7 +7113,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21w7OF2xmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `569-${EnumWORDLEVELS.C1BERUF}`,
+        id: `569-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7126,7 +7126,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21kbbAKUxmtKa2DGLNwRdUkJ8OXIEMyop04Zi',
     },
     {
-        id: `570-${EnumWORDLEVELS.C1BERUF}`,
+        id: `570-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7138,7 +7138,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pjrTC97yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `571-${EnumWORDLEVELS.C1BERUF}`,
+        id: `571-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -7150,7 +7150,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj25qztmpUeSBWH6O842CKGNnTpeQhiJMycFDYq',
     },
     {
-        id: `572-${EnumWORDLEVELS.C1BERUF}`,
+        id: `572-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7163,7 +7163,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2p0hvXlf7yLVcWGIlN4nRqPmS5w1e9M0QKHEr',
     },
     {
-        id: `573-${EnumWORDLEVELS.C1BERUF}`,
+        id: `573-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7175,7 +7175,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2o5Ucf2hDx6dMY0UtOKTuziVqcHa4JwPbS3I9',
     },
     {
-        id: `574-${EnumWORDLEVELS.C1BERUF}`,
+        id: `574-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7187,7 +7187,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2p0iQKBY7yLVcWGIlN4nRqPmS5w1e9M0QKHEr',
     },
     {
-        id: `575-${EnumWORDLEVELS.C1BERUF}`,
+        id: `575-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -7199,7 +7199,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2roQh2GbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `576-${EnumWORDLEVELS.C1BERUF}`,
+        id: `576-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7212,7 +7212,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vjUXJ7t2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `577-${EnumWORDLEVELS.C1BERUF}`,
+        id: `577-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7224,7 +7224,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Tfw5fAzYMUSiw8CBH2aVWuzv9b1xXrgJGpe7',
     },
     {
-        id: `578-${EnumWORDLEVELS.C1BERUF}`,
+        id: `578-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'der',
         pluralEnding: '',
@@ -7236,7 +7236,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uyQHt5XaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `579-${EnumWORDLEVELS.C1BERUF}`,
+        id: `579-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'der',
         pluralEnding: ', -e',
@@ -7249,7 +7249,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EGDTUzkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `580-${EnumWORDLEVELS.C1BERUF}`,
+        id: `580-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7261,7 +7261,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2d3YNhWd9i3PrGnSwUuz6jDqFJCQEYhZxlMcO',
     },
     {
-        id: `581-${EnumWORDLEVELS.C1BERUF}`,
+        id: `581-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'der',
         pluralEnding: '',
@@ -7273,7 +7273,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Lj2FMs00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `582-${EnumWORDLEVELS.C1BERUF}`,
+        id: `582-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -7285,7 +7285,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2eAtKkdisiQUDIfn45vcpLXTBZkuWjmb6rthK',
     },
     {
-        id: `583-${EnumWORDLEVELS.C1BERUF}`,
+        id: `583-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7299,7 +7299,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2M4cOAIzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `584-${EnumWORDLEVELS.C1BERUF}`,
+        id: `584-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: '',
@@ -7313,7 +7313,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tzWv51pnzPEDhip5awk9oJ0LZsHVKWTrtuBm',
     },
     {
-        id: `585-${EnumWORDLEVELS.C1BERUF}`,
+        id: `585-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: '',
@@ -7325,7 +7325,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24cKsU95jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `586-${EnumWORDLEVELS.C1BERUF}`,
+        id: `586-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7337,7 +7337,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EbD8RldkA85LO9g2Ia7lqmrNVjzPuGEWYUFM',
     },
     {
-        id: `587-${EnumWORDLEVELS.C1BERUF}`,
+        id: `587-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7349,7 +7349,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2REKCSlw1oUWlvZanfsiPK2zhEDpc1eSMkdYJ',
     },
     {
-        id: `588-${EnumWORDLEVELS.C1BERUF}`,
+        id: `588-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7361,7 +7361,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qUicraAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `589-${EnumWORDLEVELS.C1BERUF}`,
+        id: `589-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -n',
@@ -7374,7 +7374,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2VG2awToerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `590-${EnumWORDLEVELS.C1BERUF}`,
+        id: `590-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'das',
         pluralEnding: ', -e',
@@ -7388,7 +7388,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vAbbYSt2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `591-${EnumWORDLEVELS.C1BERUF}`,
+        id: `591-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7400,7 +7400,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WiZkPK6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `592-${EnumWORDLEVELS.C1BERUF}`,
+        id: `592-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7412,7 +7412,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nXsW39MzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `593-${EnumWORDLEVELS.C1BERUF}`,
+        id: `593-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -7424,7 +7424,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LeOLFW00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `594-${EnumWORDLEVELS.C1BERUF}`,
+        id: `594-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -7437,7 +7437,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HZoKPwU2cNosUue0XzCG9rj1kKA6vYTSdgJF',
     },
     {
-        id: `595-${EnumWORDLEVELS.C1BERUF}`,
+        id: `595-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7450,7 +7450,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CqG8uya0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `596-${EnumWORDLEVELS.C1BERUF}`,
+        id: `596-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7462,7 +7462,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Tbl1qpYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `597-${EnumWORDLEVELS.C1BERUF}`,
+        id: `597-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7474,7 +7474,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lumLQoIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `598-${EnumWORDLEVELS.C1BERUF}`,
+        id: `598-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7486,7 +7486,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bDtoZfJVMKxjXEqCh12naiyulY9Z3N4v7c5Q',
     },
     {
-        id: `599-${EnumWORDLEVELS.C1BERUF}`,
+        id: `599-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7499,7 +7499,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vogiUpt2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `600-${EnumWORDLEVELS.C1BERUF}`,
+        id: `600-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7511,7 +7511,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2TR3lZXYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `601-${EnumWORDLEVELS.C1BERUF}`,
+        id: `601-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7523,7 +7523,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZCR0iAPuAsNohD0PafmZuC68pT42EvxRIWqt',
     },
     {
-        id: `602-${EnumWORDLEVELS.C1BERUF}`,
+        id: `602-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7535,7 +7535,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2TFMMGMYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `603-${EnumWORDLEVELS.C1BERUF}`,
+        id: `603-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7547,7 +7547,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jLj9DHZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `604-${EnumWORDLEVELS.C1BERUF}`,
+        id: `604-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'das',
         pluralEnding: ', "er',
@@ -7559,7 +7559,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RWIjXn1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `605-${EnumWORDLEVELS.C1BERUF}`,
+        id: `605-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7571,7 +7571,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZVU0YsuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `606-${EnumWORDLEVELS.C1BERUF}`,
+        id: `606-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7583,7 +7583,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kq2yX7rpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `607-${EnumWORDLEVELS.C1BERUF}`,
+        id: `607-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7595,7 +7595,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fG8lXPSfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `608-${EnumWORDLEVELS.C1BERUF}`,
+        id: `608-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7607,7 +7607,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2SROp6bi8xZTwlRrBq2DKP6ysXHaGvLWi3QVJ',
     },
     {
-        id: `609-${EnumWORDLEVELS.C1BERUF}`,
+        id: `609-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -7619,7 +7619,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22uR6Bc6jrLf1RDXyUVEK8O9sekvMF7GjQBSN',
     },
     {
-        id: `610-${EnumWORDLEVELS.C1BERUF}`,
+        id: `610-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -7633,7 +7633,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pgUPMv7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `611-${EnumWORDLEVELS.C1BERUF}`,
+        id: `611-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7645,7 +7645,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EbKO3ySkA85LO9g2Ia7lqmrNVjzPuGEWYUFM',
     },
     {
-        id: `612-${EnumWORDLEVELS.C1BERUF}`,
+        id: `612-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7657,7 +7657,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aRVFH1klkeUbj4ryVWscL7OqIuH3Tao1N2pR',
     },
     {
-        id: `613-${EnumWORDLEVELS.C1BERUF}`,
+        id: `613-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7670,7 +7670,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Fzk1aovPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `614-${EnumWORDLEVELS.C1BERUF}`,
+        id: `614-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: ', -en',
@@ -7682,7 +7682,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XlbISBHCIbx3hQUkp4NorV8CycZWejGFv9mu',
     },
     {
-        id: `615-${EnumWORDLEVELS.C1BERUF}`,
+        id: `615-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7695,7 +7695,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fcZcvVSfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `616-${EnumWORDLEVELS.C1BERUF}`,
+        id: `616-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7707,7 +7707,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tY3GuQnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `617-${EnumWORDLEVELS.C1BERUF}`,
+        id: `617-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7720,7 +7720,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21G4nXYxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `618-${EnumWORDLEVELS.C1BERUF}`,
+        id: `618-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7734,7 +7734,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vrXm7Ct2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `619-${EnumWORDLEVELS.C1BERUF}`,
+        id: `619-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7746,7 +7746,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qwPXrIAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `620-${EnumWORDLEVELS.C1BERUF}`,
+        id: `620-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7758,7 +7758,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CEHKfma0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `621-${EnumWORDLEVELS.C1BERUF}`,
+        id: `621-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'der',
         pluralEnding: ', -e',
@@ -7770,7 +7770,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2dzlWVA9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `622-${EnumWORDLEVELS.C1BERUF}`,
+        id: `622-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7782,7 +7782,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vSobEit2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `623-${EnumWORDLEVELS.C1BERUF}`,
+        id: `623-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7794,7 +7794,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2p8idHU7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `624-${EnumWORDLEVELS.C1BERUF}`,
+        id: `624-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7806,7 +7806,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hegtJBmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `625-${EnumWORDLEVELS.C1BERUF}`,
+        id: `625-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: '',
         pluralEnding: '',
@@ -7819,7 +7819,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21lqzKNxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `626-${EnumWORDLEVELS.C1BERUF}`,
+        id: `626-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA9,
         article: 'die',
         pluralEnding: '',
@@ -7832,7 +7832,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     /* THEMA 10 */
     {
-        id: `627-${EnumWORDLEVELS.C1BERUF}`,
+        id: `627-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: 'die',
         pluralEnding: '',
@@ -7844,7 +7844,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21kkQ95FxmtKa2DGLNwRdUkJ8OXIEMyop04Zi',
     },
     {
-        id: `628-${EnumWORDLEVELS.C1BERUF}`,
+        id: `628-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: '',
         pluralEnding: '',
@@ -7857,7 +7857,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aCJEnulkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `629-${EnumWORDLEVELS.C1BERUF}`,
+        id: `629-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: 'die',
         pluralEnding: ', -n',
@@ -7870,7 +7870,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xgiz4hErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
-        id: `630-${EnumWORDLEVELS.C1BERUF}`,
+        id: `630-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: 'das',
         pluralEnding: ', -s',
@@ -7884,7 +7884,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29SmxD1P8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `631-${EnumWORDLEVELS.C1BERUF}`,
+        id: `631-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: 'die',
         pluralEnding: ', -n',
@@ -7898,7 +7898,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uaaqvBXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `632-${EnumWORDLEVELS.C1BERUF}`,
+        id: `632-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: '',
         pluralEnding: '',
@@ -7912,7 +7912,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HzEN1D2cNosUue0XzCG9rj1kKA6vYTSdgJFq',
     },
     {
-        id: `633-${EnumWORDLEVELS.C1BERUF}`,
+        id: `633-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: '',
         pluralEnding: '',
@@ -7924,7 +7924,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2NZh3ewFxrQ3DE5MPoqZ8OYn60HJ7XGfUS1eu',
     },
     {
-        id: `634-${EnumWORDLEVELS.C1BERUF}`,
+        id: `634-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: 'der',
         pluralEnding: ', -ü-e',
@@ -7936,7 +7936,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2E8sUYhkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `635-${EnumWORDLEVELS.C1BERUF}`,
+        id: `635-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: 'die',
         pluralEnding: ', -n',
@@ -7948,7 +7948,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZbsSKiuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `636-${EnumWORDLEVELS.C1BERUF}`,
+        id: `636-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: '',
         pluralEnding: '',
@@ -7960,7 +7960,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22FyxVsjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
     {
-        id: `637-${EnumWORDLEVELS.C1BERUF}`,
+        id: `637-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: '',
         pluralEnding: '',
@@ -7972,7 +7972,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CI4xddda0RY1oVptKNDjmwu7HdWefzJbcIMQ',
     },
     {
-        id: `638-${EnumWORDLEVELS.C1BERUF}`,
+        id: `638-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: 'der',
         pluralEnding: '',
@@ -7984,7 +7984,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZKjUD6uAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `639-${EnumWORDLEVELS.C1BERUF}`,
+        id: `639-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: 'die',
         pluralEnding: ', -en',
@@ -7998,7 +7998,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2a6CdSUlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `640-${EnumWORDLEVELS.C1BERUF}`,
+        id: `640-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: 'das',
         pluralEnding: ', -e',
@@ -8010,7 +8010,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2loByUAIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `641-${EnumWORDLEVELS.C1BERUF}`,
+        id: `641-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: '',
         pluralEnding: '',
@@ -8023,7 +8023,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
 
     {
-        id: `642-${EnumWORDLEVELS.C1BERUF}`,
+        id: `642-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: '',
         pluralEnding: '',
@@ -8037,7 +8037,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Z0XdzQuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `643-${EnumWORDLEVELS.C1BERUF}`,
+        id: `643-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: 'das',
         pluralEnding: ', -e',
@@ -8049,7 +8049,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2dWfati9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `644-${EnumWORDLEVELS.C1BERUF}`,
+        id: `644-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: '',
         pluralEnding: '',
@@ -8061,7 +8061,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2l11Zt6AIoHmBWYk93sSFP6LenbujJvyiNEIV',
     },
     {
-        id: `645-${EnumWORDLEVELS.C1BERUF}`,
+        id: `645-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA10,
         article: '',
         pluralEnding: '',

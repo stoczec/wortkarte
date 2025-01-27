@@ -1,9 +1,9 @@
-import { WORD_CLASSES, EnumWORDLEVELS } from '@/enums/enums'
+import { WORD_CLASSES, WORD_LEVELS } from '@/enums/enums'
 import { ILanguageCard } from '@/interfaces/interfaces'
 
 export const A2_B2_data: ILanguageCard[] = [
     {
-        id: `1-${EnumWORDLEVELS.A2B2}`,
+        id: `1-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'fahren, fährt, ist gefahren',
@@ -14,7 +14,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhpRqZJh2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
-        id: `2-${EnumWORDLEVELS.A2B2}`,
+        id: `2-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'brennen, brennt, hat gebrannt',
@@ -25,7 +25,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhlRV0TAwrpiqx3HJV94oLBGfRN0nMjvTyZSE1',
     },
     {
-        id: `3-${EnumWORDLEVELS.A2B2}`,
+        id: `3-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'empfangen, empfängt, hat empfangen',
@@ -36,7 +36,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh4vYDbM6wOqj81VfMisExF0Xm56z2QrgI43vl',
     },
     {
-        id: `4-${EnumWORDLEVELS.A2B2}`,
+        id: `4-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'empfehlen, empfiehlt, hat empfohlen',
@@ -47,7 +47,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhbSltDVArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
     },
     {
-        id: `5-${EnumWORDLEVELS.A2B2}`,
+        id: `5-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erschrecken, erschrickt, ist erschrocken',
@@ -58,7 +58,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh6ey72dPisOKx5VSaw0LRnFcMd9oyfv1g4Qer',
     },
     {
-        id: `6-${EnumWORDLEVELS.A2B2}`,
+        id: `6-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'fangen, fängt, hat gefangen',
@@ -69,7 +69,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh6jIWHQPisOKx5VSaw0LRnFcMd9oyfv1g4Qer',
     },
     {
-        id: `7-${EnumWORDLEVELS.A2B2}`,
+        id: `7-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'fliehen, flieht, ist geflohen',
@@ -80,7 +80,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhujnvebz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
     },
     {
-        id: `8-${EnumWORDLEVELS.A2B2}`,
+        id: `8-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'fließen, fließt, ist geflossen',
@@ -91,7 +91,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhpv30tv2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
-        id: `9-${EnumWORDLEVELS.A2B2}`,
+        id: `9-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'fressen, frisst, hat gefressen',
@@ -102,7 +102,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhFzLuLdTubBCpndtMKSeV7IPW4zZa0vXUywL5',
     },
     {
-        id: `10-${EnumWORDLEVELS.A2B2}`,
+        id: `10-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'frieren, friert, hat gefroren',
@@ -113,7 +113,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhYaaufMJtFzNhDLRbEpOK4inVgWujTHf15rx3',
     },
     {
-        id: `11-${EnumWORDLEVELS.A2B2}`,
+        id: `11-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'beginnen, beginnt, hat begonnen',
@@ -124,7 +124,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhwMYgMobKx3oQcHXA85iDdYagnsSZVFPkheU4',
     },
     {
-        id: `12-${EnumWORDLEVELS.A2B2}`,
+        id: `12-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'bieten, bietet, hat geboten',
@@ -135,7 +135,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhApETNzkulJ4FsLD6jKCRqv1rBcWZzk02tgme',
     },
     {
-        id: `13-${EnumWORDLEVELS.A2B2}`,
+        id: `13-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gelten, gilt, hat gegolten',
@@ -146,7 +146,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh9NhsKJ0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
     },
     {
-        id: `14-${EnumWORDLEVELS.A2B2}`,
+        id: `14-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'genießen, genießt, hat genossen',
@@ -157,7 +157,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhEkvQOfBe95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
     },
     {
-        id: `15-${EnumWORDLEVELS.A2B2}`,
+        id: `15-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'geschehen, geschieht, ist geschehen',
@@ -168,7 +168,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhJ8ITNMfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
     },
     {
-        id: `16-${EnumWORDLEVELS.A2B2}`,
+        id: `16-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gewinnen, gewinnt, hat gewonnen',
@@ -179,7 +179,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhJnY49qfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
     },
     {
-        id: `17-${EnumWORDLEVELS.A2B2}`,
+        id: `17-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gießen, gießt, hat gegossen',
@@ -190,7 +190,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhxlyRoSmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
     },
     {
-        id: `18-${EnumWORDLEVELS.A2B2}`,
+        id: `18-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'greifen, greift, hat gegriffen',
@@ -201,7 +201,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh9CyjF20LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
     },
     {
-        id: `19-${EnumWORDLEVELS.A2B2}`,
+        id: `19-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'heben, hebt, hat gehoben',
@@ -212,7 +212,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhF9rWHA2TubBCpndtMKSeV7IPW4zZa0vXUywL',
     },
     {
-        id: `20-${EnumWORDLEVELS.A2B2}`,
+        id: `20-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'klingen, klingt, hat geklungen',
@@ -223,7 +223,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhMF9TAg1Kq64xuGBkrejT9EQmSYta7vXAKLsz',
     },
     {
-        id: `21-${EnumWORDLEVELS.A2B2}`,
+        id: `21-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'leiden, leidet, hat gelitten',
@@ -234,7 +234,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhGKBz7tUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2j',
     },
     {
-        id: `22-${EnumWORDLEVELS.A2B2}`,
+        id: `22-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'messen, misst, hat gemessen',
@@ -245,7 +245,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhNkzHBolSLjOv7ZJ8WUplQhuIi6DFykCgY0RT',
     },
     {
-        id: `23-${EnumWORDLEVELS.A2B2}`,
+        id: `23-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'reiten, reitet, ist geritten',
@@ -256,7 +256,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh5wn8PE9o7UlyJrOGAjeSa6FfcBquN4z89m2P',
     },
     {
-        id: `24-${EnumWORDLEVELS.A2B2}`,
+        id: `24-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'rennen, rennt, ist gerannt',
@@ -267,7 +267,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhkFWWxqhXtQ6BK7viORPW5L9sxm4bchzE3J0l',
     },
     {
-        id: `25-${EnumWORDLEVELS.A2B2}`,
+        id: `25-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schieben, schiebt, hat geschoben',
@@ -278,7 +278,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhM6EySuKq64xuGBkrejT9EQmSYta7vXAKLszV',
     },
     {
-        id: `26-${EnumWORDLEVELS.A2B2}`,
+        id: `26-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schießen, schießt, hat geschossen',
@@ -289,7 +289,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhu9k5vXz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
     },
     {
-        id: `27-${EnumWORDLEVELS.A2B2}`,
+        id: `27-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schlagen, schlägt, hat geschlagen',
@@ -300,7 +300,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhJRQEwyfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
     },
     {
-        id: `28-${EnumWORDLEVELS.A2B2}`,
+        id: `28-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schreien, schreit, hat geschrien',
@@ -311,7 +311,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhz3xrhbpFPErID6hOu9WUTsic5yqdxGH0YQ1L',
     },
     {
-        id: `29-${EnumWORDLEVELS.A2B2}`,
+        id: `29-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schweigen, schweigt, hat geschwiegen',
@@ -322,7 +322,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhvY6QS08GDSXB4RHWIPwtqLFUmnjci5ChdEAJ',
     },
     {
-        id: `30-${EnumWORDLEVELS.A2B2}`,
+        id: `30-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'senden, sendet, hat gesandt',
@@ -333,7 +333,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhvGyVCU8GDSXB4RHWIPwtqLFUmnjci5ChdEAJ',
     },
     {
-        id: `31-${EnumWORDLEVELS.A2B2}`,
+        id: `31-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'springen, springt, ist gesprungen',
@@ -344,7 +344,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhFRyjY6TubBCpndtMKSeV7IPW4zZa0vXUywL5',
     },
     {
-        id: `32-${EnumWORDLEVELS.A2B2}`,
+        id: `32-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'stechen, sticht, hat gestochen',
@@ -355,7 +355,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhY7SsL5JtFzNhDLRbEpOK4inVgWujTHf15rx3',
     },
     {
-        id: `33-${EnumWORDLEVELS.A2B2}`,
+        id: `33-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'steigen, steigt, ist gestiegen',
@@ -366,7 +366,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh1oxim9kGF4rdxKs5yAfZujcn3gYeqUTDtSRC',
     },
     {
-        id: `34-${EnumWORDLEVELS.A2B2}`,
+        id: `34-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'üblich',
@@ -377,7 +377,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh1I54BAkGF4rdxKs5yAfZujcn3gYeqUTDtSRC',
     },
     {
-        id: `35-${EnumWORDLEVELS.A2B2}`,
+        id: `35-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sterben, stirbt, ist gestorben',
@@ -388,7 +388,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhbzz52YgArGwWsaZoXAO0dkh98SbIKMQ2JCfz',
     },
     {
-        id: `36-${EnumWORDLEVELS.A2B2}`,
+        id: `36-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'stinken, stinkt, hat gestunken',
@@ -399,7 +399,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhk3NqSjhXtQ6BK7viORPW5L9sxm4bchzE3J0l',
     },
     {
-        id: `37-${EnumWORDLEVELS.A2B2}`,
+        id: `37-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'stoßen, stößt, hat gestoßen',
@@ -410,7 +410,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhxektTCmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
     },
     {
-        id: `38-${EnumWORDLEVELS.A2B2}`,
+        id: `38-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'treiben, treibt, hat getrieben',
@@ -421,7 +421,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhxu53nGmdaqpS3zs71DFeJYoM4NUW5OEbPwjG',
     },
     {
-        id: `39-${EnumWORDLEVELS.A2B2}`,
+        id: `39-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'treten, tritt, ist/hat getreten',
@@ -432,7 +432,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhdF94FNMqi3tZyl6GjPUJxSoKLRrC1ehEkv97',
     },
     {
-        id: `40-${EnumWORDLEVELS.A2B2}`,
+        id: `40-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verschwinden, verschwindet, ist verschwunden',
@@ -443,7 +443,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh8hFP0p01pEDTtnbqjYeRBhIVLQSxJWXgs3CO',
     },
     {
-        id: `41-${EnumWORDLEVELS.A2B2}`,
+        id: `41-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verzeihen, verzeiht, hat verziehen',
@@ -454,7 +454,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhvYMBMA8GDSXB4RHWIPwtqLFUmnjci5ChdEAJ',
     },
     {
-        id: `42-${EnumWORDLEVELS.A2B2}`,
+        id: `42-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'wachsen, wächst, ist gewachsen',
@@ -465,7 +465,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh4CJgfe6wOqj81VfMisExF0Xm56z2QrgI43vl',
     },
     {
-        id: `43-${EnumWORDLEVELS.A2B2}`,
+        id: `43-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'wenden, wendet, hat gewandt',
@@ -476,7 +476,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh5L6wjEK9o7UlyJrOGAjeSa6FfcBquN4z89m2',
     },
     {
-        id: `44-${EnumWORDLEVELS.A2B2}`,
+        id: `44-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'werfen, wirft, hat geworfen',
@@ -487,7 +487,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhUJfTJcWcAx1lePRnpGv52BK4HaVMoFTEJC3f',
     },
     {
-        id: `45-${EnumWORDLEVELS.A2B2}`,
+        id: `45-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'wiegen, wiegt, hat gewogen',
@@ -498,7 +498,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh3PxB67m4ojvmFX2AO1hJNYV9ixGpuDfd5zUc',
     },
     {
-        id: `46-${EnumWORDLEVELS.A2B2}`,
+        id: `46-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ziehen, zieht, hat gezogen',
@@ -509,7 +509,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh6JS3w8PisOKx5VSaw0LRnFcMd9oyfv1g4Qer',
     },
     {
-        id: `47-${EnumWORDLEVELS.A2B2}`,
+        id: `47-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zwingen, zwingt, hat gezwungen',
@@ -520,7 +520,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhPAQ9ZTt7MpSIRvq4tz3AcQfTyCugXJ6Ox2L0',
     },
     {
-        id: `48-${EnumWORDLEVELS.A2B2}`,
+        id: `48-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erneuern, erneuert, hat erneuert',
@@ -531,7 +531,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhNzxVK7lSLjOv7ZJ8WUplQhuIi6DFykCgY0RT',
     },
     {
-        id: `49-${EnumWORDLEVELS.A2B2}`,
+        id: `49-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'eventuell',
@@ -542,7 +542,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhlXnX3bwrpiqx3HJV94oLBGfRN0nMjvTyZSE1',
     },
     {
-        id: `50-${EnumWORDLEVELS.A2B2}`,
+        id: `50-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'teilnehmen, nimmt teil, hat teilgenommen',
@@ -553,7 +553,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhcI5Cu6vxsIW48BMn5jH2lVp9LzJXDy1TkiKr',
     },
     {
-        id: `51-${EnumWORDLEVELS.A2B2}`,
+        id: `51-${WORD_LEVELS.A2B2}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Verwaltung',
@@ -564,7 +564,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhpFwzQv2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
-        id: `52-${EnumWORDLEVELS.A2B2}`,
+        id: `52-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'bergen, birgt, hat geborgen',
@@ -575,7 +575,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhEQkKiXfBe95wT1ApKMvZ0U8kdzs6lPNEhOR4',
     },
     {
-        id: `53-${EnumWORDLEVELS.A2B2}`,
+        id: `53-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'binden, bindet, hat gebunden',
@@ -586,7 +586,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh2WE9jAYvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
     },
     {
-        id: `54-${EnumWORDLEVELS.A2B2}`,
+        id: `54-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'blasen, bläst, hat geblasen',
@@ -597,7 +597,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhuxPjvZz7SKvndEj8r2cbXHV9ImsfoLJ63Ztq',
     },
     {
-        id: `55-${EnumWORDLEVELS.A2B2}`,
+        id: `55-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'dringen, dringt, ist gedrungen',
@@ -608,7 +608,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhcB40FPvxsIW48BMn5jH2lVp9LzJXDy1TkiKr',
     },
     {
-        id: `56-${EnumWORDLEVELS.A2B2}`,
+        id: `56-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'empfinden, empfindet, hat empfunden',
@@ -619,7 +619,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhETsP3XBe95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
     },
     {
-        id: `57-${EnumWORDLEVELS.A2B2}`,
+        id: `57-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erlöschen, erlischt, ist erloschen',
@@ -630,7 +630,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhJt8G2UfcMyl2V46DGiNWAse9zQUT5pOkEKaB',
     },
     {
-        id: `58-${EnumWORDLEVELS.A2B2}`,
+        id: `58-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erwägen, erwägt, hat erwogen',
@@ -643,7 +643,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhGcPmxPUXwZnk6IzYHsWQPU1o9uJ3l8Lfdp2j',
     },
     {
-        id: `59-${EnumWORDLEVELS.A2B2}`,
+        id: `59-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'flechten, flicht, hat geflochten',
@@ -654,7 +654,7 @@ export const A2_B2_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh0kh85MLSHd98mAhbqVNOczXjJBnyGrFoI6PR',
     },
     {
-        id: `60-${EnumWORDLEVELS.A2B2}`,
+        id: `60-${WORD_LEVELS.A2B2}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gebären, gebiert, hat geboren',

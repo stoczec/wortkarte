@@ -9,7 +9,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from '@/components/ui/select'
-import { EnumWORDLEVELS } from '@/enums/enums'
+import { WORD_LEVELS } from '@/enums/enums'
 import { useCardsStore } from '@/stores'
 import { useRouter } from 'next/navigation'
 import { ILanguageCard } from '@/interfaces/interfaces'
@@ -20,10 +20,10 @@ export const WordLevelSelect = () => {
     const { selectedWordLevel, setSelectedWordLevel } = useCardsStore()
 
     const [selectedValue, setSelectedValue] =
-        useState<(typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]>(selectedWordLevel)
+        useState<(typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]>(selectedWordLevel)
     const router = useRouter()
 
-    const handleWordLevelChange = (value: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS]) => {
+    const handleWordLevelChange = (value: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]) => {
         setSelectedWordLevel(value)
         setSelectedValue(value)
         router.push('/page/1')
@@ -44,7 +44,7 @@ export const WordLevelSelect = () => {
     )
 
     const renderSelectItem = (
-        level: (typeof EnumWORDLEVELS)[keyof typeof EnumWORDLEVELS],
+        level: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS],
         totalCards: number
     ) => (
         <SelectItem value={level} className="cursor-pointer">
@@ -63,10 +63,10 @@ export const WordLevelSelect = () => {
                 </SelectTrigger>
                 <SelectContent>
                     <SelectGroup>
-                        {renderSelectItem(EnumWORDLEVELS.ALLLEVELS, totalAllLevelsCards)}
-                        {renderSelectItem(EnumWORDLEVELS.A2B2, totalA2B2Cards)}
-                        {renderSelectItem(EnumWORDLEVELS.C1SICHER, totalC1SicherCards)}
-                        {renderSelectItem(EnumWORDLEVELS.C1BERUF, totalC1BerufCards)}
+                        {renderSelectItem(WORD_LEVELS.ALLLEVELS, totalAllLevelsCards)}
+                        {renderSelectItem(WORD_LEVELS.A2B2, totalA2B2Cards)}
+                        {renderSelectItem(WORD_LEVELS.C1SICHER, totalC1SicherCards)}
+                        {renderSelectItem(WORD_LEVELS.C1BERUF, totalC1BerufCards)}
                     </SelectGroup>
                 </SelectContent>
             </Select>

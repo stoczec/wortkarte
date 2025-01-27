@@ -49,13 +49,13 @@ export const WORD_CLASSES = {
     POSSESSIVPRONOMEN: 'Possessivpronomen' as WordClass,
 }
 
-type EnumWordLevelsType = 'A2-B2' | 'C1 Sicher!' | 'C1 Aspekte Beruf' | 'Alle Sprachebenen'
+export type WordLevel = 'A2-B2' | 'C1 Sicher!' | 'C1 Aspekte Beruf' | 'Alle Sprachebenen'
 
-export const EnumWORDLEVELS = {
-    A2B2: 'A2-B2' as EnumWordLevelsType,
-    C1SICHER: 'C1 Sicher!' as EnumWordLevelsType,
-    C1BERUF: 'C1 Aspekte Beruf' as EnumWordLevelsType,
-    ALLLEVELS: 'Alle Sprachebenen' as EnumWordLevelsType,
+export const WORD_LEVELS = {
+    A2B2: 'A2-B2' as WordLevel,
+    C1SICHER: 'C1 Sicher!' as WordLevel,
+    C1BERUF: 'C1 Aspekte Beruf' as WordLevel,
+    ALLLEVELS: 'Alle Sprachebenen' as WordLevel,
 }
 
 type EnumCardsCategoryType = 'Alle' | 'Gemischten' | 'Favoriten'

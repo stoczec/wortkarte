@@ -1,9 +1,9 @@
-import { EnumTOPICS, WORD_CLASSES, EnumWORDLEVELS } from '@/enums/enums'
+import { EnumTOPICS, WORD_CLASSES, WORD_LEVELS } from '@/enums/enums'
 import { ILanguageCard } from '@/interfaces/interfaces'
 
 export const C1_Beruf_data: ILanguageCard[] = [
     {
-        id: `0-${EnumWORDLEVELS.C1BERUF}`,
+        id: `0-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -15,7 +15,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhr4mqCldn1sqJTVcNudIg3BDMPtGOXY8K72Zi',
     },
     {
-        id: `0-${EnumWORDLEVELS.C1BERUF}`,
+        id: `0-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -27,7 +27,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhyUmW2YrDLWcC2lIrhH17xJvjKnQR9ws536ei',
     },
     {
-        id: `0-${EnumWORDLEVELS.C1BERUF}`,
+        id: `0-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -41,7 +41,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhwlBIzfbKx3oQcHXA85iDdYagnsSZVFPkheU4',
     },
     {
-        id: `0-${EnumWORDLEVELS.C1BERUF}`,
+        id: `0-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -54,7 +54,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhUYm4abWcAx1lePRnpGv52BK4HaVMoFTEJC3f',
     },
     {
-        id: `0-${EnumWORDLEVELS.C1BERUF}`,
+        id: `0-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: 'der',
         pluralEnding: ', -e',
@@ -68,7 +68,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhNzsOuslSLjOv7ZJ8WUplQhuIi6DFykCgY0RT',
     },
     {
-        id: `1-${EnumWORDLEVELS.C1BERUF}`,
+        id: `1-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA7,
         article: '',
         pluralEnding: '',
@@ -81,7 +81,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
 
     {
-        id: `1-${EnumWORDLEVELS.C1BERUF}`,
+        id: `1-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -93,7 +93,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhFppJ9GTubBCpndtMKSeV7IPW4zZa0vXUywL5',
     },
     {
-        id: `2-${EnumWORDLEVELS.C1BERUF}`,
+        id: `2-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -106,7 +106,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhL26WfXyU1vJKEiwc6tXCo24HYTQ8xVrjL9Gu',
     },
     {
-        id: `3-${EnumWORDLEVELS.C1BERUF}`,
+        id: `3-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -118,7 +118,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhUEQa2ZWcAx1lePRnpGv52BK4HaVMoFTEJC3f',
     },
     {
-        id: `4-${EnumWORDLEVELS.C1BERUF}`,
+        id: `4-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -131,7 +131,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
 
     {
-        id: `7-${EnumWORDLEVELS.C1BERUF}`,
+        id: `7-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA1,
         article: '',
         pluralEnding: '',
@@ -144,7 +144,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
 
     {
-        id: `83-${EnumWORDLEVELS.C1BERUF}`,
+        id: `83-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA5,
         article: '',
         pluralEnding: '',
@@ -156,7 +156,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhdu133hMqi3tZyl6GjPUJxSoKLRrC1ehEkv97',
     },
     {
-        id: `85-${EnumWORDLEVELS.C1BERUF}`,
+        id: `85-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
@@ -168,7 +168,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhquN6EnoHMb4Fx3SuAL2OkR1JDz8hvClYy5fd',
     },
     {
-        id: `86-${EnumWORDLEVELS.C1BERUF}`,
+        id: `86-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -182,7 +182,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh3PtUrA4ojvmFX2AO1hJNYV9ixGpuDfd5zUcL',
     },
     {
-        id: `87-${EnumWORDLEVELS.C1BERUF}`,
+        id: `87-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -194,7 +194,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhxU7VTgNmdaqpS3zs71DFeJYoM4NUW5OEbPwj',
     },
     {
-        id: `88-${EnumWORDLEVELS.C1BERUF}`,
+        id: `88-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA4,
         article: '',
         pluralEnding: '',
@@ -208,7 +208,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh9Vokdz0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
     },
     {
-        id: `89-${EnumWORDLEVELS.C1BERUF}`,
+        id: `89-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -221,7 +221,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhprVGfK2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
-        id: `90-${EnumWORDLEVELS.C1BERUF}`,
+        id: `90-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -233,7 +233,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh2ulJmNYvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
     },
     {
-        id: `91-${EnumWORDLEVELS.C1BERUF}`,
+        id: `91-${WORD_LEVELS.C1BERUF}`,
         article: '',
         pluralEnding: '',
         wordDe: 'eingeben, gibt ein, gab ein, hat eingegeben',
@@ -244,7 +244,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhr4x9YeAn1sqJTVcNudIg3BDMPtGOXY8K72Zi',
     },
     {
-        id: `92-${EnumWORDLEVELS.C1BERUF}`,
+        id: `92-${WORD_LEVELS.C1BERUF}`,
         article: '',
         pluralEnding: '',
         wordDe: 'jeweilige',
@@ -255,7 +255,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhcNLu1EvxsIW48BMn5jH2lVp9LzJXDy1TkiKr',
     },
     {
-        id: `93-${EnumWORDLEVELS.C1BERUF}`,
+        id: `93-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -268,7 +268,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh4BoIQf6wOqj81VfMisExF0Xm56z2QrgI43vl',
     },
     {
-        id: `94-${EnumWORDLEVELS.C1BERUF}`,
+        id: `94-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -280,7 +280,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhzFwy3mpFPErID6hOu9WUTsic5yqdxGH0YQ1L',
     },
     {
-        id: `95-${EnumWORDLEVELS.C1BERUF}`,
+        id: `95-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -292,7 +292,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhCuNxhROc52LSlA4MjeGxyPtkg0ZQhWdHzJuF',
     },
     {
-        id: `96-${EnumWORDLEVELS.C1BERUF}`,
+        id: `96-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -306,7 +306,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhbT2lcBArGwWsaZoXAO0dkh98SbIKMQ2JCfzq',
     },
     {
-        id: `97-${EnumWORDLEVELS.C1BERUF}`,
+        id: `97-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -318,7 +318,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhmYBC21G1vlWLZ3wVM7eJd6GHQXCqsDpOEYIK',
     },
     {
-        id: `98-${EnumWORDLEVELS.C1BERUF}`,
+        id: `98-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -331,7 +331,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
 
     {
-        id: `100-${EnumWORDLEVELS.C1BERUF}`,
+        id: `100-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'der',
         pluralEnding: ', -e',
@@ -343,7 +343,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh22L6heYvxLYiDJ8uFhUGTnZXtHds9E4KI2y3',
     },
     {
-        id: `101-${EnumWORDLEVELS.C1BERUF}`,
+        id: `101-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'der',
         pluralEnding: ', -e',
@@ -355,7 +355,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhq7kzBGoHMb4Fx3SuAL2OkR1JDz8hvClYy5fd',
     },
     {
-        id: `102-${EnumWORDLEVELS.C1BERUF}`,
+        id: `102-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'das',
         pluralEnding: '',
@@ -367,7 +367,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhyXIoairDLWcC2lIrhH17xJvjKnQR9ws536ei',
     },
     {
-        id: `103-${EnumWORDLEVELS.C1BERUF}`,
+        id: `103-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'das',
         pluralEnding: '',
@@ -379,7 +379,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhw4Kif8bKx3oQcHXA85iDdYagnsSZVFPkheU4',
     },
     {
-        id: `104-${EnumWORDLEVELS.C1BERUF}`,
+        id: `104-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -391,7 +391,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhJJnMUfcMyl2V46DGiNWAse9zQUT5pOkEKaB0',
     },
     {
-        id: `105-${EnumWORDLEVELS.C1BERUF}`,
+        id: `105-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -403,7 +403,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhCpvxdCOc52LSlA4MjeGxyPtkg0ZQhWdHzJuF',
     },
     {
-        id: `106-${EnumWORDLEVELS.C1BERUF}`,
+        id: `106-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -416,7 +416,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
 
     {
-        id: `126-${EnumWORDLEVELS.C1BERUF}`,
+        id: `126-${WORD_LEVELS.C1BERUF}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausversehen',
@@ -427,7 +427,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhEcPlYYBe95wT1ApKMvZ0U8kdzs6lPNEhOR4H',
     },
     {
-        id: `127-${EnumWORDLEVELS.C1BERUF}`,
+        id: `127-${WORD_LEVELS.C1BERUF}`,
         article: '',
         pluralEnding: '',
         wordDe: 'entfernen, entfernt, entfernte, hat entfernt',
@@ -438,7 +438,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhtojvsExXU3oa7DEsTyVQ2zGrJZFuYglcj84A',
     },
     {
-        id: `128-${EnumWORDLEVELS.C1BERUF}`,
+        id: `128-${WORD_LEVELS.C1BERUF}`,
         article: '',
         pluralEnding: '',
         wordDe: 'beurteilen, beurteilt, beurteilte, hat beurteilt',
@@ -449,7 +449,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhLwU3B4yU1vJKEiwc6tXCo24HYTQ8xVrjL9Gu',
     },
     {
-        id: `156-${EnumWORDLEVELS.C1BERUF}`,
+        id: `156-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
@@ -461,7 +461,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhvZZOIx8GDSXB4RHWIPwtqLFUmnjci5ChdEAJ',
     },
     {
-        id: `157-${EnumWORDLEVELS.C1BERUF}`,
+        id: `157-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -473,7 +473,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhT8syD354978sPWymYbGCLVwivJjoSRlhteBc',
     },
     {
-        id: `158-${EnumWORDLEVELS.C1BERUF}`,
+        id: `158-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -485,7 +485,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhhx7xUgIdR9r06GDKfBbSoICYuEPtT5glMaJH',
     },
     {
-        id: `159-${EnumWORDLEVELS.C1BERUF}`,
+        id: `159-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -497,7 +497,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhxUzNbbQmdaqpS3zs71DFeJYoM4NUW5OEbPwj',
     },
     {
-        id: `160-${EnumWORDLEVELS.C1BERUF}`,
+        id: `160-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -510,7 +510,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
 
     {
-        id: `175-${EnumWORDLEVELS.C1BERUF}`,
+        id: `175-${WORD_LEVELS.C1BERUF}`,
         article: '',
         pluralEnding: '',
         wordDe: 'scheitern, scheitert, scheiterte, ist gescheitert',
@@ -521,7 +521,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhMRSDEeKq64xuGBkrejT9EQmSYta7vXAKLszV',
     },
     {
-        id: `176-${EnumWORDLEVELS.C1BERUF}`,
+        id: `176-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -533,7 +533,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNhps5GWW2shpGY1ctFIeDyvwu24madHBxoLWRM',
     },
     {
-        id: `177-${EnumWORDLEVELS.C1BERUF}`,
+        id: `177-${WORD_LEVELS.C1BERUF}`,
         article: '',
         pluralEnding: '',
         wordDe: 'anstrengen, strengt an, strengte an, hat angestrengt',
@@ -544,7 +544,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh9ytUHjv0LrUx3WbIiMq2Gjl876EdXVhRP0n4',
     },
     {
-        id: `178-${EnumWORDLEVELS.C1BERUF}`,
+        id: `178-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -556,7 +556,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: 'Yosg29JtFzNh9EVnRd0LrUx3WbIiMq2Gjl876EdXVhRP0n4t',
     },
     {
-        id: `179-${EnumWORDLEVELS.C1BERUF}`,
+        id: `179-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
@@ -569,7 +569,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
 
     {
-        id: `197-${EnumWORDLEVELS.C1BERUF}`,
+        id: `197-${WORD_LEVELS.C1BERUF}`,
         thema: EnumTOPICS.THEMA3,
         article: '',
         pluralEnding: '',
