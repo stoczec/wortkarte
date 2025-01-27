@@ -7,30 +7,12 @@ import { getDataByLevel, useCardsStore } from '@/stores'
 import { EnumCARDSCATEGORY } from '@/enums/enums'
 import { ILanguageCard } from '@/interfaces/interfaces'
 import { useRouter } from 'next/navigation'
-import { ToastContainer, cssTransition, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
 
 export default function PaginatedPage() {
     const pathname = usePathname()
     const pageParam = pathname.split('/').pop() || '1'
     const currentPage = Number(pageParam)
     const router = useRouter()
-    const bounce = cssTransition({
-        enter: 'animate__animated animate__bounceIn',
-        exit: 'animate__animated animate__bounceOut',
-    })
-    const notify = () =>
-        toast.success(' Neue Wörter wurden hinzugefügt!', {
-            position: 'top-center',
-            autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: false,
-            draggable: false,
-            progress: undefined,
-            theme: 'colored',
-            transition: bounce,
-        })
 
     const {
         displayedCards,
@@ -74,7 +56,6 @@ export default function PaginatedPage() {
         if (checkDataConsistency()) {
             resetStore()
             router.push('/page/1')
-            // notify()
         }
     }, [displayedCards, selectedWordLevel])
 
@@ -95,7 +76,6 @@ export default function PaginatedPage() {
                 pageName="page"
                 currentPage={currentPage}
             />
-            <ToastContainer />
         </div>
     )
 }
