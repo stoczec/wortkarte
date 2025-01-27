@@ -1,10 +1,10 @@
-import { EnumTOPICS, WORD_CLASSES, WORD_LEVELS } from '@/enums/enums'
+import { TOPICS, WORD_CLASSES, WORD_LEVELS } from '@/enums/enums'
 import { ILanguageCard } from '@/interfaces/interfaces'
 
 export const C1_Beruf_data: ILanguageCard[] = [
     {
         id: `0-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA1,
+        thema: TOPICS.THEMA1,
         article: '',
         pluralEnding: '',
         wordDe: 'in gegenseitigem Einvernehmen',
@@ -16,7 +16,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `0-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA1,
+        thema: TOPICS.THEMA1,
         article: '',
         pluralEnding: '',
         wordDe: 'schwerwiegender',
@@ -28,7 +28,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `0-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA1,
+        thema: TOPICS.THEMA1,
         article: '',
         pluralEnding: '',
         wordDe: 'entwerfen, entwirft, entwarf, hat entworfen',
@@ -42,7 +42,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `0-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA1,
+        thema: TOPICS.THEMA1,
         article: '',
         pluralEnding: '',
         wordDe: 'shadstoffarm',
@@ -55,7 +55,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `0-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA1,
+        thema: TOPICS.THEMA1,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Kipppunkt',
@@ -69,7 +69,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `1-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA7,
+        thema: TOPICS.THEMA7,
         article: '',
         pluralEnding: '',
         wordDe: 'durchwachsen',
@@ -82,7 +82,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
 
     {
         id: `1-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA1,
+        thema: TOPICS.THEMA1,
         article: '',
         pluralEnding: '',
         wordDe: 'befehlen, befiehlt, befahl, hat befohlen',
@@ -94,7 +94,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `2-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA1,
+        thema: TOPICS.THEMA1,
         article: '',
         pluralEnding: '',
         wordDe: 'befürchten, befürchtete, befürchtet, hat befürchtet',
@@ -107,7 +107,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `3-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA1,
+        thema: TOPICS.THEMA1,
         article: '',
         pluralEnding: '',
         wordDe: 'betrügen, betrügt, betrog, hat betrogen',
@@ -119,7 +119,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `4-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA1,
+        thema: TOPICS.THEMA1,
         article: '',
         pluralEnding: '',
         wordDe: 'biegen, biegt, bog, hat gebogen',
@@ -132,7 +132,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
 
     {
         id: `7-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA1,
+        thema: TOPICS.THEMA1,
         article: '',
         pluralEnding: '',
         wordDe: 'ankommen, kommt an, kam an, ist angekommen',
@@ -145,7 +145,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
 
     {
         id: `83-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA5,
+        thema: TOPICS.THEMA5,
         article: '',
         pluralEnding: '',
         wordDe: 'richten, richtet, richtete, hat gerichtet',
@@ -157,7 +157,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `85-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA4,
+        thema: TOPICS.THEMA4,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Einweisung',
@@ -169,7 +169,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `86-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA4,
+        thema: TOPICS.THEMA4,
         article: '',
         pluralEnding: '',
         wordDe: 'entsprechend',
@@ -183,7 +183,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `87-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA4,
+        thema: TOPICS.THEMA4,
         article: '',
         pluralEnding: '',
         wordDe: 'durchstellen, stellt durch, stellte durch, hat durchgestellt',
@@ -195,7 +195,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `88-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA4,
+        thema: TOPICS.THEMA4,
         article: '',
         pluralEnding: '',
         wordDe: 'hinzufügen, fügt hinzu, fügte hinzu, hat hinzugefügt',
@@ -209,7 +209,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `89-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'abrufbar',
@@ -222,7 +222,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `90-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'einstellen, stellt ein, stellte ein, hat eingestellt',
@@ -256,7 +256,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `93-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'lesbar',
@@ -269,7 +269,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `94-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'übertragen, überträgt, übertrug, hat übertragen',
@@ -281,7 +281,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `95-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'einrichten, richtet ein, richtete ein, hat eingerichtet',
@@ -293,7 +293,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `96-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Anrufweiterleitung',
@@ -307,7 +307,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `97-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'bezugnehmend',
@@ -319,7 +319,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `98-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'anpassen, passt an, passte an, hat angepasst',
@@ -332,7 +332,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
 
     {
         id: `100-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Anspruch',
@@ -344,7 +344,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `101-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Zusammenhang',
@@ -356,7 +356,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `102-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Ermessen',
@@ -368,7 +368,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `103-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Belieben',
@@ -380,7 +380,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `104-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'anhängend',
@@ -392,7 +392,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `105-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Kostenaufstellung',
@@ -404,7 +404,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `106-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'in Angriff nehmen',
@@ -450,7 +450,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `156-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Kapazität',
@@ -462,7 +462,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `157-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'beteuern, beteuert, beteuerte, hat beteuert',
@@ -474,7 +474,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `158-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'sich vertragen, verträgt sich, vertrug sich, hat sich vertragen',
@@ -486,7 +486,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `159-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'zuweisen, weist zu, wies zu, hat zugewiesen',
@@ -498,7 +498,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `160-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'sich zanken, zankt sich, zankte sich, hat sich gezankt',
@@ -522,7 +522,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `176-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'berücksichtigen, berücksichtigt, berücksichtigte, hat berücksichtigt',
@@ -545,7 +545,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `178-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'ermöglichen, ermöglicht, ermöglichte, hat ermöglicht',
@@ -557,7 +557,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
     {
         id: `179-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'sicherstellen, stellt sicher, stellte sicher, hat sichergestellt',
@@ -570,7 +570,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
 
     {
         id: `197-${WORD_LEVELS.C1BERUF}`,
-        thema: EnumTOPICS.THEMA3,
+        thema: TOPICS.THEMA3,
         article: '',
         pluralEnding: '',
         wordDe: 'begegnen, begegnet, begegnete, ist begegnet',
