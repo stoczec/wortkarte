@@ -8073,4 +8073,43 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Он пытался подавить неприятные мысли, сосредоточив внимание на работе.',
         fileKeyUploadthing: '02oRwhT5lMj23gnLYip5i0mW2zR9YsTl17wtjAoCyFhEqUV3',
     },
+    {
+        id: `646-${WORD_LEVELS.C1BERUF}`,
+        thema: TOPICS.THEMA10,
+        article: 'die',
+        pluralEnding: ', -n',
+        wordDe: 'Auswahlrunde',
+        wordRu: 'отборочный тур',
+        wordClass: WORD_CLASSES.FEMININ,
+        exampleDe:
+            'In der nächsten Auswahlrunde werden die Kandidaten für die Führungsposition vorgestellt.',
+        exampleRu:
+            'В следующем отборочном туре будут представлены кандидаты на руководящую должность.',
+        fileKeyUploadthing: '02oRwhT5lMj2YuqqbycS3i1d96lRqa7uUAbkrwx2PovceWng',
+    },
+    {
+        id: `647-${WORD_LEVELS.C1BERUF}`,
+        thema: TOPICS.THEMA2,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'alternativ',
+        wordRu: 'альтернативный; другой',
+        wordClass: WORD_CLASSES.ADJEKTIV,
+        exampleDe: 'Alternativ zur Bahn können Sie auch den Bus nehmen, um ans Ziel zu gelangen.',
+        exampleRu:
+            'В качестве альтернативы поезду вы можете воспользоваться автобусом, чтобы добраться до места назначения.',
+        fileKeyUploadthing: '02oRwhT5lMj2YSHd4v9cS3i1d96lRqa7uUAbkrwx2PovceWn',
+    },
+    {
+        id: `648-${WORD_LEVELS.C1BERUF}`,
+        thema: TOPICS.THEMA2,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'bevorzugen, bevorzugt, bevorzugte, hat bevorzugt',
+        wordRu: 'предпочитать',
+        wordClass: WORD_CLASSES.VERB,
+        exampleDe: 'Viele Menschen bevorzugen es, morgens Kaffee zu trinken, um wach zu werden.',
+        exampleRu: 'Многие люди предпочитают пить кофе утром, чтобы проснуться.',
+        fileKeyUploadthing: '02oRwhT5lMj2I6LOE8RERnXyAFs1wgkQeO08mBbCrLMxhVGu',
+    },
 ]

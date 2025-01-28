@@ -140,4 +140,8 @@ export const updates = [
         message:
             'Großes Update: - Themen in C1 Beruf hinzugefügt, -Badge mit Thema hinzugefügt, -Alle Wörter aus dem Buch C1 Aspekte Beruf strukturiert, - Fehlende Wörter hinzugefügt',
     },
+    {
+        date: '28.01.25',
+        message: '3 neue Wörter aus dem Buch C1 Aspekte Beruf wurden hinzugefügt.',
+    },
 ]
