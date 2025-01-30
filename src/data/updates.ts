@@ -148,4 +148,8 @@ export const updates = [
         date: '29.01.25',
         message: '8 neue Wörter aus dem Buch C1 Aspekte Beruf wurden hinzugefügt.',
     },
+    {
+        date: '30.01.25',
+        message: '3 neue Wörter aus dem Buch C1 Aspekte Beruf wurden hinzugefügt.',
+    },
 ]

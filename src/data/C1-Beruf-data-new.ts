@@ -8213,4 +8213,43 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Запрос был своевременно отвечен, еще в тот же день.',
         fileKeyUploadthing: '02oRwhT5lMj2ni74exMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
+    {
+        id: `657-${WORD_LEVELS.C1BERUF}`,
+        thema: TOPICS.THEMA10,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'abgesehen von',
+        wordRu: 'за исключением, помимо',
+        wordClass: WORD_CLASSES.VERB,
+        exampleDe: 'Abgesehen von ein paar kleinen Fehlern war der Bericht sehr gut.',
+        exampleRu: 'За исключением нескольких небольших ошибок, отчет был очень хорошим.',
+        fileKeyUploadthing: '02oRwhT5lMj21koIP6rxmtKa2DGLNwRdUkJ8OXIEMyop04Zi',
+    },
+    {
+        id: `658-${WORD_LEVELS.C1BERUF}`,
+        thema: TOPICS.THEMA10,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'anders ausgedrückt',
+        wordRu: 'иначе говоря, другими словами',
+        wordClass: WORD_CLASSES.PHRASEN,
+        exampleDe:
+            'Er hat kein Interesse an dem Projekt – anders ausgedrückt, er will nicht mitmachen.',
+        exampleRu: 'Он не заинтересован в проекте – иначе говоря, он не хочет участвовать.',
+        fileKeyUploadthing: '02oRwhT5lMj2l1qybQvIoHmBWYk93sSFP6LenbujJvyiNEIV',
+    },
+    {
+        id: `659-${WORD_LEVELS.C1BERUF}`,
+        thema: TOPICS.THEMA10,
+        article: '',
+        pluralEnding: '',
+        wordDe: 'weit ausholen',
+        wordRu: 'издалека заходить (в объяснении), долго объяснять',
+        wordClass: WORD_CLASSES.PHRASEN,
+        exampleDe:
+            'Bevor er zur eigentlichen Frage kam, holte er weit aus und erzählte die ganze Vorgeschichte.',
+        exampleRu:
+            'Прежде чем перейти к сути вопроса, он зашел издалека и рассказал всю предысторию.',
+        fileKeyUploadthing: '02oRwhT5lMj2ub9uALXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
+    },
 ]
