@@ -1,11 +1,9 @@
 import { TOPICS, WORD_CLASSES, WORD_LEVELS } from '@/enums/enums'
 import { ILanguageCard } from '@/interfaces/interfaces'
 
-export const C1_Beruf_data: ILanguageCard[] = [
-    /* THEMA 1 */
+export const C1_data: ILanguageCard[] = [
     {
-        id: `1-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `1-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'eigenständig',
@@ -16,8 +14,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2si3tYxqut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
     {
-        id: `2-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `2-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Förderung',
@@ -29,8 +26,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IqdljzRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `3-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `3-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vertraulich',
@@ -41,8 +37,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2TpjWmbYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `4-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `4-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'umfassend',
@@ -53,8 +48,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Y9s5OjcS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
     {
-        id: `5-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `5-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Meisterschule',
@@ -66,8 +60,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29p7izHvP8xagtImQ23pOC4PewkRlh69S1rub',
     },
     {
-        id: `6-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `6-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Meisterprüfung',
@@ -79,8 +72,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OCGYf18mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `7-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `7-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'durchstarten, startet durch, startete durch, hat durchgestartet',
@@ -91,8 +83,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bqQzvqVMKxjXEqCh12naiyulY9Z3N4v7c5Q0',
     },
     {
-        id: `8-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `8-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Nachweis',
@@ -103,8 +94,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EQca9HkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `9-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `9-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einschlägig',
@@ -115,8 +105,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2TfjEmoxYMUSiw8CBH2aVWuzv9b1xXrgJGpe7',
     },
     {
-        id: `10-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `10-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'wettbewerbsfähig',
@@ -128,8 +117,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29qcf5mP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `11-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `11-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'mittelständisch',
@@ -140,8 +128,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IL3QMkRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `12-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `12-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vor Ort',
@@ -152,8 +139,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xTXrNSErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
-        id: `13-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `13-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'beiderseitig',
@@ -164,8 +150,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WFVQVs6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `14-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `14-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einen Zweck verfolgen, verfolgt, verfolgte, hat verfolgt',
@@ -176,8 +161,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2YSiGYC7cS3i1d96lRqa7uUAbkrwx2PovceWn',
     },
     {
-        id: `15-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `15-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Ziele festlegen, legt fest, legte fest, hat festgelegt',
@@ -188,8 +172,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sNcGT7qut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
     {
-        id: `16-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `16-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich einen Eindruck verschaffen, verschafft, verschaffte, hat verschafft',
@@ -200,8 +183,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2T68ijuYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `17-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `17-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Einschätzung',
@@ -212,8 +194,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jqVBdKZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `18-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `18-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Zusammenhalt',
@@ -224,8 +205,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2F4LOQpvPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `19-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `19-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Auftreten',
@@ -236,8 +216,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2SKslxdi8xZTwlRrBq2DKP6ysXHaGvLWi3QVJ',
     },
     {
-        id: `20-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `20-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'offene Punkte',
@@ -248,8 +227,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2oTpzN1Dx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `21-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `21-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Verpflegung',
@@ -261,8 +239,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2V4QDe3zoerLP4zAHFIU3bhna97sgYcKy6SGf',
     },
     {
-        id: `22-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `22-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Überstunden abbauen, baut ab, baute ab, hat abgebaut',
@@ -273,8 +250,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tT1MtDnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `23-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `23-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Subventionierung',
@@ -285,8 +261,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2PK49mw3cqDi0uIjZSfOAMVoXCzhe4gUb8FaG',
     },
     {
-        id: `24-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `24-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Zuschuss',
@@ -297,8 +272,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qGHhklAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `25-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `25-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'in der Zwischenzeit',
@@ -310,8 +284,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2oONdGYDx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `26-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `26-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Ausfertigung',
@@ -322,8 +295,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2F7rZEAvPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `27-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `27-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gleichwertig',
@@ -334,8 +306,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CoMf8Xa0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `28-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `28-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'freihalten, hält frei, hielt frei, hat freigehalten',
@@ -346,8 +317,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2PzYvcV3cqDi0uIjZSfOAMVoXCzhe4gUb8FaG',
     },
     {
-        id: `29-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `29-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'dienstlich',
@@ -358,8 +328,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2l1RMNaYIoHmBWYk93sSFP6LenbujJvyiNEIV',
     },
     {
-        id: `30-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `30-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Puffer',
@@ -370,8 +339,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2R65vGF1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `31-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `31-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einarbeiten, arbeitet ein, arbeitete ein, hat eingearbeitet',
@@ -382,8 +350,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nTwxiIMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `32-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `32-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Einarbeitung',
@@ -394,8 +361,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2eTQCKvsiQUDIfn45vcpLXTBZkuWjmb6rthKz',
     },
     {
-        id: `33-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `33-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Räumlichkeit',
@@ -406,8 +372,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2v4S8pYt2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `34-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `34-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -räume',
         wordDe: 'Umkleideraum',
@@ -418,8 +383,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21RzEX7xmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `35-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `35-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'überprüfen, überprüft, überprüfte, hat überprüft',
@@ -430,8 +394,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj20uXaVHT5lMj2Hg6WNcwtUQmOBxkpdICAvZ4r',
     },
     {
-        id: `36-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `36-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'konsequent',
@@ -442,8 +405,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Tfw1J7dYMUSiw8CBH2aVWuzv9b1xXrgJGpe7',
     },
     {
-        id: `37-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `37-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vorgehen, geht vor, ging vor, ist vorgegangen',
@@ -454,8 +416,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IGH4OFRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `38-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `38-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'effizient',
@@ -468,8 +429,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2FTkMILvPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `39-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `39-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'aufladen, lädt auf, lud auf, hat aufgeladen',
@@ -480,8 +440,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2o8hjGYDx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `40-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `40-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Mehrwert',
@@ -492,8 +451,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RJLSER1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `41-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `41-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Ablauf',
@@ -504,8 +462,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nWiy3aiMzHMhlAWOvkajZ7Xxbdr2PLgyY49R',
     },
     {
-        id: `42-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `42-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Zweck',
@@ -516,8 +473,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DeMblHZ4bjOvU7hgyJZFifIasMQunldBS8m1',
     },
     {
-        id: `43-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `43-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'personenbezogene Daten',
@@ -530,8 +486,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZkGZxtuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `44-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `44-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einem besonderen Schutz unterliegen, unterliegt, unterlag, hat unterlegen',
@@ -544,8 +499,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WNmAah6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `45-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `45-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Daten erheben, erhebt, erhob, hat erhoben',
@@ -556,8 +510,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Z06tptuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `46-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `46-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Einwilligung',
@@ -569,8 +522,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24qg2jt5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `47-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `47-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'betreffen, betrifft, betraf, hat betroffen',
@@ -581,7 +533,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HZIlUW12cNosUue0XzCG9rj1kKA6vYTSdgJF',
     },
     {
-        id: `48-${WORD_LEVELS.C1BERUF}`,
+        id: `48-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Maßnahme',
@@ -593,8 +545,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DifVDB4bjOvU7hgyJZFifIasMQunldBS8m10',
     },
     {
-        id: `49-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `49-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ergreifen, ergreift, ergriff, hat ergriffen',
@@ -605,8 +556,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2dV0rAi9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `50-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `50-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausdrücklich',
@@ -617,8 +567,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fbYtENSfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `51-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `51-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Zugangsdaten',
@@ -629,8 +578,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22CVdlBjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
     {
-        id: `52-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `52-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'auflisten, listet auf, listete auf, hat aufgelistet',
@@ -641,8 +589,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj26g37A8dlpeThmKQnFU9aqMN7IywAgsvXEdOY',
     },
     {
-        id: `53-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `53-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'übersichtlich',
@@ -653,8 +600,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Xjj1INCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `54-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `54-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'durchfallen, fällt durch, durchfiel, ist durchgefallen',
@@ -665,8 +611,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WjWDo56S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `55-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `55-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einsehbar',
@@ -677,8 +622,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lVEhMeIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `56-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `56-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vorsehen, sieht vor, sah vor, hat vorgesehen',
@@ -689,8 +633,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xcHZ2QErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
-        id: `57-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `57-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Zugriff',
@@ -701,8 +644,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fLQj5DSfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `58-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `58-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -n',
         wordDe: 'Unberechtigte',
@@ -713,8 +655,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xroKGICErEf9kX7tASwp5OenNvCayZmP1qFi',
     },
     {
-        id: `59-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `59-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'übergehen, geht über, ging	über, ist übergegangen',
@@ -726,8 +667,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XdkJ2xCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `60-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `60-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unterschätzen, unterschätzt, unterschätzte, hat unterschätzt',
@@ -738,8 +678,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RXQyOk1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `61-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `61-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unterordnen, ordnet unter, ordnete unter, hat untergeordnet',
@@ -750,8 +689,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lAoC8KIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `62-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `62-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gefährdet sein, ist, war, ist gewesen',
@@ -763,8 +701,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RzhSCt1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `63-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `63-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'umdenken, denkt um, dachte	um, hat umgedacht',
@@ -776,8 +713,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CIIL6bwa0RY1oVptKNDjmwu7HdWefzJbcIMQ',
     },
     {
-        id: `64-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `64-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Flurfunk',
@@ -789,8 +725,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LkfFfk00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `65-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `65-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Betreiber',
@@ -801,8 +736,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2SecGxci8xZTwlRrBq2DKP6ysXHaGvLWi3QVJ',
     },
     {
-        id: `66-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `66-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'betriebsintern',
@@ -815,8 +749,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2NU6v90FxrQ3DE5MPoqZ8OYn60HJ7XGfUS1eu',
     },
     {
-        id: `67-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `67-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erfolgen, erfolgt, erfolgte, ist erfolgt',
@@ -827,8 +760,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2x6JRAfErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
-        id: `68-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `68-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Bandansage',
@@ -840,8 +772,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2S8ZqA8Gi8xZTwlRrBq2DKP6ysXHaGvLWi3QV',
     },
     {
-        id: `69-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `69-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Belegschaft',
@@ -852,8 +783,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EWFfcwkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `70-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `70-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'nötigenfalls',
@@ -864,8 +794,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2d3cSS019i3PrGnSwUuz6jDqFJCQEYhZxlMcO',
     },
     {
-        id: `71-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `71-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Abwesenheit',
@@ -876,8 +805,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29viXwxP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `72-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `72-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -äge',
         wordDe: 'Eintrag',
@@ -888,8 +816,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tQxWW3nzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `73-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `73-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verknüpfen mit, verknüpft, verknüpfte, hat verknüpft',
@@ -900,8 +827,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21KzvotxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `74-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `74-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'abweisen, weist ab, wies ab, hat abgewiesen',
@@ -912,8 +838,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29iauB9P8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `75-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `75-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'übermitteln, übermittelt, übermittelte, hat übermittelt',
@@ -924,8 +849,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jYR1PrZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `76-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `76-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -änge',
         wordDe: 'Vorgang',
@@ -936,8 +860,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29ATvAkP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `77-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `77-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'wert sein, ist, war, ist gewesen',
@@ -948,8 +871,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XkdFbWCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `78-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `78-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Vorgehensweise',
@@ -960,8 +882,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2VwO70DoerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `79-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `79-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schildern, schildert, schilderte, hat geschildert',
@@ -972,8 +893,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2n9WVxRMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `80-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA1,
+        id: `80-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'überflüssig',
@@ -983,10 +903,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Эта информация лишняя и не добавляет ничего к обсуждению.',
         fileKeyUploadthing: '02oRwhT5lMj2sj6b16qut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
-    /* THEMA 2 */
     {
-        id: `81-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `81-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Verständnisfrage',
@@ -999,8 +917,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sxgojWqut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
     {
-        id: `82-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `82-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Absatzzahlen',
@@ -1011,8 +928,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EbNvfYCkA85LO9g2Ia7lqmrNVjzPuGEWYUFM',
     },
     {
-        id: `83-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `83-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich in Grenzen halten, hält, hielt, hat gehalten',
@@ -1023,8 +939,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aRoX3FNlkeUbj4ryVWscL7OqIuH3Tao1N2pR',
     },
     {
-        id: `84-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `84-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Arbeitszeit aufstocken, stockt auf, stockte auf, hat aufgestockt',
@@ -1037,8 +952,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2FeV645vPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `85-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `85-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schaffen, schafft, schuf, hat geschaffen',
@@ -1050,8 +964,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2rWm8DJbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `86-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `86-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'nervig',
@@ -1062,8 +975,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ToFKzjYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `87-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `87-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -e',
         wordDe: 'Personalgespräch',
@@ -1076,8 +988,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aQw8BHlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `88-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `88-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unnötig',
@@ -1088,8 +999,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uBG1EeXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `89-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `89-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Qual',
@@ -1100,8 +1010,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uQFWyYXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `90-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `90-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Belang',
@@ -1112,8 +1021,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qPpVboAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `91-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `91-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vielbeschäftigt',
@@ -1124,8 +1032,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hrc0q3mE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `92-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `92-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'mittelfristig',
@@ -1136,8 +1043,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MtNPNhzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `93-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `93-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich vergegenwärtigen, vergegenwärtigt sich, vergegenwärtigte sich, hat sich vergegenwärtigt',
@@ -1149,8 +1055,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sb8SY3qut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
     {
-        id: `94-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `94-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Kernaufgabe',
@@ -1162,8 +1067,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ajJbTElkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `95-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `95-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'höhenverstellbar',
@@ -1174,8 +1078,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2156WZIxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `96-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `96-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich beschränken auf, beschränkt sich, beschränkte sich, hat sich beschränkt',
@@ -1186,8 +1089,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2YShirqhcS3i1d96lRqa7uUAbkrwx2PovceWn',
     },
     {
-        id: `97-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `97-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Rückmeldung',
@@ -1199,8 +1101,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
 
     {
-        id: `98-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `98-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'bescheiden',
@@ -1211,8 +1112,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2C9vVwoa0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `99-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `99-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einvernehmlich',
@@ -1223,8 +1123,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2R4g6wg1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `100-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `100-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Förderbedarf',
@@ -1237,8 +1136,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2o5G3xWHDx6dMY0UtOKTuziVqcHa4JwPbS3I9',
     },
     {
-        id: `101-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `101-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Übergabe',
@@ -1249,8 +1147,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tzpilE1nzPEDhip5awk9oJ0LZsHVKWTrtuBm',
     },
     {
-        id: `102-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `102-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'die Ärmel hochkrempeln, krempelt hoch, krempelte hoch, hat hochgekrempelt',
@@ -1262,8 +1159,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pHi8K7yLVcWGIlN4nRqPmS5w1e9M0QKHErDO',
     },
     {
-        id: `103-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `103-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausgelastet',
@@ -1274,8 +1170,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21MznoexmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `104-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `104-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zeitaufwendig',
@@ -1286,8 +1181,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EFjcq1kA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `105-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `105-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Abgabetermin',
@@ -1298,8 +1192,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Ix4AdsbRERnXyAFs1wgkQeO08mBbCrLMxhVG',
     },
     {
-        id: `106-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `106-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'überschaubar',
@@ -1310,8 +1203,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Cbzg2Ra0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `107-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `107-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'auf dem Laufenden sein, ist, war, ist gewesen',
@@ -1323,8 +1215,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pzX3so7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `108-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `108-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vervollständigen, vervollständigt, vervollständigte, hat vervollständigt',
@@ -1335,8 +1226,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Fn6DU8ivPzSh60iIawY8NmKvojetsZu7g4Vk',
     },
     {
-        id: `109-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `109-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'loslegen mit, legt los, legte los, hat losgelegt',
@@ -1347,8 +1237,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lh2XBbIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `110-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `110-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gegen die Wand fahren, fährt, fuhr, ist gefahren',
@@ -1360,8 +1249,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj20ijNKmT5lMj2Hg6WNcwtUQmOBxkpdICAvZ4r',
     },
     {
-        id: `111-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `111-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Kapazitäten',
@@ -1373,8 +1261,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZzTAVEuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `112-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `112-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'überfordert',
@@ -1387,8 +1274,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZCEH9LZuAsNohD0PafmZuC68pT42EvxRIWqt',
     },
     {
-        id: `113-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `113-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Meilenstein',
@@ -1400,8 +1286,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2urkIAXaI1DXObTetfWnBQ8Hsr5zdYkpjAc64',
     },
     {
-        id: `114-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `114-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -e',
         wordDe: 'Finanzierungskonzept',
@@ -1413,8 +1298,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29oGiVMP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `115-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `115-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Brandschutz',
@@ -1425,8 +1309,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xcnPpuErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
-        id: `116-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `116-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Feuerlöscher',
@@ -1437,8 +1320,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fHEszLSfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `117-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `117-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -ände',
         wordDe: 'Brand',
@@ -1449,8 +1331,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj25qQ4kfxeSBWH6O842CKGNnTpeQhiJMycFDYq',
     },
     {
-        id: `118-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `118-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unzureichend',
@@ -1461,8 +1342,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ud5n1dXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `119-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `119-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gewerblich',
@@ -1473,8 +1353,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pvbCBr7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `120-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `120-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'bekämpfen, bekämpft, bekämpfte, hat bekämpft',
@@ -1485,8 +1364,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2u6iLmLXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `121-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `121-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Kennzeichnung',
@@ -1497,8 +1375,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21tQVdOxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `122-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `122-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einsatzbereit',
@@ -1510,8 +1387,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj23Qefz8p5i0mW2zR9YsTl17wtjAoCyFhEqUV3',
     },
     {
-        id: `123-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `123-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Funktionsfähigkeit',
@@ -1522,8 +1398,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21q9OO3xmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `124-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `124-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ordnungsgemäß',
@@ -1534,8 +1409,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj26axu4cdlpeThmKQnFU9aqMN7IywAgsvXEdOY',
     },
     {
-        id: `125-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `125-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Instandhaltung',
@@ -1546,8 +1420,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2V2cMfAoerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `126-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `126-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'instandsetzen, setzt instand, setzte instand, hat instand gesetzt',
@@ -1558,8 +1431,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2afDEdplkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `127-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `127-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -n',
         wordDe: 'Sicherheitsbeauftragte',
@@ -1570,8 +1442,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27NjrkNLB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `128-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `128-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Missachtung',
@@ -1582,8 +1453,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2W2Jdci6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `129-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `129-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Sicherheitsstift',
@@ -1595,8 +1465,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2F6qsnPvPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `130-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `130-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Plombe',
@@ -1607,8 +1476,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2otL43hDx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `131-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `131-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Prüfplakette',
@@ -1619,8 +1487,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kBfvoCrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `132-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `132-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -e',
         wordDe: 'Löschgerät',
@@ -1631,8 +1498,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2dAWt6N9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `133-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `133-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Ein Gerät warten, wartet, wartete, hat gewartet',
@@ -1644,8 +1510,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Xrv4NmCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `134-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `134-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich absprechen mit, spricht sich ab, sprach sich ab, hat sich abgesprochen',
@@ -1656,8 +1521,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jXrjvBfZEBv8DwLkfWZGqXKbarA6lusdpNUC',
     },
     {
-        id: `135-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `135-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich vergewissern, vergewissert sich, vergewisserte sich, hat sich vergewissert',
@@ -1668,8 +1532,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2akw3Y6lkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `136-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `136-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einstimmig',
@@ -1680,8 +1543,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DkvpeQ4bjOvU7hgyJZFifIasMQunldBS8m10',
     },
     {
-        id: `137-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `137-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'mehrheitlich',
@@ -1692,8 +1554,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2if2BjoOnwEHxZaD0uOAK2PpyVl5TU3Sj4WIe',
     },
     {
-        id: `138-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `138-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -¨e',
         wordDe: 'Einwand',
@@ -1704,8 +1565,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hrd8YcmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `139-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `139-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Wortmeldung',
@@ -1716,8 +1576,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IZKbZoRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `140-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `140-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Rednerliste',
@@ -1728,8 +1587,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EqgEDLkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `141-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `141-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'das Wort übergeben an, übergibt, übergab, hat übergeben',
@@ -1740,8 +1598,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tzY5hbinzPEDhip5awk9oJ0LZsHVKWTrtuBm',
     },
     {
-        id: `142-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `142-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Sicherheitseinweisung',
@@ -1754,8 +1611,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OmhslYm8mNuvC5FRwjsLIE2opZbGxD8ge6WS',
     },
     {
-        id: `143-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `143-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Netiquette',
@@ -1766,8 +1622,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2T3qE6LYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `144-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `144-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'in Präsenz',
@@ -1778,8 +1633,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jwYIV4ZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `145-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `145-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'plädieren für, plädiert, plädierte, hat plädiert',
@@ -1790,8 +1644,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2u12bPbXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `146-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `146-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ein Fazit ziehen, zieht, zog, hat gezogen',
@@ -1802,8 +1655,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Ix1BISIRERnXyAFs1wgkQeO08mBbCrLMxhVG',
     },
     {
-        id: `147-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `147-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'den eigenen Standpunkt darlegen, legt dar, legte dar, hat dargelegt',
@@ -1814,8 +1666,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2yh98tcHazuUF1Dqj4EbrZvioT0X8eMJkc9NG',
     },
     {
-        id: `148-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA2,
+        id: `148-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausreden lassen, lässt, ließ, hat lassen',
@@ -1826,11 +1677,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'В конструктивной дискуссии важно дать другим договорить.',
         fileKeyUploadthing: '02oRwhT5lMj22HSWBvjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
-    /* THEMA 3 */
-
     {
-        id: `149-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `149-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'derzeit',
@@ -1841,8 +1689,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2j2cbuwZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `150-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `150-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'nachhaltig',
@@ -1855,8 +1702,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2rwEymqbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `151-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `151-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ressourcenschonend',
@@ -1868,8 +1714,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2eAGr4krsiQUDIfn45vcpLXTBZkuWjmb6rthK',
     },
     {
-        id: `152-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `152-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gründen, gründet, gründete, hat gegründet',
@@ -1881,8 +1726,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WSEIxx6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `153-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `153-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Lieferkette',
@@ -1893,8 +1737,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29jLuXpP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `154-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `154-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -e',
         wordDe: 'Lieferengpass',
@@ -1906,8 +1749,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ycPIdHazuUF1Dqj4EbrZvioT0X8eMJkc9NGt',
     },
     {
-        id: `155-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `155-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Marktlücke',
@@ -1919,8 +1761,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2daNRcr9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `156-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `156-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'steigende Nachfrage',
@@ -1933,8 +1774,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HDMoNN2cNosUue0XzCG9rj1kKA6vYTSdgJFq',
     },
     {
-        id: `157-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `157-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Konjunktur',
@@ -1946,8 +1786,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aya9ZDlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `158-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `158-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Ware',
@@ -1958,8 +1797,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29phqxIQP8xagtImQ23pOC4PewkRlh69S1rub',
     },
     {
-        id: `159-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `159-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Güter',
@@ -1972,8 +1810,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Y1X6V5cS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
     {
-        id: `160-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `160-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Stückzahl',
@@ -1984,8 +1821,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EYMVILkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `161-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `161-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Produktionskosten',
@@ -1997,8 +1833,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DkVDFL4bjOvU7hgyJZFifIasMQunldBS8m10',
     },
     {
-        id: `162-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `162-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'angespannt',
@@ -2009,8 +1844,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24W0FGu5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `163-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `163-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'angewiesen sein auf, ist, war, ist gewesen',
@@ -2021,8 +1855,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nerGpKMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `164-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `164-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'benötigen, benötigt, benötigte, hat benötigt',
@@ -2033,8 +1866,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jQLTbiZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `165-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `165-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'betroffen von',
@@ -2046,8 +1878,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XllXneoCIbx3hQUkp4NorV8CycZWejGFv9mu',
     },
     {
-        id: `166-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `166-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich auswirken auf, wirkt sich aus, wirkte sich aus, hat sich ausgewirkt',
@@ -2058,8 +1889,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24EOudE5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `167-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `167-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'beziehen, bezieht, bezog, hat bezogen',
@@ -2070,8 +1900,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2NtMi48DFxrQ3DE5MPoqZ8OYn60HJ7XGfUS1e',
     },
     {
-        id: `168-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `168-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Dienstleistung',
@@ -2082,8 +1911,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IvepNLRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `169-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `169-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Engpass',
@@ -2094,8 +1922,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hNd8TvmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `170-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `170-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erfreulicherweise',
@@ -2107,8 +1934,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2owAzrKDx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `171-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `171-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'die Production hochfahren, fährt hoch, fuhr hoch, hat hochgefahren',
@@ -2120,8 +1946,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nbFDwEMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `172-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `172-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'aufstocken, stockt auf, stockte auf, hat aufgestockt',
@@ -2132,8 +1957,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sKnG98bqut05vGR4xAzBPChl1rWEkFbY2aNU',
     },
     {
-        id: `173-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `173-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Prozess',
@@ -2144,8 +1968,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Xkc4jLCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `174-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `174-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich umsehen nach, sieht sich um, sah sich um, hat sich umgesehen',
@@ -2156,8 +1979,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2PTZiiX3cqDi0uIjZSfOAMVoXCzhe4gUb8FaG',
     },
     {
-        id: `175-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `175-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verbleiben, verbleibt, verblieb, ist verblieben',
@@ -2168,8 +1990,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Z7HsNnuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `176-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `176-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Verzögerung',
@@ -2180,8 +2001,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XdAoiiCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `177-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `177-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Zulieferer',
@@ -2192,8 +2012,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZGDQb1uAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `178-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `178-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'austauschen, tauscht aus, tauschte aus, hat ausgetauscht',
@@ -2204,8 +2023,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2exINMMsiQUDIfn45vcpLXTBZkuWjmb6rthKz',
     },
     {
-        id: `179-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `179-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -n',
         wordDe: 'Bestandskunde',
@@ -2216,8 +2034,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RaampT1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `180-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `180-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Verhalten',
@@ -2228,8 +2045,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj23hs1xPp5i0mW2zR9YsTl17wtjAoCyFhEqUV3',
     },
     {
-        id: `181-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `181-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Falschlieferung',
@@ -2241,8 +2057,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj26JmUppdlpeThmKQnFU9aqMN7IywAgsvXEdOY',
     },
     {
-        id: `182-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `182-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Forderung stellen, stellt, stellte, hat gestellt',
@@ -2254,8 +2069,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tzdm6xYnzPEDhip5awk9oJ0LZsHVKWTrtuBm',
     },
     {
-        id: `183-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `183-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Auswirkung auf',
@@ -2267,8 +2081,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2NZSST1FxrQ3DE5MPoqZ8OYn60HJ7XGfUS1eu',
     },
     {
-        id: `184-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `184-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Entspannung',
@@ -2280,8 +2093,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Moav4LzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `185-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `185-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'führen zu, führt zu, führte zu, hat zu geführt',
@@ -2292,8 +2104,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RalhaE1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `186-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `186-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'handhaben, handhabt, handhabte, hat gehandhabt',
@@ -2305,8 +2116,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Fnt3oR0vPzSh60iIawY8NmKvojetsZu7g4Vk',
     },
     {
-        id: `187-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `187-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'längerfristig',
@@ -2317,8 +2127,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2TfjynOhYMUSiw8CBH2aVWuzv9b1xXrgJGpe7',
     },
     {
-        id: `188-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `188-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Regelung',
@@ -2330,8 +2139,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xro0FRAErEf9kX7tASwp5OenNvCayZmP1qFi',
     },
     {
-        id: `189-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `189-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Liefervereinbarung',
@@ -2344,8 +2152,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21ftn9QxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `190-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `190-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Sortimentsumstellung',
@@ -2358,8 +2165,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24JCaL05jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `191-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `191-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Unregelmäßigkeit',
@@ -2372,8 +2178,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28JJdd9IhuBKpyIfRkZmiaHghrVcO620oFYwQ',
     },
     {
-        id: `192-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `192-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'abschrecken, schreckt ab, schreckte ab, hat abgeschreckt',
@@ -2384,8 +2189,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tzYBzbDnzPEDhip5awk9oJ0LZsHVKWTrtuBm',
     },
     {
-        id: `193-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `193-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gewissenhaft',
@@ -2396,8 +2200,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2apjJ5zlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `194-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `194-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Nachhaltigkeit',
@@ -2410,8 +2213,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj26PLCuSWdlpeThmKQnFU9aqMN7IywAgsvXEdO',
     },
     {
-        id: `195-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `195-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ein gutes Gewissen haben, hat, hatte, hat gehabt',
@@ -2423,8 +2225,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LYT39PV00gdyMkDH61c2wFBO5xAipXWreU4m',
     },
     {
-        id: `196-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `196-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'belasten, belastet, belastete, hat belastet',
@@ -2436,8 +2237,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jXbQmpeZEBv8DwLkfWZGqXKbarA6lusdpNUC',
     },
     {
-        id: `197-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `197-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Kaufentscheidung',
@@ -2450,8 +2250,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jVod1mZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `198-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `198-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Lebensdauer',
@@ -2462,8 +2261,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bMIg1xVMKxjXEqCh12naiyulY9Z3N4v7c5Q0',
     },
     {
-        id: `199-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `199-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Langlebigkeit',
@@ -2474,8 +2272,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Rc7UKO1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `200-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `200-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'hochwertig',
@@ -2486,8 +2283,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27fkiGHLB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `201-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `201-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Verarbeitung',
@@ -2498,8 +2294,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uyFxOEXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `202-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `202-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Kunststoff',
@@ -2512,8 +2307,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lqe5n6IoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `203-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `203-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Herstellungsbedingungen',
@@ -2526,8 +2320,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Z7YedFuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `204-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `204-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -¨e',
         wordDe: 'Mangel',
@@ -2540,8 +2333,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2oZCS8QDx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `205-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `205-${WORD_LEVELS.C1}`,
         article: 'ein',
         pluralEnding: '',
         wordDe: 'herkömmliches Verfahren',
@@ -2553,8 +2345,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HdO6sy2cNosUue0XzCG9rj1kKA6vYTSdgJFq',
     },
     {
-        id: `206-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `206-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Produktionsstätte',
@@ -2567,8 +2358,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lv60sUIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `207-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `207-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'wiederverwerten, verwertet wieder, verwertete wieder, hat wiederverwertet',
@@ -2579,8 +2369,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Vy7l6WoerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `208-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `208-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vermeiden, vermeidet, vermied, hat vermieden',
@@ -2591,8 +2380,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jWGKOPZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `209-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `209-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -e',
         wordDe: 'Alleinstellungsmerkmal',
@@ -2605,8 +2393,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uynsY5XaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `210-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `210-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausführlich',
@@ -2617,8 +2404,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2TfH8EbMYMUSiw8CBH2aVWuzv9b1xXrgJGpe7',
     },
     {
-        id: `211-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `211-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Erwartung',
@@ -2629,8 +2415,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21kq7LJRxmtKa2DGLNwRdUkJ8OXIEMyop04Zi',
     },
     {
-        id: `212-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `212-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Stammkundschaft',
@@ -2643,8 +2428,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jJhsE1ZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `213-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `213-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'hauptsächlich',
@@ -2655,8 +2439,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bDFf3fiVMKxjXEqCh12naiyulY9Z3N4v7c5Q',
     },
     {
-        id: `214-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `214-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Bestellvorgang',
@@ -2667,8 +2450,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bDN0xDYVMKxjXEqCh12naiyulY9Z3N4v7c5Q',
     },
     {
-        id: `215-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `215-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'selbsterklärend',
@@ -2680,8 +2462,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2u4rfz3XaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `216-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `216-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Inventur',
@@ -2692,8 +2473,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28JI01PvhuBKpyIfRkZmiaHghrVcO620oFYwQ',
     },
     {
-        id: `217-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `217-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Pro-Kopf-Verbrauch',
@@ -2704,8 +2484,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27zTjXELB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `218-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `218-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Lebensmittelverschwendung',
@@ -2718,8 +2497,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aRDN3IUlkeUbj4ryVWscL7OqIuH3Tao1N2pR',
     },
     {
-        id: `219-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `219-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Neuerung',
@@ -2731,8 +2509,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CI5FEm9a0RY1oVptKNDjmwu7HdWefzJbcIMQ',
     },
     {
-        id: `220-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `220-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Sortimentsanpassung',
@@ -2745,8 +2522,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2q6cwfDAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `221-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `221-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -e',
         wordDe: 'Gefäß',
@@ -2758,8 +2534,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24sQ6tAj5jTrOdhNFvLIzbScl0H7kuEyeBaDA',
     },
     {
-        id: `222-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `222-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'abfüllen, füllt ab, füllte ab, hat abgefüllt',
@@ -2770,8 +2545,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ucOuTTXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `223-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `223-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unverpackt',
@@ -2784,8 +2558,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2rsL1QSbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `224-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `224-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Wartung',
@@ -2798,8 +2571,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2REkiWH21oUWlvZanfsiPK2zhEDpc1eSMkdYJ',
     },
     {
-        id: `225-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `225-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Verteiler',
@@ -2812,8 +2584,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2zTPiU4WyVkpZlH1caN6f8su25OjS79oEeWxq',
     },
     {
-        id: `226-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `226-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vorbeugen, beugt vor, beugte vor, hat vorgebeugt',
@@ -2824,8 +2595,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2REstEba1oUWlvZanfsiPK2zhEDpc1eSMkdYJ',
     },
     {
-        id: `227-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `227-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verderben, verdirbt, verdarb, hat verdorben',
@@ -2836,8 +2606,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2z8nYMoWyVkpZlH1caN6f8su25OjS79oEeWxq',
     },
     {
-        id: `228-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA3,
+        id: `228-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Leitendensitzung',
@@ -2848,12 +2617,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'На совещании руководства были обсуждены будущие стратегии и цели компании.',
         fileKeyUploadthing: '02oRwhT5lMj2RDLeYL1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
-
-    /* THEMA 4 */
-
     {
-        id: `229-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `229-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'abteilungsübergreifend',
@@ -2866,8 +2631,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vzqTVLt2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `230-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `230-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Arbeitszeitenregelung',
@@ -2880,8 +2644,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2M672yO4zcjrpP4Fmzi8x1ygHvahW2KBowuJ0',
     },
     {
-        id: `231-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `231-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -s',
         wordDe: 'Audit',
@@ -2893,8 +2656,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj26P9LHnldlpeThmKQnFU9aqMN7IywAgsvXEdO',
     },
     {
-        id: `232-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `232-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Dokumentation',
@@ -2907,8 +2669,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21i7Fg7xmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `233-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `233-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erfassen, erfasst, erfasste, hat erfasst',
@@ -2921,8 +2682,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LO4T7700gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `234-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `234-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -s',
         wordDe: 'Feedback',
@@ -2933,8 +2693,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aAv1MAlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `235-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `235-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gegenchecken, checkt gegen, checkte gegen, hat gegengecheckt',
@@ -2947,8 +2706,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2X40qQJCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `236-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `236-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -s',
         wordDe: 'Wiki',
@@ -2961,8 +2719,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj25fhzsteSBWH6O842CKGNnTpeQhiJMycFDYqb',
     },
     {
-        id: `237-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `237-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zertifizieren, zertifiziert, zertifizierte, hat zertifiziert',
@@ -2975,8 +2732,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Mp5smDzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `238-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `238-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausbaden, badet aus, badete aus, hat ausgebadet',
@@ -2989,8 +2745,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ReqTJu1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `239-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `239-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausbügeln, bügelt aus, bügelte aus, hat ausgebügelt',
@@ -3001,8 +2756,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MS1dJ0zcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `240-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `240-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einen Fehler begehen, begeht, beging, hat begangen',
@@ -3014,8 +2768,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XjIhfnCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `241-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `241-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einen Fehler beheben, behebt, behob, hat behoben',
@@ -3026,8 +2779,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kmRyasrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `242-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `242-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einräumen, räumt ein, räumte ein, hat eingeräumt',
@@ -3038,8 +2790,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2rMjkL1bP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `243-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `243-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'essenziell',
@@ -3050,8 +2801,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jLJJPHZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `244-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `244-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'jdm. etw. näherbringen, bringt näher, brachte näher, hat nähergebracht',
@@ -3063,8 +2813,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Xlex8IdCIbx3hQUkp4NorV8CycZWejGFv9mu',
     },
     {
-        id: `245-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `245-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Schuldzuweisung',
@@ -3076,8 +2825,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hggoGlFmE40UlzHRsdQgT12PakeBw9DpMibv',
     },
     {
-        id: `246-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `246-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unvermeidbar',
@@ -3088,8 +2836,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Mf8TG8zcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `247-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `247-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verteufeln, verteufelt, verteufelte, hat verteufelt',
@@ -3102,8 +2849,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jjc6eOZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `248-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `248-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vertuschen, vertuscht, vertuschte, hat vertuscht',
@@ -3114,8 +2860,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ciuDuSsf4R8P6OUJz5WNDXld7g0AorutVFxq',
     },
     {
-        id: `249-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `249-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Wertschätzung',
@@ -3128,8 +2873,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sywJVQqut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
     {
-        id: `250-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `250-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -s',
         wordDe: 'Workflow',
@@ -3142,8 +2886,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sKnVDY4qut05vGR4xAzBPChl1rWEkFbY2aNU',
     },
     {
-        id: `251-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `251-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'abwägen, wägt ab, wog ab, hat abgewogen',
@@ -3155,8 +2898,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IAjK9DRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `252-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `252-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausgeschlossen',
@@ -3168,8 +2910,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29fQf3GP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `253-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `253-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Ausschreibung',
@@ -3180,8 +2921,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2n2uzHLMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `254-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `254-${WORD_LEVELS.C1}`,
         article: 'der/die',
         pluralEnding: ', -n',
         wordDe: 'Beteiligte',
@@ -3192,8 +2932,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Xua79FCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `255-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `255-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'bisher',
@@ -3204,8 +2943,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IxrN4d7RERnXyAFs1wgkQeO08mBbCrLMxhVG',
     },
     {
-        id: `256-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `256-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'deutschlandweit',
@@ -3216,8 +2954,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EbKv1z6kA85LO9g2Ia7lqmrNVjzPuGEWYUFM',
     },
     {
-        id: `257-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `257-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -en',
         wordDe: 'Enddatum',
@@ -3228,8 +2965,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sKzSSQwqut05vGR4xAzBPChl1rWEkFbY2aNU',
     },
     {
-        id: `258-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `258-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Fehlermeldung',
@@ -3240,8 +2976,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sKzSSQwqut05vGR4xAzBPChl1rWEkFbY2aNU',
     },
     {
-        id: `259-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `259-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'freischalten für, schaltet frei, schaltete frei, hat freigeschaltet',
@@ -3252,8 +2987,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ytQhKYHazuUF1Dqj4EbrZvioT0X8eMJkc9NG',
     },
     {
-        id: `260-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `260-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Probe-Abo',
@@ -3264,8 +2998,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jTllqyZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `261-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `261-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Sofortmaßnahme',
@@ -3276,8 +3009,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29eKeNxP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `262-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `262-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unverbindlich',
@@ -3288,8 +3020,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bDUNue0VMKxjXEqCh12naiyulY9Z3N4v7c5Q',
     },
     {
-        id: `263-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `263-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vertrösten auf, vertröstet, vertröstete, hat vertröstet',
@@ -3301,8 +3032,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29Tyiy4P8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `264-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `264-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'abstürzen, stürzt ab, stürzte ab, ist abgestürzt',
@@ -3313,8 +3043,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2l14jwDNIoHmBWYk93sSFP6LenbujJvyiNEIV',
     },
     {
-        id: `265-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `265-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -',
         wordDe: 'Anliegen',
@@ -3325,8 +3054,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2rBAc4dbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `266-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `266-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausgehen von, geht aus von, ging aus, ist ausgegangen von',
@@ -3337,8 +3065,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2h52vTKmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `267-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `267-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausgerechnet',
@@ -3349,8 +3076,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2r9kZOzbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `268-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `268-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Dringlichkeit',
@@ -3361,8 +3087,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lzJoTnIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `269-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `269-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'durchgehend',
@@ -3373,8 +3098,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZP9UGFuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `270-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `270-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Geschwindigkeit',
@@ -3385,8 +3109,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2o55yqGXDx6dMY0UtOKTuziVqcHa4JwPbS3I9',
     },
     {
-        id: `271-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `271-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'kühlen, kühlt, kühlte, hat gekühlt',
@@ -3397,8 +3120,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aGHhF2lkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `272-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `272-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Mehrweg-',
@@ -3409,8 +3131,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28yZ5x4huBKpyIfRkZmiaHghrVcO620oFYwQS',
     },
     {
-        id: `273-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `273-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'mithilfe + G',
@@ -3422,8 +3143,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29MCQ8gP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `274-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `274-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Rückruf',
@@ -3434,8 +3154,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ahFIMSlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `275-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `275-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'versiegeln, versiegelt, versiegelte, hat versiegelt',
@@ -3446,8 +3165,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27i5J8KLB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `276-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `276-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zugreifen, greift zu, griff zu, hat zugegriffen',
@@ -3458,8 +3176,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nZsTrXMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `277-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `277-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'aufgebracht',
@@ -3471,8 +3188,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lpGX4LIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `278-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `278-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Beanstandung',
@@ -3485,8 +3201,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DesAeLm4bjOvU7hgyJZFifIasMQunldBS8m1',
     },
     {
-        id: `279-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `279-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'billigen, billigt, billigte, hat gebilligt',
@@ -3497,8 +3212,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XwEvgaCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `280-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `280-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Erwartungshaltung',
@@ -3511,8 +3225,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24hQDHx5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `281-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `281-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'geteilter Meinung sein, ist, war, ist gewesen',
@@ -3523,8 +3236,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kMZ91yrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `282-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `282-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Kernarbeitszeit',
@@ -3537,8 +3249,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OSuy7L8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `283-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `283-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'loyal',
@@ -3550,8 +3261,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2feH9G0SfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `284-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `284-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'lösungsorientiert',
@@ -3564,8 +3274,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj224CXqhjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
     {
-        id: `285-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `285-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -äden',
         wordDe: 'Leitfaden',
@@ -3578,8 +3287,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21mOX4cxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `286-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA4,
+        id: `286-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Rahmenbedingung',
@@ -3589,10 +3297,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Рамочные условия для проекта были точно определены заранее.',
         fileKeyUploadthing: '02oRwhT5lMj2aaFm92lkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
-    /* THEMA 5 */
     {
-        id: `287-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `287-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Wachstum',
@@ -3603,8 +3309,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2oSawzrDx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `288-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `288-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Verfügbarkeit',
@@ -3615,8 +3320,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Tm4dJ4YMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `289-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `289-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'bestrebt sein zu + D',
@@ -3628,8 +3332,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2eAAOjFFsiQUDIfn45vcpLXTBZkuWjmb6rthK',
     },
     {
-        id: `290-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `290-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'aufzeigen, zeigt auf, zeigte auf, hat aufgezeigt',
@@ -3640,8 +3343,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2099VnaT5lMj2Hg6WNcwtUQmOBxkpdICAvZ4r',
     },
     {
-        id: `291-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `291-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'profitieren von + D, profitiert, profitierte, hat profitiert',
@@ -3652,8 +3354,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IxexvJ3RERnXyAFs1wgkQeO08mBbCrLMxhVG',
     },
     {
-        id: `292-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `292-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Datenschutz',
@@ -3666,8 +3367,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ueBE68XaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `293-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `293-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'relaxen, relaxt, relaxte, hat relaxt',
@@ -3679,8 +3379,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nptlPPMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `294-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `294-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'frei Haus',
@@ -3691,8 +3390,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZCC6IVxuAsNohD0PafmZuC68pT42EvxRIWqt',
     },
     {
-        id: `295-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `295-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vertiefen, vertieft, vertiefte, hat vertieft',
@@ -3703,8 +3401,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OuXpZl8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `296-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `296-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'rechnen mit, rechnet, rechnete, hat gerechnet',
@@ -3715,8 +3412,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LFuoD800gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `297-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `297-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'beiliegend',
@@ -3727,8 +3423,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2p0ONkyv7yLVcWGIlN4nRqPmS5w1e9M0QKHEr',
     },
     {
-        id: `298-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `298-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'kontaktieren, kontaktiert, kontaktierte, hat kontaktiert',
@@ -3739,8 +3434,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj23ZoKO8p5i0mW2zR9YsTl17wtjAoCyFhEqUV3',
     },
     {
-        id: `299-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `299-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'akquirieren, akquiriert, akquirierte, hat akquiriert',
@@ -3752,8 +3446,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2yOdaTfHazuUF1Dqj4EbrZvioT0X8eMJkc9NG',
     },
     {
-        id: `300-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `300-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'agieren, agiert, agierte, hat agiert',
@@ -3764,8 +3457,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2FnLhAunvPzSh60iIawY8NmKvojetsZu7g4Vk',
     },
     {
-        id: `301-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `301-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Kundenbindung',
@@ -3778,8 +3470,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qWN8OIAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `302-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `302-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'darstellen, stellt dar, stellte dar, hat dargestellt',
@@ -3790,8 +3481,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2um8u8YXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `303-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `303-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Herausforderung',
@@ -3803,8 +3493,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21ee3kIxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `304-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `304-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'umfassen, umfasst, umfasste, hat umfasst',
@@ -3815,8 +3504,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2SLW1H4i8xZTwlRrBq2DKP6ysXHaGvLWi3QVJ',
     },
     {
-        id: `305-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `305-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Gegenüber',
@@ -3827,8 +3515,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bSJKNMVMKxjXEqCh12naiyulY9Z3N4v7c5Q0',
     },
     {
-        id: `306-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `306-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zur Hand haben',
@@ -3839,8 +3526,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Otl6sC8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `307-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `307-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ratsam',
@@ -3851,8 +3537,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2PTEVjH3cqDi0uIjZSfOAMVoXCzhe4gUb8FaG',
     },
     {
-        id: `308-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `308-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'proaktiv',
@@ -3863,8 +3548,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MkFjLlzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `309-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `309-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zügig',
@@ -3875,8 +3559,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2c16vYZf4R8P6OUJz5WNDXld7g0AorutVFxqm',
     },
     {
-        id: `310-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `310-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unbestritten',
@@ -3887,8 +3570,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nsOuPAMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `311-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `311-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zu sprechen kommen auf',
@@ -3899,8 +3581,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2j2W5VzZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `312-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `312-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Sachkompetenz',
@@ -3912,8 +3593,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
 
     {
-        id: `313-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `313-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Skills',
@@ -3924,8 +3604,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CwieRKa0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `314-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `314-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Zugewandtheit',
@@ -3936,8 +3615,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj26cemqBdlpeThmKQnFU9aqMN7IywAgsvXEdOY',
     },
     {
-        id: `315-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `315-${WORD_LEVELS.C1}`,
         article: 'ein',
         pluralEnding: '',
         wordDe: 'gepflegtes Äußeres',
@@ -3948,8 +3626,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj20cgbJP8T5lMj2Hg6WNcwtUQmOBxkpdICAvZ4',
     },
     {
-        id: `316-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `316-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'aufschlussreich',
@@ -3961,8 +3638,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Yao3xGcS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
     {
-        id: `317-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `317-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zeitversetzt',
@@ -3973,8 +3649,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22XzRZkjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
     {
-        id: `318-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `318-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gelegentlich',
@@ -3985,8 +3660,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LaNWoq00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `319-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `319-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Fehlschluss',
@@ -3998,8 +3672,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fMrvh5SfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `320-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `320-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'bedenkenlos',
@@ -4010,8 +3683,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2zoEMMLWyVkpZlH1caN6f8su25OjS79oEeWxq',
     },
     {
-        id: `321-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `321-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unter Beweis stellen, stellt unter Beweis, hat unter Beweis gestellt',
@@ -4022,8 +3694,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2t8FcIhnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `322-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `322-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vernachlässigen, vernachlässigt, vernachlässigte, hat vernachlässigt',
@@ -4034,8 +3705,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27gtYlmLB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `323-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `323-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'rekonstruieren, rekonstruiert, rekonstruierte, hat rekonstruiert',
@@ -4046,8 +3716,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MavuhqzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `324-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `324-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich handeln um, handelt sich, handelte sich, hat sich gehandelt',
@@ -4058,8 +3727,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xY6sjTErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
-        id: `325-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `325-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich hervorragend eignen zu',
@@ -4070,8 +3738,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2zRugBbWyVkpZlH1caN6f8su25OjS79oEeWxq',
     },
     {
-        id: `326-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `326-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'dienen zu, dient, diente, hat gedient',
@@ -4082,8 +3749,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RWYxzn1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `327-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `327-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'handelsüblich',
@@ -4094,8 +3760,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj25qKHrgHeSBWH6O842CKGNnTpeQhiJMycFDYq',
     },
     {
-        id: `328-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `328-${WORD_LEVELS.C1}`,
         article: 'ein',
         pluralEnding: '',
         wordDe: 'herkömmliches Verfahren',
@@ -4106,8 +3771,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ageksKlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `329-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `329-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erprobt',
@@ -4118,8 +3782,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2roFWAxabP5ZvnBOYuiHkz7M6AlLdo4sc8jRN',
     },
     {
-        id: `330-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `330-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'basieren auf, basiert, basierte, hat basiert',
@@ -4130,8 +3793,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24Dokft5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `331-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `331-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich richten an, richtet sich, richtete sich, hat sich gerichtet',
@@ -4142,8 +3804,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2V3FjOjoerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `332-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `332-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gendergerecht',
@@ -4154,8 +3815,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2p2MykJ7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `333-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `333-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Implementierung',
@@ -4166,8 +3826,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jYH2asZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `334-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `334-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Barrierefreiheit',
@@ -4179,8 +3838,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2YjG7NHcS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
     {
-        id: `335-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `335-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'konfigurieren, konfiguriert, konfigurierte, hat konfiguriert',
@@ -4191,8 +3849,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lgm6HXIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `336-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `336-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Präzision',
@@ -4203,8 +3860,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZArs6WuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `337-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `337-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Effizienz',
@@ -4215,8 +3871,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27850mzLB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `338-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `338-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Inbetriebnahme',
@@ -4227,8 +3882,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2t3B48nzPEDhip5awk9oJ0LZsHVKWTrtuBm31',
     },
     {
-        id: `339-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `339-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'hinauswollen auf, will hinaus, wollte hinaus, hat hinausgewollt',
@@ -4239,8 +3893,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2asGrLGlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `340-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `340-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'setzen auf, setzt auf, setzte auf, hat aufgesetzt',
@@ -4252,8 +3905,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OBC1fj8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `341-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `341-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'robust',
@@ -4265,8 +3917,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZRn6g8uAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `342-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `342-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'strapazierfähig',
@@ -4279,8 +3930,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WOwMCq6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `343-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `343-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erfahrungsgemäß',
@@ -4291,8 +3941,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aDZX5OlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `344-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `344-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Geschäftsidee',
@@ -4305,8 +3954,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tVFQqlnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `345-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `345-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Existenzgründung',
@@ -4319,8 +3967,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27XYMM3LB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `346-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `346-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -en',
         wordDe: 'Investor',
@@ -4333,8 +3980,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CR0DkVa0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `347-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `347-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -s',
         wordDe: 'Investment',
@@ -4347,8 +3993,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24OBI1W5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `348-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `348-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -pläne',
         wordDe: 'Businessplan',
@@ -4361,8 +4006,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tYR6MbnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `349-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `349-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Rechtsform',
@@ -4375,8 +4019,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aiYHtelkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `350-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `350-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'spezifizieren, spezifiziert, spezifizierte, hat spezifiziert',
@@ -4387,8 +4030,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj217qB74xmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `351-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `351-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'kalkulieren, kalkuliert, kalkulierte, hat kalkuliert',
@@ -4399,8 +4041,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RGDc2j1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `352-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `352-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Startkapital',
@@ -4413,8 +4054,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bSucRyVMKxjXEqCh12naiyulY9Z3N4v7c5Q0',
     },
     {
-        id: `353-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `353-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -s',
         wordDe: 'Fond',
@@ -4427,8 +4067,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21fWPHvxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `354-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `354-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Eigenmittel',
@@ -4440,8 +4079,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2N3CoJNFxrQ3DE5MPoqZ8OYn60HJ7XGfUS1eu',
     },
     {
-        id: `355-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `355-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -e',
         wordDe: 'Potenzial',
@@ -4454,8 +4092,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24PVkCQ5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `356-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `356-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -es',
         wordDe: 'Pitch',
@@ -4468,8 +4105,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uHeruFXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `357-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `357-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausmachen, macht aus, machte aus, hat ausgemacht',
@@ -4480,8 +4116,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MaHBvuzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `358-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `358-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'auf den Punkt bringen, bringt, brachte, hat gebracht',
@@ -4492,8 +4127,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LhXuEd00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `359-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `359-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -n',
         wordDe: 'Laie',
@@ -4504,8 +4138,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lDXszLIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `360-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `360-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Expertise',
@@ -4517,8 +4150,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2VRE26joerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `361-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `361-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich absetzen von, setzt sich ab, setzte sich ab, hat sich abgesetzt',
@@ -4529,8 +4161,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2r0apvqbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `362-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `362-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'tabu',
@@ -4543,8 +4174,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RRfDbB1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `363-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `363-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'naheliegen, liegt nahe, lag nahe, hat nahegelegen',
@@ -4557,8 +4187,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lVWt7gIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `364-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `364-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ein Produkt vertreiben, vertreibt, vertrieb, hat vertrieben',
@@ -4569,8 +4198,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hA68agmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `365-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `365-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -s',
         wordDe: 'Transfer',
@@ -4582,8 +4210,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MrdtYTzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `366-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA5,
+        id: `366-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausschließlich',
@@ -4593,10 +4220,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Предложение действительно исключительно для новых клиентов.',
         fileKeyUploadthing: '02oRwhT5lMj2XYBdhACIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
-    /* THEMA 6 */
     {
-        id: `367-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `367-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -en',
         wordDe: 'Paragraf',
@@ -4607,8 +4232,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27oOiD2LB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `368-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `368-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -s',
         wordDe: 'Cookie',
@@ -4619,8 +4243,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2itFNBNOnwEHxZaD0uOAK2PpyVl5TU3Sj4WIe',
     },
     {
-        id: `369-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `369-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Einkommenssteuererklärung',
@@ -4631,8 +4254,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kczg12rpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `370-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `370-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Zuschlag',
@@ -4643,8 +4265,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj221rUXFjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
     {
-        id: `371-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `371-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ethnisch',
@@ -4657,8 +4278,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2TUBORgYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `372-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `372-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Weltanschauung',
@@ -4670,8 +4290,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2PTseo53cqDi0uIjZSfOAMVoXCzhe4gUb8FaG',
     },
     {
-        id: `373-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `373-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Identität',
@@ -4682,8 +4301,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vLbnUit2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `374-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `374-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Diskriminierung',
@@ -4696,8 +4314,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2o5MAmqdDx6dMY0UtOKTuziVqcHa4JwPbS3I9',
     },
     {
-        id: `375-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `375-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Verstärkung',
@@ -4710,8 +4327,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2dLJwNJ9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `376-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `376-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'dynamisch',
@@ -4724,8 +4340,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2H0QzCx2cNosUue0XzCG9rj1kKA6vYTSdgJFq',
     },
     {
-        id: `377-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `377-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'belastbar',
@@ -4737,8 +4352,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RCLu3I1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `378-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `378-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'rassistisch',
@@ -4751,8 +4365,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HZIqVss2cNosUue0XzCG9rj1kKA6vYTSdgJF',
     },
     {
-        id: `379-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `379-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'inklusiv',
@@ -4765,8 +4378,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2elXBmJsiQUDIfn45vcpLXTBZkuWjmb6rthKz',
     },
     {
-        id: `380-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `380-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zu seinem Recht kommen, kommt, kam, ist gekommen',
@@ -4778,8 +4390,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2apStwKlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `381-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `381-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'darlegen, legt dar, legte dar, hat dargelegt',
@@ -4790,8 +4401,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj20PyQFET5lMj2Hg6WNcwtUQmOBxkpdICAvZ4r',
     },
     {
-        id: `382-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `382-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'diskriminieren, diskriminiert, diskriminierte, hat diskriminiert',
@@ -4804,8 +4414,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jyKPGzZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `383-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `383-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'bedürfen, bedarf, bedurfte, hat bedurft',
@@ -4816,8 +4425,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZCRrvmduAsNohD0PafmZuC68pT42EvxRIWqt',
     },
     {
-        id: `384-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `384-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Verschwiegenheit',
@@ -4828,8 +4436,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2q9LyIFAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `385-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `385-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vorlegen, legt vor, legte vor, hat vorgelegt',
@@ -4840,8 +4447,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jWqNWgZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `386-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `386-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'berechtigt zu',
@@ -4852,8 +4458,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21voRWxmtKa2DGLNwRdUkJ8OXIEMyop04Zigq',
     },
     {
-        id: `387-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `387-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verlangen nach, verlangt, verlangte ,hat verlangt',
@@ -4864,8 +4469,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29J6I0oP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `388-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `388-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vertraulich',
@@ -4876,8 +4480,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2u0jIwQXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `389-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `389-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zugänglich machen für',
@@ -4889,8 +4492,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2z3tqcCWyVkpZlH1caN6f8su25OjS79oEeWxq',
     },
     {
-        id: `390-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `390-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einholen, holt ein, holte ein, hat eingeholt',
@@ -4902,8 +4504,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jaOMmRZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `391-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `391-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zulässig',
@@ -4914,8 +4515,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kMy3bwrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `392-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `392-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'widerrufen, widerruft, widerrief, hat widerrufen',
@@ -4926,8 +4526,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RZOevy1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `393-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `393-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gewähren, gewährt, gewährte, hat gewährt',
@@ -4938,8 +4537,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hC42g9mE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `394-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `394-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verfallen, verfällt, verfiel, ist verfallen',
@@ -4951,8 +4549,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XApn7HCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `395-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `395-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unterschreiten, unterschreitet, unterschritt, hat unterschritten',
@@ -4963,8 +4560,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LBLooM00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `396-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `396-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erlöschen, erlischt, erlosch, ist erloschen',
@@ -4975,8 +4571,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj200qh7VT5lMj2Hg6WNcwtUQmOBxkpdICAvZ4r',
     },
     {
-        id: `397-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `397-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'formlos',
@@ -4987,8 +4582,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24sv1bNO5jTrOdhNFvLIzbScl0H7kuEyeBaDA',
     },
     {
-        id: `398-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `398-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Erwerbstätigkeit',
@@ -4999,8 +4593,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sKWjnOiqut05vGR4xAzBPChl1rWEkFbY2aNU',
     },
     {
-        id: `399-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `399-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gutschreiben, schreibt gut, schrieb gut, hat gutgeschrieben',
@@ -5011,8 +4604,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WpaT5L6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `400-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `400-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -n',
         wordDe: 'Bedürftige',
@@ -5024,8 +4616,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fljkrkSfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `401-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `401-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -en',
         wordDe: 'Pflegegrad',
@@ -5037,8 +4628,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WcEhjD6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `402-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `402-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'großziehen, zieht groß, zog groß, hat großgezogen',
@@ -5049,8 +4639,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aRH6FlkeUbj4ryVWscL7OqIuH3Tao1N2pRnB',
     },
     {
-        id: `403-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `403-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Bescheid',
@@ -5061,8 +4650,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2dojEfn9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `404-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `404-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Einspruch',
@@ -5073,8 +4661,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29pfJKH3P8xagtImQ23pOC4PewkRlh69S1rub',
     },
     {
-        id: `405-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `405-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich etablieren als + N',
@@ -5085,8 +4672,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj23zktwrp5i0mW2zR9YsTl17wtjAoCyFhEqUV3',
     },
     {
-        id: `406-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `406-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -e',
         wordDe: 'Instrument',
@@ -5099,8 +4685,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27tKQNmLB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `407-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `407-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Folge leisten',
@@ -5111,8 +4696,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZvHTO7uAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `408-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `408-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'maßgebend',
@@ -5123,8 +4707,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Op1GO8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ9',
     },
     {
-        id: `409-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `409-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einer Pflicht nachkommen, kommt nach, kam nach, ist nachgekommen',
@@ -5135,8 +4718,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MUpePpzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `410-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `410-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Verordnung',
@@ -5147,8 +4729,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj20SV5uyT5lMj2Hg6WNcwtUQmOBxkpdICAvZ4r',
     },
     {
-        id: `411-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `411-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sensibel',
@@ -5159,8 +4740,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2REV3OSq1oUWlvZanfsiPK2zhEDpc1eSMkdYJ',
     },
     {
-        id: `412-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `412-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Verstoß',
@@ -5171,8 +4751,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hF5KjJmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `413-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `413-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unrechtmäßig',
@@ -5183,8 +4762,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2YHGXstcS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
     {
-        id: `414-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `414-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'untersagen, untersagt, untersagte, hat untersagt',
@@ -5195,8 +4773,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bDszvNWVMKxjXEqCh12naiyulY9Z3N4v7c5Q',
     },
     {
-        id: `415-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `415-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vorfallen, fällt vor, fiel vor, ist vorgefallen',
@@ -5207,8 +4784,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2znmkYLWyVkpZlH1caN6f8su25OjS79oEeWxq',
     },
     {
-        id: `416-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `416-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'preisgeben, gibt preis, gab preis, hat preisgegeben',
@@ -5219,8 +4795,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2d3LyQwH9i3PrGnSwUuz6jDqFJCQEYhZxlMcO',
     },
     {
-        id: `417-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `417-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verletzend',
@@ -5231,8 +4806,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZYgYXWuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `418-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `418-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'strikt',
@@ -5243,8 +4817,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28JCpfNphuBKpyIfRkZmiaHghrVcO620oFYwQ',
     },
     {
-        id: `419-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `419-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'heikel',
@@ -5255,8 +4828,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2igz3gUOnwEHxZaD0uOAK2PpyVl5TU3Sj4WIe',
     },
     {
-        id: `420-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `420-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'daherkommen, kommt daher, kam daher, ist dahergekommen',
@@ -5267,8 +4839,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vUSO73t2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `421-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `421-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'adäquat',
@@ -5279,8 +4850,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29EtU80P8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `422-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `422-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'meines Erachtens',
@@ -5293,8 +4863,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj258vbb5eSBWH6O842CKGNnTpeQhiJMycFDYqb',
     },
     {
-        id: `423-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `423-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erteilen, erteilt, erteilte, hat erteilt',
@@ -5305,8 +4874,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj23LOSQ86p5i0mW2zR9YsTl17wtjAoCyFhEqUV',
     },
     {
-        id: `424-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `424-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich einverstanden erklären, erklärt sich, erklärte sich, hat sich erklärt',
@@ -5317,8 +4885,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ba43hfVMKxjXEqCh12naiyulY9Z3N4v7c5Q0',
     },
     {
-        id: `425-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `425-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -änge',
         wordDe: 'Aushang',
@@ -5329,8 +4896,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sKOW4Vqut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
     {
-        id: `426-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `426-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -üsse',
         wordDe: 'Schnappschuss',
@@ -5341,8 +4907,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lD6RbiIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `427-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA6,
+        id: `427-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'undenkbar',
@@ -5352,10 +4917,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Для нас было невообразимо бросить проект.',
         fileKeyUploadthing: '02oRwhT5lMj25HbWZqeSBWH6O842CKGNnTpeQhiJMycFDYqb',
     },
-    /* THEMA 7 */
     {
-        id: `428-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `428-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'benachteiligen, benachteiligt, benachteiligte, hat benachteiligt',
@@ -5366,8 +4929,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21t8mBFxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `429-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `429-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Blick hinter die Kulissen',
@@ -5380,8 +4942,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2t2zWHhnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `430-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `430-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Führungsetage',
@@ -5393,8 +4954,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2FIQB7bvPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `431-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `431-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Führungsstil',
@@ -5407,8 +4967,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2FFRUJivPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `432-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `432-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'jdm. etw. gönnen, gönnt, gönnte, hat gegönnt',
@@ -5421,8 +4980,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28JyA3GWhuBKpyIfRkZmiaHghrVcO620oFYwQ',
     },
     {
-        id: `433-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `433-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sorgfältig',
@@ -5433,8 +4991,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IlQiWxRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `434-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `434-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Stiftung',
@@ -5445,8 +5002,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IgMUa7RERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `435-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `435-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'taufrisch',
@@ -5457,8 +5013,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IycBfoRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `436-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `436-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verspannt',
@@ -5469,8 +5024,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2P7pSr273cqDi0uIjZSfOAMVoXCzhe4gUb8Fa',
     },
     {
-        id: `437-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `437-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'akkreditieren, akkreditiert, akkreditierte, hat akkreditiert',
@@ -5483,8 +5037,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XjYkMnCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `438-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `438-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -se',
         wordDe: 'Bedürfnis',
@@ -5495,8 +5048,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2txtUtqnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `439-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `439-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'bestehend',
@@ -5507,8 +5059,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tyoIKFnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `440-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `440-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Bonität',
@@ -5519,8 +5070,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jvhY3dZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `441-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `441-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'bundesweit',
@@ -5531,8 +5081,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sxEfK7qut05vGR4xAzBPChl1rWEkFbY2aNUo',
     },
     {
-        id: `442-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `442-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erfolgversprechend',
@@ -5543,8 +5092,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vcxwEXt2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `443-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `443-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Jury',
@@ -5555,8 +5103,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj25YGE21eSBWH6O842CKGNnTpeQhiJMycFDYqb',
     },
     {
-        id: `444-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `444-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'nachweislich',
@@ -5567,8 +5114,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2i7mxE0OnwEHxZaD0uOAK2PpyVl5TU3Sj4WIe',
     },
     {
-        id: `445-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `445-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -s',
         wordDe: 'Start-up',
@@ -5580,8 +5126,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ciydL5Wf4R8P6OUJz5WNDXld7g0AorutVFxq',
     },
     {
-        id: `446-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `446-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'tragfähig',
@@ -5592,8 +5137,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2o5BCzSEDx6dMY0UtOKTuziVqcHa4JwPbS3I9',
     },
     {
-        id: `447-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `447-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verzinsen, verzinst, verzinste, hat verzinst',
@@ -5604,8 +5148,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2MHDDyazcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `448-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `448-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Vorhaben',
@@ -5616,8 +5159,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZCCVnPfuAsNohD0PafmZuC68pT42EvxRIWqt',
     },
     {
-        id: `449-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `449-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vor dem Ruin stehen, steht, stand, hat gestanden',
@@ -5628,8 +5170,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZNOftbuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `450-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `450-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Zeitraum',
@@ -5640,8 +5181,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ENpwlUkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `451-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `451-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Anwendung',
@@ -5652,8 +5192,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Ok6PEp8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `452-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `452-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -s',
         wordDe: 'App',
@@ -5664,8 +5203,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21qO4Q2xmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `453-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `453-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'auftauchen, taucht auf, tauchte auf, ist aufgetaucht',
@@ -5676,8 +5214,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Cbqm2ga0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `454-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `454-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einbinden, bindet ein, band ein, hat eingebunden',
@@ -5688,8 +5225,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xUtJ8ErEf9kX7tASwp5OenNvCayZmP1qFiDB',
     },
     {
-        id: `455-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `455-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'hinterlegen, hinterlegt, legte hinter, hat hinterlegt',
@@ -5700,8 +5236,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xGqzK2ErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
-        id: `456-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `456-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Impuls',
@@ -5712,8 +5247,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2rJSypSbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `457-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `457-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'in Bezug auf',
@@ -5724,8 +5258,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2SS1B6ai8xZTwlRrBq2DKP6ysXHaGvLWi3QVJ',
     },
     {
-        id: `458-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `458-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Maßeinheit',
@@ -5736,8 +5269,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ICY5qORERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `459-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `459-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Rubrik',
@@ -5749,8 +5281,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uAJdfpXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `460-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `460-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schwören auf, schwört, schwor, hat geschworen',
@@ -5762,8 +5293,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZClz6wyuAsNohD0PafmZuC68pT42EvxRIWqt',
     },
     {
-        id: `461-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `461-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -s',
         wordDe: 'Support',
@@ -5775,8 +5305,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DdvOvj4bjOvU7hgyJZFifIasMQunldBS8m10',
     },
     {
-        id: `462-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `462-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'umrechnen, rechnet um, rechnete um, hat umgerechnet',
@@ -5787,8 +5316,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28JJJyuNhuBKpyIfRkZmiaHghrVcO620oFYwQ',
     },
     {
-        id: `463-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `463-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -s',
         wordDe: 'Update',
@@ -5801,8 +5329,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CKetKva0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `464-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `464-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'User',
@@ -5815,8 +5342,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2S8Z0nzqi8xZTwlRrBq2DKP6ysXHaGvLWi3QV',
     },
     {
-        id: `465-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `465-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'anstoßen, stößt an, stieß an, hat angestoßen',
@@ -5828,8 +5354,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XlxbHwNCIbx3hQUkp4NorV8CycZWejGFv9mu',
     },
     {
-        id: `466-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `466-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'appellieren an, appelliert, appellierte, hat appelliert',
@@ -5841,8 +5366,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aSzvfSlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `467-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `467-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'aufrüsten, rüstet auf, rüstete auf, hat aufgerüstet',
@@ -5855,8 +5379,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2SXBWpli8xZTwlRrBq2DKP6ysXHaGvLWi3QVJ',
     },
     {
-        id: `468-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `468-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Auszug aus + D',
@@ -5867,8 +5390,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fYBIeESfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `469-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `469-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -s',
         wordDe: 'Burn-out',
@@ -5881,8 +5403,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2rC7zNLbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `470-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `470-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Expansion',
@@ -5893,8 +5414,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj25qGpYQzeSBWH6O842CKGNnTpeQhiJMycFDYq',
     },
     {
-        id: `471-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `471-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gespannt auf + A',
@@ -5905,8 +5425,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28Gwxg9huBKpyIfRkZmiaHghrVcO620oFYwQS',
     },
     {
-        id: `472-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `472-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'im Hinblick auf + A',
@@ -5917,8 +5436,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj26JyPjOdlpeThmKQnFU9aqMN7IywAgsvXEdOY',
     },
     {
-        id: `473-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `473-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -se',
         wordDe: 'Hindernis',
@@ -5929,8 +5447,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2efLmrYsiQUDIfn45vcpLXTBZkuWjmb6rthKz',
     },
     {
-        id: `474-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `474-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'leiden unter + D, leidet, litt, hat gelitten',
@@ -5941,8 +5458,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jGY06bZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `475-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `475-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Nachwuchs',
@@ -5954,8 +5470,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2FxX7T9vPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `476-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `476-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Palette',
@@ -5967,8 +5482,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2P079wX3cqDi0uIjZSfOAMVoXCzhe4gUb8FaG',
     },
     {
-        id: `477-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `477-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich rentieren, rentiert sich, rentierte sich, hat sich rentiert',
@@ -5979,8 +5493,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XndmtrCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `478-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `478-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'jmd. etw. schuldig sein, ist, war, ist gewesen',
@@ -5991,8 +5504,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uhQQh5XaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `479-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `479-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ablehnen, lehnt ab, lehnte ab, hat abgelehnt',
@@ -6004,8 +5516,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kFOCvYrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `480-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `480-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Anspruch auf + A',
@@ -6016,8 +5527,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29Tlop0P8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `481-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `481-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'aufklären über + A, klärt auf, klärte auf, hat aufgeklärt',
@@ -6028,8 +5538,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2VlyRZaoerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `482-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `482-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'betonen, betont, betonte, hat betont',
@@ -6040,8 +5549,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Y5V3ficS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
     {
-        id: `483-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `483-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Darlehen',
@@ -6053,8 +5561,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vu1a5Yt2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `484-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `484-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'durchaus',
@@ -6065,8 +5572,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qQFTtnnAOQUIgXTmsGN4Yk2fxvzbn6RhKueE',
     },
     {
-        id: `485-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `485-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'lahmlegen, legt lahm, legte lahm, hat lahmgelegt',
@@ -6077,8 +5583,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HuMtNB2cNosUue0XzCG9rj1kKA6vYTSdgJFq',
     },
     {
-        id: `486-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `486-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Lebensunterhalt',
@@ -6089,8 +5594,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HM7dUw2cNosUue0XzCG9rj1kKA6vYTSdgJFq',
     },
     {
-        id: `487-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `487-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'mental',
@@ -6102,8 +5606,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lBfoYMIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `488-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `488-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Mitwirkung',
@@ -6114,8 +5617,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OyIv478mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `489-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `489-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Modalität',
@@ -6126,8 +5628,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2F4yB9nvPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `490-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `490-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'opfern, opfert, opferte, hat geopfert',
@@ -6139,8 +5640,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DHdSUL4bjOvU7hgyJZFifIasMQunldBS8m10',
     },
     {
-        id: `491-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `491-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'den Horizont erweitern, erweitert, erweiterte, hat erweitert',
@@ -6151,8 +5651,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bsztuIVMKxjXEqCh12naiyulY9Z3N4v7c5Q0',
     },
     {
-        id: `492-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `492-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'über den eigenen Tellerrand blicken, blickt, blickte, hat geblickt',
@@ -6164,8 +5663,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2l1VvcsVIoHmBWYk93sSFP6LenbujJvyiNEIV',
     },
     {
-        id: `493-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA7,
+        id: `493-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Wohlbefinden',
@@ -6176,10 +5674,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
             'Регулярные физические упражнения способствуют физическому и психическому благополучию.',
         fileKeyUploadthing: '02oRwhT5lMj2zTi6MiWyVkpZlH1caN6f8su25OjS79oEeWxq',
     },
-    /* THEMA 8 */
     {
-        id: `494-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `494-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Konsequenz',
@@ -6190,8 +5686,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2VcrAXBoerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `495-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `495-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Versichertenkarte',
@@ -6202,8 +5697,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vcZzY8t2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `496-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `496-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'auffallen, fällt auf, fiel auf, ist aufgefallen',
@@ -6214,8 +5708,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CI140JCa0RY1oVptKNDjmwu7HdWefzJbcIMQ',
     },
     {
-        id: `497-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `497-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'durchdrehen, dreht durch, drehte durch, ist durchgedreht',
@@ -6226,8 +5719,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22uaf4WSjrLf1RDXyUVEK8O9sekvMF7GjQBSN',
     },
     {
-        id: `498-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `498-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'begreifen, begreift, begriff, hat begriffen',
@@ -6238,8 +5730,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CIM16da0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `499-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `499-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Beilage',
@@ -6250,8 +5741,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aRAdyDUlkeUbj4ryVWscL7OqIuH3Tao1N2pR',
     },
     {
-        id: `500-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `500-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'niedergeschlagen',
@@ -6262,8 +5752,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2P788wsk3cqDi0uIjZSfOAMVoXCzhe4gUb8Fa',
     },
     {
-        id: `501-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `501-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'trösten, tröstet, tröstete, hat getröstet',
@@ -6274,8 +5763,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kzJgtJrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `502-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `502-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Nerven verlieren, verliert, verlor, hat verloren',
@@ -6286,8 +5774,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2roBIkdDbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN',
     },
     {
-        id: `503-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `503-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schweigen, schweigt, schwieg, hat geschwiegen',
@@ -6298,8 +5785,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2a20c5ulkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `504-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `504-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verschlimmern, verschlimmert, verschlimmerte, hat verschlimmert',
@@ -6310,8 +5796,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2143WMgxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `505-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `505-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'versäumen, versäumt, versäumte, hat versäumt',
@@ -6322,8 +5807,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2sBzo8qut05vGR4xAzBPChl1rWEkFbY2aNUoI',
     },
     {
-        id: `506-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `506-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Stimme erheben, erhebt, erhob, hat erhoben',
@@ -6334,8 +5818,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RUg38n1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `507-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `507-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'etw. im Griff haben, hat, hatte, hat gehabt',
@@ -6346,8 +5829,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZMGhVTuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `508-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `508-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'aus der Rolle fallen, fällt, fiel, is gefallen',
@@ -6358,8 +5840,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28oo0LqhuBKpyIfRkZmiaHghrVcO620oFYwQS',
     },
     {
-        id: `509-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `509-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Frustabbau',
@@ -6370,8 +5851,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21krqffTxmtKa2DGLNwRdUkJ8OXIEMyop04Zi',
     },
     {
-        id: `510-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `510-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Schuld auf andere schieben, schiebt, schob, hat geschoben',
@@ -6384,8 +5864,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2L4sdgP00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `511-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `511-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'destruktiv',
@@ -6396,8 +5875,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ihZa677OnwEHxZaD0uOAK2PpyVl5TU3Sj4WI',
     },
     {
-        id: `512-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `512-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Dampf ablassen, lässt ab, ließ ab, hat abgelassen',
@@ -6408,8 +5886,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj247xybp5jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `513-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `513-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'meckern, meckert, meckerte, hat gemeckert',
@@ -6420,8 +5897,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uIvS58XaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `514-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `514-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Umstand',
@@ -6432,8 +5908,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21FbheWxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `515-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `515-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Fingerspitzengefühl',
@@ -6445,8 +5920,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OmZPmDc8mNuvC5FRwjsLIE2opZbGxD8ge6WS',
     },
     {
-        id: `516-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `516-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -e',
         wordDe: 'Werkstück',
@@ -6457,8 +5931,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2l0xaulIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `517-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `517-${WORD_LEVELS.C1}`,
         article: 'einen',
         pluralEnding: '',
         wordDe: 'guten Moment abpassen, passt ab, passte ab, hat abgepasst',
@@ -6469,8 +5942,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj266T4LjdlpeThmKQnFU9aqMN7IywAgsvXEdOY',
     },
     {
-        id: `518-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `518-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zielführend',
@@ -6481,8 +5953,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qD5mzyAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `519-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `519-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Unstimmigkeit',
@@ -6493,8 +5964,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CD44Uha0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `520-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `520-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Anfeindung',
@@ -6506,8 +5976,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2M6SypUjzcjrpP4Fmzi8x1ygHvahW2KBowuJ0',
     },
     {
-        id: `521-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `521-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich zoffen, zofft sich, zoffte sich, hat sich gezofft',
@@ -6520,8 +5989,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pv0VeQ7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `522-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `522-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich in die Haare kriegen, kriegt, kriegte, hat gekriegt',
@@ -6533,8 +6001,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2a2Rgd6lkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `523-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `523-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'im Clinch liegen, liegt, lag, hat gelegen',
@@ -6546,8 +6013,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lb9kKjIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `524-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `524-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'jdm. Steine in den Weg legen, legt, legte, hat gelegt',
@@ -6559,8 +6025,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ci8CqS2f4R8P6OUJz5WNDXld7g0AorutVFxq',
     },
     {
-        id: `525-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `525-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich einmischen, mischt sich ein, mischte sich ein, hat sich eingemischt',
@@ -6572,8 +6037,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29CmxyzP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `526-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `526-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'dazwischengehen, geht dazwischen, ging dazwischen, ist dazwischengegangen',
@@ -6585,8 +6049,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2YSyw0RxcS3i1d96lRqa7uUAbkrwx2PovceWn',
     },
     {
-        id: `527-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `527-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schlichten, schlichtet, schlichtete, hat geschlichtet',
@@ -6597,8 +6060,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pXQyEp7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `528-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `528-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'auf dem Zettel haben, hat, hatte, hat gehabt',
@@ -6609,8 +6071,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22bOxhIjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
     {
-        id: `529-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `529-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'aller Wahrscheinlichkeit nach',
@@ -6623,8 +6084,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XZm6hzCIbx3hQUkp4NorV8CycZWejGFv9muD',
     },
     {
-        id: `530-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `530-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zweifellos',
@@ -6635,8 +6095,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aKWhFPlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `531-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `531-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gewiss',
@@ -6647,8 +6106,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qQzIhbxAOQUIgXTmsGN4Yk2fxvzbn6RhKueE',
     },
     {
-        id: `532-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `532-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schließen lassen auf + A., lässt schließen, ließ schließen, hat schließen lassen',
@@ -6659,8 +6117,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2OMKyZP8mNuvC5FRwjsLIE2opZbGxD8ge6WSJ',
     },
     {
-        id: `533-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `533-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'hindeuten auf, deutet hin, deutete hin, hat hingedeutet',
@@ -6671,8 +6128,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj28elLrPhuBKpyIfRkZmiaHghrVcO620oFYwQS',
     },
     {
-        id: `534-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `534-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'angeblich',
@@ -6684,8 +6140,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kFq8AqrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `535-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `535-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Schadstoff',
@@ -6698,8 +6153,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ua1FettXaI1DXObTetfWnBQ8Hsr5zdYkpjAc',
     },
     {
-        id: `536-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `536-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schwänzen, schwänzt, schwänzte, hat geschwänzt',
@@ -6710,8 +6164,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2NgU13GFxrQ3DE5MPoqZ8OYn60HJ7XGfUS1eu',
     },
     {
-        id: `537-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `537-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'blendend',
@@ -6722,8 +6175,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ECq2nmkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `538-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `538-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -se',
         wordDe: 'Zwischenzeugnis',
@@ -6736,8 +6188,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2eAGyX11siQUDIfn45vcpLXTBZkuWjmb6rthK',
     },
     {
-        id: `539-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `539-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'betriebsbedingt',
@@ -6750,8 +6201,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2a6nCkilkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `540-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `540-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', "-e',
         wordDe: 'Auflösungsvertrag',
@@ -6764,8 +6214,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hGTWwRmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `541-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `541-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Freistellung',
@@ -6778,8 +6227,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LYJu82z00gdyMkDH61c2wFBO5xAipXWreU4m',
     },
     {
-        id: `542-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `542-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Abfindungszahlung',
@@ -6792,8 +6240,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2d3f2QvF9i3PrGnSwUuz6jDqFJCQEYhZxlMcO',
     },
     {
-        id: `543-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `543-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Kündigungsabsicht',
@@ -6806,8 +6253,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2W9hyVcA6S4RT9lgFD8vA7hQKNyia0cHdUPCG',
     },
     {
-        id: `544-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `544-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'fristgemäß',
@@ -6819,8 +6265,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kVGiLNRrpDu65zAlXH9EihUjeotgfJTZ3IPV',
     },
     {
-        id: `545-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `545-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'fristlos',
@@ -6831,8 +6276,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2e630R2siQUDIfn45vcpLXTBZkuWjmb6rthKz',
     },
     {
-        id: `546-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `546-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'missachten, missachtet, missachtete, hat missachtet',
@@ -6843,8 +6287,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2FnWLXWAvPzSh60iIawY8NmKvojetsZu7g4Vk',
     },
     {
-        id: `547-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `547-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Sperre',
@@ -6855,8 +6298,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24sMZsqG5jTrOdhNFvLIzbScl0H7kuEyeBaDA',
     },
     {
-        id: `548-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `548-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -se',
         wordDe: 'Beschäftigungsverhältnis',
@@ -6867,8 +6309,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hHOcdEmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `549-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `549-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Kündigungsschutz',
@@ -6880,8 +6321,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21dE5LMxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `550-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `550-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: '(un)zulässig',
@@ -6892,8 +6332,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj279QdE4LB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `551-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `551-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: '(un)zumutbar',
@@ -6904,8 +6343,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qWx9LJAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `552-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `552-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'im Verzug sein, ist, war, ist gewesen',
@@ -6916,8 +6354,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22u1IFgrjrLf1RDXyUVEK8O9sekvMF7GjQBSN',
     },
     {
-        id: `553-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `553-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', "-e',
         wordDe: 'Zahlungsaufschub',
@@ -6928,8 +6365,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2In6VdORERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `554-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `554-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Belästigung',
@@ -6940,8 +6376,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CNCVsUa0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `555-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA8,
+        id: `555-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Marktführer',
@@ -6951,10 +6386,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Компания считается лидером рынка в технологической отрасли.',
         fileKeyUploadthing: '02oRwhT5lMj2l1k1C75IoHmBWYk93sSFP6LenbujJvyiNEIV',
     },
-    /* THEMA 9 */
     {
-        id: `556-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `556-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'durchschnittlich',
@@ -6965,8 +6398,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2p0LqVis7yLVcWGIlN4nRqPmS5w1e9M0QKHEr',
     },
     {
-        id: `557-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `557-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -er',
         wordDe: 'Durchschnittsgehalt',
@@ -6977,8 +6409,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj23Yi6ITp5i0mW2zR9YsTl17wtjAoCyFhEqUV3',
     },
     {
-        id: `558-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `558-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Fachkräftemangel',
@@ -6990,8 +6421,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Pt1Cmb3cqDi0uIjZSfOAMVoXCzhe4gUb8FaG',
     },
     {
-        id: `559-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `559-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'abhängen von, hängt ab von, hing ab von, hat abgehangen von',
@@ -7002,8 +6432,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2W99eR8E6S4RT9lgFD8vA7hQKNyia0cHdUPCG',
     },
     {
-        id: `560-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `560-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Führungsposition',
@@ -7014,8 +6443,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RaIz7I1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `561-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `561-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'katastrophal',
@@ -7026,8 +6454,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj27oa8RXLB0fhJORTk4ur7zg2iQNHKwF39SjYo',
     },
     {
-        id: `562-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `562-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -se',
         wordDe: 'Kräfteverhältnis',
@@ -7038,8 +6465,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bKdgLKVMKxjXEqCh12naiyulY9Z3N4v7c5Q0',
     },
     {
-        id: `563-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `563-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'die Oberhand haben, hat, hatte, hat gehabt',
@@ -7050,8 +6476,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29Tt3myP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `564-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `564-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich widerspiegeln in, spiegelt sich wider, spiegelte sich wider, hat sich widergespiegelt',
@@ -7063,8 +6488,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Vfa2Z3oerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `565-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `565-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'branchenübergreifend',
@@ -7076,8 +6500,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2smR1dqut05vGR4xAzBPChl1rWEkFbY2aNUoI',
     },
     {
-        id: `566-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `566-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'demografisch',
@@ -7088,8 +6511,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZJHcwquAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `567-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `567-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausreichend',
@@ -7100,8 +6522,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2p6u6f07yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `568-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `568-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'offenbar',
@@ -7113,8 +6534,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21w7OF2xmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `569-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `569-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erwerbsfähig',
@@ -7126,8 +6546,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21kbbAKUxmtKa2DGLNwRdUkJ8OXIEMyop04Zi',
     },
     {
-        id: `570-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `570-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'irreführend',
@@ -7138,8 +6557,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pjrTC97yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `571-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `571-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Mehrbelastung',
@@ -7150,8 +6568,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj25qztmpUeSBWH6O842CKGNnTpeQhiJMycFDYq',
     },
     {
-        id: `572-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `572-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sicherstellen, stellt sicher, stellte sicher, hat sichergestellt',
@@ -7163,8 +6580,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2p0hvXlf7yLVcWGIlN4nRqPmS5w1e9M0QKHEr',
     },
     {
-        id: `573-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `573-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'aufrechterhalten, hält aufrecht, hielt aufrecht, hat aufrechterhalten',
@@ -7175,8 +6591,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2o5Ucf2hDx6dMY0UtOKTuziVqcHa4JwPbS3I9',
     },
     {
-        id: `574-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `574-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einbüßen, büßt ein, büßte ein, hat eingebüßt',
@@ -7187,8 +6602,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2p0iQKBY7yLVcWGIlN4nRqPmS5w1e9M0QKHEr',
     },
     {
-        id: `575-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `575-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Zuwanderung',
@@ -7199,8 +6613,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2roQh2GbP5ZvnBOYuiHkz7M6AlLdo4sc8jRN0',
     },
     {
-        id: `576-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `576-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ausgleichen, gleicht aus, glich aus, hat ausgeglichen',
@@ -7212,8 +6625,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vjUXJ7t2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `577-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `577-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'am längeren Hebel sitzen, sitzt, saß, hat gesessen',
@@ -7224,8 +6636,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Tfw5fAzYMUSiw8CBH2aVWuzv9b1xXrgJGpe7',
     },
     {
-        id: `578-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `578-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Nachwuchs',
@@ -7236,8 +6647,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uyQHt5XaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `579-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `579-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Renteneintritt',
@@ -7249,8 +6659,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EGDTUzkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `580-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `580-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verschärft',
@@ -7261,8 +6670,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2d3YNhWd9i3PrGnSwUuz6jDqFJCQEYhZxlMcO',
     },
     {
-        id: `581-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `581-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'raue Umgangston',
@@ -7273,8 +6681,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Lj2FMs00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `582-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `582-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Umkehrung',
@@ -7285,8 +6692,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2eAtKkdisiQUDIfn45vcpLXTBZkuWjmb6rthK',
     },
     {
-        id: `583-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `583-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich fügen, fügt sich, fügte sich, hat sich gefügt',
@@ -7299,8 +6705,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2M4cOAIzcjrpP4Fmzi8x1ygHvahW2KBowuJ0n',
     },
     {
-        id: `584-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `584-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Lohnkosten',
@@ -7313,8 +6718,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tzWv51pnzPEDhip5awk9oJ0LZsHVKWTrtuBm',
     },
     {
-        id: `585-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `585-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Steuereinnahmen',
@@ -7325,8 +6729,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj24cKsU95jTrOdhNFvLIzbScl0H7kuEyeBaDAU',
     },
     {
-        id: `586-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `586-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ursprünglich',
@@ -7337,8 +6740,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EbD8RldkA85LO9g2Ia7lqmrNVjzPuGEWYUFM',
     },
     {
-        id: `587-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `587-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'festhalten an + D, hält fest, hielt fest, hat festgehalten',
@@ -7349,8 +6751,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2REKCSlw1oUWlvZanfsiPK2zhEDpc1eSMkdYJ',
     },
     {
-        id: `588-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `588-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich vornehmen, nimmt sich vor, nahm sich vor, hat sich vorgenommen',
@@ -7361,8 +6762,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qUicraAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `589-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `589-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Bestandsaufnahme',
@@ -7374,8 +6774,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2VG2awToerLP4zAHFIU3bhna97sgYcKy6SGfw',
     },
     {
-        id: `590-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `590-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -e',
         wordDe: 'Stärken- und Schwächenprofil',
@@ -7388,8 +6787,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vAbbYSt2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `591-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `591-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'anfertigen, fertigt an, fertigte an, hat angefertigt',
@@ -7400,8 +6798,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2WiZkPK6S4RT9lgFD8vA7hQKNyia0cHdUPCGf',
     },
     {
-        id: `592-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `592-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'geradlinig',
@@ -7412,8 +6809,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nXsW39MzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `593-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `593-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Zielsetzung',
@@ -7424,8 +6820,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2LeOLFW00gdyMkDH61c2wFBO5xAipXWreU4mn',
     },
     {
-        id: `594-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `594-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Berufslaufbahn',
@@ -7437,8 +6832,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HZoKPwU2cNosUue0XzCG9rj1kKA6vYTSdgJF',
     },
     {
-        id: `595-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `595-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'planmäßig verlaufen, verläuft planmäßig, verlief planmäßig, ist planmäßig verlaufen',
@@ -7450,8 +6844,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CqG8uya0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `596-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `596-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'vorankommen, kommt voran, kam voran, ist vorangekommen',
@@ -7462,8 +6855,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Tbl1qpYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `597-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `597-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'fertigstellen, stellt fertig, stellte fertig, hat fertiggestellt',
@@ -7474,8 +6866,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lumLQoIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `598-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `598-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Zeit finden für + A, findet, fand, hat gefunden',
@@ -7486,8 +6877,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2bDtoZfJVMKxjXEqCh12naiyulY9Z3N4v7c5Q',
     },
     {
-        id: `599-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `599-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'aneinander vorbeileben, lebt vorbei, lebte vorbei, ist vorbeigelebt',
@@ -7499,8 +6889,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vogiUpt2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `600-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `600-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'eine Schicht einlegen, legt ein, legte ein, hat eingelegt',
@@ -7511,8 +6900,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2TR3lZXYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `601-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `601-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unbürokratisch',
@@ -7523,8 +6911,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZCR0iAPuAsNohD0PafmZuC68pT42EvxRIWqt',
     },
     {
-        id: `602-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `602-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'einen Auftrag ergattern, ergattert, ergatterte, hat ergattert',
@@ -7535,8 +6922,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2TFMMGMYMUSiw8CBH2aVWuzv9b1xXrgJGpe7Z',
     },
     {
-        id: `603-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `603-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sogenannt',
@@ -7547,8 +6933,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2jLj9DHZEBv8DwLkfWZGqXKbarA6lusdpNUCz',
     },
     {
-        id: `604-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `604-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', "er',
         wordDe: 'Bruttogehalt',
@@ -7559,8 +6944,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2RWIjXn1oUWlvZanfsiPK2zhEDpc1eSMkdYJb',
     },
     {
-        id: `605-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `605-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich absichern, sichert sich ab, sicherte sich ab, hat sich abgesichert',
@@ -7571,8 +6955,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZVU0YsuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `606-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `606-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'Steuern abführen, führt ab, führte ab, hat abgeführt',
@@ -7583,8 +6966,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kq2yX7rpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `607-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `607-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'aufgehen in + D, geht auf, ging auf, ist aufgegangen',
@@ -7595,8 +6977,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fG8lXPSfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `608-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `608-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'schleichen, schleicht, schlich, ist geschlichen',
@@ -7607,8 +6988,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2SROp6bi8xZTwlRrBq2DKP6ysXHaGvLWi3QVJ',
     },
     {
-        id: `609-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `609-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Auszeit',
@@ -7619,8 +6999,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22uR6Bc6jrLf1RDXyUVEK8O9sekvMF7GjQBSN',
     },
     {
-        id: `610-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `610-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Sonderschicht',
@@ -7633,8 +7012,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pgUPMv7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `611-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `611-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'triftig',
@@ -7645,8 +7023,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2EbKO3ySkA85LO9g2Ia7lqmrNVjzPuGEWYUFM',
     },
     {
-        id: `612-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `612-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'rückwirkend',
@@ -7657,8 +7034,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aRVFH1klkeUbj4ryVWscL7OqIuH3Tao1N2pR',
     },
     {
-        id: `613-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `613-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verfallen, verfällt, verfiel, ist verfallen',
@@ -7670,8 +7046,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Fzk1aovPzSh60iIawY8NmKvojetsZu7g4Vkx',
     },
     {
-        id: `614-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `614-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Sperrzeit',
@@ -7682,8 +7057,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2XlbISBHCIbx3hQUkp4NorV8CycZWejGFv9mu',
     },
     {
-        id: `615-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `615-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verringern, verringert, verringerte, hat verringert',
@@ -7695,8 +7069,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fcZcvVSfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `616-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `616-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'hochladen, lädt hoch, lud hoch, hat hochgeladen',
@@ -7707,8 +7080,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2tY3GuQnzPEDhip5awk9oJ0LZsHVKWTrtuBm3',
     },
     {
-        id: `617-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `617-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'beeinflussen, beeinflusst, beeinflusste, hat beeinflusst',
@@ -7720,8 +7092,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21G4nXYxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `618-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `618-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'selbst verschuldet',
@@ -7734,8 +7105,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vrXm7Ct2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `619-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `619-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'herbeiführen, führt herbei, führte herbei, hat herbeigeführt',
@@ -7746,8 +7116,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2qwPXrIAOQUIgXTmsGN4Yk2fxvzbn6RhKueES',
     },
     {
-        id: `620-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `620-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'gelten als + N, gilt als, galt als, hat gegolten als',
@@ -7758,8 +7127,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CEHKfma0RY1oVptKNDjmwu7HdWefzJbcIMQn',
     },
     {
-        id: `621-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `621-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Stichtag',
@@ -7770,8 +7138,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2dzlWVA9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `622-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `622-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'frühestens',
@@ -7782,8 +7149,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2vSobEit2rgqTDYn78sGubpcIj6hzR39eyQO1',
     },
     {
-        id: `623-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `623-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'erwerbslos',
@@ -7794,8 +7160,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2p8idHU7yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `624-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `624-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'bereithalten, hält bereit, hielt bereit, hat bereitgehalten',
@@ -7806,8 +7171,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2hegtJBmE40UlzHRsdQgT12PakeBw9DpMibvn',
     },
     {
-        id: `625-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `625-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zuversichtlich',
@@ -7819,8 +7183,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21lqzKNxmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `626-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA9,
+        id: `626-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Bezugsdauer',
@@ -7830,10 +7193,8 @@ export const C1_Beruf_data: ILanguageCard[] = [
         exampleRu: 'Период получения пособия по безработице обычно составляет двенадцать месяцев.',
         fileKeyUploadthing: '02oRwhT5lMj2YhtQKKcS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
-    /* THEMA 10 */
     {
-        id: `627-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `627-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Altersvorsorge',
@@ -7844,8 +7205,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21kkQ95FxmtKa2DGLNwRdUkJ8OXIEMyop04Zi',
     },
     {
-        id: `628-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `628-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'brennen für, brennt, brannte, hat gebrannt',
@@ -7857,8 +7217,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2aCJEnulkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `629-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `629-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Jahresprämie',
@@ -7870,8 +7229,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2xgiz4hErEf9kX7tASwp5OenNvCayZmP1qFiD',
     },
     {
-        id: `630-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `630-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -s',
         wordDe: 'Jobticket',
@@ -7884,8 +7242,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29SmxD1P8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `631-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `631-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Schichtzulage',
@@ -7898,8 +7255,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uaaqvBXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `632-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `632-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'tariflich',
@@ -7912,8 +7268,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2HzEN1D2cNosUue0XzCG9rj1kKA6vYTSdgJFq',
     },
     {
-        id: `633-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `633-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'ankommen gegen, kommt an gegen, kam an gegen, ist angekommen gegen',
@@ -7924,8 +7279,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2NZh3ewFxrQ3DE5MPoqZ8OYn60HJ7XGfUS1eu',
     },
     {
-        id: `634-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `634-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -ü-e',
         wordDe: 'Bruch',
@@ -7936,8 +7290,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2E8sUYhkA85LO9g2Ia7lqmrNVjzPuGEWYUFMB',
     },
     {
-        id: `635-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `635-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Bruchstelle',
@@ -7948,8 +7301,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZbsSKiuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `636-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `636-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'brüchig',
@@ -7960,8 +7312,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22FyxVsjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
     {
-        id: `637-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `637-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'entkräften, entkräftet, entkräftete, hat entkräftet',
@@ -7972,8 +7323,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CI4xddda0RY1oVptKNDjmwu7HdWefzJbcIMQ',
     },
     {
-        id: `638-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `638-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'rote Faden',
@@ -7984,8 +7334,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZKjUD6uAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `639-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `639-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Formalität',
@@ -7998,8 +7347,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2a6CdSUlkeUbj4ryVWscL7OqIuH3Tao1N2pRn',
     },
     {
-        id: `640-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `640-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -e',
         wordDe: 'Kunstwerk',
@@ -8010,8 +7358,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2loByUAIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `641-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `641-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'nachteilig',
@@ -8023,8 +7370,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
     },
 
     {
-        id: `642-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `642-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'rechtfertigen, rechtfertigt, rechtfertigte, hat rechtfertigt',
@@ -8037,8 +7383,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Z0XdzQuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `643-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `643-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -e',
         wordDe: 'Stereotyp',
@@ -8049,8 +7394,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2dWfati9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `644-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `644-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unbeständig',
@@ -8061,8 +7405,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2l11Zt6AIoHmBWYk93sSFP6LenbujJvyiNEIV',
     },
     {
-        id: `645-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `645-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verdrängen, verdrängte, verdrängt, hat verdrängt',
@@ -8074,8 +7417,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj23gnLYip5i0mW2zR9YsTl17wtjAoCyFhEqUV3',
     },
     {
-        id: `646-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `646-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Auswahlrunde',
@@ -8088,8 +7430,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2YuqqbycS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
     {
-        id: `647-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `647-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'alternativ',
@@ -8101,8 +7442,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2YSHd4v9cS3i1d96lRqa7uUAbkrwx2PovceWn',
     },
     {
-        id: `648-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `648-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'bevorzugen, bevorzugt, bevorzugte, hat bevorzugt',
@@ -8113,8 +7453,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2I6LOE8RERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `649-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `649-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'terminlich eingeschränkt sein, ist, war, ist gewesen',
@@ -8127,8 +7466,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ZI5MbquAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `650-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `650-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'hin- und hermailen, mailt hin und her, mailte hin und her, hat hin und her gemailt',
@@ -8141,8 +7479,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj20cwjfQFT5lMj2Hg6WNcwtUQmOBxkpdICAvZ4',
     },
     {
-        id: `651-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `651-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'keine Umstände machen',
@@ -8154,8 +7491,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Z8oI4LuAsNohD0PafmZuC68pT42EvxRIWqtj',
     },
     {
-        id: `652-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `652-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'hinterlassen, hinterlässt, hinterließ, hat hinterlassen',
@@ -8166,8 +7502,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2kIV5bZrpDu65zAlXH9EihUjeotgfJTZ3IPVK',
     },
     {
-        id: `653-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `653-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'übertreffen, übertrifft, übertraf, hat übertroffen',
@@ -8178,8 +7513,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29I562nP8xagtImQ23pOC4PewkRlh69S1rubi',
     },
     {
-        id: `654-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `654-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ' , -en',
         wordDe: 'Signatur',
@@ -8190,8 +7524,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj29piYmyHP8xagtImQ23pOC4PewkRlh69S1rub',
     },
     {
-        id: `655-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `655-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'verhindern, verhindert, verhinderte, hat verhindert',
@@ -8202,8 +7535,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj22b9maKjrLf1RDXyUVEK8O9sekvMF7GjQBSNl',
     },
     {
-        id: `656-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `656-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zeitnah',
@@ -8214,8 +7546,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ni74exMzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `657-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `657-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'abgesehen von',
@@ -8226,8 +7557,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21koIP6rxmtKa2DGLNwRdUkJ8OXIEMyop04Zi',
     },
     {
-        id: `658-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `658-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'anders ausgedrückt',
@@ -8239,8 +7569,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2l1qybQvIoHmBWYk93sSFP6LenbujJvyiNEIV',
     },
     {
-        id: `659-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `659-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'weit ausholen',
@@ -8253,8 +7582,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ub9uALXaI1DXObTetfWnBQ8Hsr5zdYkpjAc6',
     },
     {
-        id: `660-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `660-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'abgesehen von',
@@ -8266,8 +7594,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DElJx94bjOvU7hgyJZFifIasMQunldBS8m10',
     },
     {
-        id: `661-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `661-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'anders ausgedrückt',
@@ -8278,8 +7605,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2I4l4dnRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `662-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `662-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'weit ausholen',
@@ -8290,8 +7616,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2nec8c9MzHMhlAWOvkajZ7Xxbdr2PLgyY49R6',
     },
     {
-        id: `663-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `663-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Eingliederung',
@@ -8302,8 +7627,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lWvrxWIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `664-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `664-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'oberflächlich',
@@ -8315,8 +7639,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uaDGT1mXaI1DXObTetfWnBQ8Hsr5zdYkpjAc',
     },
     {
-        id: `665-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `665-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -n',
         wordDe: 'Rechtsgrundlage',
@@ -8328,8 +7651,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pnsVw67yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `666-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `666-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: '',
         wordDe: 'Träger',
@@ -8340,8 +7662,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2oZUtkKDx6dMY0UtOKTuziVqcHa4JwPbS3I9G',
     },
     {
-        id: `667-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `667-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zuweisen + D, weist zu, wies zu, hat zugewiesen',
@@ -8354,8 +7675,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2fjno9ESfVUoxiNAKjH3bO1yvmn9MJkzaDZLg',
     },
     {
-        id: `668-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `668-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'abzielen auf, zielt ab, zielte ab, hat abgezielt',
@@ -8366,8 +7686,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2lYMMxSIoHmBWYk93sSFP6LenbujJvyiNEIVc',
     },
     {
-        id: `669-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `669-${WORD_LEVELS.C1}`,
         article: 'der',
         pluralEnding: ', -e',
         wordDe: 'Aufstieg',
@@ -8379,8 +7698,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2Nt6XGZNFxrQ3DE5MPoqZ8OYn60HJ7XGfUS1e',
     },
     {
-        id: `670-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `670-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Einsatzbereitschaft',
@@ -8391,8 +7709,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2DeUHE874bjOvU7hgyJZFifIasMQunldBS8m1',
     },
     {
-        id: `671-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `671-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'sich einstellen auf, stellt sich, stellte sich, hat sich eingestellt',
@@ -8404,8 +7721,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2STYyrhi8xZTwlRrBq2DKP6ysXHaGvLWi3QVJ',
     },
     {
-        id: `672-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `672-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Initiativbewerbung',
@@ -8418,8 +7734,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2d7k6Zl9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `673-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `673-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'meistern, meistert, meisterte, hat gemeistert',
@@ -8432,8 +7747,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2CIE4pmua0RY1oVptKNDjmwu7HdWefzJbcIMQ',
     },
     {
-        id: `674-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `674-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: '(k)ein Muss sein',
@@ -8446,8 +7760,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2IZ4fsbRERnXyAFs1wgkQeO08mBbCrLMxhVGu',
     },
     {
-        id: `675-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `675-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'perspektivisch',
@@ -8459,8 +7772,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2ymXIgeHazuUF1Dqj4EbrZvioT0X8eMJkc9NG',
     },
     {
-        id: `676-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `676-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'rentabel',
@@ -8472,8 +7784,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2y7790BHazuUF1Dqj4EbrZvioT0X8eMJkc9NG',
     },
     {
-        id: `677-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `677-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Sorgfalt',
@@ -8484,8 +7795,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2pT9vi57yLVcWGIlN4nRqPmS5w1e9M0QKHErD',
     },
     {
-        id: `678-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `678-${WORD_LEVELS.C1}`,
         article: 'die',
         pluralEnding: '',
         wordDe: 'Teilhabe',
@@ -8496,8 +7806,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj21rLJjExmtKa2DGLNwRdUkJ8OXIEMyop04Zig',
     },
     {
-        id: `679-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `679-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: '',
         wordDe: 'Zusammenspiel von',
@@ -8509,8 +7818,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2YF0P53cS3i1d96lRqa7uUAbkrwx2PovceWng',
     },
     {
-        id: `680-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `680-${WORD_LEVELS.C1}`,
         article: 'das',
         pluralEnding: ', -er',
         wordDe: 'Umfeld',
@@ -8522,8 +7830,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2uaEp8p5XaI1DXObTetfWnBQ8Hsr5zdYkpjAc',
     },
     {
-        id: `681-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `681-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'unumgänglich',
@@ -8535,8 +7842,7 @@ export const C1_Beruf_data: ILanguageCard[] = [
         fileKeyUploadthing: '02oRwhT5lMj2dcT0tw9i3PrGnSwUuz6jDqFJCQEYhZxlMcOH',
     },
     {
-        id: `682-${WORD_LEVELS.C1BERUF}`,
-        thema: TOPICS.THEMA10,
+        id: `682-${WORD_LEVELS.C1}`,
         article: '',
         pluralEnding: '',
         wordDe: 'zwingend',

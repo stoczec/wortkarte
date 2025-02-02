@@ -49,35 +49,16 @@ export const WORD_CLASSES = {
     POSSESSIVPRONOMEN: 'Possessivpronomen' as WordClass,
 }
 
-export type WordLevel = 'A2-B2' | 'C1 Sicher!' | 'C1 Aspekte Beruf' | 'Alle Sprachebenen'
+// Определение типа через union
+export type WordLevel = 'A2-B2' | 'C1' | 'Alle Sprachebenen'
 
+// Определение констант
 export const WORD_LEVELS = {
-    A2B2: 'A2-B2' as WordLevel,
-    C1SICHER: 'C1 Sicher!' as WordLevel,
-    C1BERUF: 'C1 Aspekte Beruf' as WordLevel,
-    ALLLEVELS: 'Alle Sprachebenen' as WordLevel,
-}
-
-// Основные уровни
-export type MainLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2' | 'Alle Sprachebenen'
-
-export const MAIN_LEVELS = {
-    A1: 'A1' as MainLevel,
-    A2: 'A2' as MainLevel,
-    B1: 'B1' as MainLevel,
-    B2: 'B2' as MainLevel,
-    C1: 'C1' as MainLevel,
-    C2: 'C2' as MainLevel,
-    ALLLEVELS: 'Alle Sprachebenen' as MainLevel,
-}
-
-// Вложенные уровни
-export type SubLevel = 'C1 Sicher!' | 'C1 Beruf'
-
-export const SUB_LEVELS = {
-    C1_SICHER: 'C1 Sicher!' as SubLevel,
-    C1_BERUF: 'C1 Beruf' as SubLevel,
-}
+    A2B2: 'A2-B2',
+    // C1: 'C1',
+    C1: 'C1',
+    ALL_LEVELS: 'Alle Sprachebenen',
+} as const satisfies Record<string, WordLevel>
 
 type CardsCategory = 'Alle' | 'Gemischten' | 'Favoriten'
 
@@ -110,82 +91,4 @@ export const TOPICS = {
     THEMA8: 'Thema 8' as Topic,
     THEMA9: 'Thema 9' as Topic,
     THEMA10: 'Thema 10' as Topic,
-}
-
-export interface SubLevelWithTopics {
-    subLevel: SubLevel
-    topics?: Topic[] // Темы для конкретного вложенного уровня
-}
-
-export interface LevelStructure {
-    mainLevel: MainLevel
-    subLevels?: SubLevelWithTopics[] // Вложенные уровни с их темами (опционально)
-    topics?: Topic[] // Темы для основного уровня (если нет вложенных уровней)
-}
-
-export const LEVEL_STRUCTURE: LevelStructure[] = [
-    {
-        mainLevel: MAIN_LEVELS.A1,
-    },
-    {
-        mainLevel: MAIN_LEVELS.A2,
-    },
-    {
-        mainLevel: MAIN_LEVELS.B1,
-    },
-    {
-        mainLevel: MAIN_LEVELS.B2,
-    },
-    {
-        mainLevel: MAIN_LEVELS.C1,
-        subLevels: [
-            {
-                subLevel: SUB_LEVELS.C1_SICHER,
-            },
-            {
-                subLevel: SUB_LEVELS.C1_BERUF,
-                topics: [
-                    TOPICS.THEMA1,
-                    TOPICS.THEMA2,
-                    TOPICS.THEMA3,
-                    TOPICS.THEMA4,
-                    TOPICS.THEMA5,
-                    TOPICS.THEMA6,
-                    TOPICS.THEMA7,
-                    TOPICS.THEMA8,
-                    TOPICS.THEMA9,
-                    TOPICS.THEMA10,
-                ], // Темы для C1 Beruf
-            },
-        ],
-    },
-    {
-        mainLevel: MAIN_LEVELS.C2,
-        topics: [], // C2 может не иметь тем
-    },
-]
-
-const LEVELS = {
-    A1: {
-        A1_MAIN: 'A1',
-    },
-    A2: {
-        A2_MAIN: 'A2',
-    },
-    B1: {
-        B1_MAIN: 'B1',
-    },
-    B2: {
-        B2_MAIN: 'B2',
-        B2_EINFACH_BESSER_500: 'B2 Einfach besser 500',
-    },
-    C1: {
-        C1_MAIN: 'C1',
-        C1_ASPEKTE_BERUF: 'C1 Aspekte Beruf',
-        C1_FOKUS: 'C1 Fokus Deutsch',
-        C1_SICHER: 'C1 Sicher!',
-    },
-    C2: {
-        C2_MAIN: 'C2',
-    },
 }

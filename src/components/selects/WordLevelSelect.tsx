@@ -13,7 +13,7 @@ import { WORD_LEVELS } from '@/enums/enums'
 import { useCardsStore } from '@/stores'
 import { useRouter } from 'next/navigation'
 import { ILanguageCard } from '@/interfaces/interfaces'
-import { A2_B2_data, C1_Beruf_data, C1_Sicher_data } from '@/data'
+import { A2_B2_data, C1_data } from '@/data'
 import { Badge } from '../ui/badge'
 
 export const WordLevelSelect = () => {
@@ -36,11 +36,11 @@ export const WordLevelSelect = () => {
     }
 
     const totalA2B2Cards = useMemo(() => calculateTotalCards(A2_B2_data), [A2_B2_data])
-    const totalC1SicherCards = useMemo(() => calculateTotalCards(C1_Sicher_data), [C1_Sicher_data])
-    const totalC1BerufCards = useMemo(() => calculateTotalCards(C1_Beruf_data), [C1_Beruf_data])
+    // const totalC1Cards = useMemo(() => calculateTotalCards(C1_data), [C1_data])
+    const totalC1Cards = useMemo(() => calculateTotalCards(C1_data), [C1_data])
     const totalAllLevelsCards = useMemo(
-        () => totalA2B2Cards + totalC1SicherCards + totalC1BerufCards,
-        [totalA2B2Cards, totalC1SicherCards, totalC1BerufCards]
+        () => totalA2B2Cards + totalC1Cards,
+        [totalA2B2Cards, totalC1Cards]
     )
 
     const renderSelectItem = (
@@ -63,10 +63,10 @@ export const WordLevelSelect = () => {
                 </SelectTrigger>
                 <SelectContent>
                     <SelectGroup>
-                        {renderSelectItem(WORD_LEVELS.ALLLEVELS, totalAllLevelsCards)}
+                        {renderSelectItem(WORD_LEVELS.ALL_LEVELS, totalAllLevelsCards)}
                         {renderSelectItem(WORD_LEVELS.A2B2, totalA2B2Cards)}
-                        {renderSelectItem(WORD_LEVELS.C1SICHER, totalC1SicherCards)}
-                        {renderSelectItem(WORD_LEVELS.C1BERUF, totalC1BerufCards)}
+                        {/* {renderSelectItem(WORD_LEVELS.C1, totalC1Cards)} */}
+                        {renderSelectItem(WORD_LEVELS.C1, totalC1Cards)}
                     </SelectGroup>
                 </SelectContent>
             </Select>

@@ -87,11 +87,6 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                     <Badge>
                         <span>{result}</span>
                     </Badge>{' '}
-                    {thema && (
-                        <Badge>
-                            <span>{thema}</span>
-                        </Badge>
-                    )}
                 </div>
 
                 <div

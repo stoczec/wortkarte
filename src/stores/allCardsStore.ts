@@ -1,7 +1,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { ICardsStore, ILanguageCard } from '@/interfaces/interfaces'
-import { C1_Sicher_data, C1_Beruf_data, A2_B2_data } from '@/data'
+import { C1_data, A2_B2_data } from '@/data'
 import { CARDS_CATEGORY, WORD_LEVELS } from '@/enums/enums'
 
 // Функция для перемешивания массива
@@ -18,14 +18,14 @@ export function getDataByLevel(
     level: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]
 ): ILanguageCard[] {
     switch (level) {
-        case WORD_LEVELS.C1SICHER:
-            return C1_Sicher_data
-        case WORD_LEVELS.C1BERUF:
-            return C1_Beruf_data
+        // case WORD_LEVELS.C1:
+        //     return C1_data
+        case WORD_LEVELS.C1:
+            return C1_data
         case WORD_LEVELS.A2B2:
             return A2_B2_data
-        case WORD_LEVELS.ALLLEVELS:
-            return [...C1_Sicher_data, ...C1_Beruf_data, ...A2_B2_data]
+        case WORD_LEVELS.ALL_LEVELS:
+            return [...C1_data, ...A2_B2_data]
         default:
             return []
     }
@@ -36,8 +36,8 @@ export const useCardsStore = create<ICardsStore>()(
         set => {
             // Все слова из объединённых данных
             const allCards = [
-                ...C1_Beruf_data.flatMap(card => [card, ...(card.multiple || [])]),
-                ...C1_Sicher_data.flatMap(card => [card, ...(card.multiple || [])]),
+                ...C1_data.flatMap(card => [card, ...(card.multiple || [])]),
+                // ...C1_data.flatMap(card => [card, ...(card.multiple || [])]),
                 ...A2_B2_data.flatMap(card => [card, ...(card.multiple || [])]),
             ]
 
@@ -51,7 +51,7 @@ export const useCardsStore = create<ICardsStore>()(
                 favoriteCards: [],
                 loading: true,
                 itemsPerPage: 5,
-                selectedWordLevel: WORD_LEVELS.ALLLEVELS,
+                selectedWordLevel: WORD_LEVELS.ALL_LEVELS,
                 selectedCardCategory: CARDS_CATEGORY.ALLE,
                 searchQuery: '',
                 filteredCards: shuffledAllWords,
@@ -93,7 +93,7 @@ export const useCardsStore = create<ICardsStore>()(
                         shuffledCards: shuffledAllWords,
                         favoriteCards: [],
                         itemsPerPage: 5,
-                        selectedWordLevel: WORD_LEVELS.ALLLEVELS,
+                        selectedWordLevel: WORD_LEVELS.ALL_LEVELS,
                         selectedCardCategory: CARDS_CATEGORY.ALLE,
                     })
                 },
@@ -114,7 +114,7 @@ export const useCardsStore = create<ICardsStore>()(
                         displayedCards: shuffledAllWords,
                         shuffledCards: shuffledAllWords,
                         itemsPerPage: state.itemsPerPage,
-                        selectedWordLevel: WORD_LEVELS.ALLLEVELS,
+                        selectedWordLevel: WORD_LEVELS.ALL_LEVELS,
                         selectedCardCategory: CARDS_CATEGORY.ALLE,
                         searchQuery: '',
                         filteredCards: shuffledAllWords,

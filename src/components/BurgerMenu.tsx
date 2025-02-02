@@ -31,10 +31,7 @@ export function BurgerMenu() {
                 className="flex flex-col justify-start h-full"
                 style={{ fontFamily: 'DynaPuffRegular, sans-serif' }}
             >
-                <SheetTitle className="p-2">Navigation</SheetTitle>
-                <SheetDescription className="px-2">
-                    Wähle einen Bereich zum Navigieren aus
-                </SheetDescription>
+                <SheetTitle className="p-2 text-center">Menu</SheetTitle>
                 <Separator />
 
                 <NavMenu />
@@ -58,7 +55,6 @@ export function BurgerMenu() {
                     <p>Theme</p>
                     <ModeToggle />
                 </div>
-                {/* </ul> */}
 
                 <Separator />
                 <div className="flex flex-col justify-start gap-2">
@@ -73,8 +69,7 @@ export function BurgerMenu() {
                     <Separator />
 
                     <p className="text-sm text-center text-muted-foreground">
-                        &copy;
-                        {new Date().getFullYear()}
+                        &copy; 2024 - {new Date().getFullYear()}
                     </p>
                 </SheetFooter>
             </SheetContent>

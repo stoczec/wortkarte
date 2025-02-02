@@ -14,8 +14,7 @@ export const Footer = () => {
         >
             <MaxWidthWrapper className="flex flex-col justify-center items-center">
                 <p className="text-sm text-center text-muted-foreground">
-                    &copy;
-                    {new Date().getFullYear()}
+                    &copy; 2024 - {new Date().getFullYear()}
                 </p>
                 {/* <h4 className="mb-4 text-sm font-medium leading-none">Letzte Aktualisierung</h4> */}
                 {/* <ScrollArea className="h-10 w-[320px] rounded-md border">
