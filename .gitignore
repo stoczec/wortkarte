@@ -39,7 +39,5 @@ next-env.d.ts
 
 
 AI_request.txt
-!!!!!!C1-data.ts
-C1-data copy.ts
-C1-data.ts
-A2-B2-data.ts
+
+/src/data/
