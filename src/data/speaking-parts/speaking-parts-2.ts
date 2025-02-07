@@ -1,4 +1,4 @@
-import { ConversationPart, SpeakingPartType, SpeakingPhraseWithPart } from '@/types.ts'
+import { ConversationPart, SpeakingPartType, SpeakingPhraseWithPart } from '@/types'
 
 export const speaking_parts_2: SpeakingPhraseWithPart = {
     INTRODUCTION: [
