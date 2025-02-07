@@ -1,4 +1,4 @@
-<h1>Wortkarte: A German Language Learning Web Application</h1>
+<h1>Wortkarte: A German Language Learning Web Application!</h1>
 
 <div>
 <img align="right" src="https://github.com/user-attachments/assets/4bb7258e-9ab6-41af-89be-e77f07241503" alt="Herd" style="width: 30%;">
