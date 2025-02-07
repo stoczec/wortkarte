@@ -13,7 +13,6 @@ import { URL_IMAGES } from '@/constans/constans'
 import { Badge } from './ui/badge'
 import { GroqBotDrawer } from '.'
 import { Separator } from './ui/separator'
-import { Button } from './ui/button'
 
 const animationTransitionConfig = {
     duration: 1,
@@ -30,7 +29,6 @@ export const WordCard = ({ data }: IWordCardProperties) => {
 
     const {
         id,
-        thema,
         article,
         pluralEnding,
         wordDe,
