@@ -159,4 +159,8 @@ export const updates = [
         date: '02.01.25',
         message: '15 neue Wörter wurden hinzugefügt.',
     },
+    {
+        date: '12.04.25',
+        message: 'KI-Bot-Update.',
+    },
 ]
