@@ -13,7 +13,6 @@ import {
     DrawerClose,
 } from '../ui/drawer'
 import Groq from 'groq-sdk'
-import { Separator } from '../ui/separator'
 
 const groq = new Groq({
     apiKey: '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',
@@ -29,20 +28,24 @@ export const GroqBotDrawer: React.FC<GroqBotDrawerProps> = ({ prompt, level }) =
     const [translate, setTranslate] = useState<string>('')
     const [example, setExample] = useState<string>('')
     const [exampleTranslate, setExampleTranslate] = useState<string>('')
+
     const fetchData = async () => {
         try {
             // Fetch translation stream
             const translationStream = await getGroqChatStream(
-                `Переведи слово ${prompt} на русский язык, в контексте языкового курса немецкого языка ${level}. Если ${prompt} состоит из трех слов разделенных запятыми - переводи только первое слово. Напиши только перевод и ничего больше.`
+                // `Переведи слово ${prompt} на русский язык, в контексте языкового курса немецкого языка ${level}. Если ${prompt} состоит из трех слов разделенных запятыми - переводи только первое слово. Напиши только перевод и ничего больше.`
+                `You are a translator. Translate the German word "${prompt}" into Russian. Give up to 1 synonyms separated by commas. Translation only, no explanation.`
             )
             for await (const chunk of translationStream) {
                 const content = chunk.choices[0]?.delta?.content || ''
                 setTranslate(prev => prev + content)
+                console.log()
             }
 
             // Fetch example stream
             const exampleStream = await getGroqChatStream(
-                `Приведи пример использования слова ${prompt} в предложении на немецком, в контексте языкового курса немецкого языка ${level}. Если ${prompt} состоит из трех слов разделенных запятыми - Приведи пример используя только первое слово. Напиши только пример и ничего больше.`
+                // `Приведи пример использования слова ${prompt} в предложении на немецком, в контексте языкового курса немецкого языка ${level}. Если ${prompt} состоит из трех слов разделенных запятыми - Приведи пример используя только первое слово. Напиши только пример и ничего больше.`
+                `Compose a short sentence in German with the word "${prompt}". Just the sentence, no explanation.`
             )
             let exampleContent = ''
             for await (const chunk of exampleStream) {
@@ -53,7 +56,8 @@ export const GroqBotDrawer: React.FC<GroqBotDrawerProps> = ({ prompt, level }) =
 
             // Fetch example translate stream
             const exampleTranslateStream = await getGroqChatStream(
-                `Переведи предложение ${exampleContent} на русский язык. Напиши только пример и ничего больше.`
+                // `Переведи предложение ${exampleContent} на русский язык. Напиши только пример и ничего больше.`
+                `Translate into Russian: "${exampleContent}". Translation only, no explanation.`
             )
             for await (const chunk of exampleTranslateStream) {
                 const content = chunk.choices[0]?.delta?.content || ''
@@ -73,7 +77,7 @@ export const GroqBotDrawer: React.FC<GroqBotDrawerProps> = ({ prompt, level }) =
                 },
             ],
             stream: true,
-            model: 'llama-3.1-70b-versatile',
+            model: 'qwen-2.5-32b',
         })
     }
 

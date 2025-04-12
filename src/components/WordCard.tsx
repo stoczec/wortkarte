@@ -39,6 +39,11 @@ export const WordCard = ({ data }: IWordCardProperties) => {
         fileKeyUploadthing,
     } = data
 
+    const targetWord =
+        wordClass === WORD_CLASSES.VERB || wordClass === WORD_CLASSES.PHRASEN
+            ? wordDe.split(',')[0].trim()
+            : wordDe
+
     const handleFlipCard = () => {
         setIsFlipped(prevCount => !prevCount)
     }
@@ -227,7 +232,10 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                     )}
                 </CardContent>
             </Card>
-            <GroqBotDrawer prompt={`${article} ${wordDe}${pluralEnding}`} level={result} />
+            <GroqBotDrawer
+                prompt={`${article} ${targetWord ? targetWord : wordDe}`}
+                level={result}
+            />
         </div>
     )
 }
