@@ -71,7 +71,7 @@ export const GroqBotDrawer: React.FC<GroqBotDrawerProps> = ({ prompt, level }) =
                 },
             ],
             stream: true,
-            model: 'qwen-2.5-32b',
+            model: 'llama-3.3-70b-versatile',
         })
     }
 
