@@ -15,7 +15,7 @@ import {
 import Groq from 'groq-sdk'
 
 const groq = new Groq({
-    apiKey: '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',
+    apiKey: process.env.GROQ_API_KEY,
     dangerouslyAllowBrowser: true,
 })
 
