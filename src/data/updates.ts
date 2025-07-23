@@ -163,4 +163,8 @@ export const updates = [
         date: '12.04.25',
         message: 'KI-Bot-Update.',
     },
+    {
+        date: '23.07.25',
+        message: 'KI-Bot-Update.',
+    },
 ]

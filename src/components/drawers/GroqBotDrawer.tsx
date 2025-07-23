@@ -15,7 +15,7 @@ import {
 import Groq from 'groq-sdk'
 
 const groq = new Groq({
-    apiKey: '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',
+    apiKey: process.env.GROQ_API_KEY,
     dangerouslyAllowBrowser: true,
 })
 
@@ -71,7 +71,7 @@ export const GroqBotDrawer: React.FC<GroqBotDrawerProps> = ({ prompt, level }) =
                 },
             ],
             stream: true,
-            model: 'qwen-2.5-32b',
+            model: 'llama-3.3-70b-versatile',
         })
     }
 
