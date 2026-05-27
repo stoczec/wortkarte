@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import { MaxWidthWrapper } from '@/components'
 import {
@@ -10,6 +12,7 @@ import {
 } from './ui/pagination'
 import { ILanguageCard } from '@/interfaces/interfaces'
 import { useCardsStore } from '@/stores'
+import { useRouter } from 'next/navigation'
 import {
     Select,
     SelectTrigger,
@@ -29,11 +32,12 @@ export const CustomPagination = ({
     pageName: string
 }) => {
     const itemsPerPage = useCardsStore(state => state.itemsPerPage)
+    const router = useRouter()
 
     const totalPages = Math.ceil(filteredCards.length / itemsPerPage)
 
     const handlePageChange = (page: number) => {
-        window.location.href = `/${pageName}/${page}`
+        router.push(`/${pageName}/${page}`)
     }
 
     const handlePreviousPage = () => {
