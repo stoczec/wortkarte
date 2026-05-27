@@ -1,6 +1,7 @@
 import * as XLSX from 'xlsx'
-import { C1_data } from '../data/C1-data'
-const exportToExcel = (data: any[]) => {
+import { C1_data } from '@/data/C1-data'
+import { ILanguageCard } from '@/interfaces/interfaces'
+const exportToExcel = (data: ILanguageCard[]) => {
     const ws = XLSX.utils.json_to_sheet(data)
     const wb = XLSX.utils.book_new()
     XLSX.utils.book_append_sheet(wb, ws, 'Sheet1')

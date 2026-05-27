@@ -7,7 +7,7 @@ export async function fetchImage(req: NextApiRequest, res: NextApiResponse) {
         const data = await response.blob()
         res.setHeader('Content-Type', 'image/jpeg')
         res.send(data)
-    } catch (error) {
+    } catch {
         res.status(500).json({ error: 'Failed to fetch the image' })
     }
 }

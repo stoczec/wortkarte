@@ -1,7 +1,7 @@
 import { CARDS_CATEGORY, TOPICS, WORD_CLASSES, WORD_LEVELS } from '@/enums/enums'
 
 export interface ILanguageCard {
-    id: any
+    id: string
     thema?: (typeof TOPICS)[keyof typeof TOPICS]
     article: string
     pluralEnding: string
@@ -43,7 +43,7 @@ export interface ICardsStore {
     setSelectedWordLevel: (level: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]) => void
     setSelectedCardCategory: (level: (typeof CARDS_CATEGORY)[keyof typeof CARDS_CATEGORY]) => void
     addFavoriteCard: (card: ILanguageCard) => void
-    removeFavoriteCard: (id: number) => void
+    removeFavoriteCard: (id: string) => void
     clearFavorites: () => void
     clearStorage: () => void
     updateSearchQuery: (query: string) => void
@@ -55,7 +55,7 @@ export interface IFavoriteCardsStore {
     loading: boolean
     setLoading: (isLoading: boolean) => void
     addFavoriteCard: (card: ILanguageCard) => void
-    removeFavoriteCard: (id: number) => void
+    removeFavoriteCard: (id: string) => void
     clearFavorites: () => void
 }
 

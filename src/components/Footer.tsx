@@ -2,9 +2,6 @@
 
 import React from 'react'
 import { MaxWidthWrapper } from '.'
-import { ScrollArea } from './ui/scroll-area'
-import { Separator } from './ui/separator'
-import { updates } from '@/data/updates'
 
 export const Footer = () => {
     return (
