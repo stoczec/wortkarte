@@ -49,7 +49,7 @@ export const useCardsStore = create<ICardsStore>()(
                     set(state => ({
                         favoriteCards: [...state.favoriteCards, card],
                     })),
-                removeFavoriteCard: (id: number) =>
+                removeFavoriteCard: (id: string) =>
                     set(state => ({
                         favoriteCards: state.favoriteCards.filter(card => card.id !== id),
                     })),

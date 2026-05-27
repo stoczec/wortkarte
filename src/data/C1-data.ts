@@ -1,4 +1,4 @@
-import { TOPICS, WORD_CLASSES, WORD_LEVELS } from '@/enums/enums'
+import { WORD_CLASSES, WORD_LEVELS } from '@/enums/enums'
 import { ILanguageCard } from '@/interfaces/interfaces'
 
 export const C1_data: ILanguageCard[] = [

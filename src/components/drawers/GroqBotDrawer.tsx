@@ -24,7 +24,7 @@ interface GroqBotDrawerProps {
     level: string
 }
 
-export const GroqBotDrawer: React.FC<GroqBotDrawerProps> = ({ prompt, level }) => {
+export const GroqBotDrawer: React.FC<GroqBotDrawerProps> = ({ prompt }) => {
     const [translate, setTranslate] = useState<string>('')
     const [example, setExample] = useState<string>('')
     const [exampleTranslate, setExampleTranslate] = useState<string>('')
