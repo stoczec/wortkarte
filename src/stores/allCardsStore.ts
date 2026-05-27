@@ -3,45 +3,14 @@ import { persist } from 'zustand/middleware'
 import { ICardsStore, ILanguageCard } from '@/interfaces/interfaces'
 import { C1_data, A2_B2_data } from '@/data'
 import { CARDS_CATEGORY, WORD_LEVELS } from '@/enums/enums'
+import { buildAllCards, filterCards, getDataByLevel, shuffleArray } from '@/lib/cards'
 
-// Функция для перемешивания массива
-function shuffleArray(array: ILanguageCard[]) {
-    const shuffled = array.slice()
-    for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1))
-        ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
-    }
-    return shuffled
-}
-
-export function getDataByLevel(
-    level: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]
-): ILanguageCard[] {
-    switch (level) {
-        // case WORD_LEVELS.C1:
-        //     return C1_data
-        case WORD_LEVELS.C1:
-            return C1_data
-        case WORD_LEVELS.A2B2:
-            return A2_B2_data
-        case WORD_LEVELS.ALL_LEVELS:
-            return [...C1_data, ...A2_B2_data]
-        default:
-            return []
-    }
-}
+export { getDataByLevel } from '@/lib/cards'
 
 export const useCardsStore = create<ICardsStore>()(
     persist(
         set => {
-            // Все слова из объединённых данных
-            const allCards = [
-                ...C1_data.flatMap(card => [card, ...(card.multiple || [])]),
-                // ...C1_data.flatMap(card => [card, ...(card.multiple || [])]),
-                ...A2_B2_data.flatMap(card => [card, ...(card.multiple || [])]),
-            ]
-
-            // Перемешанные слова
+            const allCards = buildAllCards(C1_data, A2_B2_data)
             const shuffledAllWords = shuffleArray(allCards)
 
             return {
@@ -61,11 +30,10 @@ export const useCardsStore = create<ICardsStore>()(
 
                 setSelectedWordLevel: (level: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]) => {
                     const data = getDataByLevel(level)
-                    const shuffledData = shuffleArray(data)
                     set({
                         selectedWordLevel: level,
                         displayedCards: data,
-                        shuffledCards: shuffledData,
+                        shuffledCards: shuffleArray(data),
                     })
                 },
 
@@ -98,17 +66,10 @@ export const useCardsStore = create<ICardsStore>()(
                     })
                 },
                 updateSearchQuery: (query: string) =>
-                    set(state => {
-                        const filtered = state.allCards.filter(
-                            card =>
-                                card.wordDe.toLowerCase().includes(query.toLowerCase()) ||
-                                card.wordRu.toLowerCase().includes(query.toLowerCase())
-                        )
-                        return {
-                            searchQuery: query,
-                            filteredCards: filtered,
-                        }
-                    }),
+                    set(state => ({
+                        searchQuery: query,
+                        filteredCards: filterCards(state.allCards, query),
+                    })),
                 resetStore: () =>
                     set(state => ({
                         displayedCards: shuffledAllWords,
@@ -118,7 +79,6 @@ export const useCardsStore = create<ICardsStore>()(
                         selectedCardCategory: CARDS_CATEGORY.ALLE,
                         searchQuery: '',
                         filteredCards: shuffledAllWords,
-                        // Preserve favoriteCards
                         favoriteCards: state.favoriteCards,
                     })),
             }
@@ -126,16 +86,35 @@ export const useCardsStore = create<ICardsStore>()(
 
         {
             name: 'unified-cards-storage',
+            version: 1,
             partialize: state => ({
-                itemsPerPage: state.itemsPerPage,
-                displayedCards: state.displayedCards,
+                favoriteCards: state.favoriteCards,
                 selectedWordLevel: state.selectedWordLevel,
                 selectedCardCategory: state.selectedCardCategory,
-                shuffledCards: state.shuffledCards,
-                favoriteCards: state.favoriteCards,
-                searchQuery: state.searchQuery,
-                filteredCards: state.filteredCards,
+                itemsPerPage: state.itemsPerPage,
             }),
+            migrate: persisted => {
+                const p = (persisted ?? {}) as Partial<ICardsStore>
+                return {
+                    favoriteCards: p.favoriteCards ?? [],
+                    selectedWordLevel: p.selectedWordLevel ?? WORD_LEVELS.ALL_LEVELS,
+                    selectedCardCategory: p.selectedCardCategory ?? CARDS_CATEGORY.ALLE,
+                    itemsPerPage: p.itemsPerPage ?? 5,
+                }
+            },
+            merge: (persisted, current) => {
+                if (!persisted) return current
+                const merged = { ...current, ...(persisted as Partial<ICardsStore>) }
+                const levelData = getDataByLevel(merged.selectedWordLevel)
+                return {
+                    ...merged,
+                    displayedCards: levelData,
+                    shuffledCards: shuffleArray(levelData),
+                    filteredCards: merged.allCards,
+                    searchQuery: '',
+                    loading: false,
+                }
+            },
         }
     )
 )
