@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React from 'react'
 import {
     Select,
     SelectContent,
@@ -18,21 +18,17 @@ export const CardCategorySelect = () => {
     const displayedCards = useCardsStore(state => state.displayedCards)
     const favoriteCards = useCardsStore(state => state.favoriteCards)
     const { selectedCardCategory, setSelectedCardCategory } = useCardsStore()
-
-    const [selectedValue, setSelectedValue] =
-        useState<(typeof CARDS_CATEGORY)[keyof typeof CARDS_CATEGORY]>(selectedCardCategory)
     const router = useRouter()
 
     const handleCategoryChange = (value: (typeof CARDS_CATEGORY)[keyof typeof CARDS_CATEGORY]) => {
         setSelectedCardCategory(value)
-        setSelectedValue(value)
         router.replace('/page/1')
     }
     return (
         <div className="w-full flex justify-start gap-2 px-1">
-            <Select value={selectedValue} onValueChange={handleCategoryChange}>
+            <Select value={selectedCardCategory} onValueChange={handleCategoryChange}>
                 <SelectTrigger className="w-[240px]">
-                    <SelectValue>{selectedValue} Karten</SelectValue>
+                    <SelectValue>{selectedCardCategory} Karten</SelectValue>
                 </SelectTrigger>
                 <SelectContent className="w-[240px]">
                     <SelectGroup>

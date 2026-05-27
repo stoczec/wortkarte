@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useMemo, useState } from 'react'
+import React, { useMemo } from 'react'
 import {
     Select,
     SelectContent,
@@ -18,14 +18,10 @@ import { Badge } from '../ui/badge'
 
 export const WordLevelSelect = () => {
     const { selectedWordLevel, setSelectedWordLevel } = useCardsStore()
-
-    const [selectedValue, setSelectedValue] =
-        useState<(typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]>(selectedWordLevel)
     const router = useRouter()
 
     const handleWordLevelChange = (value: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]) => {
         setSelectedWordLevel(value)
-        setSelectedValue(value)
         router.push('/page/1')
     }
 
@@ -36,7 +32,6 @@ export const WordLevelSelect = () => {
     }
 
     const totalA2B2Cards = useMemo(() => calculateTotalCards(A2_B2_data), [A2_B2_data])
-    // const totalC1Cards = useMemo(() => calculateTotalCards(C1_data), [C1_data])
     const totalC1Cards = useMemo(() => calculateTotalCards(C1_data), [C1_data])
     const totalAllLevelsCards = useMemo(
         () => totalA2B2Cards + totalC1Cards,
@@ -57,15 +52,14 @@ export const WordLevelSelect = () => {
 
     return (
         <div className="w-full flex justify-start gap-2 px-1">
-            <Select value={selectedValue} onValueChange={handleWordLevelChange}>
+            <Select value={selectedWordLevel} onValueChange={handleWordLevelChange}>
                 <SelectTrigger className="w-[240px]">
-                    <SelectValue>{selectedValue}</SelectValue>
+                    <SelectValue>{selectedWordLevel}</SelectValue>
                 </SelectTrigger>
                 <SelectContent>
                     <SelectGroup>
                         {renderSelectItem(WORD_LEVELS.ALL_LEVELS, totalAllLevelsCards)}
                         {renderSelectItem(WORD_LEVELS.A2B2, totalA2B2Cards)}
-                        {/* {renderSelectItem(WORD_LEVELS.C1, totalC1Cards)} */}
                         {renderSelectItem(WORD_LEVELS.C1, totalC1Cards)}
                     </SelectGroup>
                 </SelectContent>
