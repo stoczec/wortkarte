@@ -9,25 +9,24 @@ import {
     SelectTrigger,
     SelectValue,
 } from '@/components/ui/select'
-import { useCardsStore } from '@/stores'
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { ITEMS_PER_PAGE_OPTIONS } from '@/constans/constans'
+import { parseSize, patchQuery } from '@/lib/cards-url'
 
 export const ItemsPerPageSelect = () => {
-    const updateItemsPerPage = useCardsStore(state => state.setItemsPerPage)
-    const itemsPerPageCount = useCardsStore(state => state.itemsPerPage)
     const router = useRouter()
+    const searchParams = useSearchParams()
+    const currentSize = parseSize(searchParams.get('size') ?? undefined)
 
-    const handleItemsPerPageChange = (value: `${number}`) => {
-        updateItemsPerPage(Number(value))
-        router.replace('/page/1')
+    const handleItemsPerPageChange = (value: string) => {
+        router.push('/page/1?' + patchQuery(searchParams.toString(), { size: value }))
     }
 
     return (
         <div className="w-full flex justify-start gap-2 px-1">
-            <Select value={String(itemsPerPageCount)} onValueChange={handleItemsPerPageChange}>
+            <Select value={String(currentSize)} onValueChange={handleItemsPerPageChange}>
                 <SelectTrigger className="w-[240px]">
-                    <SelectValue>{itemsPerPageCount} Stück</SelectValue>
+                    <SelectValue>{currentSize} Stück</SelectValue>
                 </SelectTrigger>
                 <SelectContent>
                     <SelectGroup>

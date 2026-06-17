@@ -1,4 +1,4 @@
-import { CARDS_CATEGORY, TOPICS, WORD_CLASSES, WORD_LEVELS } from '@/enums/enums'
+import { TOPICS, WORD_CLASSES } from '@/enums/enums'
 
 export interface ILanguageCard {
     id: string
@@ -21,33 +21,12 @@ export interface IImageWithLoadingProperties {
     alt: string
 }
 
-export interface IPaginatedProps {
-    displayedCards: ILanguageCard[]
-    pageName: string
-    currentPage: number
-}
-
 export interface ICardsStore {
-    allCards: ILanguageCard[]
-    displayedCards: ILanguageCard[]
-    shuffledCards: ILanguageCard[]
     favoriteCards: ILanguageCard[]
-    loading: boolean
-    itemsPerPage: number
-    selectedWordLevel: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]
-    selectedCardCategory: (typeof CARDS_CATEGORY)[keyof typeof CARDS_CATEGORY]
-    searchQuery: string
-    filteredCards: ILanguageCard[]
-    setLoading: (isLoading: boolean) => void
-    setItemsPerPage: (items: number) => void
-    setSelectedWordLevel: (level: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]) => void
-    setSelectedCardCategory: (level: (typeof CARDS_CATEGORY)[keyof typeof CARDS_CATEGORY]) => void
     addFavoriteCard: (card: ILanguageCard) => void
     removeFavoriteCard: (id: string) => void
     clearFavorites: () => void
     clearStorage: () => void
-    updateSearchQuery: (query: string) => void
-    resetStore: () => void
 }
 
 export interface IFavoriteCardsStore {

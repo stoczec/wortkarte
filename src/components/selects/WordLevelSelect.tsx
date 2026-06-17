@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useMemo } from 'react'
+import React from 'react'
 import {
     Select,
     SelectContent,
@@ -10,38 +10,23 @@ import {
     SelectValue,
 } from '@/components/ui/select'
 import { WORD_LEVELS } from '@/enums/enums'
-import { useCardsStore } from '@/stores'
-import { useRouter } from 'next/navigation'
-import { ILanguageCard } from '@/interfaces/interfaces'
-import { A2_B2_data, C1_data } from '@/data'
+import { useRouter, useSearchParams } from 'next/navigation'
+import { CARD_COUNTS, TOTAL_CARDS } from '@/data/counts'
+import { levelToSlug, parseLevel, patchQuery } from '@/lib/cards-url'
 import { Badge } from '../ui/badge'
 
+type WordLevel = (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]
+
 export const WordLevelSelect = () => {
-    const { selectedWordLevel, setSelectedWordLevel } = useCardsStore()
     const router = useRouter()
+    const searchParams = useSearchParams()
+    const currentLevel = parseLevel(searchParams.get('level') ?? undefined)
 
-    const handleWordLevelChange = (value: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]) => {
-        setSelectedWordLevel(value)
-        router.push('/page/1')
+    const handleWordLevelChange = (value: WordLevel) => {
+        router.push('/page/1?' + patchQuery(searchParams.toString(), { level: levelToSlug(value) }))
     }
 
-    const calculateTotalCards = (cards: ILanguageCard[]): number => {
-        return cards.reduce((count, card) => {
-            return count + 1 + (card.multiple ? calculateTotalCards(card.multiple) : 0)
-        }, 0)
-    }
-
-    const totalA2B2Cards = useMemo(() => calculateTotalCards(A2_B2_data), [A2_B2_data])
-    const totalC1Cards = useMemo(() => calculateTotalCards(C1_data), [C1_data])
-    const totalAllLevelsCards = useMemo(
-        () => totalA2B2Cards + totalC1Cards,
-        [totalA2B2Cards, totalC1Cards]
-    )
-
-    const renderSelectItem = (
-        level: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS],
-        totalCards: number
-    ) => (
+    const renderSelectItem = (level: WordLevel, totalCards: number) => (
         <SelectItem value={level} className="cursor-pointer">
             <span className="mr-10">{level}</span>
             <Badge variant="default" className="bg-primary">
@@ -52,15 +37,15 @@ export const WordLevelSelect = () => {
 
     return (
         <div className="w-full flex justify-start gap-2 px-1">
-            <Select value={selectedWordLevel} onValueChange={handleWordLevelChange}>
+            <Select value={currentLevel} onValueChange={handleWordLevelChange}>
                 <SelectTrigger className="w-[240px]">
-                    <SelectValue>{selectedWordLevel}</SelectValue>
+                    <SelectValue>{currentLevel}</SelectValue>
                 </SelectTrigger>
                 <SelectContent>
                     <SelectGroup>
-                        {renderSelectItem(WORD_LEVELS.ALL_LEVELS, totalAllLevelsCards)}
-                        {renderSelectItem(WORD_LEVELS.A2B2, totalA2B2Cards)}
-                        {renderSelectItem(WORD_LEVELS.C1, totalC1Cards)}
+                        {renderSelectItem(WORD_LEVELS.ALL_LEVELS, TOTAL_CARDS)}
+                        {renderSelectItem(WORD_LEVELS.A2B2, CARD_COUNTS[WORD_LEVELS.A2B2])}
+                        {renderSelectItem(WORD_LEVELS.C1, CARD_COUNTS[WORD_LEVELS.C1])}
                     </SelectGroup>
                 </SelectContent>
             </Select>
