@@ -11,7 +11,6 @@ import { Heart } from 'lucide-react'
 import ImageWithLoading from './ImageWithLoading'
 import { URL_IMAGES } from '@/constans/constans'
 import { Badge } from './ui/badge'
-import { GroqBotDrawer } from '.'
 import { Separator } from './ui/separator'
 
 const animationTransitionConfig = {
@@ -38,11 +37,6 @@ export const WordCard = ({ data }: IWordCardProperties) => {
         exampleRu,
         fileKeyUploadthing,
     } = data
-
-    const targetWord =
-        wordClass === WORD_CLASSES.VERB || wordClass === WORD_CLASSES.PHRASEN
-            ? wordDe.split(',')[0].trim()
-            : wordDe
 
     const handleFlipCard = () => {
         setIsFlipped(prevCount => !prevCount)
@@ -232,10 +226,6 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                     )}
                 </CardContent>
             </Card>
-            <GroqBotDrawer
-                prompt={`${article} ${targetWord ? targetWord : wordDe}`}
-                level={result}
-            />
         </div>
     )
 }
