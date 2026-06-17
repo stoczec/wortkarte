@@ -1,4 +1,4 @@
-import { WORD_CLASSES } from '@/enums/enums'
+import { WORD_CLASSES, WORD_LEVELS } from '@/enums/enums'
 
 export interface ILanguageCard {
     id: string
@@ -10,6 +10,9 @@ export interface ILanguageCard {
     exampleDe: string
     exampleRu: string
     fileKeyUploadthing: string
+    sourceBook?: string
+    level?: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]
+    addedAt?: string
     multiple?: ILanguageCard[]
 }
 export interface IWordCardProperties {

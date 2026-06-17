@@ -4,6 +4,8 @@ import { ILanguageCard } from '@/interfaces/interfaces'
 export const A2_B2_data: ILanguageCard[] = [
     {
         id: `1-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'fahren, fährt, ist gefahren',
@@ -15,6 +17,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `2-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'brennen, brennt, hat gebrannt',
@@ -26,6 +30,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `3-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'empfangen, empfängt, hat empfangen',
@@ -37,6 +43,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `4-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'empfehlen, empfiehlt, hat empfohlen',
@@ -48,6 +56,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `5-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'erschrecken, erschrickt, ist erschrocken',
@@ -59,6 +69,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `6-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'fangen, fängt, hat gefangen',
@@ -70,6 +82,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `7-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'fliehen, flieht, ist geflohen',
@@ -81,6 +95,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `8-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'fließen, fließt, ist geflossen',
@@ -92,6 +108,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `9-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'fressen, frisst, hat gefressen',
@@ -103,6 +121,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `10-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'frieren, friert, hat gefroren',
@@ -114,6 +134,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `11-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'beginnen, beginnt, hat begonnen',
@@ -125,6 +147,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `12-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'bieten, bietet, hat geboten',
@@ -136,6 +160,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `13-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'gelten, gilt, hat gegolten',
@@ -147,6 +173,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `14-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'genießen, genießt, hat genossen',
@@ -158,6 +186,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `15-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'geschehen, geschieht, ist geschehen',
@@ -169,6 +199,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `16-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'gewinnen, gewinnt, hat gewonnen',
@@ -180,6 +212,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `17-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'gießen, gießt, hat gegossen',
@@ -191,6 +225,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `18-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'greifen, greift, hat gegriffen',
@@ -202,6 +238,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `19-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'heben, hebt, hat gehoben',
@@ -213,6 +251,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `20-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'klingen, klingt, hat geklungen',
@@ -224,6 +264,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `21-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'leiden, leidet, hat gelitten',
@@ -235,6 +277,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `22-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'messen, misst, hat gemessen',
@@ -246,6 +290,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `23-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'reiten, reitet, ist geritten',
@@ -257,6 +303,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `24-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'rennen, rennt, ist gerannt',
@@ -268,6 +316,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `25-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'schieben, schiebt, hat geschoben',
@@ -279,6 +329,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `26-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'schießen, schießt, hat geschossen',
@@ -290,6 +342,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `27-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'schlagen, schlägt, hat geschlagen',
@@ -301,6 +355,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `28-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'schreien, schreit, hat geschrien',
@@ -312,6 +368,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `29-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'schweigen, schweigt, hat geschwiegen',
@@ -323,6 +381,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `30-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'senden, sendet, hat gesandt',
@@ -334,6 +394,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `31-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'springen, springt, ist gesprungen',
@@ -345,6 +407,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `32-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'stechen, sticht, hat gestochen',
@@ -356,6 +420,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `33-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'steigen, steigt, ist gestiegen',
@@ -367,6 +433,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `34-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'üblich',
@@ -378,6 +446,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `35-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'sterben, stirbt, ist gestorben',
@@ -389,6 +459,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `36-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'stinken, stinkt, hat gestunken',
@@ -400,6 +472,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `37-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'stoßen, stößt, hat gestoßen',
@@ -411,6 +485,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `38-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'treiben, treibt, hat getrieben',
@@ -422,6 +498,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `39-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'treten, tritt, ist/hat getreten',
@@ -433,6 +511,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `40-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'verschwinden, verschwindet, ist verschwunden',
@@ -444,6 +524,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `41-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'verzeihen, verzeiht, hat verziehen',
@@ -455,6 +537,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `42-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'wachsen, wächst, ist gewachsen',
@@ -466,6 +550,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `43-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'wenden, wendet, hat gewandt',
@@ -477,6 +563,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `44-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'werfen, wirft, hat geworfen',
@@ -488,6 +576,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `45-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'wiegen, wiegt, hat gewogen',
@@ -499,6 +589,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `46-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'ziehen, zieht, hat gezogen',
@@ -510,6 +602,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `47-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'zwingen, zwingt, hat gezwungen',
@@ -521,6 +615,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `48-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'erneuern, erneuert, hat erneuert',
@@ -532,6 +628,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `49-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'eventuell',
@@ -543,6 +641,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `50-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'teilnehmen, nimmt teil, hat teilgenommen',
@@ -554,6 +654,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `51-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: 'die',
         pluralEnding: ', -en',
         wordDe: 'Verwaltung',
@@ -565,6 +667,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `52-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'bergen, birgt, hat geborgen',
@@ -576,6 +680,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `53-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'binden, bindet, hat gebunden',
@@ -587,6 +693,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `54-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'blasen, bläst, hat geblasen',
@@ -598,6 +706,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `55-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'dringen, dringt, ist gedrungen',
@@ -609,6 +719,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `56-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'empfinden, empfindet, hat empfunden',
@@ -620,6 +732,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `57-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'erlöschen, erlischt, ist erloschen',
@@ -631,6 +745,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `58-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'erwägen, erwägt, hat erwogen',
@@ -644,6 +760,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `59-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'flechten, flicht, hat geflochten',
@@ -655,6 +773,8 @@ export const A2_B2_data: ILanguageCard[] = [
     },
     {
         id: `60-${WORD_LEVELS.A2B2}`,
+        sourceBook: 'various',
+        level: WORD_LEVELS.A2B2,
         article: '',
         pluralEnding: '',
         wordDe: 'gebären, gebiert, hat geboren',
