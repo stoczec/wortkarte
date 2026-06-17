@@ -18,7 +18,7 @@ const animationTransitionConfig = {
     type: 'tween',
 }
 
-export const WordCard = ({ data, priority = false }: IWordCardProperties) => {
+export const WordCard = ({ data, priority = false, eager = false }: IWordCardProperties) => {
     const [isFlipped, setIsFlipped] = useState(false)
 
     const isFavorite = useCardsStore(state => state.favoriteCards.some(card => card.id === data.id))
@@ -86,6 +86,7 @@ export const WordCard = ({ data, priority = false }: IWordCardProperties) => {
                     src={`${URL_IMAGES}${fileKeyUploadthing}`}
                     alt={wordDe}
                     priority={priority}
+                    eager={eager}
                 />
                 <CardContent
                     className={cn(
