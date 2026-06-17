@@ -33,7 +33,7 @@ export default function RootLayout({
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
                 // style={{ fontFamily: 'DynaPuffRegular, sans-serif' }}
             >
-                <div className="flex flex-col h-full">
+                <div className="flex flex-col min-h-screen">
                     <ThemeProvider
                         attribute="class"
                         defaultTheme="system"

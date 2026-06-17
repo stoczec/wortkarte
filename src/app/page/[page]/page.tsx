@@ -29,7 +29,7 @@ export default function PaginatedPage({ params, searchParams }: PaginatedPagePro
     const { slice, totalPages, page } = paginate(cards, requestedPage, size)
 
     return (
-        <div className="h-full flex flex-col justify-between items-center flex-grow">
+        <div className="flex flex-col justify-between items-center flex-grow">
             <section className="flex flex-col items-center justify-center gap-2 px-4 py-2">
                 {query && (
                     <p className="text-center text-sm py-1">
