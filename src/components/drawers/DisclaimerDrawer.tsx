@@ -12,7 +12,7 @@ import {
     DrawerFooter,
     DrawerClose,
 } from '../ui/drawer'
-import { disclaimer } from '@/data'
+import { disclaimer } from '@/data/disclaimer'
 
 export const DisclaimerDrawer = () => {
     const [language, setLanguage] = useState<'DE' | 'RU'>('DE')

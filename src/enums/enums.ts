@@ -68,27 +68,3 @@ export const CARDS_CATEGORY = {
     FAVORITEN: 'Favoriten' as CardsCategory,
 }
 
-export type Topic =
-    | 'Thema 1'
-    | 'Thema 2'
-    | 'Thema 3'
-    | 'Thema 4'
-    | 'Thema 5'
-    | 'Thema 6'
-    | 'Thema 7'
-    | 'Thema 8'
-    | 'Thema 9'
-    | 'Thema 10'
-
-export const TOPICS = {
-    THEMA1: 'Thema 1' as Topic,
-    THEMA2: 'Thema 2' as Topic,
-    THEMA3: 'Thema 3' as Topic,
-    THEMA4: 'Thema 4' as Topic,
-    THEMA5: 'Thema 5' as Topic,
-    THEMA6: 'Thema 6' as Topic,
-    THEMA7: 'Thema 7' as Topic,
-    THEMA8: 'Thema 8' as Topic,
-    THEMA9: 'Thema 9' as Topic,
-    THEMA10: 'Thema 10' as Topic,
-}

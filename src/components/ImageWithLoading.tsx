@@ -3,30 +3,31 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { IImageWithLoadingProperties } from '@/interfaces/interfaces'
-import { useCardsStore } from '@/stores'
 import { Loader } from './Loader'
 import { Ban } from 'lucide-react'
 
 const ImageWithLoading = ({ src, alt }: IImageWithLoadingProperties) => {
-    const { loading, setLoading } = useCardsStore()
+    const [loading, setLoading] = useState(true)
     const [error, setError] = useState(false)
 
     useEffect(() => {
+        let active = true
         const fetchImage = async () => {
             try {
                 const response = await fetch(src)
                 if (!response.ok) throw new Error('Image load failed')
-                setError(false)
-                setLoading(true)
+                if (active) setError(false)
             } catch {
-                setError(true)
+                if (active) setError(true)
             } finally {
-                setLoading(false)
+                if (active) setLoading(false)
             }
         }
-
         fetchImage()
-    }, [src, setLoading])
+        return () => {
+            active = false
+        }
+    }, [src])
 
     if (loading && !error) {
         return <Loader />

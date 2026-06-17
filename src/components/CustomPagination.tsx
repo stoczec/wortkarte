@@ -10,9 +10,7 @@ import {
     PaginationLink,
     PaginationNext,
 } from './ui/pagination'
-import { ILanguageCard } from '@/interfaces/interfaces'
-import { useCardsStore } from '@/stores'
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import {
     Select,
     SelectTrigger,
@@ -24,38 +22,27 @@ import {
 
 export const CustomPagination = ({
     currentPage,
-    filteredCards,
+    totalPages,
     pageName,
 }: {
     currentPage: number
-    filteredCards: ILanguageCard[]
+    totalPages: number
     pageName: string
 }) => {
-    const itemsPerPage = useCardsStore(state => state.itemsPerPage)
     const router = useRouter()
+    const searchParams = useSearchParams()
+    const qs = searchParams.toString()
 
-    const totalPages = Math.ceil(filteredCards.length / itemsPerPage)
-
-    const handlePageChange = (page: number) => {
-        router.push(`/${pageName}/${page}`)
-    }
+    const hrefFor = (page: number) => `/${pageName}/${page}${qs ? `?${qs}` : ''}`
+    const goTo = (page: number) => router.push(hrefFor(page))
 
     const handlePreviousPage = () => {
-        if (currentPage > 1) {
-            handlePageChange(currentPage - 1)
-        }
+        if (currentPage > 1) goTo(currentPage - 1)
     }
-
     const handleNextPage = () => {
-        if (currentPage < totalPages) {
-            handlePageChange(currentPage + 1)
-        }
+        if (currentPage < totalPages) goTo(currentPage + 1)
     }
-
-    const handleSelectChange = (value: string) => {
-        const selectedPage = parseInt(value, 10)
-        handlePageChange(selectedPage)
-    }
+    const handleSelectChange = (value: string) => goTo(parseInt(value, 10))
 
     return (
         <MaxWidthWrapper>
@@ -64,7 +51,7 @@ export const CustomPagination = ({
                     <PaginationItem>
                         <PaginationLink
                             className="w-[75px] text-sm border-2 rounded-full p-2 text-center shadow-inner shadow-[--shadow-color]"
-                            href={`/${pageName}/1`}
+                            href={hrefFor(1)}
                         >
                             erste
                         </PaginationLink>
@@ -100,7 +87,7 @@ export const CustomPagination = ({
 
                     <PaginationItem>
                         <PaginationLink
-                            href={`/${pageName}/${totalPages}`}
+                            href={hrefFor(totalPages)}
                             className="w-[75px] text-sm border-2 rounded-full p-2 text-center shadow-inner shadow-[--shadow-color]"
                         >
                             letzte

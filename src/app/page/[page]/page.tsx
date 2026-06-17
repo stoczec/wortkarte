@@ -1,81 +1,46 @@
-'use client'
-
-import React, { useEffect, useState } from 'react'
-import { usePathname } from 'next/navigation'
-import { Loader, PaginatedList } from '@/components'
-import { getDataByLevel, useCardsStore } from '@/stores'
+import { CustomPagination, WordCarousel } from '@/components'
+import { FavoritesView } from '@/components/FavoritesView'
 import { CARDS_CATEGORY } from '@/enums/enums'
-import { ILanguageCard } from '@/interfaces/interfaces'
-import { useRouter } from 'next/navigation'
+import { filterCards, getDataByLevel } from '@/lib/cards'
+import { paginate, seededShuffle } from '@/lib/cards-pagination'
+import { parseCategory, parseLevel, parseSize } from '@/lib/cards-url'
 
-export default function PaginatedPage() {
-    const pathname = usePathname()
-    const pageParam = pathname.split('/').pop() || '1'
-    const currentPage = Number(pageParam)
-    const router = useRouter()
+interface PaginatedPageProps {
+    params: { page: string }
+    searchParams: { [key: string]: string | string[] | undefined }
+}
 
-    const {
-        displayedCards,
-        favoriteCards,
-        shuffledCards,
-        selectedCardCategory,
-        searchQuery,
-        filteredCards,
-        selectedWordLevel,
-        resetStore,
-    } = useCardsStore()
-    const [loading, setLoading] = useState(true)
+export default function PaginatedPage({ params, searchParams }: PaginatedPageProps) {
+    const requestedPage = Number(params.page) || 1
+    const level = parseLevel(searchParams.level)
+    const category = parseCategory(searchParams.cat)
+    const size = parseSize(searchParams.size)
+    const query = typeof searchParams.q === 'string' ? searchParams.q : ''
+    const seed = Number(searchParams.seed) || 0
 
-    function getDataByCategory(
-        selectedCardCategory: (typeof CARDS_CATEGORY)[keyof typeof CARDS_CATEGORY]
-    ): ILanguageCard[] {
-        switch (selectedCardCategory) {
-            case CARDS_CATEGORY.ALLE:
-                return displayedCards
-            case CARDS_CATEGORY.GEMISCHTEN:
-                return shuffledCards
-            case CARDS_CATEGORY.FAVORITEN:
-                return favoriteCards
-
-            default:
-                return []
-        }
+    if (category === CARDS_CATEGORY.FAVORITEN) {
+        return <FavoritesView page={requestedPage} size={size} />
     }
-    const checkDataConsistency = () => {
-        const expectedLength = getDataByLevel(selectedWordLevel).flatMap(card => [
-            card,
-            ...(card.multiple || []),
-        ]).length
-        return expectedLength !== displayedCards.length
-    }
-    useEffect(() => {
-        if (displayedCards) {
-            setLoading(false)
-        }
 
-        if (checkDataConsistency()) {
-            resetStore()
-            router.push('/page/1')
-        }
-    }, [displayedCards, selectedWordLevel])
+    let cards = getDataByLevel(level)
+    if (query) cards = filterCards(cards, query)
+    else if (category === CARDS_CATEGORY.GEMISCHTEN) cards = seededShuffle(cards, seed)
 
-    if (loading) {
-        return (
-            <div className="flex justify-center items-center h-full">
-                <Loader />
-            </div>
-        )
-    }
+    const { slice, totalPages, page } = paginate(cards, requestedPage, size)
 
     return (
         <div className="h-full flex flex-col justify-between items-center flex-grow">
-            <PaginatedList
-                displayedCards={
-                    searchQuery ? filteredCards : getDataByCategory(selectedCardCategory)
-                }
-                pageName="page"
-                currentPage={currentPage}
-            />
+            <section className="flex flex-col items-center justify-center gap-2 px-4 py-2">
+                {query && (
+                    <p className="text-center text-sm py-1">
+                        {cards.length === 0
+                            ? 'Nichts gefunden!'
+                            : `${cards.length} ${cards.length === 1 ? 'Wort' : 'Wörter'} gefunden`}
+                    </p>
+                )}
+                <WordCarousel data={slice} />
+                <CustomPagination currentPage={page} totalPages={totalPages} pageName="page" />
+            </section>
         </div>
     )
 }
