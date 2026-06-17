@@ -17,10 +17,12 @@ export interface ILanguageCard {
 }
 export interface IWordCardProperties {
     data: ILanguageCard
+    priority?: boolean
 }
 export interface IImageWithLoadingProperties {
     src: string
     alt: string
+    priority?: boolean
 }
 
 export interface ICardsStore {

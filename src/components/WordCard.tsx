@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Card, CardContent } from './ui/card'
 import { IWordCardProperties } from '@/interfaces/interfaces'
@@ -18,9 +18,8 @@ const animationTransitionConfig = {
     type: 'tween',
 }
 
-export const WordCard = ({ data }: IWordCardProperties) => {
+export const WordCard = ({ data, priority = false }: IWordCardProperties) => {
     const [isFlipped, setIsFlipped] = useState(false)
-    const [imageUrl, setImageUrl] = useState<string | null>(null)
 
     const isFavorite = useCardsStore(state => state.favoriteCards.some(card => card.id === data.id))
 
@@ -50,23 +49,6 @@ export const WordCard = ({ data }: IWordCardProperties) => {
         }
     }
 
-    useEffect(() => {
-        const fetchImage = async () => {
-            try {
-                const response = await fetch(`${URL_IMAGES}${fileKeyUploadthing}`)
-                if (response.ok) {
-                    const blob = await response.blob()
-                    setImageUrl(URL.createObjectURL(blob))
-                } else {
-                    console.error('Failed to fetch image')
-                }
-            } catch (error) {
-                console.error('Error fetching image:', error)
-            }
-        }
-
-        fetchImage()
-    }, [fileKeyUploadthing])
     const regex = /^\d{1,}-/
     const result = id.replace(regex, '')
     return (
@@ -100,7 +82,11 @@ export const WordCard = ({ data }: IWordCardProperties) => {
                         })}
                     />
                 </div>
-                {imageUrl && <ImageWithLoading src={imageUrl} alt={wordDe} />}
+                <ImageWithLoading
+                    src={`${URL_IMAGES}${fileKeyUploadthing}`}
+                    alt={wordDe}
+                    priority={priority}
+                />
                 <CardContent
                     className={cn(
                         'w-full p-1',
