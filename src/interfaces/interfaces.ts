@@ -18,11 +18,13 @@ export interface ILanguageCard {
 export interface IWordCardProperties {
     data: ILanguageCard
     priority?: boolean
+    eager?: boolean
 }
 export interface IImageWithLoadingProperties {
     src: string
     alt: string
     priority?: boolean
+    eager?: boolean
 }
 
 export interface ICardsStore {
