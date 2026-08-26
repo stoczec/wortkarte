@@ -10,13 +10,19 @@ import { updates } from '@/data/updates'
 export default function Home() {
     return (
         <section className="flex flex-col items-center justify-start gap-8 py-3 flex-grow flex-shrink-0 basis-auto">
-            <p
+            <h1
                 className="text-4xl font-bold mt-5 bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient"
                 style={{ fontFamily: 'DynaPuffMedium, sans-serif' }}
             >
                 Willkommen!
-            </p>
-            <Image src="/favicon.ico" alt="logo" width={320} height={320} priority />
+            </h1>
+            <Image
+                src="/mascot.webp"
+                alt="Wortkarte-Maskottchen: ein Kater mit Tirolerhut"
+                width={320}
+                height={320}
+                priority
+            />
             <div className="w-[320px] h-full flex flex-col justify-between items-center gap-4">
                 <Link href="/page/1">
                     <Button
