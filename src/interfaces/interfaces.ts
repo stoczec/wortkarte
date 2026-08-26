@@ -13,7 +13,6 @@ export interface ILanguageCard {
     sourceBook?: string
     level?: (typeof WORD_LEVELS)[keyof typeof WORD_LEVELS]
     addedAt?: string
-    multiple?: ILanguageCard[]
 }
 export interface IWordCardProperties {
     data: ILanguageCard
@@ -33,19 +32,4 @@ export interface ICardsStore {
     removeFavoriteCard: (id: string) => void
     clearFavorites: () => void
     clearStorage: () => void
-}
-
-export interface IFavoriteCardsStore {
-    favoriteCards: ILanguageCard[]
-    loading: boolean
-    setLoading: (isLoading: boolean) => void
-    addFavoriteCard: (card: ILanguageCard) => void
-    removeFavoriteCard: (id: string) => void
-    clearFavorites: () => void
-}
-
-export interface IFilteredCardsStore {
-    filteredCards: ILanguageCard[]
-    searchQuery: string
-    updateSearchQuery: (query: string) => void
 }
