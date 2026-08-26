@@ -154,6 +154,7 @@ export const WordCard = ({ data, priority = false, eager = false }: IWordCardPro
                                 <Separator className="h-[2px] rounded-xl bg-gray-300" />
                             </motion.div>
                             <motion.p
+                                lang="ru"
                                 className="text-xl font-bold text-balance text-center text-gray-300"
                                 initial={{ x: 100 }}
                                 animate={{ x: 0 }}
@@ -170,6 +171,7 @@ export const WordCard = ({ data, priority = false, eager = false }: IWordCardPro
                                 <Separator className="h-[2px] rounded-xl bg-gray-300" />
                             </motion.div>
                             <motion.p
+                                lang="ru"
                                 className={cn(
                                     getFontSizeClass(wordRu),
                                     'font-bold text-balance text-center px-2',
