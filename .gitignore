@@ -42,3 +42,7 @@ AI_request.txt
 
 # /src/data/
 .qodo
+
+# local agent tooling (never committed)
+.claude/
+CLAUDE.md

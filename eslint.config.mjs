@@ -8,7 +8,7 @@ const __dirname = dirname(__filename)
 const compat = new FlatCompat({ baseDirectory: __dirname })
 
 export default [
-	{ ignores: ['.next/**', 'node_modules/**', 'next-env.d.ts'] },
+	{ ignores: ['.next/**', 'node_modules/**', 'next-env.d.ts', '.claude/**'] },
 	...compat.extends('next/typescript'),
 	{
 		rules: {

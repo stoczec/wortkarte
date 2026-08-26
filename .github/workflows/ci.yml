@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # Gate at critical: the remaining high advisories are all Next 15-only
+      # and cannot be fixed inside 14.2.x. Raise to `high` after the Next 15 upgrade.
+      - run: pnpm audit --prod --audit-level critical
+      - run: pnpm exec tsc --noEmit
+      - run: pnpm lint
+      - run: pnpm build

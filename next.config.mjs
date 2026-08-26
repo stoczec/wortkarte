@@ -12,6 +12,21 @@ const nextConfig = {
             },
         ],
     },
+    async headers() {
+        return [
+            {
+                // /page/[page] reads searchParams -> dynamic render, no-store by default.
+                // Output derives only from static card data, so let the CDN cache it.
+                source: '/page/:page*',
+                headers: [
+                    {
+                        key: 'Cache-Control',
+                        value: 'public, s-maxage=86400, stale-while-revalidate=604800',
+                    },
+                ],
+            },
+        ]
+    },
 }
 
 export default nextConfig
