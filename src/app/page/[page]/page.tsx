@@ -6,11 +6,12 @@ import { paginate, seededShuffle } from '@/lib/cards-pagination'
 import { parseCategory, parseLevel, parseSize } from '@/lib/cards-url'
 
 interface PaginatedPageProps {
-    params: { page: string }
-    searchParams: { [key: string]: string | string[] | undefined }
+    params: Promise<{ page: string }>
+    searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }
 
-export default function PaginatedPage({ params, searchParams }: PaginatedPageProps) {
+export default async function PaginatedPage(props: PaginatedPageProps) {
+    const [params, searchParams] = await Promise.all([props.params, props.searchParams])
     const requestedPage = Number(params.page) || 1
     const level = parseLevel(searchParams.level)
     const category = parseCategory(searchParams.cat)
