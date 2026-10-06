@@ -18,6 +18,8 @@ export default function DatenschutzPage() {
                 <p className="mb-1">
                     Dmytro Herashchenko
                     <br />
+                    c/o IP-Management #12307, Ludwig-Erhard-Str. 18, 20459 Hamburg, Deutschland
+                    <br />
                     E-Mail:{' '}
                     <a href="mailto:dmytro.herashchenko.de@gmail.com" className="underline">
                         dmytro.herashchenko.de@gmail.com
@@ -93,7 +95,7 @@ export default function DatenschutzPage() {
                     DSGVO) statt.
                 </p>
 
-                <p className="mt-7 text-sm text-muted-foreground">Stand: Juni 2026</p>
+                <p className="mt-7 text-sm text-muted-foreground">Stand: Oktober 2026</p>
             </article>
         </section>
     )
