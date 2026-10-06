@@ -14,13 +14,14 @@ const nextConfig = {
     async headers() {
         return [
             {
-                // /page/[page] reads searchParams -> dynamic render, no-store by default.
-                // Output derives only from static card data, so let the CDN cache it.
+                // Output = static card data + query; Vercel's function no-store beats config Cache-Control.
+                // Documents only: a bare RSC request gets a 307 without Vary, which must not be cached.
                 source: '/page/:page*',
+                missing: [{ type: 'header', key: 'rsc' }],
                 headers: [
                     {
-                        key: 'Cache-Control',
-                        value: 'public, s-maxage=86400, stale-while-revalidate=604800',
+                        key: 'Vercel-CDN-Cache-Control',
+                        value: 'max-age=86400, stale-while-revalidate=604800',
                     },
                 ],
             },
