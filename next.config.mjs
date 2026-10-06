@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    // Keep `next dev` from writing its agent rules into CLAUDE.md.
+    agentRules: false,
     images: {
         formats: ['image/avif', 'image/webp'],
         remotePatterns: [
