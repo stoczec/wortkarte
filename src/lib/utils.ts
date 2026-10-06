@@ -1,6 +1,5 @@
 import { WORD_CLASSES } from '@/enums/enums'
 import { clsx, type ClassValue } from 'clsx'
-import { useMemo } from 'react'
 import { twMerge } from 'tailwind-merge'
 
 export function cn(...inputs: ClassValue[]) {
@@ -60,16 +59,12 @@ export const getWordClassColor = (wordClass: (typeof WORD_CLASSES)[keyof typeof 
 }
 
 export const getFontSizeClass = (word: string) => {
-    const size = useMemo(() => {
-        const length = word.length
-        return length < 15
-            ? 'text-4xl'
-            : length < 19
-            ? 'text-3xl'
-            : length < 24
-            ? 'text-2xl'
-            : 'text-xl'
-    }, [word])
-
-    return size
+    const length = word.length
+    return length < 15
+        ? 'text-4xl'
+        : length < 19
+        ? 'text-3xl'
+        : length < 24
+        ? 'text-2xl'
+        : 'text-xl'
 }

@@ -1,8 +1,13 @@
 import nextTypescript from 'eslint-config-next/typescript'
+import reactHooks from 'eslint-plugin-react-hooks'
 
 export default [
 	{ ignores: ['.next/**', 'node_modules/**', 'next-env.d.ts', '.claude/**'] },
 	...nextTypescript,
+	{
+		plugins: { 'react-hooks': reactHooks },
+		rules: { 'react-hooks/rules-of-hooks': 'error' },
+	},
 	{
 		rules: {
 			'react/no-unescaped-entities': 'off',
