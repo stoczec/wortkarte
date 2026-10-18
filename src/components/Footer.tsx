@@ -14,12 +14,20 @@ export const Footer = () => {
                 <p className="text-sm text-center text-muted-foreground">
                     &copy; 2024 - {new Date().getFullYear()}
                 </p>
-                <Link
-                    href="/datenschutz"
-                    className="text-sm text-muted-foreground underline underline-offset-2 hover:text-foreground"
-                >
-                    Datenschutz
-                </Link>
+                <div className="flex gap-4">
+                    <Link
+                        href="/impressum"
+                        className="py-1 text-sm text-muted-foreground underline underline-offset-2 hover:text-foreground"
+                    >
+                        Impressum
+                    </Link>
+                    <Link
+                        href="/datenschutz"
+                        className="py-1 text-sm text-muted-foreground underline underline-offset-2 hover:text-foreground"
+                    >
+                        Datenschutz
+                    </Link>
+                </div>
             </MaxWidthWrapper>
         </footer>
     )
